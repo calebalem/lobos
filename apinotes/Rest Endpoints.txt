@@ -1,0 +1,38 @@
+google play token Request:
+    Method: GET:
+        -AOTCm0S09yzjKA1PBjZkeM_gUVpkzmRrtI2jsCtnfGjOyQUzBXG_SBO3y6Bq9zGYX48XKy6tYWBznJ7_PWiA1DQgdiZP9Gs5U3c-CAOQAsB3CrH7m71WeFKJXoRhdQNbetnTRjv7A3SvSYmaEM1sii2eRkueg2EFjoOz64Z9AnNXYpxajMyRl64YWd5MMIK54T5QLpc0TezP2f_R9g8hQgi3Zr5kyEgau6AFJcUq12qZ6uILXHn4ib6yZN4Z6JH_UBvWj4Vse1RQ0_ksSHVwAsIbLfv-Wl-vWVfk8slRJ4cRRsk_UGtOHEgqE9Q81WFX9n0V0836aQhLVL2sPPq8zM-O6vRM36XGBZqvO3ivxxfDkE5J8POXDULyLCAqIvyhD0XT4ZaDRA38afzntfFGDQgtYPKUAwLy&cpn=NaZdXLXWyyJZFjGp&isid=wZgpB00uSguxK8Ql_z8XLQ&isbg=1 HTTP/1.1
+            User-Agent: Android-Finsky/30.3.21-21 [0] [PR] 445437866 (versionCode=83032110,sdk=28,model=AOSP on IA Emulator,engine=OkHttp)
+            X-PDS-Is-Network-Metered: 0
+            Connection: close
+            Connection: close
+            Host: play.googleapis.com
+            Accept-Encoding: gzip, deflate
+
+game time Request:
+    Method : GET:
+        -GET /time?v=1.0 HTTP/1.1
+        Accept-Encoding: gzip, deflate
+        User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; AOSP on IA Emulator Build/PSR1.180720.122)
+        Host: rest.ably.io
+        Connection: close
+
+player Id Request:
+    Method: POST:
+        POST /players/039533f6-ad01-47d3-8364-518baeb3baca/on_session HTTP/1.1
+        SDK-Version: onesignal/android/040806
+        Accept: application/vnd.onesignal.v1+json
+        Content-Type: application/json; charset=UTF-8
+        Content-Length: 49
+        User-Agent: Dalvik/2.1.0 (Linux; U; Android 9; AOSP on IA Emulator Build/PSR1.180720.122)
+        Host: api.onesignal.com
+        Connection: close
+        Accept-Encoding: gzip, deflate
+
+        {"app_id":"7e38ad18-c7f7-44c8-85bc-d111b7305a1e"}
+    Response:
+        {"success":true,"id":"039533f6-ad01-47d3-8364-518baeb3baca"}
+        cookie : 
+            __cf_bm=xPfmMkCVWlm8gWgubNiFb8PAYbGq1mcF78nKAbARuNk-1696773972-0-ARuQ2mFJnoDC1xK1aPSJphoCZhDAKXossona7Q+xgyxv+lrpcW7ULsLIPouDsp15ZE3IuXO8NYCqsH15QeYo5Go=; path=/; expires=Sun, 08-Oct-23 14:36:12 GMT; domain=.onesignal.com; HttpOnly; Secure; SameSite=None
+
+
+

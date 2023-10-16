@@ -1,0 +1,121 @@
+[
+  {
+    "jsonrpc": "2.0",
+    "id": "1697470785043_5",
+    "result": {
+      "requestId": "1697470785043_5",
+      "@class": ".LogEventResponse",
+      "scriptData": {
+        "clubs": {
+          "__m": [
+            "_id",
+            "clubCode",
+            "_newCapacity",
+            "confirmation",
+            "hostingCapability",
+            "liveGameCount",
+            "maxPlayer",
+            "name",
+            "ownerId",
+            "latestMsgSN",
+            "memberCount",
+            "favorite"
+          ],
+          "__a": [
+            [
+              { "$oid": "652ae7d23d188a8f8862f052" },
+              "d0jx2",
+              true,
+              true,
+              "MANAGER",
+              0,
+              2000,
+              "c3",
+              "652815c097a6d0535772feb5",
+              1,
+              1,
+              true
+            ],
+            [
+              { "$oid": "6528161c3d188a8f8814e35f" },
+              "jl6nj",
+              true,
+              true,
+              "MEMBER",
+              0,
+              2000,
+              "cru",
+              "652815c097a6d0535772feb5",
+              10,
+              4,
+              true
+            ]
+          ]
+        },
+        "requestingClubs": [],
+        "notificationCount": 0
+      }
+    }
+  },
+  {
+    "action": 15,
+    "id": "v-EgOzRZd7:2886488",
+    "connectionId": "v-EgOzRZd7",
+    "connectionSerial": 2,
+    "channel": "player:652815c097a6d0535772feb5",
+    "channelSerial": "e913dh5fQBUE5t33934572@1697475252932-3",
+    "timestamp": 1697475252857,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": "{\"roomId\":\"652d5aaa3d188a8f88cad3f9\"}",
+        "name": "newRequestMsg"
+      }
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": "1697475253013_30",
+    "result": {
+      "requestId": "1697475253013_30",
+      "@class": ".LogEventResponse",
+      "scriptData": {
+        "roomRequestDetail": {
+          "players": [
+            {
+              "ts": 1697475252824,
+              "playerId": "652818b5c0013e4dcc0a6370",
+              "playerName": "truth",
+              "playerCode": "PCNWG",
+              "expireTime": 1697518452824,
+              "isDecided": false,
+              "buyInChips": 41
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": "1697479492706_34",
+    "result": {
+      "requestId": "1697479492706_34",
+      "@class": ".LogEventResponse",
+      "scriptData": {
+        "roomRequestChange": {
+          "ts": 1697479489112,
+          "playerId": "652818b5c0013e4dcc0a6370",
+          "playerName": "truth",
+          "playerCode": "PCNWG",
+          "expireTime": 1697479495831,
+          "isDecided": true,
+          "isAccepted": false,
+          "ownerName": "klkk",
+          "buyInChips": 40
+        }
+      }
+    }
+  },
+  {"action":15,"id":"2wuPTxbZRd:2162120","connectionId":"2wuPTxbZRd","connectionSerial":15,"channel":"room:652d7b9f3d188a8f885aed02:public","channelSerial":"e91xYVnZgBUCZf80327561@1697481337328-0","timestamp":1697481337252,"messages":[{"encoding":"json","data":"{\"roomId\":\"652d7b9f3d188a8f885aed02\",\"roomUpdate\":{\"updatedAt\":1697481337226,\"reloads\":{},\"status\":\"WAITING\",\"tableInit\":{},\"moves\":[],\"timeout\":1697524537226,\"startCountingAt\":1697481337226,\"countTimeOffset\":150639,\"ranking\":[{\"empty\":false,\"seat\":0,\"playerId\":\"652818b5c0013e4dcc0a6370\",\"playerCode\":\"PCNWG\",\"displayName\":\"truth\",\"chips\":40,\"stack\":44,\"inRoom\":false,\"left\":false,\"kick\":false,\"isOnline\":false,\"disconTBQuota\":19,\"disconTBTs\":1697481186597,\"handCount\":5,\"timeoutCount\":1,\"actionTimeout\":5,\"disconnectedTs\":1697481292566,\"diff\":4,\"ts\":1697481331155,\"rankingDiffFlag\":0},{\"empty\":false,\"seat\":1,\"playerId\":\"65230b68cd047789bec5f877\",\"playerCode\":\"FQNNU\",\"displayName\":\"klt1\",\"chips\":40,\"stack\":36,\"inRoom\":false,\"left\":false,\"kick\":false,\"isOnline\":false,\"disconTBQuota\":20,\"actionTimeout\":7,\"disconTBTs\":1697481186597,\"disconnectedTs\":1697481186601,\"fullActionTimeUsed\":true,\"handCount\":5,\"timeoutCount\":4,\"prefold\":4,\"diff\":-4,\"ts\":1697481331155,\"sitOutNew\":5,\"rankingDiffFlag\":0}],\"players\":[{\"empty\":false,\"seat\":0,\"playerId\":\"652818b5c0013e4dcc0a6370\",\"playerCode\":\"PCNWG\",\"displayName\":\"truth\",\"chips\":40,\"stack\":44,\"inRoom\":false,\"left\":false,\"kick\":false,\"isOnline\":false,\"disconTBQuota\":19,\"disconTBTs\":1697481186597,\"handCount\":5,\"timeoutCount\":1,\"actionTimeout\":5,\"disconnectedTs\":1697481292566},{\"empty\":false,\"seat\":1,\"playerId\":\"65230b68cd047789bec5f877\",\"playerCode\":\"FQNNU\",\"displayName\":\"klt1\",\"chips\":40,\"stack\":36,\"inRoom\":false,\"left\":false,\"kick\":false,\"isOnline\":false,\"disconTBQuota\":20,\"actionTimeout\":8,\"disconTBTs\":1697481186597,\"disconnectedTs\":1697481186601,\"fullActionTimeUsed\":true,\"handCount\":5,\"timeoutCount\":4,\"prefold\":4,\"sitOutNew\":5,\"sitOutNewExpire\":1697481937226}]},\"sentTs\":1697481337234}","name":"pauseMsg"}]}
+]

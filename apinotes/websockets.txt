@@ -1,0 +1,19 @@
+ptfarm-realtime.ably.io?accessToken
+    event-name: newClubMessage
+    action: 15
+
+
+    request:
+        {"channel":"player:playerId"}
+
+
+
+    eventname: newRequestMsg
+
+        request:
+            {"channel":"room:roomId:playerId}
+
+
+rest.ably.io
+
+wss://gateway-n304059d9xl3.pt-prod.pokerrrrapp.com == key
