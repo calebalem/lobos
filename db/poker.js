@@ -68,6 +68,10 @@ export async function addOngoingGame(roomId, playerId) {
     }
 }
 
+export async function createDiff(roomId,playerId){
+    await db.insertOne({"type":"diff",roomId,playerId,"diff":0})(
+}
+
 export async function getOngoingGame(roomId) {
     return await db.findOne({ "type": "onGoingGame", "roomId":roomId })
 }

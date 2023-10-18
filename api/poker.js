@@ -140,7 +140,7 @@ export async function getGames(clubId) {
                 "clubId": clubId,
                 "excludeEndedRoom": 1,
                 "skip": 0,
-                "selfCalculate": 0,
+                "selfCalculate": 1,
                 "noRanking": 0
             }
         }
