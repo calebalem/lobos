@@ -23,8 +23,12 @@ export async function getClubs() {
 
             setTimeout(() => { res([]) }, 10000)
         })
-
-        return resp.result.scriptData.clubs.__a.map((club) => club[0]["$oid"])
+        let clubs = []
+        for (let club of resp.result.scriptData.clubs.__a) {
+            clubs.push({ "clubId": club[0]["$oid"], "name": club[8] })
+        }
+        console.log(clubs)
+        return clubs
     } catch (e) {
         console.error(e)
         return []
@@ -40,20 +44,20 @@ export async function getMembers(clubId) {
             "id": date,
             "method": "clubDetail",
             "params": {
-                "clubId":clubId
+                "clubId": clubId
             }
         }
         eventIdPairs[date] = "memberListResponse"
         socket.send(JSON.stringify(clubReq))
         let resp = await new Promise(async (res) => {
-            gameEvent.on("clubListResponse", (data) => {
+            gameEvent.on("memberListResponse", (data) => {
                 res(data)
             })
 
             setTimeout(() => { res([]) }, 10000)
         })
 
-        return resp.result.scriptData.clubs.__a
+        return resp.result.scriptData.club.members
     } catch (e) {
         console.error(e)
         return []
@@ -81,6 +85,7 @@ export async function getGameRequests(roomId) {
 
             setTimeout(() => { res([]) }, 10000)
         })
+        console.log(resp.result.scriptData.roomRequestDetail.players)
 
         return resp.result.scriptData.roomRequestDetail.players
 
@@ -90,19 +95,20 @@ export async function getGameRequests(roomId) {
     }
 }
 
-export async function confirmRequest(request) {
+export async function confirmRequest(data) {
     try {
         let date = `${Date.now()}_1`
         let socket = Ws.ws
+        console.log("confirm data: ", data)
         let request = {
             "jsonrpc": "2.0",
             "id": date,
             "method": "RoomRequestConfirm",
             "params": {
-                "roomId": request.roomId,
-                "ts": request.ts,
-                "requstedPlayerId": request.requestedPlayerId,
-                "accept": request.accept,
+                "roomId": data.roomId,
+                "ts": data.ts,
+                "requstedPlayerId": data.playerId,
+                "accept": data.accepted,
                 "onlyReturnChange": 1
             }
         }
@@ -114,7 +120,7 @@ export async function confirmRequest(request) {
             })
             setTimeout(() => { res(null) }, 10000)
         })
-
+        console.log(resp)
         return resp.result.scriptData.roomRequestChange.isAccepted
     } catch (e) {
         console.error(e)
@@ -122,6 +128,34 @@ export async function confirmRequest(request) {
     }
 }
 
-export async function getNewMembers() {
+export async function getGames(clubId) {
+    try {
+        let date = `${Date.now()}_1`
+        let socket = Ws.ws
+        let request = {
+            "jsonrpc": "2.0",
+            "id": date,
+            "method": "clubGameList",
+            "params": {
+                "clubId": clubId,
+                "excludeEndedRoom": 1,
+                "skip": 0,
+                "selfCalculate": 0,
+                "noRanking": 0
+            }
+        }
+        eventIdPairs[date] = "gameListRequest"
+        socket.send(JSON.stringify(request))
+        let resp = await new Promise(async (res) => {
+            gameEvent.on("gameListRequest", (data) => {
+                res(data)
+            })
+            setTimeout(() => { res(null) }, 10000)
+        })
 
+        return resp.result.scriptData.rooms
+    } catch (e) {
+        console.error(e)
+        return null
+    }
 }

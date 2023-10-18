@@ -1,0 +1,1 @@
+export let gateway_ready = {"ready":false};

@@ -1,60 +1,75 @@
-import { getCurrentPlayerId } from "../util/util";
-import PouchDB from "pouchdb-node"
+import { getCurrentPlayerId } from "../util/util.js";
+import { Tinydb } from "@meanii/tinydb"
 
-const db = new PouchDB('database/poker.db')
-
+let db = new Tinydb('poker.ssh')
 export async function getMemebers(clubId = null) {
     let playerId = getCurrentPlayerId()
-    if (clubId) {
-
-        return (await db.find({ selector: { clubId, playerId, "type": "member" } })).docs
-    } else {
-
-        return (await db.find({ selector: { playerId, "type": "member" } })).docs
+    let datas = await db.get()
+    let members = []
+    for (let data of datas) {
+        if (data.type == "member") {
+            members.push(data)
+        }
     }
+    return members
+
 }
 
 export async function getMemeber(playerId, playerCode) {
-    return (await db.find({ selector: { playerId, playerCode } })).docs[0]
+    let member = await db.findOne({ playerId, playerCode, type: "member" })
+    console.log(`member: ${member}`)
+    return member
 }
 
 export async function getClubs() {
-    let playerId = getCurrentPlayerId()
-    let clubs = await (db.find({ selector: { type: 'club', playerId } })).docs
+    let datas = (await db.get())
+    let clubs = []
+    for (let data of datas) {
+        if (data.type == "club") {
+            clubs.push(data)
+        }
+    }
+    console.log(clubs)
     return clubs
 }
 
-export async function createClub(data) {
-    data.forEach(element => {
-        element["type"] = "club"
-    });
-    let exsists = await db.bulkDocs(data)
-}
-
-export async function createMember(data) {
-    let member = { ...data, "type": "member", "last_game": null, "points": 0 }
-    let exsists = await db.find({ selector: { "playerId": member.playerId, "type": "member" } })
-    if (!exsists) {
-        await db.put(member)
+export async function createClubs(data) {
+    for (let club of data) {
+        club["type"] = "club"
+        await db.insertOne(club)
     }
 }
 
+export async function createMember(data) {
+    let member = { ...data, "type": "member", "last_game": null, "point": 0, "total_games": 0 }
+    let exsists = await db.findOne({ "playerId": member.playerId, "type": "member" })
+    if (!exsists) {
+        await db.insertOne(member)
+    }
+}
+
+
+
 export async function updateMember(data) {
-    await db.put(data)
+    await db.findOneAndUpdate({ "playerId": data.playerId }, { "point": data.point })
 }
 
 export async function addOngoingGame(roomId, playerId) {
-    let room = await db.find({ selector: { type: "onGoingGame", roomId } })
+    let room = await db.findOne({ type: "onGoingGame", roomId })
     if (room) {
-        room.docs[0].players.push(playerId)
-        await db.put(room)
+        console.log(room)
+        console.log(room.players)
+        if (!room.players.includes(playerId)) {
+            room.players.push(playerId)
+            await db.findOneAndUpdate({ "type": "onGoingGame", "roomId": roomId }, { "players": room.players })
+        }
     } else {
-        await db.put({ type: "onGoingGame", roomId, players: [playerId] })
+        await db.insertOne({ type: "onGoingGame", roomId, players: [playerId] })
     }
 }
 
 export async function getOngoingGame(roomId) {
-    return (await db.find({ selector: { type: "onGoingGame", roomId } })).docs[0].players
+    return await db.findOne({ "type": "onGoingGame", "roomId":roomId })
 }
 
 
@@ -64,5 +79,8 @@ function createIndexes() {
         index: {
             fields: ['clubId', 'type', "playerId", "playerCode", "roomId"]
         }
-    })
+    }).then((resp) => {
+        console.log(resp)
+    }).catch((err) => console.error(err))
 }
+

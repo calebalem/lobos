@@ -16,3 +16,11 @@ export function getCurrentPlayerId() {
         return null
     }
 }
+
+export async function timeout(sec){
+    await new Promise((res)=>{
+        setTimeout(()=>{
+            res(true)
+        },sec * 1000)
+    })
+}

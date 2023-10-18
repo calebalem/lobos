@@ -1,0 +1,86 @@
+{
+	"db": [
+		{
+			"clubId": "652ae7d23d188a8f8862f052",
+			"name": "652815c097a6d0535772feb5",
+			"type": "club",
+			"_id": "089be5d2-6e11-4335-bd87-88cf46148d31",
+			"createdAt": "2023-10-18T13:46:35.885Z",
+			"updatedAt": "2023-10-18T13:46:35.885Z"
+		},
+		{
+			"clubId": "6528161c3d188a8f8814e35f",
+			"name": "652815c097a6d0535772feb5",
+			"type": "club",
+			"_id": "288914f1-a533-456e-ae40-61620dbb646b",
+			"createdAt": "2023-10-18T13:46:35.899Z",
+			"updatedAt": "2023-10-18T13:46:35.899Z"
+		},
+		{
+			"playerId": "65230b68cd047789bec5f877",
+			"displayName": "klt1",
+			"playerCode": "FQNNU",
+			"joinedTs": 1697480971856,
+			"clubId": "652ae7d23d188a8f8862f052",
+			"type": "member",
+			"last_game": null,
+			"total_games": 0,
+			"_id": "533034ae-7a7b-4eef-9382-36710c5d7ec5",
+			"createdAt": "2023-10-18T13:46:43.355Z",
+			"updatedAt": "2023-10-18T14:07:22.880Z",
+			"point": 100
+		},
+		{
+			"playerId": "652815c097a6d0535772feb5",
+			"displayName": "klkk",
+			"playerCode": "EA8DQ",
+			"favorite": true,
+			"clubId": "652ae7d23d188a8f8862f052",
+			"type": "member",
+			"last_game": null,
+			"total_games": 0,
+			"_id": "fc86907b-8b17-405a-9441-5d154cfab355",
+			"createdAt": "2023-10-18T13:46:43.347Z",
+			"updatedAt": "2023-10-18T14:07:24.728Z",
+			"point": 120
+		},
+		{
+			"playerId": "652ae59f9af0394ca06f98a5",
+			"displayName": "you",
+			"playerCode": "JEWAZ",
+			"joinedTs": 1697481137087,
+			"clubId": "652ae7d23d188a8f8862f052",
+			"type": "member",
+			"last_game": null,
+			"point": 45,
+			"total_games": 0,
+			"_id": "a14d0941-26ca-41b0-bc8a-d6c64ef78732",
+			"createdAt": "2023-10-18T13:46:43.357Z",
+			"updatedAt": "2023-10-18T14:24:49.409Z"
+		},
+		{
+			"type": "onGoingGame",
+			"roomId": "65301a1f3d188a8f881abe18",
+			"players": [
+				"652818b5c0013e4dcc0a6370"
+			],
+			"_id": "5129c300-45ae-404d-a5ad-f3684796b4e7",
+			"createdAt": "2023-10-18T17:47:32.166Z",
+			"updatedAt": "2023-10-18T17:47:32.166Z"
+		},
+		{
+			"playerId": "652818b5c0013e4dcc0a6370",
+			"displayName": "truth",
+			"playerCode": "PCNWG",
+			"joinedTs": 1697475236090,
+			"clubId": "652ae7d23d188a8f8862f052",
+			"type": "member",
+			"last_game": null,
+			"total_games": 0,
+			"_id": "f3fca44e-b615-4acc-b0b9-aef214699500",
+			"createdAt": "2023-10-18T13:46:43.352Z",
+			"updatedAt": "2023-10-18T18:09:30.839Z",
+			"point": 80
+		}
+	]
+}
