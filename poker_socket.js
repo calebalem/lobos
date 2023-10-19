@@ -2,9 +2,10 @@ import WebSocket from "ws";
 import fs from "fs";
 import { getCurrentPlayerId, setSocket, timeout } from "./util/util.js";
 import { eventIdPairs, gameEvent } from "./events/event.js";
-import { Ws } from "./ws/ws.js";
-import { gateway_ready } from "./globals/poker.js";
+import { Ws } from "./ws/poker.ws.js";
+import { gateway_ready,subscribed } from "./globals/poker.js";
 import { get_games } from "./controller/game.controller.js";
+import { subscribe } from "./api/poker.js";
 
 const creds = JSON.parse(fs.readFileSync("token.json"))
 
@@ -13,7 +14,6 @@ const gateWayWs = new WebSocket(gatewayUrl)
 
 const realTimeUrl = `wss://ptfarm-realtime.ably.io/?accessToken=${creds.access_token}`
 const realTimeWs = new WebSocket(realTimeUrl)
-let subscribed = false
 gateWayWs.on("open", () => {
     console.log("Connected gateway")
     Ws.ws = gateWayWs
@@ -22,24 +22,17 @@ gateWayWs.on("open", () => {
 
 realTimeWs.on("open", () => {
     console.log("Connected realtime")
+    Ws.realTime = realTimeWs
 
 })
 
 realTimeWs.on("message", (message) => {
     let event = JSON.parse(message)
-    //console.log(`realtime: ${event["action"]} ${typeof message}`)
-    if (event.action == 4 || !subscribed) {
-        
+    console.log(`realtime: ${event["action"]} ${typeof message}`)
+    if (event.action == 4 || !subscribed.subscribed) {
             subscribe()
-        
     }
     if (event.action == 15) {
-        try {
-            //console.log(JSON.parse(event.messages))
-            console.log(event.messages)
-        } catch (e) {
-            console.error(e)
-        }
         for (let data of event.messages) {
             let room = JSON.parse(data.data)
             if (data.name == "newRequestMsg") {
@@ -47,6 +40,11 @@ realTimeWs.on("message", (message) => {
             } else if (data.name == "pauseMsg") {
                 let gameData = JSON.parse(data.data)
                 gameEvent.emit("gameEnded", { "data": gameData.roomUpdate.ranking, "roomId": gameData.roomId })
+            }else if(data.name == "dealMsg"){
+
+            }else if(data.name == "leaveMsg"){
+                let gameData = JSON.parse(data.data)
+                gameEvent.emit("playerLeft",{"data":gameData.roomUpdate.players, "roomId":gameData.roomId})
             }
         }
 
@@ -75,34 +73,4 @@ gateWayWs.on('error', (error) => {
 
 });
 
-async function subscribe() {
-    while (true) {
-        let playerId = getCurrentPlayerId()
-
-        if (playerId && gateway_ready.ready) {
-            let requests = [
-                {
-                    "action": 10,
-                    "channel": `player:${playerId}`
-                },
-                {
-                    "action": 10,
-                    "channel": `main`
-                }
-            ]
-            let games = await get_games()
-            for (let game of games) {
-                requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:public` })
-                requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:${playerId}` })
-            }
-            for (let request of requests) {
-                realTimeWs.send(JSON.stringify(request))
-            }
-            subscribed = true
-            break
-        }
-        await timeout(2)
-    }
-
-}
 

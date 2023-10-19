@@ -1,6 +1,8 @@
+import { get_games } from "../controller/game.controller.js";
 import { eventIdPairs, gameEvent } from "../events/event.js";
-import { getSocket } from "../util/util.js";
-import { Ws } from "../ws/ws.js";
+import { database, gateway_ready, subscribed } from "../globals/poker.js";
+import { getCurrentPlayerId, getSocket, timeout } from "../util/util.js";
+import { Ws } from "../ws/poker.ws.js";
 
 
 
@@ -152,10 +154,43 @@ export async function getGames(clubId) {
             })
             setTimeout(() => { res(null) }, 10000)
         })
-
         return resp.result.scriptData.rooms
     } catch (e) {
         console.error(e)
         return null
     }
+}
+
+
+export async function subscribe() {
+    while (true) {
+        if (database.loaded) {
+            let playerId = getCurrentPlayerId()
+            let realTime = Ws.realTime
+            if (playerId && gateway_ready.ready) {
+                let requests = [
+                    {
+                        "action": 10,
+                        "channel": `player:${playerId}`
+                    },
+                    {
+                        "action": 10,
+                        "channel": `main`
+                    }
+                ]
+                let games = await get_games()
+                for (let game of games) {
+                    requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:public` })
+                    requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:${playerId}` })
+                }
+                for (let request of requests) {
+                    realTime.send(JSON.stringify(request))
+                }
+                subscribed.subscribed = true
+                break
+            }
+        }
+        await timeout(2)
+    }
+
 }

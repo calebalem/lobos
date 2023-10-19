@@ -1,82 +1,170 @@
+import { database } from "../globals/poker.js";
 import { getCurrentPlayerId } from "../util/util.js";
-import { Tinydb } from "@meanii/tinydb"
+import Nedb from "nedb"
 
-let db = new Tinydb('poker.ssh')
-export async function getMemebers(clubId = null) {
-    let playerId = getCurrentPlayerId()
-    let datas = await db.get()
-    let members = []
-    for (let data of datas) {
-        if (data.type == "member") {
-            members.push(data)
-        }
+let db = new Nedb({ filename: "PokerDB/poker", autoload: true })
+db.loadDatabase((err) => {
+    if (err) {
+        console.log(err)
+        return
     }
+    console.log("Database loaded.")
+    database.loaded = true
+})
+
+async function extractVal(func, params) {
+    await new Promise((res, rej) => {
+        func()
+    })
+
+}
+
+export async function getMemebers(clubId = null) {
+    let members = await new Promise((res, rej) => {
+        db.find({ type: "member" }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
+    // let members = []
+    // for (let data of datas) {
+    //     if (data.type == "member") {
+    //         members.push(data)
+    //     }
+    //}
     return members
 
 }
 
 export async function getMemeber(playerId, playerCode) {
-    let member = await db.findOne({ playerId, playerCode, type: "member" })
+    let member = await new Promise((res, rej) => {
+        db.findOne({ playerId, playerCode, type: "member" }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
     console.log(`member: ${member}`)
     return member
 }
 
 export async function getClubs() {
-    let datas = (await db.get())
-    let clubs = []
-    for (let data of datas) {
-        if (data.type == "club") {
-            clubs.push(data)
-        }
-    }
-    console.log(clubs)
+    let clubs = await new Promise((res, rej) => {
+        db.find({ type: "club" }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
+    // let clubs = []
+    // for (let data of datas) {
+    //     if (data.type == "club") {
+    //         clubs.push(data)
+    //     }
+    // }
+    console.log("clubs: ", clubs)
     return clubs
 }
 
 export async function createClubs(data) {
     for (let club of data) {
         club["type"] = "club"
-        await db.insertOne(club)
+        await db.insert(club)
     }
 }
 
 export async function createMember(data) {
     let member = { ...data, "type": "member", "last_game": null, "point": 0, "total_games": 0 }
-    let exsists = await db.findOne({ "playerId": member.playerId, "type": "member" })
+    let exsists = await new Promise((res, rej) => {
+        db.findOne({ "playerId": member.playerId, "type": "member" }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
     if (!exsists) {
-        await db.insertOne(member)
+        await db.insert(member)
     }
 }
 
 
 
 export async function updateMember(data) {
-    await db.findOneAndUpdate({ "playerId": data.playerId }, { "point": data.point })
+    await db.update({ type: "member", playerId: data.playerId }, { $set: { "point": data.point } })
 }
 
 export async function addOngoingGame(roomId, playerId) {
-    let room = await db.findOne({ type: "onGoingGame", roomId })
+    let room = await new Promise((res, rej) => {
+        db.findOne({ type: "onGoingGame", roomId }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
     if (room) {
         console.log(room)
         console.log(room.players)
         if (!room.players.includes(playerId)) {
             room.players.push(playerId)
-            await db.findOneAndUpdate({ "type": "onGoingGame", "roomId": roomId }, { "players": room.players })
+            await db.update({ type: "onGoingGame", roomId }, { $set: { "players": room.players } })
         }
     } else {
-        await db.insertOne({ type: "onGoingGame", roomId, players: [playerId] })
+        await db.insert({ type: "onGoingGame", roomId, players: [playerId] })
     }
 }
 
-export async function createDiff(roomId,playerId){
-    await db.insertOne({"type":"diff",roomId,playerId,"diff":0})(
+export async function createDiff(roomId, playerId) {
+    let created = await db.insert({ "type": "diff", roomId, playerId, "diff": 0 })
+    console.log("created diff", JSON.stringify(created))
+}
+
+export async function updateDiff(roomId, playerId, diff) {
+    await db.update({ type: "diff", roomId, playerId }, { $set: { diff } })
+}
+
+export async function getDiff(roomId, playerId) {
+    console.log("params:", roomId, playerId)
+    let diff = await new Promise((res, rej) => {
+        db.findOne({ type: "diff", roomId, playerId }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
+    console.log("diff data", JSON.stringify(diff))
+    if (diff) {
+        return diff.diff
+    }
+    return null
 }
 
 export async function getOngoingGame(roomId) {
-    return await db.findOne({ "type": "onGoingGame", "roomId":roomId })
+    return await new Promise((res, rej) => {
+        db.findOne({ type: "onGoingGame", "roomId": roomId }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
 }
 
+export async function recordPlayerTime(playerId, roomId, end = false) {
+    let time = Date.now()
+    return await new Promise((res, rej) => {
+        db.findOne({ type: "recordTime", "roomId": roomId, playerId }, (err, docs) => {
+            if (err) return err
+            else if (docs != null && end) {
+                db.update({ "_id": docs._id }, { $set: { endTime: time } })
+            } else {
+                db.insert({ type: "recordTime", playerId, roomId, startTime: time, endTime: null })
+            }
+            return true
+        })
+    })
+}
 
+export async function getRecordTime(playerId, roomId) {
+    return await new Promise((res, rej) => {
+        db.findOne({ playerId, roomId, type: "recordTime" }, (err, doc) => {
+            if (err) rej(err)
+            else res(doc)
+        })
+    })
+}
 
 function createIndexes() {
     db.createIndex({
