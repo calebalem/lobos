@@ -19,7 +19,7 @@ export async function getClubs() {
         eventIdPairs[date] = "clubListResponse"
         socket.send(JSON.stringify(clubReq))
         let resp = await new Promise(async (res) => {
-            gameEvent.on("clubListResponse", (data) => {
+            gameEvent.once("clubListResponse", (data) => {
                 res(data)
             })
 
@@ -52,7 +52,7 @@ export async function getMembers(clubId) {
         eventIdPairs[date] = "memberListResponse"
         socket.send(JSON.stringify(clubReq))
         let resp = await new Promise(async (res) => {
-            gameEvent.on("memberListResponse", (data) => {
+            gameEvent.once("memberListResponse", (data) => {
                 res(data)
             })
 
@@ -81,7 +81,7 @@ export async function getGameRequests(roomId) {
         eventIdPairs[date] = "GameReqResponse"
         socket.send(JSON.stringify(roomReq))
         let resp = await new Promise(async (res) => {
-            gameEvent.on("GameReqResponse", (data) => {
+            gameEvent.once("GameReqResponse", (data) => {
                 res(data)
             })
 
@@ -117,7 +117,7 @@ export async function confirmRequest(data) {
         eventIdPairs[date] = "confirmGameRequest"
         socket.send(JSON.stringify(request))
         let resp = await new Promise(async (res) => {
-            gameEvent.on("confirmGameRequest", (data) => {
+            gameEvent.once("confirmGameRequest", (data) => {
                 res(data)
             })
             setTimeout(() => { res(null) }, 10000)
@@ -149,7 +149,7 @@ export async function getGames(clubId) {
         eventIdPairs[date] = "gameListRequest"
         socket.send(JSON.stringify(request))
         let resp = await new Promise(async (res) => {
-            gameEvent.on("gameListRequest", (data) => {
+            gameEvent.once("gameListRequest", (data) => {
                 res(data)
             })
             setTimeout(() => { res(null) }, 10000)

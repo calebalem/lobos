@@ -1,3 +1,4 @@
+import { query } from "express";
 import { database } from "../globals/poker.js";
 import { getCurrentPlayerId } from "../util/util.js";
 import Nedb from "nedb"
@@ -36,9 +37,15 @@ export async function getMemebers(clubId = null) {
 
 }
 
-export async function getMemeber(playerId, playerCode) {
+export async function getMemeber(playerId, playerCode=null) {
     let member = await new Promise((res, rej) => {
-        db.findOne({ playerId, playerCode, type: "member" }, (err, docs) => {
+        let query
+        if(playerCode){
+            query = { playerId, playerCode, type: "member" }
+        }else{
+            query = {playerId,type:"member"}
+        }
+        db.findOne(query, (err, docs) => {
             if (err) return err
             else res(docs)
         })
@@ -144,26 +151,55 @@ export async function getOngoingGame(roomId) {
 
 export async function recordPlayerTime(playerId, roomId, end = false) {
     let time = Date.now()
-    return await new Promise((res, rej) => {
+    let resp = await new Promise((res, rej) => {
         db.findOne({ type: "recordTime", "roomId": roomId, playerId }, (err, docs) => {
-            if (err) return err
+            if (err) rej(err)
             else if (docs != null && end) {
                 db.update({ "_id": docs._id }, { $set: { endTime: time } })
-            } else {
+            } else if (docs == null) {
                 db.insert({ type: "recordTime", playerId, roomId, startTime: time, endTime: null })
             }
-            return true
+            res(true)
         })
     })
+    console.log(resp)
+    return resp
+}
+
+export async function saveChat(playerId, roomId, content, time) {
+    let resp = await new Promise((res, rej) => {
+        db.insert({ type: "chat", playerId, roomId, content, time }, (err, doc) => {
+            if (err) rej(err)
+            else res(true)
+        })
+
+    })
+    console.log(resp)
+    return resp
+}
+
+export async function getChat(playerId, roomId) {
+    let resp = await new Promise((res, rej) => {
+        db.find({ type: "chat", playerId, roomId }).sort({ time: 1 }).limit(1).exec((err, docs) => {
+            if (err) {
+                console.error(err)
+                rej(null)
+            }
+            else res(docs[0])
+        })
+    })
+    return resp
 }
 
 export async function getRecordTime(playerId, roomId) {
-    return await new Promise((res, rej) => {
+    let recTime = await new Promise((res, rej) => {
         db.findOne({ playerId, roomId, type: "recordTime" }, (err, doc) => {
             if (err) rej(err)
             else res(doc)
         })
     })
+    console.log("Rec time: ", JSON.stringify(recTime))
+    return recTime
 }
 
 function createIndexes() {

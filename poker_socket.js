@@ -3,74 +3,126 @@ import fs from "fs";
 import { getCurrentPlayerId, setSocket, timeout } from "./util/util.js";
 import { eventIdPairs, gameEvent } from "./events/event.js";
 import { Ws } from "./ws/poker.ws.js";
-import { gateway_ready,subscribed } from "./globals/poker.js";
+import { gateway_ready, subscribed } from "./globals/poker.js";
 import { get_games } from "./controller/game.controller.js";
 import { subscribe } from "./api/poker.js";
+import chokidar from "chokidar"
 
-const creds = JSON.parse(fs.readFileSync("token.json"))
 
-const gatewayUrl = `wss://gateway-n304059d9xl3.pt-prod.pokerrrrapp.com/bridge/?token=${creds.token}`;
-const gateWayWs = new WebSocket(gatewayUrl)
+let realTimeWs
+let gateWayWs
 
-const realTimeUrl = `wss://ptfarm-realtime.ably.io/?accessToken=${creds.access_token}`
-const realTimeWs = new WebSocket(realTimeUrl)
-gateWayWs.on("open", () => {
-    console.log("Connected gateway")
-    Ws.ws = gateWayWs
-    gateway_ready.ready = true;
-})
+let prevgateWayUrl
 
-realTimeWs.on("open", () => {
-    console.log("Connected realtime")
-    Ws.realTime = realTimeWs
+function startRealtime(creds) {
+    
+    const realTimeUrl = `wss://ptfarm-realtime.ably.io/?accessToken=${creds.access_token}`
+    realTimeWs = new WebSocket(realTimeUrl)
+    realTimeWs.on("open", () => {
+        console.log("Connected realtime")
+        Ws.realTime = realTimeWs
 
-})
+    })
 
-realTimeWs.on("message", (message) => {
-    let event = JSON.parse(message)
-    console.log(`realtime: ${event["action"]} ${typeof message}`)
-    if (event.action == 4 || !subscribed.subscribed) {
+    realTimeWs.on("message", (message) => {
+        let event = JSON.parse(message)
+        console.log(`realtime: ${event["action"]} ${typeof message}`)
+        if (event.action == 4 || !subscribed.subscribed) {
+            console.log("received action 4")
             subscribe()
-    }
-    if (event.action == 15) {
-        for (let data of event.messages) {
-            let room = JSON.parse(data.data)
-            if (data.name == "newRequestMsg") {
-                gameEvent.emit("newGameRequest", { "roomId": room.roomId })
-            } else if (data.name == "pauseMsg") {
-                let gameData = JSON.parse(data.data)
-                gameEvent.emit("gameEnded", { "data": gameData.roomUpdate.ranking, "roomId": gameData.roomId })
-            }else if(data.name == "dealMsg"){
+        }
+        if (event.action == 15) {
+            for (let message of event.messages) {
+                let data = JSON.parse(message.data)
+                if (message.name == "newRequestMsg") {
+                    gameEvent.emit("newGameRequest", { "roomId": data.roomId })
+                } else if (message.name == "pauseMsg") {
+                    gameEvent.emit("gameEnded", { "data": data.roomUpdate.ranking, "roomId": data.roomId })
+                    //gameEvent.emit("playerLeft", { "data": gameData.roomUpdate.players, "roomId": gameData.roomId })
+                } else if (message.name == "dealMsg") {
+                    gameEvent.emit("gameStarted", { "data": data.roomUpdate.players, "roomId": data.roomId })
+                } else if (message.name == "leaveMsg") {
+                    gameEvent.emit("playerLeft", { "data": data.roomUpdate.players, "roomId": data.roomId })
+                } else if(message.name == "chatMsg"){
+                    gameEvent.emit("chatMessage",data)
+                }
+            }
 
-            }else if(data.name == "leaveMsg"){
-                let gameData = JSON.parse(data.data)
-                gameEvent.emit("playerLeft",{"data":gameData.roomUpdate.players, "roomId":gameData.roomId})
+
+        }
+    })
+
+    realTimeWs.on("error", (message) => {
+        console.error("realtime error:", message)
+    })
+}
+
+function startGateway(creds) {
+    
+    const gatewayUrl = `wss://gateway-n304059d9xl3.pt-prod.pokerrrrapp.com/bridge/?token=${creds.token}`;
+    gateWayWs = new WebSocket(gatewayUrl)
+    gateWayWs.on("open", () => {
+        console.log("Connected gateway")
+        Ws.ws = gateWayWs
+        gateway_ready.ready = true;
+        prevgateWayUrl = gatewayUrl
+    })
+
+
+
+    gateWayWs.on("message", (message) => {
+        var event = JSON.parse(message)
+        for (let eName in eventIdPairs) {
+            if (eName == event.id) {
+                gameEvent.emit(eventIdPairs[eName], event)
+                break
             }
         }
+        //console.log(`QueryWs: ${message}`)
+    })
+
+    gateWayWs.on('error', (error) => {
+
+        console.error('WebSocket error:', error);
+
+    });
+}
 
 
+
+
+
+function removeListeners() {
+    for (let key in eventIdPairs) {
+        gameEvent.removeListener(eventIdPairs[key])
     }
-})
-
-realTimeWs.on("error", (message) => {
-    console.error("realtime error:", message)
-})
-
-gateWayWs.on("message", (message) => {
-    var event = JSON.parse(message)
-    for (let eName in eventIdPairs) {
-        if (eName == event.id) {
-            gameEvent.emit(eventIdPairs[eName], event)
+}
+let cred = JSON.parse(fs.readFileSync("token.json"))
+startGateway(cred)
+startRealtime(cred)
+chokidar.watch('token.json').on('change', (path) => {
+    console.log("Token has been updated")
+    while (true) {
+        try {
+            const creds = JSON.parse(fs.readFileSync("token.json"))
+            let newGatewayUrl = `wss://gateway-n304059d9xl3.pt-prod.pokerrrrapp.com/bridge/?token=${creds.token}`;
+            //removeListeners()
+            if (newGatewayUrl != prevgateWayUrl) {
+                gateWayWs.terminate()
+                startGateway(creds)
+            }
+            realTimeWs.terminate()
+            startRealtime(creds)
             break
+        } catch (e) {
+            console.error(e)
+            continue
         }
     }
-    //console.log(`QueryWs: ${message}`)
+
 })
 
-gateWayWs.on('error', (error) => {
 
-    console.error('WebSocket error:', error);
 
-});
 
 

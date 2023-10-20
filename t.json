@@ -1,366 +1,229 @@
 [
   {
-    "jsonrpc": "2.0",
-    "id": "1697626812679_10",
-    "result": {
-      "requestId": "1697626812679_10",
-      "@class": ".LogEventResponse",
-      "scriptData": {
-        "club": {
-          "_id": { "$oid": "652ae7d23d188a8f8862f052" },
-          "clubCode": "d0jx2",
-          "_newCapacity": true,
-          "confirmation": true,
-          "createdAt": 1697310674796,
-          "description": "c3",
-          "hostingCapability": "MANAGER",
-          "liveGameCount": 0,
-          "maxPlayer": 2000,
-          "members": [
-            {
-              "playerId": "652815c097a6d0535772feb5",
-              "displayName": "klkk",
-              "playerCode": "EA8DQ",
-              "favorite": true
-            },
-            {
-              "playerId": "652818b5c0013e4dcc0a6370",
-              "displayName": "truth",
-              "playerCode": "PCNWG",
-              "joinedTs": 1697475236090
-            },
-            {
-              "playerId": "65230b68cd047789bec5f877",
-              "displayName": "klt1",
-              "playerCode": "FQNNU",
-              "joinedTs": 1697480971856
-            },
-            {
-              "playerId": "652ae59f9af0394ca06f98a5",
-              "displayName": "you",
-              "playerCode": "JEWAZ",
-              "joinedTs": 1697481137087
-            }
-          ],
-          "name": "c3",
-          "ownerId": "652815c097a6d0535772feb5",
-          "updatedAt": 1697526138749,
-          "latestMsgSN": 9
-        }
-      }
-    }
-  },
-  {
-    "jsonrpc": "2.0",
-    "id": "1697628601262_1",
-    "result": {
-      "requestId": "1697628601262_1",
-      "@class": ".LogEventResponse",
-      "scriptData": {
-        "clubs": {
-          "__m": [
-            "_id",
-            "clubCode",
-            "_newCapacity",
-            "confirmation",
-            "hostingCapability",
-            "liveGameCount",
-            "maxPlayer",
-            "name",
-            "ownerId",
-            "latestMsgSN",
-            "memberCount",
-            "favorite"
-          ],
-          "__a": [
-            [
-              { "$oid": "652ae7d23d188a8f8862f052" },
-              "d0jx2",
-              true,
-              true,
-              "MANAGER",
-              0,
-              2000,
-              "c3",
-              "652815c097a6d0535772feb5",
-              9,
-              4,
-              true
-            ],
-            [
-              { "$oid": "6528161c3d188a8f8814e35f" },
-              "jl6nj",
-              true,
-              true,
-              "MEMBER",
-              0,
-              2000,
-              "cru",
-              "652815c097a6d0535772feb5",
-              10,
-              4,
-              true
-            ]
-          ]
-        },
-        "requestingClubs": [],
-        "notificationCount": 0
-      }
-    }
-  },
-  {
-    "jsonrpc": "2.0",
-    "id": "1697633561254_28",
-    "result": {
-      "requestId": "1697633561254_28",
-      "@class": ".LogEventResponse",
-      "scriptData": {
-        "hasMore": false,
-        "rooms": [
-          {
-            "_id": { "$oid": "652fd4ed3d188a8f88637534" },
-            "gameCode": "08383879",
-            "createdAt": 1697633517431,
-            "managers": ["652815c097a6d0535772feb5"],
-            "owner": {
-              "playerId": "652815c097a6d0535772feb5",
-              "playerCode": "EA8DQ",
-              "displayName": "klkk"
-            },
-            "settings": {
-              "isReloadAdd": true,
-              "mode": "cash",
-              "confirmation": true,
-              "viewerMute": false,
-              "autoMuck": false,
-              "omaha": false,
-              "timeBank": 0,
-              "maxPlayer": 2,
-              "length": 0,
-              "bb": 2,
-              "buyInRangeBBMin": 20,
-              "buyInRangeBBMax": 400,
-              "recordPrivacy": false,
-              "runItTwice": false,
-              "shortDeck": false,
-              "shortDeckStraightRule": 0,
-              "roe": false,
-              "hiLo": false,
-              "needQueue": true,
-              "straddle": false,
-              "withDecimal": false,
-              "allowChat": true,
-              "detailRakeRec": true,
-              "serviceCharge": 3,
-              "serviceChargeUnitMin": 20,
-              "serviceChargeFreeMin": 20,
-              "hitNRunEnabled": true,
-              "disconTB": 20,
-              "newBlindRule": true,
-              "freeHost": false,
-              "timeout": 30,
-              "isPrivate": true
-            },
-            "status": "PREPARE",
-            "elaspedTime": 0,
-            "playerCount": 0,
-            "playerCountMax": 2
-          },
-          {
-            "_id": { "$oid": "652d7b9f3d188a8f885aed02" },
-            "gameCode": "99098927",
-            "createdAt": 1697479583230,
-            "managers": ["652815c097a6d0535772feb5"],
-            "owner": {
-              "playerId": "652815c097a6d0535772feb5",
-              "playerCode": "EA8DQ",
-              "displayName": "klkk"
-            },
-            "settings": {
-              "isReloadAdd": true,
-              "mode": "cash",
-              "confirmation": true,
-              "viewerMute": false,
-              "autoMuck": false,
-              "omaha": false,
-              "timeBank": 0,
-              "maxPlayer": 2,
-              "length": 0,
-              "bb": 2,
-              "buyInRangeBBMin": 20,
-              "buyInRangeBBMax": 400,
-              "recordPrivacy": false,
-              "runItTwice": false,
-              "shortDeck": false,
-              "shortDeckStraightRule": 0,
-              "roe": false,
-              "hiLo": false,
-              "needQueue": true,
-              "straddle": false,
-              "withDecimal": false,
-              "allowChat": true,
-              "detailRakeRec": true,
-              "serviceCharge": 3,
-              "serviceChargeUnitMin": 20,
-              "serviceChargeFreeMin": 20,
-              "hitNRunEnabled": true,
-              "disconTB": 20,
-              "newBlindRule": true,
-              "freeHost": false,
-              "timeout": 30,
-              "isPrivate": true
-            },
-            "status": "END",
-            "serviceCharge": 0,
-            "rake": 0,
-            "endedAt": 1697526138736,
-            "elaspedTime": 0,
-            "playerCount": 2,
-            "playerCountMax": 2,
-            "selfInRanking": true,
-            "selfWinChips": 78,
-            "selfRank": 1
-          }
-        ]
-      }
-    }
-  },
-  {
     "action": 15,
-    "id": "NgUbgLgh9i:3068156",
-    "connectionId": "NgUbgLgh9i",
-    "connectionSerial": 0,
-    "channel": "player:652815c097a6d0535772feb5",
-    "channelSerial": "e91LKQ-JABUIhL95566956@1697639120858-0",
-    "timestamp": 1697639120331,
+    "id": "WhfXG9zyi1:3159923",
+    "connectionId": "WhfXG9zyi1",
+    "connectionSerial": 4,
+    "channel": "room:65314c573d188a8f8831dfb5:public",
+    "channelSerial": "e91XeTWbwBUIhq40194689@1697729771800-0",
+    "timestamp": 1697729771724,
     "messages": [
       {
         "encoding": "json",
-        "data": "{\"roomId\":\"652fd4ed3d188a8f88637534\"}",
-        "name": "newRequestMsg"
+        "data": {
+          "roomId": "65314c573d188a8f8831dfb5",
+          "roomUpdate": {
+            "updatedAt": 1697729771678,
+            "status": "PLAYING",
+            "handSN": 1,
+            "moveSN": 2,
+            "moves": [
+              {
+                "_new": 1,
+                "sn": 0,
+                "events": [
+                  {
+                    "eventName": "tableDidPerformMove",
+                    "move": { "sn": 0, "seat": 0, "type": "bet", "chips": 1 },
+                    "seatState": { "stackChips": 39, "bettingChips": 1 },
+                    "activeSeat": -1
+                  }
+                ],
+                "handSN": 1
+              },
+              {
+                "_new": 1,
+                "sn": 1,
+                "events": [
+                  {
+                    "eventName": "tableDidPerformMove",
+                    "move": { "sn": 1, "seat": 1, "type": "bet", "chips": 2 },
+                    "seatState": { "stackChips": 38, "bettingChips": 2 },
+                    "activeSeat": 0
+                  }
+                ],
+                "handSN": 1
+              }
+            ],
+            "tableInit": {
+              "handSN": 1,
+              "bigBlind": 2,
+              "SBSeat": 1,
+              "events": [
+                {
+                  "eventName": "tableDidInit",
+                  "seatStates": [
+                    {
+                      "seat": 0,
+                      "seated": true,
+                      "id": "652818b5c0013e4dcc0a6370",
+                      "name": "truth",
+                      "stackChips": 39,
+                      "initStackChips": 40
+                    },
+                    {
+                      "seat": 1,
+                      "seated": true,
+                      "id": "65312447e8fc964ddf3030dd",
+                      "name": "pokerking",
+                      "stackChips": 38,
+                      "initStackChips": 40
+                    }
+                  ],
+                  "activeSeat": -1,
+                  "dealerSeat": 0,
+                  "SBSeat": 0,
+                  "BBSeat": 1
+                }
+              ],
+              "blindCount": 2
+            },
+            "players": [
+              {
+                "empty": false,
+                "seat": 0,
+                "playerId": "652818b5c0013e4dcc0a6370",
+                "playerCode": "PCNWG",
+                "displayName": "truth",
+                "chips": 40,
+                "stack": 40,
+                "inRoom": true
+              },
+              {
+                "empty": false,
+                "seat": 1,
+                "playerId": "65312447e8fc964ddf3030dd",
+                "playerCode": "BV2XF",
+                "displayName": "pokerking",
+                "chips": 40,
+                "stack": 40,
+                "inRoom": true
+              }
+            ],
+            "startCountingAt": 1697729771657,
+            "timeout": 1697729802678,
+            "reloads": {},
+            "disconTBSecs": 0,
+            "actionTime": 30,
+            "v": 6
+          },
+          "sentTs": 1697729771710
+        },
+        "name": "dealMsg"
       }
     ]
   },
   {
-    "jsonrpc": "2.0",
-    "id": "1697644267924_78",
-    "result": {
-      "requestId": "1697644267924_78",
-      "@class": ".LogEventResponse",
-      "scriptData": {
-        "roomRequestChange": {
-          "ts": 1697644036380,
-          "playerId": "652818b5c0013e4dcc0a6370",
-          "playerName": "truth",
-          "playerCode": "PCNWG",
-          "expireTime": 1697644268265,
-          "isDecided": true,
-          "isAccepted": false,
-          "ownerName": "klkk",
-          "buyInChips": 41
-        }
+    "action": 15,
+    "id": "VIRKFlbcYS:3178590",
+    "connectionId": "VIRKFlbcYS",
+    "connectionSerial": 34,
+    "channel": "room:65314c573d188a8f8831dfb5:public",
+    "channelSerial": "e91XeTWbwBUIhq40194689@1697730756025-0",
+    "timestamp": 1697730755950,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {
+          "roomId": "65314c573d188a8f8831dfb5",
+          "senderId": "652818b5c0013e4dcc0a6370",
+          "roomUpdate": {
+            "players": [
+              {
+                "empty": false,
+                "seat": 0,
+                "playerId": "652818b5c0013e4dcc0a6370",
+                "playerCode": "PCNWG",
+                "displayName": "truth",
+                "chips": 40,
+                "stack": 40,
+                "inRoom": true,
+                "left": true,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1697729771673,
+                "handCount": 8,
+                "timeoutCount": 0
+              },
+              {
+                "empty": false,
+                "seat": 1,
+                "playerId": "65312447e8fc964ddf3030dd",
+                "playerCode": "BV2XF",
+                "displayName": "pokerking",
+                "chips": 40,
+                "stack": 40,
+                "inRoom": true,
+                "left": false,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1697729771673,
+                "handCount": 8
+              }
+            ],
+            "updatedAt": 1697730755921,
+            "status": "PLAYING"
+          },
+          "sentTs": 1697730755934
+        },
+        "name": "leaveMsg"
       }
-    }
+    ]
   },
+
   {
-    "roomId": "652fd4ed3d188a8f88637534",
-    "roomUpdate": {
-      "updatedAt": 1697646585646,
-      "reloads": {},
-      "status": "WAITING",
-      "tableInit": {},
-      "moves": [],
-      "timeout": 1697689785646,
-      "startCountingAt": 1697646585646,
-      "countTimeOffset": 171580,
-      "ranking": [
-        {
-          "empty": false,
-          "seat": 1,
-          "playerId": "652815c097a6d0535772feb5",
-          "playerCode": "EA8DQ",
-          "displayName": "klkk",
-          "chips": 83,
-          "stack": 124,
-          "inRoom": true,
-          "left": false,
-          "kick": false,
-          "isOnline": true,
-          "disconTBQuota": 20,
-          "disconTBTs": 1697645561941,
-          "handCount": 5,
-          "timeoutCount": 0,
-          "deadHandSN": 3,
-          "deadTs": 1697645674369,
-          "noStackExpire": 0,
-          "diff": 41,
-          "ts": 1697646577596,
-          "rankingDiffFlag": 0
+    "action": 15,
+    "id": "aC0cj3Dmz0:3265295",
+    "connectionId": "aC0cj3Dmz0",
+    "connectionSerial": 46,
+    "channel": "room:6532868e3d188a8f88f19c54:public",
+    "channelSerial": "e91zCuOnQBUKyl32809643@1697811141866-0",
+    "timestamp": 1697811141344,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {
+          "roomId": "6532868e3d188a8f88f19c54",
+          "roomUpdate": {
+            "status": "WAITING",
+            "updatedAt": 1697811141318,
+            "countTimeOffset": 233628,
+            "players": [
+              { "empty": true, "seat": 0 },
+              { "empty": true, "seat": 1 }
+            ],
+            "reloads": {}
+          },
+          "sentTs": 1697811141326
         },
-        {
-          "empty": false,
-          "seat": 0,
-          "playerId": "652818b5c0013e4dcc0a6370",
-          "playerCode": "PCNWG",
+        "name": "pauseMsg"
+      }
+    ]
+  },
+
+  {
+    "action": 15,
+    "id": "VQqdaaDwkf:3285538",
+    "connectionId": "VQqdaaDwkf",
+    "connectionSerial": 40,
+    "channel": "room:6532a52b3d188a8f88b3895a:public",
+    "channelSerial": "e91dH3c3ABUMzk09039823@1697818663578-0",
+    "timestamp": 1697818663502,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {
+          "roomId": "6532a52b3d188a8f88b3895a",
+          "text": "Test message",
+          "handSN": 5,
+          "senderId": "652818b5c0013e4dcc0a6370",
           "displayName": "truth",
-          "chips": 41,
-          "stack": 0,
-          "inRoom": true,
-          "left": false,
-          "kick": false,
-          "isOnline": true,
-          "disconTBQuota": 20,
-          "disconTBTs": 1697645561941,
-          "handCount": 5,
-          "timeoutCount": 0,
-          "diff": -41,
-          "ts": 1697646577596,
-          "rankingDiffFlag": 0
-        }
-      ],
-      "players": [
-        {
-          "empty": false,
-          "seat": 0,
-          "playerId": "652818b5c0013e4dcc0a6370",
-          "playerCode": "PCNWG",
-          "displayName": "truth",
-          "chips": 41,
-          "stack": 0,
-          "inRoom": true,
-          "left": false,
-          "kick": false,
-          "isOnline": true,
-          "disconTBQuota": 20,
-          "disconTBTs": 1697645561941,
-          "handCount": 5,
-          "timeoutCount": 0,
-          "deadHandSN": 5,
-          "deadTs": 1697646577596,
-          "noStackExpire": 1697646765646
+          "sentTs": 1697818663481
         },
-        {
-          "empty": false,
-          "seat": 1,
-          "playerId": "652815c097a6d0535772feb5",
-          "playerCode": "EA8DQ",
-          "displayName": "klkk",
-          "chips": 83,
-          "stack": 124,
-          "inRoom": true,
-          "left": false,
-          "kick": false,
-          "isOnline": true,
-          "disconTBQuota": 20,
-          "disconTBTs": 1697645561941,
-          "handCount": 5,
-          "timeoutCount": 0,
-          "deadHandSN": 3,
-          "deadTs": 1697645674369,
-          "noStackExpire": 0
-        }
-      ]
-    },
-    "sentTs": 1697646585661
+        "name": "chatMsg"
+      }
+    ]
   }
 ]
