@@ -1,7 +1,7 @@
 import { get_games } from "../controller/game.controller.js";
 import { eventIdPairs, gameEvent } from "../events/event.js";
 import { database, gateway_ready, subscribed } from "../globals/poker.js";
-import { getCurrentPlayerId, getSocket, timeout } from "../util/util.js";
+import { getCurrentPlayerId, getSocket, timeout, logError } from "../util/util.js";
 import { Ws } from "../ws/poker.ws.js";
 
 
@@ -9,7 +9,7 @@ import { Ws } from "../ws/poker.ws.js";
 export async function getClubs() {
     try {
         let socket = Ws.ws
-        let date = `${Date.now()}_1`
+        let date = `${Date.now()}_${Ws.reqCount}`
         let clubReq = {
             "jsonrpc": "2.0",
             "id": date,
@@ -18,6 +18,7 @@ export async function getClubs() {
         }
         eventIdPairs[date] = "clubListResponse"
         socket.send(JSON.stringify(clubReq))
+        Ws.incReq()
         let resp = await new Promise(async (res) => {
             gameEvent.once("clubListResponse", (data) => {
                 res(data)
@@ -27,12 +28,12 @@ export async function getClubs() {
         })
         let clubs = []
         for (let club of resp.result.scriptData.clubs.__a) {
-            clubs.push({ "clubId": club[0]["$oid"], "name": club[8] })
+            clubs.push({ "clubId": club[0]["$oid"], "name": club[7], "code":club[1] })
         }
         console.log(clubs)
         return clubs
     } catch (e) {
-        console.error(e)
+        logError(e)
         return []
     }
 }
@@ -40,7 +41,7 @@ export async function getClubs() {
 export async function getMembers(clubId) {
     try {
         let socket = Ws.ws
-        let date = `${Date.now()}_1`
+        let date = `${Date.now()}_${Ws.reqCount}`
         let clubReq = {
             "jsonrpc": "2.0",
             "id": date,
@@ -51,6 +52,7 @@ export async function getMembers(clubId) {
         }
         eventIdPairs[date] = "memberListResponse"
         socket.send(JSON.stringify(clubReq))
+        Ws.incReq()
         let resp = await new Promise(async (res) => {
             gameEvent.once("memberListResponse", (data) => {
                 res(data)
@@ -61,7 +63,7 @@ export async function getMembers(clubId) {
 
         return resp.result.scriptData.club.members
     } catch (e) {
-        console.error(e)
+        logError(e)
         return []
     }
 }
@@ -69,7 +71,7 @@ export async function getMembers(clubId) {
 export async function getGameRequests(roomId) {
     try {
         let socket = Ws.ws
-        let date = `${Date.now()}_1`
+        let date = `${Date.now()}_${Ws.reqCount}`
         let roomReq = {
             "jsonrpc": "2.0",
             "id": date,
@@ -80,6 +82,7 @@ export async function getGameRequests(roomId) {
         }
         eventIdPairs[date] = "GameReqResponse"
         socket.send(JSON.stringify(roomReq))
+        Ws.incReq()
         let resp = await new Promise(async (res) => {
             gameEvent.once("GameReqResponse", (data) => {
                 res(data)
@@ -92,14 +95,14 @@ export async function getGameRequests(roomId) {
         return resp.result.scriptData.roomRequestDetail.players
 
     } catch (e) {
-        console.error(e)
+        logError(e)
         return []
     }
 }
 
 export async function confirmRequest(data) {
     try {
-        let date = `${Date.now()}_1`
+        let date = `${Date.now()}_${Ws.reqCount}`
         let socket = Ws.ws
         console.log("confirm data: ", data)
         let request = {
@@ -116,6 +119,7 @@ export async function confirmRequest(data) {
         }
         eventIdPairs[date] = "confirmGameRequest"
         socket.send(JSON.stringify(request))
+        Ws.incReq()
         let resp = await new Promise(async (res) => {
             gameEvent.once("confirmGameRequest", (data) => {
                 res(data)
@@ -125,14 +129,14 @@ export async function confirmRequest(data) {
         console.log(resp)
         return resp.result.scriptData.roomRequestChange.isAccepted
     } catch (e) {
-        console.error(e)
+        logError(e)
         return null
     }
 }
 
 export async function getGames(clubId) {
     try {
-        let date = `${Date.now()}_1`
+        let date = `${Date.now()}_${Ws.reqCount}`
         let socket = Ws.ws
         let request = {
             "jsonrpc": "2.0",
@@ -148,6 +152,7 @@ export async function getGames(clubId) {
         }
         eventIdPairs[date] = "gameListRequest"
         socket.send(JSON.stringify(request))
+        Ws.incReq()
         let resp = await new Promise(async (res) => {
             gameEvent.once("gameListRequest", (data) => {
                 res(data)
@@ -156,7 +161,7 @@ export async function getGames(clubId) {
         })
         return resp.result.scriptData.rooms
     } catch (e) {
-        console.error(e)
+        logError(e)
         return null
     }
 }

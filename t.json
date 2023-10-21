@@ -225,5 +225,49 @@
         "name": "chatMsg"
       }
     ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": "1697899854557_22",
+    "result": {
+      "requestId": "1697899854557_22",
+      "@class": ".LogEventResponse",
+      "scriptData": {
+        "clubs": {
+          "__m": [
+            "_id",
+            "clubCode",
+            "_newCapacity",
+            "confirmation",
+            "hostingCapability",
+            "liveGameCount",
+            "maxPlayer",
+            "name",
+            "ownerId",
+            "latestMsgSN",
+            "memberCount",
+            "favorite"
+          ],
+          "__a": [
+            [
+              { "$oid": "653125f53d188a8f88f84992" },
+              "9ulyr",
+              true,
+              true,
+              "MEMBER",
+              0,
+              2000,
+              "king",
+              "65312447e8fc964ddf3030dd",
+              5,
+              2,
+              true
+            ]
+          ]
+        },
+        "requestingClubs": [],
+        "notificationCount": 0
+      }
+    }
   }
 ]

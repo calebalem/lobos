@@ -1,6 +1,6 @@
 import WebSocket from "ws";
 import fs from "fs";
-import { getCurrentPlayerId, setSocket, timeout } from "./util/util.js";
+import { getCurrentPlayerId, logError, setSocket, timeout } from "./util/util.js";
 import { eventIdPairs, gameEvent } from "./events/event.js";
 import { Ws } from "./ws/poker.ws.js";
 import { gateway_ready, subscribed } from "./globals/poker.js";
@@ -53,7 +53,7 @@ function startRealtime(creds) {
     })
 
     realTimeWs.on("error", (message) => {
-        console.error("realtime error:", message)
+        logError(`realtime error: ${message}`)
     })
 }
 
@@ -83,7 +83,7 @@ function startGateway(creds) {
 
     gateWayWs.on('error', (error) => {
 
-        console.error('WebSocket error:', error);
+        logError(`WebSocket error: ${error}`);
 
     });
 }
@@ -115,7 +115,7 @@ chokidar.watch('token.json').on('change', (path) => {
             startRealtime(creds)
             break
         } catch (e) {
-            console.error(e)
+            logError(e)
             continue
         }
     }
