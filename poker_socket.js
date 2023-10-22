@@ -15,7 +15,7 @@ let gateWayWs
 let prevgateWayUrl
 
 function startRealtime(creds) {
-    
+
     const realTimeUrl = `wss://ptfarm-realtime.ably.io/?accessToken=${creds.access_token}`
     realTimeWs = new WebSocket(realTimeUrl)
     realTimeWs.on("open", () => {
@@ -43,8 +43,8 @@ function startRealtime(creds) {
                     gameEvent.emit("gameStarted", { "data": data.roomUpdate.players, "roomId": data.roomId })
                 } else if (message.name == "leaveMsg") {
                     gameEvent.emit("playerLeft", { "data": data.roomUpdate.players, "roomId": data.roomId })
-                } else if(message.name == "chatMsg"){
-                    gameEvent.emit("chatMessage",data)
+                } else if (message.name == "chatMsg") {
+                    gameEvent.emit("chatMessage", data)
                 }
             }
 
@@ -58,7 +58,7 @@ function startRealtime(creds) {
 }
 
 function startGateway(creds) {
-    
+
     const gatewayUrl = `wss://gateway-n304059d9xl3.pt-prod.pokerrrrapp.com/bridge/?token=${creds.token}`;
     gateWayWs = new WebSocket(gatewayUrl)
     gateWayWs.on("open", () => {
@@ -115,7 +115,7 @@ chokidar.watch('token.json').on('change', (path) => {
             startRealtime(creds)
             break
         } catch (e) {
-            logError(e)
+            logError(e, false)
             continue
         }
     }

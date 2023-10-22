@@ -1,8 +1,10 @@
 import { confirmRequest, getGameRequests } from "../api/poker.js";
 import { addOngoingGame, createDiff, getChat, getDiff, getMemeber, getOngoingGame, getRecordTime, recordPlayerTime, saveChat, updateDiff, updateMember } from "../db/poker.js";
 import { gameEvent } from "../events/event.js";
-import { logError } from "../util/util.js";
+import { play } from "../player/player.js";
+import { logError, timeout } from "../util/util.js";
 import { ServerWs } from "../ws/server.ws.js";
+import fs from "fs";
 
 gameEvent.on("newGameRequest", async (request) => {
     try {
@@ -40,7 +42,7 @@ gameEvent.on("gameEnded", async ({ data, roomId }) => {
             }
             if (game.players.includes(rank.playerId)) {
                 let player = await getMemeber(rank.playerId, rank.playerCode)
-                player.point += rank.diff - Maths.abs(diff)
+                player.point += rank.diff - Math.abs(diff)
                 await updateMember(player)
                 await updateDiff(roomId, rank.playerId, rank.diff)
                 socket.emit("pointUpdated", player)
@@ -68,10 +70,11 @@ gameEvent.on("gameStarted", async ({ data, roomId }) => {
 gameEvent.on("chatMessage", async (data) => {
     try {
         let config = JSON.parse(fs.readFileSync("config.json"))
+
         if (config.chatFilters.includes(data.text)) {
             await saveChat(data.senderId, data.roomId, data.text, data.sentTs)
             let member = await getMemeber(data.senderId)
-            ServerWs.emit({ "type": "info", "text": `${member.displayName}|${member.playerCode} notifyed ${data.text}.` })
+            await ServerWs.emit({ "type": "info", "text": `${member.displayName}|${member.playerCode} notifyed ${data.text}.` })
         }
 
     } catch (e) {
@@ -94,8 +97,8 @@ gameEvent.on("playerLeft", async ({ data, roomId }) => {
                     let timeDiffInMin = parseFloat((Math.abs(recTime.endTime - recTime.startTime) / 60000).toFixed(1));
                     console.log(`Player Stayed for ${timeDiffInMin}`)
                     if (timeDiffInMin < 60 && player.stack > player.chips) {
-
                         notify(`${member.displayName} | ${member.playerCode} left while profited. Stay time: ${timeDiffInMin} mins.`)
+                        play()
                     }
                 }
             }
@@ -109,18 +112,21 @@ async function checkPlayerLeave(player, roomId) {
     let chat = await getChat(player.playerId, roomId)
     if (chat == null) {
         notify(`${player.displayName} | ${player.playerCode} left game without notifying`)
+        play()
         return
     }
     let now = Date.now()
     let timeDiffInMin = parseFloat((Math.abs(now - chat.time) / 60000).toFixed(1));
     if (timeDiffInMin < 15) {
         notify(`${player.displayName} | ${player.playerCode} left game without waiting 15 min.`)
+        play()
     }
 }
 
 async function notify(content) {
     console.log(content)
-    ServerWs.emit({ "type": "alert", "text": content })
+
+    await ServerWs.emit({ "type": "alert", "text": content })
     //implement telegram notification
     return null
 }
@@ -140,15 +146,19 @@ async function acceptDeclineMember(player) {
             }
 
             console.log(`buyin ${buyInChips}`)
+
             let req
             if (member.point < buyInChips) {
                 req = { ...player, accepted: 0 }
-                ServerWs.emit({ "type": "declined", "text": `Declined game request from ${player.displayName}| ${player.playerCode}` })
+                await ServerWs.emit({ "type": "declined", "text": `Declined game request from ${member.displayName}| ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
             } else if (member.point >= buyInChips) {
                 req = { ...player, accepted: 1 }
                 //await recordPlayerTime(player.playerId, player.roomId)
-                ServerWs.emit({ "type": "accepted", "text": `Accepted game request from ${player.displayName} | ${player.playerCode}.` })
+                await ServerWs.emit({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
+                member.total_games++
+                updateMember(member)
             }
+            await timeout(3)
             return await confirmRequest(req)
         }
 

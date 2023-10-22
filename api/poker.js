@@ -161,7 +161,7 @@ export async function getGames(clubId) {
         })
         return resp.result.scriptData.rooms
     } catch (e) {
-        logError(e)
+        logError(e,false)
         return null
     }
 }

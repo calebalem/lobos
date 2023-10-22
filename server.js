@@ -9,6 +9,7 @@ import http from "http"
 import { gateway_ready } from "./globals/poker.js"
 import "./bot/bot.js"
 import { logError } from "./util/util.js"
+import { stop,play } from "./player/player.js"
 const app = express()
 app.use(express.json())
 let server = http.createServer(app)
