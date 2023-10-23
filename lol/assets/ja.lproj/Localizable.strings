@@ -1,0 +1,5716 @@
+/* Room Model */
+"Your chips will be reloaded on the next non-Fantasyland hand." = "次のファンタジーランド以外のハンドでチップが補充されます。";
+
+/* Room Model */
+"You will stand up on the next non-Fantasyland hand. Sure to stand up?" = "次のファンタジーランドのハンドでスタンドアップします。本当にスタンドアップしてよろしいですか？";
+
+/* Room Model */
+"You will sit out on the next non-Fantasyland hand. Sure to sit out?" = "次のファンタジーランドのハンドでシットアウトします。本当にシットアウトしてよろしいですか？";
+
+/* GS Connector */
+"Are you sure about buying %1$s for %2$s / %3$s days? (Only apply to game records generated within %4$s days)" = "%2$s / %3$s日間の%1$sを本当に購入しますか？（%4$s日以内に生成されたゲーム記録にのみ適用されます）";
+
+"SGB Rush" = "SGBラッシュ";
+"BSR Vertex" = "BSRの頂点";
+
+/* Linear Collection Detail_bj-espionage-content */
+"Collecting %1$s by playing Blackjack game type. (Tips: win the hand in higher betting level tables to get more %1$s.)" = "ブラックジャックのゲームタイプをプレイして%1$sを集めましょう。（ヒント: ベットレベルの高いテーブルで勝利すると、より多くの%1$sを獲得できます。）";
+
+/* Buy VIP Dialog_vip2 */
+"Purchase %s to increase the game hosting limits to %d games!" = "%sを購入すると、ゲームのホスト制限が%d ゲームに増えます！";
+
+"!" = "!";
+"You have reached the cap of exclusive Diamond VIP privileges!" = "ダイヤモンドVIP限定特典の上限に達しました！";
+
+/* Espionage Room Layer */
+"Click the button below to accept %s Mission!" = "下のボタンをクリックして%sミッションを承認しましょう！";
+
+/* Espionage Room Layer */
+"Accept Mission" = "ミッションを承認";
+
+/* Espionage Room Layer */
+"Well done, agent! Click the button below to claim your reward!" = "流石です、エージェント！下のボタンをクリックして報酬を受け取ってください！";
+
+/* Espionage Room Layer */
+"Claim Reward" = "報酬を受け取る";
+
+/* Espionage Room Layer */
+"View Progress" = "進捗を見る";
+
+/* Data Magic Item */
+"Protect all Exp. ratings from dropping, except PSR, BSR" = "すべての経験レーティングが低下するのを防ぎます。（PSR、BSRを除く）";
+
+/* Linear Collection Detail_bj-espionage-content */
+"Play Blackjack to collect %1$s and unlock the exclusive reward!" = "ブラックジャックをプレイして、%1$sを集めて限定報酬をアンロックしましょう！";
+
+/* Linear Collection Detail_bj-espionage-content */
+"Purchase %d %1$s for %s gold" = "%d%1$sを%sゴールドで購入する";
+
+/* Linear Collection Detail_bj-espionage-content */
+"You’ve collected all %1$s, here’s your reward!" = "すべての%1$sを集めました。報酬はこちらです！";
+
+/* Public Game BSR Result Layer */
+"In ties, ranking is determined by comparing starting chips in the last round and then player positions." = "引き分けの場合、ランキングは最後のラウンドでの開始時のチップ枚数、次にプレイヤーのポジションを比較して決定されます。";
+
+/* Challenge Profile Page PSR */
+"Ultrasonic SNG" = "ウルトラソニックSNG";
+
+/* Challenge Profile Page BSR */
+"Blackjack SNG" = "ブラックジャックSNG";
+
+/* Public Game Waiting Layer */
+"Join %s" = "%sに参加する";
+
+/* Dialog SNG Info */
+"Rules" = "ルール";
+
+/* Dialog SNG Info */
+"General Rules" = "一般的なルール";
+
+/* Dialog SNG Info */
+"There are at most %d hands in each game" = "各ゲームは最大%dハンドまで";
+
+/* Dialog SNG Info */
+"Players will compare the card values with the dealer during the game" = "ゲーム中、プレイヤーはディーラーとカードの合計値を比較します";
+
+/* Dialog SNG Info */
+"The player with the most chips amount will be the winner at the end of the game" = "ゲーム終了時にチップの枚数が最も多いプレイヤーが勝利します";
+
+/* Dialog SNG Info */
+"Betting Rules" = "ベットのルール";
+
+/* Dialog SNG Info */
+"Players must place a bet on each hand" = "プレイヤーは各ハンドごとにベットしなければなりません";
+
+/* Dialog SNG Info */
+"The betting limit in the first hand is %d" = "最初のハンドでのベットの上限は%dです";
+
+/* Dialog SNG Info */
+"The betting limit will increase by %d for each additional hand" = "ベットの上限はハンドの回数が増えるごとに%dずつ増えていきます";
+
+/* Dialog SNG Info */
+"No betting limit in the final hand" = "最終ハンドでは、ベットの上限はありません";
+
+/* Dialog SNG Info */
+"Elimination" = "プレイヤーの排除";
+
+/* Dialog SNG Info */
+"Players who lose all chips during the game will be eliminated" = "ゲーム中にすべてのチップを失ったプレイヤーはゲームから排除されます";
+
+/* Dialog SNG Info */
+"If no player is eliminated after the third hand, the system will automatically eliminate the player with the least chips amount" = "第3ハンド終了時点で排除されたプレイヤーが1人もいない場合、システムによってチップ枚数が最も低いプレイヤーが自動的に排除されます。";
+
+/* Dialog SNG Info */
+"Game Result" = "ゲームの結果";
+
+/* Dialog SNG Info */
+"When the game ends, the player with the most chips wins. If the chips amount is the same, the prize is split and the player with more starting chips from the last hand gets a better rank. If it’s still the same, the player who bets first will get a better rank." = "ゲーム終了時に最もチップの枚数が多いプレイヤーの勝利となります。チップが同数の場合、報酬は半分に分けられ、最終ハンド開始時のチップ枚数が多かったプレイヤーにより高いランクが与えられます。最終ハンド開始時のチップも同数だった場合は、ベットの順番が早い方のプレイヤーにより高いランクが与えられます。";
+
+/* Game Table Layer */
+"Max Bet : %s" = "ベット上限:：%s";
+
+/* Game Table Layer */
+"Next : %s" = "次回の上限： %s";
+
+/* Table Remind Message End */
+"Hand #%d" = "第%dハンド";
+
+/* Table Remind Message End */
+"Final Hand" = "最終ハンド";
+
+/* Table Remind Message End */
+"Player with the most chips will be the winner" = "チップの枚数が最も多いプレイヤーが勝利します";
+
+/* Table Remind Message Kick */
+"Player with the least chips will be eliminated" = "チップの枚数が最も少ないプレイヤーは排除されます";
+
+"_BSRScoreExplain" = "『BSR』レーティングは高度なランキングシステムによって計算されているトーナメントレーティングシステムです。レーティングシステムは次の要素に基づいてます : \n- 終了時の順位 \n- バイイン要素 \n- 対戦相手の強さ \n- 時間と共に反比例する関数 \n\nグローバルチャレンジの各セッションは%d日間で、プレイヤーのレーティングは前回のスコアと年齢要素に応じて、次シーズンの開始時に調整される場合があります。 \n\n*Pokerrrr グローバルチャレンジはレーティングアルゴリズムとゲームルールを継続的に最適化しています。";
+
+/* Public Highlight And Hint Layer */
+"Hey there! In the Global Pokerrrr Challenge, you can compete with real players from the world's best poker clubs anytime, anywhere." = "こんにちは！グローバルPokerrrrチャレンジでは、世界中の最高のポーカークラブの本物のプレーヤーたちといつでも、どこでも競い合うことができます。";
+
+/* Poker Game Panel Base */
+"Straddle (UTG only) : Player can make a straddle bet only at the UTG position.\n\n3rd blind (Mandatory) : The player at the UTG position must make a mandatory straddle bet (2BB) every hand." = "ストラドル (UTG限定): プレイヤーはUTGのポジション時のみストラドルをベットすることができます。\n\nサードブラインド (強制): UTGポジションのプレイヤーはすべてのハンドでストラドルベット（2BB)をしなければなりません。";
+
+/* Tutorial Layer */
+"1. All players will be given 18 hand cards at the start of the game. The rest of the cards will go to the Stock Pile." = "1. ゲーム開始時に、プレイヤー全員に18枚の手札を配り、残りのカードは「山札」に移動します。";
+
+"When both hand cards are 10 points, use the “Stand” feature for %d hands." = "両方の手札が10点のときに、「スタンド」機能を%dハンド使用する。";
+
+/* Public Game Buy In Layer */
+"Handicapping" = "ハンディキャップ";
+
+/* Handicap Note Dialog */
+"The system will auto-sit you whether any player is in Fantasyland or not. When sit-in, while your opponent is in Fantasyland, may bring you a disadvantage in scoring, hence a handicap will be allowed for you." = "ファンタジーランドに入っているプレイヤーの有無に関わらず、システムがあなたを自動的にシットインさせます。対戦相手がファンタジーランドの間にシットインした場合、スコア上不利になる可能性があるため、あなたにハンディキャップが認められます。";
+
+/* Handicap Note Dialog */
+"Based on how many cards the opponent has in Fantasyland, Handicap System as shown below:" = "ファンタジーランドの対戦相手が持っているカードの枚数に応じて、以下のハンディキャップシステムが適用されます:";
+
+/* Cash Game Panel Layer */
+"A progressive blind is when the amount of money that players have to bet increases during preflop. This happens after a set amount of time has passed (controlled through “Interval” below), and the increased amount is based on the Blind Structure (controlled through “Edit Blind Structure”)" = "プログレッシブブラインドでは、プリフロップ中にプレイヤーが賭けなければならない額が増えます。一定の時間（下の「間隔」から調整可能）を過ぎると、ブラインドストラクチャー（「ブラインドストラクチャーを編集」から調整可能）に応じて掛け金が増額されます。";
+
+/* Main Page Club */
+"Your friends can join the game by inputting the game code here." = "ここのゲームコードを入力すると、友達もゲームに参加できます。";
+
+/* Host Game Panel */
+"The game will start automatically when the number of players reach the set amount." = "指定された人数のプレイヤーが集まると、ゲームが自動的に開始されます。";
+
+/* Game Panel Layer */
+"Mute Viewer" = "観覧者をミュートする";
+
+/* Tutorial Layer */
+"No Limit Hold’em" = "ノーリミットホールデム";
+
+/* Poker Game Panel Base */
+"Players can only choose between “All-in” or “Fold” when this feature is turned on." = "この機能がオンになっている場合、プレイヤーは「オールイン」または「フォールド」のみ選択できます。";
+
+/* Poker Game Panel Base */
+"The host can choose if the game will “run it twice” - when a player decides to go all-in before all community cards are dealt, the remaining community cards will be dealt twice, and the pot is split evenly into two boards - by selecting “Always” in the settings. When “Optional” is selected, all participants must agree before proceeding." = "ホストはゲームで「ラン・イット・トゥワイス」をするか決めることができます。設定で「常に」を選択した場合、すべてのコミュニティーカードが配られる前にプレイヤーがオールインすると、残りのコミュニティーカードは2回配られ、ポットも2つのボードに半分ずつ分割されます。「任意」を選択した場合は、トゥワイスを開始する前に参加者全員の同意が必要になります。";
+
+/* Poker Game Panel Base */
+"Allow players to rabbit hunt. Rabbit hunting occurs when all players have folded and player(s) would like to see the remaining sequence of community cards after the hand is over." = "プレイヤーはラビットハントすることができます。プレイヤー全員がフォールドした後で、プレイヤーがハンド終了後に残っているコミュニティカードから次に配られるはずだったカードを見たい場合にラビットハントが行われます。";
+
+/* Poker Game Panel Base */
+"After turning on this option, players will be allowed to muck (discard cards without showing them) their losing hand." = "このオプションをオンにすると、プレイヤーは敗北した際に、手札をマック（カードを公開せずに捨てること）できるようになります。";
+
+/* Public Highlight And Hint Layer */
+"Hey there! In the global challenge, you can compete with real players from the world’s best poker clubs anytime, anywhere." = "こんにちは！グローバルチャレンジでは、世界屈指のポーカークラブの本物のプレーヤーたちといつでも、どこでも競い合うことができます。";
+
+/* User Chip Bar */
+"Collect Bonus!" = "ボーナスを受け取りましょう！";
+
+/* Challenge Type List */
+"Select Table" = "テーブルを選ぶ";
+
+/* Tutorial Layer */
+"The object of the game is to beat the dealer by comparing your card values with those of the dealer. The player who has not busted and has a higher hand value wins. When a player (including the dealer) has more than 21 points, it is known as “busted”." = "このゲームの目的は、ディーラーの手札よりも良い手札の点数を出してディーラーに勝つことです。バストせずにより高い点数を出したプレイヤーが勝利します。プレイヤー（ディーラーも含む）のカードの点数が21点を超えることを「バストした」と言います。";
+
+/* Tutorial Layer */
+"Before the game starts, each player places a bet. After the bet is completed, each player receives two show cards, and the dealer gets a hole card and a show card." = "ゲームを開始する前に、各プレイヤーはベットします。ベットが完了すると、各プレイヤーに2枚のショーカードが配られ、ディーラーには1枚のホールカードと1枚のアップカードが配られます。";
+
+/* Tutorial Layer */
+"Then, all players choose whether to hit or stand cards in order. Since the goal is to get as close to 21 as possible without busting, players can either take the chance to hit (to add another card so that the value of the hand increases). However, if you think your first two cards are acceptable, then you can choose to stand, meaning that no additional cards will be dealt to you. If the player has busted, they will immediately pay for the bet. If the cards are not busted, wait for the dealer to act and compare the values at the end." = "次に、プレイヤー全員が順番にヒットまたはスタンドを選びます。バストせずにできるだけ点数を21に近付けるため、プレイヤーはヒット（手札の点数を増やすため、カードをもう1枚追加すること）することができます。ただし、最初に配られた2枚のカードで十分だと思う場合は、スタンド（これ以上カードは配られません）を選ぶこともできます。バストしたプレイヤーは、掛け金を直ちに没収されます。カードがバストしていないプレイヤーは、ディーラーの順番を待ってから、最後に点数の比較を行います。";
+
+/* Tutorial Layer */
+"When all players have completed their round and at least one player has not busted, the dealer shows the hole card. The dealer must draw if their hand value is less than 16 (and continue until it reaches or passes 16) and stand on 17 or over. If the dealer does not bust, they will compare card values with the players who have not busted and settle the bet (see Paytable)." = "プレイヤー全員がラウンドを終了した時点で、バストしていないプレイヤーが1人でもいる場合、ディーラーはホールカードを公開します。手札の点数が16点以下の場合は点数が16点以上になるまでカードを引き続けます。ディーラーがバストしなかった場合、バストしていないプレイヤーとカードの点数を比較して、掛け金の清算を行います（配当率を参照）。";
+
+/* Tutorial Layer */
+"1. All players will be given 14 hand cards at the start of the game. The rest of the cards will go to the Stock Pile." = "1. ゲーム開始時に、プレイヤー全員に14枚の手札を配り、残りのカードは「山札」に移動します。";
+
+/* Tutorial Layer */
+"2. Each player will take turns to draw or meld the cards on the board." = "2. 各プレイヤーは順番にカードをドローまたはボード上にメルドを作ります。";
+
+/* Tutorial Layer */
+"3. For the player’s initial turn, they must play a set (or more) with the total value of at least 30 points. After the initial turn, the players can use their hand cards to meld with the cards already on the table. (Note: Players cannot put community cards back on their individual racks)" = "3. プレイヤーの最初のターンでは、合計が30ポイント以上となるようセットを1つ（またはそれ以上）作る必要があります。最初のターンの後、プレイヤーは手札を使って、テーブル上のカードとメルドを作ることができます。（注意: コミュニティカードを各プレイヤーのラックに戻すことはできません）";
+
+/* Tutorial Layer */
+"The game consists of 104 number cards and 2 joker cards. The number cards consist of 4 suits with A-K order. Joker cards are wild cards. They can be used as any number and any suit." = "このゲームでは、104枚の数字カードと2枚のジョーカーを使います。数字カードには、AからKの順序で4つのスートが含まれます。ジョーカーカードはワイルドカードです。あらゆる数字やスートとして使用できます。";
+
+/* Tutorial Layer */
+"Click once for an extra 30 secs of action time; once per game." = "1回クリックするとアクションタイムが30秒追加されます。1ゲームにつき1回使用できます。";
+
+/* Tutorial Layer */
+"Restores the card arrangement to the start of the round." = "カードの配置をラウンド開始時の状態に戻します。";
+
+/* Tutorial Layer */
+"There are two different ways to end a game:" = "ゲームを終了する方法には次の2通りがあります:";
+
+/* Tutorial Layer */
+"Once a player successfully plays all of their hand cards, the winning points are calculated by adding the total value of all remaining hand cards from the rest of the players. The remaining players will instead receive negative points based on the total value of their individual remaining hand cards." = "プレイヤーがすべての手札を使い切ると、他のプレイヤーが持っている残りの手札の合計が勝利ポイントとして計算されます。負けたプレイヤーは、それぞれ手元に残った手札の合計に応じて、マイナスポイントが付与されます。";
+
+/* Tutorial Layer */
+"Once all the cards are drawn from the pile, the game will enter the “Final Round” phase and ends once all players play a hand. The winner will be the one who has the lowest points from the total value of their individual remaining hand cards." = "パイルからすべてのカードがドローされると、ゲームは「最終ラウンド」のフェーズに入り、プレイヤー全員が手札を1回ずつプレイした時点でゲームが終了します。残った手札の合計ポイントが一番低かったプレイヤーが勝利します。";
+
+"GET $%d OFF ON ALL ORDERS NOW!" = "すべてのご注文から$%dオフ。今すぐご利用ください！";
+"Get some spirit for the new beginning! Send your wishes by tapping other's nameplate, wish you a happy new year!" = "新しい始まりを分かち合いましょう！他プレイヤーのネームプレートをタップして、新年のお祝いを送りましょう！";
+"Reward granted, claim it now!" = "報酬が付与されました。今すぐ受け取りましょう！";
+"quadruple" = "4倍";
+"Collect Mottled Nickels to win the ultimate reward!" = "「まだらの銅貨」を集めて、究極の報酬を獲得しましょう！";
+"Well done! You’ve elegantly accomplished the mission." = "お見事です！あなたは華麗にミッションを達成しました。";
+
+/* Linear Collection Detail_lunar New Year-2023_popup */
+"Iron Rabbit Awakening" = "鉄の兎の目覚め";
+
+/* Linear Collection Detail_lunar New Year-2023_popup */
+"Mottled Nickels" = "まだらの銅貨";
+
+/* Linear Collection Detail_lunar New Year-2023_popup */
+"You’ve elegantly accomplished the mission. Proudly equip the %s!" = "あなたは華麗にミッションを達成しました。誇り高き%sをご利用ください！";
+
+/* Linear Collection Detail_lunar New Year-2023_popup */
+"Stick around and prepare for upcoming missions!" = "この調子で次のミッションの準備をしましょう！";
+
+"Table Select" = "テーブルの選択";
+
+/* Collection Event */
+"Be the top %d players in the Daily Battle, except SNG" = "デイリーバトルでトップ%d位のプレイヤーになりましょう（SNGを除く）";
+
+/* Challenge Profile Page */
+"Win Rate" = "勝率";
+
+/* Challenge Profile Page */
+"Bust Rate" = "バスト率";
+
+/* Collection Event */
+"Exp. ratings: PRR, SDR, PAR, and BJR" = "経験レーティング: PRR、SDR、PAR、BJR";
+
+/* Data Magic Item */
+"Protect all Exp. ratings from dropping, except PSR" = "全ての経験レーティング低下するのを防ぎます（PSRを除く）";
+
+/* Init Scene */
+"Looking fresh agent! Ready to roll?" = "今日も素敵ですね、エージェント！準備はよろしいですか？";
+
+/* Init Scene */
+"Getting your gears ready!" = "ギアを準備しています！";
+
+/* Init Scene */
+"Personalizing your gears... almost ready!" = "ギアをパーソナライズ中...間もなく準備が完了します！";
+
+/* Public Game Season Reward Notify Layer */
+"Season reward earned" = "獲得したシーズン報酬";
+
+/* IAP Page Chip Con */
+"Valid for NLH, PLO, and Stud games" = "NLH、PLO、およびスタッドゲームで有効です";
+
+/* Collection Event */
+"Reach Level %s or above in any Exp. ratings* (Lv.%d+)" = "いずれかの経験レーティング*で%sまたはそれ以上のレベルに到達（レベル%d以上）";
+
+/* Collection Event */
+"Reach Level %s in any Exp. ratings* (Lv.%d)" = "いずれかの経験レーティング*で%sのレベルに到達（レベル%d以上）";
+
+/* Settings Main Layer */
+"Sign out" = "サインアウト";
+
+/* IAP Page Currency */
+"Valid for NLH, PLO, Stud, and OFC games" = "NLH、PLO、スタッド、およびOFCゲームで有効です";
+
+/* Challenge Profile Page */
+"BJR Kepi" = "BJR戦士";
+
+/* Challenge Profile Page */
+"PAR Tiptop" = "PAR無双";
+
+/* Challenge Profile Page */
+"SDR Caput" = "SDR最上位";
+
+/* Setting Layer */
+"Options" = "オプション";
+
+/* IAP Page Currency */
+"Expires in %s" = "有効期限%s日";
+
+/* Daily Reward Layer */
+"Extra %d% Bonus" = "%d％追加ボーナス";
+
+/* Popup Return User Bonus Extra Offer */
+"Enjoy %d% more chips on your return chips purchase!" = "復帰後最初のチップ購入で枚数が%d％増量になります！";
+
+/* Popup Return User Bonus Ticket */
+"Get your %s return gift and sign up now!" = "%sの復帰特典を受け取って、今すぐサインアップしましょう！";
+
+/* Setting Layer */
+"Never" = "なし";
+
+"Shield" = "シールド";
+"Apprentice Shield" = "見習いシールド";
+"Expert Shield" = "エキスパートシールド";
+"Master Shield" = "マスターシールド";
+"Click to accept %s missions now!" = "クリックして%sミッションを今すぐ開始しましょう！";
+"Mission Complete. Click to claim the reward now!" = "ミッション完了。クリックして、今すぐ報酬を受け取りましょう！";
+"You have unclaimed rewards. Click to check now!" = "まだ受け取っていない報酬があります。クリックして今すぐ確認しましょう！";
+"NEW ARRIVALS\nGet %d% off on new products!" = "新作\n新商品を%d％オフでご購入いただけます！";
+"Extra %d%\nLogin Reward" = "%d％ボーナス\nログイン報酬";
+"Return gift %s chips for you." = "復帰特典のチップ%s枚をどうぞ。";
+"Hey old friend! Enjoy %d% more chips of your return chip purchase!" = "おかえりなさい！復帰特典で、チップ購入の枚数が%d％増量になります！";
+"Grab the gift %s and choose your tourney!" = "%sのギフトをもらって、トーナメントを選びましょう！";
+
+/* Room Manager Game Imp */
+"Blackjack" = "ブラックジャック";
+
+"Play %d Tournament Game" = "トーナメントゲームを%d回プレイ";
+"Complete 1, 3, 5 or 8 lines to collect seed bags and track down the deer prizes!" = "1，3，5または8本のラインを完成させて、種袋を集めてトナカイ報酬を捕まえましょう！";
+"Every Time Bank will give an extra %1$s secs to the hand when applying. Each player has %2$s Time Banks at the start of the game and the system will add 1 Time Bank in every %3$s minutes. The maximum number of Time Banks in stock will be %4$s for every player." = "タイムバンクを適用すると、ハンドの時間が%1$s秒追加されます。各プレイヤーは%2$s回分のタイムバンクを持った状態でゲームを開始し、システムが%3$s分ごとにタイムバンク1回分を追加します。各プレイヤーが持つことができるタイムバンクの上限は%4$s回分までとなります。";
+"Every Time Bank will give an extra %1$s secs to the hand when applying. Each player has %2$s Time Banks at the start of the game and the system will add 1 Time Bank in every %3$s blind levels. The maximum number of Time Banks in stock will be %4$s for every player." = "タイムバンクを適用すると、ハンドの時間が%1$s秒追加されます。各プレイヤーは%2$s回分のタイムバンクを持った状態でゲームを開始し、システムが%3$sブラインドレベルごとにタイムバンク1回分を追加します。各プレイヤーが持つことができるタイムバンクの上限は%4$s回分までとなります。";
+"Prize Won" = "獲得賞金";
+"time" = "回";
+"times" = "回";
+"Total Prize Won" = "合計獲得賞金";
+
+/* Delete Account Dialog */
+"Please re-enter your player ID (%s) below to complete your request." = "プレイヤーID（%s）を下の欄に再入力して、リクエストを完了させてください。";
+
+/* Delete Account Dialog */
+"Request confirmation" = "リクエストの確認";
+
+/* Delete Account Dialog */
+"Please be advised that once the account deletion request is made you will not be able to access the account. Your pending request CAN NOT BE CANCELED either." = "アカウント削除リクエストを確定すると、アカウントにアクセスできなくなりますので予めご了承ください。保留中のリクエストをキャンセルすることもできません。";
+
+/* SNG Game Panel Layer */
+"Players can rebuy when not bankrupted. Busted player can purchase 2X amount buy-in amount." = "プレイヤーは、バンクラプトしていない場合にリバイできます。バストしたプレイヤーはバイイン価格の2倍の額を購入できます。";
+
+/* GS Connector */
+"Are you sure about buying this item to increase the game records shown? Only apply to records generated within %d days." = "このアイテムを購入して表示するゲーム記録数を増やして本当によろしいですか？%d日以内に作成された記録にのみ適用されます。";
+
+/* Data Model CPP */
+"Increase game records to %2$s for %3$s days (%1$s → %2$s）" = "ゲーム記録数が%3$s日間%2$s件に増えます。（%1$s → %2$s）";
+
+/* Popup Thanksgiving */
+"All decks, nameplates, chip-cons" = "デッキ、ネームプレート、チップコン全品対象";
+
+/* Shop Item Bundle Add On Popup_halloween2022 */
+"Boo-yah! Save “%s” for the sale!" = "やった！セールで「%s」お得！";
+
+"Click to save as favorite, click again to cancel." = "クリックしてお気に入りに保存、もう一度クリックでキャンセル。";
+"Recent" = "最近";
+"Favorite" = "お気に入り";
+"Enter Club" = "クラブに入る";
+"MISSION" = "ミッション";
+"FRIEND" = "友達";
+"Create your own poker club and enjoy with your club mates! %d bonus gold will be rewarded after creating your first club!" = "あなたのポーカークラブを作成してクラブメートたちと一緒に楽しみましょう！最初のクラブ作成で%dボーナスゴールドを取得できます";
+"Pending join request. Come back later to see if you're in!" = "参加リクエストは保留中です。後で戻って参加状況を確認してください！";
+"There's no ongoing game in the club at the moment. Maybe try a different club or join from the lobby?" = "現在クラブ内で進行中のゲームはありません。他のクラブをお試しいただくか、ロビーから参加してみてはいかがですか？";
+
+/* Shop Item Bundle Add On Popup_halloween2022 */
+"Buy more and save up to %d% off!" = "さらに購入すると最大%d%オフ！";
+
+/* Game Control Layer */
+"SURRENDER" = "降参";
+
+/* Prima Detail Layer */
+"Well done!" = "やりました！";
+
+/* Popup Fashion Store20220920 */
+"HOODIE 30% OFF" = "パーカー 30%割引";
+
+/* Popup Fashion Store20221004 */
+"Buy selected items and get a FREE Deck*!" = "厳選アイテムを購入して、無料デッキ*を手に入れましょう！";
+
+/* Popup Fashion Store20221017 */
+"Buy one get one 50% off\nFree shipping for order over $49" = "１つ購入するともう１つ50％割引\n$49以上のご注文で送料無料";
+
+/* IAP Page Currency */
+"Each %1$s can deduct %2$s for MTT entry." = "%1$s1枚ごとにMTTエントリー料から%2$sが差し引かれます。";
+
+/* Init Scene */
+"Please be reminded that as you have a pending account deletion request, you will not be able to log in to the app by using the same login method. Thank you." = "お客様に保留中のアカウント削除リクエストがあると、同じログイン方法を使ってアプリにログインできなくなります。よろしくお願いいたします。";
+
+/* Collection Event */
+"Play %s for %d hands" = "%sを%dハンドプレイする";
+
+/* Collection Event */
+"Win %s for %d hands" = "%sで%dハンド勝利する";
+
+/* Collection Event */
+"Play %s for %d games" = "%sを%dゲームプレイする";
+
+/* Collection Event */
+"Won a %s pot in any public cash game" = "公開キャッシュゲームのいずれかで%sのポットを獲得する";
+
+/* Collection Event */
+"Be the top %d players in the Daily Battle" = "デイリーバトルでトップ%d位に入る";
+
+/* Prima Detail Layer */
+"%d points will get you to a checkpoint, claim the reward that’s waiting for you!" = "%dポイントでチェックポイントに到達できます。報酬が待っていますので、ぜひ獲得してください！";
+
+/* Popup Gift */
+"You can now use our new Gifting Feature to send a gift to your opponent on the table!" = "新しい「ギフト機能」を使用してテーブル上の対戦相手にギフトを贈れるようになりました！";
+
+"New Gifting Feature" = "新しいギフト機能";
+
+/* Data MTT Ticket */
+"Rose-Gold Ticket" = "ローズゴールドチケット";
+
+/* Data MTT Ticket */
+"Silver Ticket" = "シルバーチケット";
+
+/* Data MTT Ticket */
+"Bronze Ticket" = "ブロンズチケット";
+
+/* Public MTT Register Dialog */
+"Ticket" = "チケット";
+
+/* Public MTT Register Dialog */
+"None" = "なし";
+
+/* IAP Page Currency */
+"Expire in %s" = "有効期限まであと%s";
+
+/* Settings Main Layer */
+"Game Rules" = "ゲームのルール";
+
+/* Popup Fashion Store20220906 */
+"Enjoy %d% OFF on all T-shirt items" = "Tシャツ全商品%d％オフをお楽しみください";
+
+/* Popup Fashion Store20220823 */
+"Buy one deck and get %d% off another" = "デッキを1つ買うと、もう1つ%d％割引で購入できます";
+
+/* Daily Reward Replacement Popup */
+"Miss a day?" = "ログインを1日忘れましたか？";
+
+/* Popup Ad Special Offer */
+"Run out of chips?" = "チップがなくなりましたか？";
+
+/* Daily Reward Replacement Popup */
+"Watch a short video to continue your daily logins!" = "短い動画を視聴して、デイリーログインを続けましょう！";
+
+/* Game Gift Select Layer */
+"Host or join club game to send exclusive gifts!" = "クラブゲームをホストまたは参加して、限定ギフトを送りましょう！";
+
+/* Game Gift Select Layer */
+"Gift" = "ギフト";
+
+/* Game Gift Select Layer */
+"Treat" = "ご褒美";
+
+/* Game Gift Select Layer */
+"Tease" = "いたずら";
+
+/* Popup Fashion Store20220808 */
+"Fill out the questionnaire for a free coupon" = "アンケートにご回答いただくと無料クーポンをプレゼント";
+
+/* Big Cards Layer */
+"Pre-Check" = "プリチェック";
+
+/* Control Layer Base */
+"Undo pre-check" = "プリチェックをキャンセル";
+
+/* Public Game Result Layer_mtt */
+"You won the %s place!" = "%s位になりました！";
+
+/* Public Game Result Layer */
+"%dth" = "%d";
+
+/* Public MTT Season Result Layer */
+"GSOP Season Results" = "GSOPシーズン結果";
+
+/* Prima Detail Layer */
+"Finish any of the following tasks to earn %d points each:" = "次の各タスクを終了する度に%dポイントを獲得:";
+
+/* Prima Detail Layer */
+"Join %d public MTT" = "公開MTTに%d回参加する";
+
+/* Prima Detail Layer */
+"Scoring Rules" = "スコアルール";
+
+/* Prima Detail Layer */
+"Finish any of the following tasks to earn %d point each:" = "次の各タスクを終了する度に%dポイントを獲得:";
+
+/* Prima Detail Layer */
+"Play %d hands in public games" = "公開ゲームで%dハンドプレイする";
+
+/* Prima Detail Layer */
+"Log in and claim your daily login reward" = "ログインしてデイリーログイン報酬をもらう";
+
+/* Prima Detail Layer */
+"Spend %d gold coins" = "金貨を%d枚使う";
+
+/* Prima Detail Layer */
+"Watch %d ads in total" = "合計%d個の広告を視聴する";
+
+/* Prima Purchase Dialog */
+"More rewards await!" = "さらに報酬が待っています！";
+
+/* Prima Purchase Dialog */
+"Activate “Prima” pass now to get bonus gifts when achieving each checkpoints!" = "「Prima」パスを今すぐアクティベートすると、チェックポイントを達成する度にボーナスギフトがもらえます！";
+
+/* Prima Reward Name */
+"%s gold" = "%sゴールド";
+
+/* Prima Reward Name */
+"%dhr magnet" = "%d時間マグネット";
+
+/* Prima Reward Name */
+"%dhr shield" = "%d時間シールド";
+
+/* Prima Detail Layer */
+"Sorry! We are unable to connect to your payment method, hence, the in-app purchase cannot be proceeded. Please check and try again later." = "申し訳ありません！お客様のお支払い方法に接続できなかったため、アプリ内購入を処理できません。ご確認のうえ、後ほど再度お試しください。";
+
+/* Chat Preset Sentence Layer */
+"Thanks" = "ありがとう";
+
+/* Chat Preset Sentence Layer */
+"No way..." = "そんなまさか...";
+
+/* Chat Preset Sentence Layer */
+"Well played!" = "お見事！";
+
+/* Chat Preset Sentence Layer */
+"Bluffing?" = "ブラフ？";
+
+/* Chat Preset Sentence Layer */
+"Of course!" = "もちろん！";
+
+/* Chat Preset Sentence Layer */
+"Unreal!" = "有り得ない！";
+
+/* Popup Ad Promote */
+"Get more chips?" = "チップをもっと手に入れますか？";
+
+/* Popup Ad Promote */
+"Watch a short video to get extra %s chips right away!" = "短い動画を視聴すると、チップ%s枚がすぐにもらえます！";
+
+/* Popup Ad Promote */
+"Sure!%s" = "視聴する！%s";
+
+/* Popup Ad Promote */
+"No thanks" = "いいえ、結構です";
+
+/* Public MTT Content */
+"%s for each knockout" = "ノックアウト毎に%s";
+
+/* Public MTT Content */
+"No show player will be removed after Level %d." = "無断キャンセルしたプレイヤーは、レベル%d以降削除されます。";
+
+/* Recommand Public MTT Dialog */
+"Having fun in MTT?" = "MTTを楽しんでいますか？";
+
+/* Recommand Public MTT Dialog */
+"Register our public MTT and compete with worldwide poker lovers!" = "公開MTTに登録して、世界中のポーカー愛好家と競いましょう！";
+
+/* Recommand Public MTT Dialog */
+"Yeah!" = "登録する！";
+
+/* Popup Bonus MTT */
+"Ready for the %s Tournament?" = "%sトーナメントの準備はよろしいですか？";
+
+/* Popup Bonus MTT */
+"Sign me up!" = "登録する！";
+
+/* Popup Fashion Store20220725 */
+"Follow Pokerrrr store on IG get $%d coupon" = "インスタでPokerrrrをフォローしてくださった方に、$%dクーポンをプレゼント";
+
+/* Delete Account Dialog */
+"If you want to permanently delete your Pokerrrr 2 account, please enter your 5-digit player ID in the below box and click “Delete“." = "Pokerrrr 2アカウントを完全に削除する場合は、下の記入欄にお客様の5桁のプレイヤーIDを入力してから「削除」をクリックしてください。";
+
+/* Delete Account Dialog */
+"Are you sure to delete your account? After deleting the account, all your account information and data will be destroyed and cannot be restored." = "アカウントを削除して本当によろしいですか？アカウントを削除すると、お客様のアカウントの情報とデータはすべて破棄され、復元できなくなります。";
+
+/* Game Phone Scene */
+"Notify" = "通知する";
+
+/* Init Scene */
+"Reminder" = "リマインダー";
+
+/* Init Scene */
+"Please be reminded, as you have a pending account deletion request, you will not be able to enter any game types in the app. Thank you." = "保留中のアカウント削除リクエストがあると、アプリ内のすべての種類のゲームに参加できなくなりますので予めご注意ください。ご理解いただきありがとうございます。";
+
+/* Delete Account Dialog */
+"Account Deletion Confirmation" = "アカウント削除の確定";
+
+/* Delete Account Dialog */
+"Your account deletion request is initiated. The process will take 7-14 working days to be completed." = "アカウント削除リクエストが開始されました。処理が完了するまで7～14営業日ほどかかります。";
+
+/* Delete Account Dialog */
+"The app will close automatically after clicking the “Confirm” button below." = "下の「確定」ボタンをクリックすると、本アプリは自動的に終了します。";
+
+/* Delete Account Dialog */
+"Delete account and data?" = "アカウントとデータを削除しますか？";
+
+/* Delete Account Dialog */
+"Confirm by typing %s below." = "下に%sと入力して確定してください。";
+
+/* Delete Account Dialog */
+"Player ID" = "プレイヤーID";
+
+/* Delete Account Dialog */
+"Incorrect player ID. Try again!" = "プレイヤーIDが間違っています。もう1度入力してください！";
+
+/* Settings Main Layer */
+"Delete Account" = "アカウントを削除する";
+
+/* Tutorial Layer */
+"Flip chip up to bet." = "チップを上にフリップしてベットします。";
+
+/* Collection Event */
+"Shop Now" = "今すぐ購入";
+
+/* Collection Event */
+"Daily login mission (%1$s / %2$s), keep it up!" = "デイリーログインミッション (%1$s / %2$s)、その調子です！";
+
+/* Collection Event */
+"Win any %1$s NL Hold’em hands (%2$s / %3$s) mission, almost there!" = "NL ホールデムにどれで%1$s回勝利する（%2$s / %3$s）ミッション、あともう少しです！";
+
+/* Collection Event */
+"Win any %1$s PLO hands (%2$s / %3$s) mission, play more for the reward!" = "PLOハンドで%1$s回勝利する（%2$s / %3$s）ミッション、報酬を目指してプレイを続けましょう！";
+
+/* Collection Event */
+"Claim %1$s daily bonus mission (%2$s / %3$s), bonuses are the best!" = "%1$s個のデイリーボーナスミッション（%2$s / %3$s）を獲得しましょう、ボーナスに勝るものはありません！";
+
+/* Collection Event */
+"Win any %1$s SNG games (%2$s / %3$s), power through for the reward!" = "SNGゲームに%1$s回勝利する（%2$s / %3$s）、報酬を目指してやり遂げましょう！";
+
+/* Collection Event */
+"Play %d Tournament Games" = "トーナメントゲームを%d回プレイ";
+
+/* Collection Line Popup */
+"Unlock the victory gifts by winning 2, 4, 6, and 8 lines." = "2、4、6、8列で勝利して、勝利ギフトをアンロックしましょう。";
+
+/* Collection Line Popup */
+"You got %s" = "%sを獲得しました";
+
+/* Collection Line Popup */
+"You got %s chips" = "チップ%s枚を獲得しました";
+
+/* Game Control Layer */
+"You’ve placed the maximum bet. " = "上限額をベットしました。 ";
+
+/* Popup Fashion Store20220701 */
+"ALL ITEMS 15% OFF" = "全アイテム15％割引";
+
+/* Popup Fashion Store20220621 */
+"Share your Pokerrrr wardrobe on FB or IG and get a $%d coupon!" = "Pokerrrrのアパレル用品をFacebookやインスタでシェアしてくださった方に、$%dクーポンをプレゼント！";
+
+/* Game Phone Scene */
+"Remind" = "通知する";
+
+/* Public Switch Level Layer */
+"No seats for current betting level.\nMove to another level?" = "現在のベットレベルには空席がありません。\n他のレベルに移動しますか？";
+
+/* Public Switch Level Layer */
+"Switch betting level? " = "ベットレベルを変更しますか？　";
+
+/* Public Switch Level Layer */
+"Stay" = "変更しない";
+
+/* Game Phone Scene */
+"Waiting for players" = "他のプレイヤーを待っています";
+
+/* Manual Switching Table Limitation Manager */
+"You can only switch up to %1$s tables within %2$s minutes. Please wait for the cooldown time to pass and try again." = "%2$s分間以内に最大%1$s回までテーブルを変更することができます。クールダウンタイムが完了するまでお待ちいただいてから再度お試しください。";
+
+/* Manual Switching Table Limitation Manager */
+"Unfortunately, as you‘ve violated the switching table policy %1$s times within the past %2$s minutes, you have been prevented from joining any public games for %3$s hours." = "残念ながら、直近の%2$s分以内にあなたはテーブル変更ポリシーに%1$s回違反したため、公開ゲームへの参加が%3$s時間制限されます。";
+
+/* Game Control Layer */
+"AUTO\nBET" = "オート\nベット";
+
+/* Game Control Layer */
+"CONFIRM" = "確定";
+
+/* Popup Gsop Season */
+"Season Countdown" = "シーズンカウントダウン";
+
+/* IAP Page Currency */
+"BEST OFFER" = "ベストオファー";
+
+/* IAP Page Currency */
+"GOLD" = "ゴールド";
+
+/* IAP Page Currency */
+"CHIPS" = "チップ";
+
+/* IAP Page Currency */
+"PROPS" = "特殊アイテム";
+
+/* Popup Fashion Store20220524 */
+"NOW AVAILABLE IN\nFRANCE, TURKEY, ISRAEL, AND HONGKONG" = "フランス、トルコ、イスラエル、香港でも\nご利用可能になりました";
+
+/* Dialog */
+"Sorry, chat function in public games is only available for payers with Level %d and above. Try using the suggested chat messages instead!" = "申し訳ありませんが、公開ゲームでのチャット機能のご利用は、レベル%d以上のプレイヤーの方に限らせていただいております。よろしければ、おすすめのチャットメッセージをご利用ください。";
+
+/* Tutorial Layer */
+"Hand total is 21 with three or more cards." = "3枚以上のカードで合計点が21となるハンドです。";
+
+/* Cash Game Panel Layer */
+"6-Card" = "6カード";
+
+/* Data Model CPP */
+"6-Card PLO" = "PLO 6カード";
+
+/* CollectionEventMission */
+"_HostFriendGameDesc" = "非公開ゲームをホストして友達を招待しましょう！ご希望に合わせてゲーム設定をカスタマイズしてください。\n\n簡単な手順:\n- ゲームタイプを選択して「確認」をタップします。\n- ゲーム設定を調整して設定します。\n- 「ホスト」をタップし、ゲームコードをコピーして友達にシェアします。\n- ゆっくり座って、ゲームをお楽しみください！";
+
+/* Main Page Tournament */
+"Season Tournaments" = "シーズントーナメント";
+
+/* Collection Event */
+"Host Game" = "ゲームをホストする";
+
+/* Collection Event */
+"Host Now" = "今すぐホストする";
+
+/* Collection Event */
+"%s %s Mission:" = "%s %s ミッション:";
+
+/* Collection Event */
+"Daily login mission (%lld / %lld), keep it up!" = "デイリーログインミッション (%lld / %lld)、その調子です！";
+
+/* Collection Event */
+"Win any 200 NL Hold’em hands (%lld / %lld) mission, almost there!" = "NL ホールデムにどれでも200回勝利する（%lld / %lld）ミッション、あともう少しです！";
+
+/* Collection Event */
+"Win any 200 PLO hands (%lld / %lld) mission, play more for the reward!" = "PLOハンドで200回勝利する（%lld / %lld）ミッション、報酬を目指してプレイを続けましょう！";
+
+/* Collection Event */
+"Claim 7 daily bonus mission (%lld / %lld), bonuses are the best!" = "7つのデイリーボーナスミッション（%lld / %lld）を獲得しましょう、ボーナスに勝るものはありません！";
+
+/* Collection Event */
+"Win any 20 SNG games (%lld / %lld), power through for the reward!" = "SNGゲームに20回勝利する（%lld / %lld）、報酬を目指してやり遂げましょう！";
+
+/* Collection Event */
+"Host %1$s friend games (4 people+, %2$s mins+)" = "友達ゲームを%1$s回ホストする（4人以上、%2$s分以上）";
+
+/* Collection Event */
+"Host %1$s friend game (4 people+, %2$s mins+)" = "友達ゲームを%1$s回ホストする（4人以上、%2$s分以上）";
+
+/* Collection Event */
+"Won 1st place in the Daily Battle" = "デイリーバトルで1位になる";
+
+/* Collection Event */
+"Ranked one of the top 9 players in any GSOP events" = "GSOPイベントでどれでもトップ9位に入る";
+
+/* GS Connector */
+"Mission Complete.\nGo claim the reward now!" = "ミッション完了。\n今すぐ報酬を受け取りましょう！";
+
+/* Espionage Room Layer */
+"%d/%d of mission is accomplished. Keep it up!" = "%d/%d個のミッションを達成しました。その調子です！";
+
+/* Espionage Room Layer */
+"You have unclaimed rewards. Click above to check now!" = "まだ受け取っていない報酬があります。上をクリックして今すぐ確認しましょう！";
+
+/* Player Level Missions Layer */
+"To unlock Agent %s missions, you will need to accomplish Agent %s" = "エージェント%sのミッションをアンロックするには、エージェント%sを達成する必要があります";
+
+/* Player Level Missions Layer */
+"Much effort, much prosperity! Your reward has been credited!" = "その素晴らしい努力は報われます！報酬が付与されました！";
+
+/* Player Level Missions Layer */
+"Great!" = "やった！";
+
+/* Player Level Missions Layer_egypt-2021-07-LV6 */
+"CLAIM NOW !!" = "今すぐ受領する！！";
+
+/* Room Request List Layer */
+"Refresh" = "更新";
+
+/* Invite Layer */
+"Get %s Gold and %s Chips for each friend referred and signed up!" = "招待した友達がサインアップする度に、%sゴールドとチップ%s枚をプレゼント！";
+
+/* Invite Layer */
+"Get %s Gold for each friend referred and signed up!" = "招待した友達がサインアップする度に、%sゴールドをプレゼント！";
+
+/* Invite Layer */
+"Get %s Chips for each friend referred and signed up!" = "招待した友達がサインアップする度に、チップ%s枚をプレゼント！";
+
+/* Invite Layer */
+"See your friends at the table!" = "友達とテーブルで会いましょう！";
+
+/* Popup Invite Layer */
+"Looks like you’ve help your friends claiming the rewards! Why now host a game and play together?" = "あなたのおかげで友達が報酬を受け取れたようです！ゲームをホストして一緒にプレイしてはいかがですか？";
+
+/* Popup Invite Layer */
+"It pays to have friends!" = "友達がいるとお得！";
+
+/* Popup Invite Layer */
+"Get 5 Gold and 5,000 chips for each friend referred and signed up!" = "招待した友達がサインアップする度に、5ゴールドとチップ5,000枚をプレゼント！";
+
+/* Popup Invite Layer */
+"Enter Referral Code in the below box and your friend will get rewarded!" = "招待コードを下のボックスに入力すると、友達が報酬を受け取ることができます！";
+
+/* Popup Invite Layer */
+"Redeem" = "受け取る";
+
+/* Card Set Settle */
+"Lose" = "負け";
+
+/* Settings Main Layer */
+"Black Jack" = "ブラックジャック";
+
+/* Card Set Settle */
+"Push" = "プッシュ";
+
+/* Card Set Settle */
+"Bust" = "バスト";
+
+/* Dialog Paytable */
+"Payout" = "配当";
+
+/* Dialog Paytable */
+"%1$s to %2$s" = "%1$s:%2$s";
+
+/* Dialog Paytable */
+"Player wins" = "プレイヤー勝利";
+
+/* Dialog Paytable */
+"Bet returned" = "ベット払い戻し";
+
+/* Dialog Paytable */
+"Dealer wins" = "ディーラー勝利";
+
+/* Dialog Paytable */
+"Bet lost" = "ベット没収";
+
+/* Dialog Paytable */
+"Insurance" = "インシュアランス";
+
+/* Game Control Layer */
+"HIT" = "ヒット";
+
+/* Game Control Layer */
+"DOUBLE" = "ダブル";
+
+/* Game Control Layer */
+"STAND" = "スタンド";
+
+/* Game Control Layer */
+"SPLIT" = "スプリット";
+
+/* Game Control Layer */
+"MAX" = "最大";
+
+/* Game Control Layer */
+"CLEAR\nBET" = "ベット\nクリア";
+
+/* Game Control Layer */
+"Buy insurance?" = "インシュアランスを購入しますか？";
+
+/* Game Table Layer */
+"MIN" = "最小";
+
+/* Tutorial Layer */
+"Comparing the card values with the dealer, the player who has not busted and has a higher point wins. The player with more than 21 points is called busted." = "バストせずにディーラーよりも高い点数を出したプレイヤーが勝利します。カードの点数が21点を超えることをバストしたと言います。";
+
+/* Tutorial Layer */
+"Before the game starts, each player place a bet. After the bet is completed, each player receive two show cards, and the dealer gets a hole card and a show card." = "ゲームを開始する前に、各プレイヤーはベットします。ベットが完了すると、各プレイヤーに2枚のアップカードが配られ、ディーラーには1枚のホールカードと1枚のアップカードが配られます。";
+
+/* Tutorial Layer */
+"All players choose whether to hit or stand cards in order. If the players are busted, they will immediately pay for the bet. If the cards are not busted, wait for the dealer to act and compare the values in the end." = "全プレイヤーは、順番にカードをヒットまたはスタンドしていきます。バストしたプレイヤーはその場でベットを支払います。バストしていないプレイヤーは、ディーラーのハンドを待って最後に点数を比較します。";
+
+/* Tutorial Layer */
+"When all players have completed their round and at least one player has not busted, the dealer shows the hole card. The dealer must draw on 16 and stand on 17 or over, then compare card values with the players who have not busted and settle the bet." = "プレイヤー全員がラウンドを完了し、バストしていないプレイヤーが1人以上残っている場合、ディーラーはホールカードを表にして見せます。ディーラーは16点以下の場合はカードを引き、17点以上の場合はスタンドしなければなりません。バストしていないプレイヤーの点数とディーラーのカードの点数を比較して配当を決定します。";
+
+/* Tutorial Layer */
+"Special Rules" = "特別ルール";
+
+/* Tutorial Layer */
+"Insurance: When the dealer's first show card is Ace, the player can choose to spend half of the bet to buy insurance. If the dealer is Blackjack, those players who have made the insurance are paid double the amount." = "インシュアランス: ディーラーの1枚目のアップカードがエースの場合、プレイヤーはベットの半額を支払ってインシュアランスを購入することができます。ディーラーがブラックジャックした場合、インシュアランスを購入したプレイヤーにはその2倍の金額が支払われます。";
+
+/* Tutorial Layer */
+"Double down: After the player gets the first two cards, the player can choose to double the bet. Then the player is dealt one more card and cannot ask for any others." = "ダブルダウン: 最初の2枚のカードが配られた後、プレイヤーはベットを2倍にするか選択することができます。ダブルダウンしたプレイヤーは3枚目のカードを引き、それ以上はカードを引くことができません。";
+
+/* Tutorial Layer */
+"Surrender: The player can choose to surrender before any players hit card, to take half of the bet back." = "サレンダー: プレイヤーはヒットする前にサレンダーして、ベットの半額を取り戻すことができます。";
+
+/* Tutorial Layer */
+"Split: When the first two cards have the same values,  the player can choose to split once and add the bet. The bet amount must be the same as the original bet. If the two Aces are split, each Ace will only be dealt one card, no more cards can be asked, and even Blackjack can only count 21 points after the split." = "スプリット: 最初の2枚のカードが同じ数だった場合、プレイヤーはカードをスプリットしてベットを追加することができます。その場合、最初のベットと同額を追加でベットします。2枚のエースをスプリットした場合、エースにはそれぞれ1枚のカードを引くことができますが、それ以上はカードを引けません。また、スプリット後はブラックジャックした場合でも21点としてカウントされます。";
+
+/* Tutorial Layer */
+"Push: If the player and the dealer have the same total values or both get Blackjack, it is a tie (“push”). The original bet is returned." = "プッシュ: プレイヤーとディーラーが同点の場合、または両方ともブラックジャックだった場合は引き分け（「プッシュ」）となります。ベットは全額戻されます。";
+
+/* Tutorial Layer */
+"%1$s or %2$s" = "%1$sまたは%2$s";
+
+/* Tutorial Layer */
+"Single Card Values" = "カード1枚の点数";
+
+/* Tutorial Layer */
+"Face value" = "カードの数字と同じ";
+
+/* Tutorial Layer */
+"Hand total is 21 on the first two cards, including but not limit to:" = "最初の2枚のカードで合計点が21となるハンドの例:";
+
+/* Tutorial Layer */
+"%d Points" = "%d点";
+
+/* Tutorial Layer */
+"Hand total is 21 with three or more cards, including but not limit to:" = "3枚以上のカードで合計点が21となるハンドの例:";
+
+/* Tutorial Layer */
+"Each player competes against the dealer. Get Blackjack or higher points to win the game!" = "各プレイヤーはディーラーと1対1で対戦します。ブラックジャックまたはより高い点数を出した方がゲームに勝ちます！";
+
+/* Tutorial Layer */
+"Card Values" = "カードの点数";
+
+/* Tutorial Layer */
+"Paytable" = "配当率";
+
+/* Big Chip Sensitivity Layer */
+"Swipe the chip-con three times" = "チップコンを3回スワイプ";
+
+/* Public Game List Layer */
+"The chances of the bomb pots are random. The hand will start from the flop." = "ボムポットの確率はランダムです。ハンドはフロップから開始されます。";
+
+/* Setting Layer */
+"Chip-Con Swiping Sensitivity" = "チップコンスワイプ感度";
+
+/* Big Chip Sensitivity Layer */
+"Well done! Your perfect sensitivity level has been identified!" = "お見事です！完璧な感度レベルが特定されました！";
+
+/* Big Chip Sensitivity Layer */
+"Click “Apply” below to update the settings now." = "下の「適用」をクリックして、今すぐ設定を更新してください。";
+
+/* Big Chip Sensitivity Layer */
+"Adjust" = "調整する";
+
+/* Settings Main Layer */
+"Swiping Sensitivity Test" = "スワイプ感度テスト";
+
+/* Big Chip Control Layer */
+"Swipe faster" = "もっと速くスワイプ";
+
+/* Big Chip Sensitivity Layer */
+"Swiping Sensitivity Adjustment" = "スワイプ感度調整";
+
+/* Big Chip Sensitivity Layer */
+"\nThe current swiping sensitivity level isn’t suitable for you. Click “Adjust” to test and adjust now with less than a minute!\n" = "\n現在のスワイプ感度レベルはあなたに適していません。「調整する」をクリックして、今すぐテストと調整を行いましょう。1分以内で終わります！\n";
+
+/* Big Chip Sensitivity Layer */
+"Apply" = "適用";
+
+/* Big Chip Sensitivity Layer */
+"Chip-Con Swiping Sensitivity Test" = "チップコンスワイプ感度テスト";
+
+/* Big Chip Sensitivity Layer */
+"Swipe the chip-con repeatedly to determine which sensitivity level works best for you." = "チップコンを繰り返しスワイプして、あなたに最も適した感度レベルを決定します。";
+
+/* Big Chip Sensitivity Layer */
+"Swipe faster this time!" = "今回はもっと速くスワイプ！";
+
+/* Big Chip Sensitivity Layer */
+"Swipe the chip-con again!" = "チップコンをもう一度スワイプ！";
+
+/* Big Chip Sensitivity Layer */
+"Sensitivity Test Result" = "感度テスト結果";
+
+/* Tutorial Layer */
+"Swiping Sensitivity" = "スワイプ感度";
+
+/* Tutorial Layer */
+"A balanced swiping sensitivity is essential for all our players. Take the test now to find your perfect match, or later in the game settings!" = "バランスのとれたスワイプ感度はすべてのプレイヤーにとって非常に重要です。今すぐテストしてあなたに完璧に合う感度を見付けましょう。または、後からゲーム内でテストすることもできます！";
+
+/* Setting Layer */
+"Test and Adjust" = "テストして調整";
+
+/* Setting Layer */
+"Click the buttons to edit." = "ボタンをクリックして編集します。";
+
+/* Scene Manager */
+"If an opponent is in FL, your hand will be auto-played by the system." = "対戦相手がFLに入ると、あなたのハンドはシステムによって自動的にプレイされます。";
+
+/* GS Connector */
+"The registered tournament has started! Hurry and grab a seat!" = "登録中のトーナメントが開始しました！急いでシートを確保しましょう！";
+
+/* Scene Manager */
+"No worry! We are searching for new table for you now!" = "心配はいりません！ただ今新しいテーブルを探しています！";
+
+/* Tutorial Layer */
+"Poker-hand rankings :\nfrom strongest to weakest" = "ポーカー - ハンドランキング:\n強い役から弱い役";
+
+/* Daily Reward Layer */
+"Allowed" = "許可済み";
+
+/* Popup Fashion Store20220401 */
+"Now Available in India, Singapore and Vietnam" = "インド、シンガポール、ベトナムでもご利用いただけるようになりました";
+
+/* Tutorial Layer */
+"Poker-hand rankings :  from strongest to weakest" = "ポーカー - ハンドランキング: 強い役から弱い役";
+
+/* Tutorial Layer */
+"Hand Ranking" = "ハンドランキング";
+
+/* Game Ban Chat Calculator */
+"You have been banned from using the chat function temporarily. Please try again later." = "チャット機能の使用が一時的に禁止されています。後ほど再度お試しください。";
+
+/* Dialog */
+"Are you sure you want to fold now?" = "本当に今すぐフォールドしますか？";
+
+/* GS Connector */
+"There was an error with your purchase. Please wait a second for us to fix the issue and check later. If you still have questions about your purchase, please contact “%s“" = "ご購入時にエラーが発生しました。問題が解決されるまで少々お待ちいただき、後ほどご確認ください。ご購入に関する質問がございましたら、「%s」までお問い合わせください。";
+
+/* Popup Fashion Store Free Shipping */
+"%s AVAILABLE IN MORE COUNTRIES" = "%sがより多くの国でご利用可能になりました";
+
+/* Popup Fashion Store Free Shipping */
+"Free shipping campaign is on the way!" = "配送料無料キャンペーンの登場です！";
+
+/* IAP Page Currency */
+"%1$s will be replaced by %2$s gold in case you already have them all." = "%1$sを既に全部持っている場合は、代わりに%2$sゴールドを受け取ることができます。";
+
+/* IAP Page Currency */
+"PRR Shield - %d hrs" = "PRRシールド - %d時間";
+
+/* IAP Page Currency */
+"Stock : %d" = "残数 : %d";
+
+/* IAP Page Currency */
+"One will expire in %s" = "1個期限切れまであと%s";
+
+/* Invite Layer */
+"You'll get the reward for each friend referral after your friend signs in." = "あなたが招待した友達がサインインするたびに、報酬を手に入れることができます。";
+
+/* Popup Gsop Season */
+"%3$s Season has started !" = "%3$sシーズンが開始しました！";
+
+/* IAP Page Currency */
+"%d random nameplate" = "%d個のランダムネームプレート";
+
+/* IAP Page Currency */
+"%d random deck or chip-con" = "%d個のランダムデッキまたはチップコン";
+
+/* Cash Hosting Result View */
+"Every %d hands" = "%dハンドごと";
+
+/* Poker Game Panel Base */
+"Bomb Pot" = "ボムポット";
+
+/* Cash Hosting Result View */
+"Every hands" = "1ハンドごと";
+
+/* Public Game List Layer */
+"Bomb pots are coming!" = "ボムポットの登場です！";
+
+/* Public Game List Layer */
+"Bomb Pots have a %d% chance of occurring in this game. Enjoy!" = "このゲームにおけるボムポットの発生率は%d%です。お楽しみください！";
+
+/* Public Game List Layer */
+"Don't show again" = "今後表示しない";
+
+/* Cash Game Panel Layer */
+"Frequency" = "頻度";
+
+/* Poker Game Panel Base */
+"A bomb pot is an agreement by all players to place the same amount of chips and skip the betting round including preset ante and straddle of preflop." = "ボムポットでは、全プレイヤーが同額のチップを支払い、プリセットアンティとプリフロップのストラドルを含むベッティングラウンドがスキップされます。";
+
+/* Poker Game Panel Base */
+"Ante and straddle will be canceled when bomb pots occur." = "ボムポットが発生すると、アンティとストラドルはキャンセルされます。";
+
+/* Poker Game Panel Base */
+"Notice!" = "お知らせ！";
+
+/* Blind Structure Layer */
+"Default Blind Structure" = "デフォルトブラインドストラクチャ―";
+
+/* Blind Structure Layer */
+"Custom Blind Structure" = "カスタムブラインドストラクチャー";
+
+/* GS Connector */
+"Sorry! Please try again few seconds later." = "申し訳ありません！数秒後にもう一度お試しください。";
+
+/* SNG Game Panel Layer */
+"Custom Plan" = "カスタムプラン";
+
+/* SNG Game Panel Layer */
+"Default Plan" = "デフォルトプラン";
+
+/* SNG Game Panel Layer */
+"Custom Structure" = "カスタムストラクチャー";
+
+/* SNG Game Panel Layer */
+"Default Structure" = "デフォルトストラクチャ";
+
+/* Blind Structure Layer */
+"Default" = "デフォルト";
+
+/* Prize Plan Layer */
+"Rank/\nEntrants" = "ランク/\n参加者";
+
+/* Prize Plan Layer */
+"Rank" = "ランク";
+
+/* Public Highlight And Hint Layer */
+"Hey there! In the global challenge, You can compete with real players from the world best poker clubs anytime anywhere." = "こんにちは！グローバルチャレンジでは、世界中の最高のポーカークラブの本物のプレーヤーたちといつでも、どこでも競い合うことができます。";
+
+/* Public Level List Layer */
+"Rating Monthly Reset" = "レーティングマンスリーリセット";
+
+/* Public Level List Layer */
+"Medal Levels" = "メダルレベル";
+
+/* Public Cash Game Result Layer */
+"This game has not ended so the result may be different." = "このゲームはまだ終了していないため、結果が異なる場合があります。";
+
+/* Battle Layer */
+"Daily Battle" = "デイリーバトル";
+
+/* Battle Layer */
+"Lv.%d" = "レベル%d";
+
+/* Battle Record Layer */
+"PRR Monthly Reset" = "PRRマンスリーリセット";
+
+/* IAP Layer */
+"%s chips" = "チップ%s枚";
+
+/* Public Cash Game List Layer */
+"%d-max players" = "プレイヤー数上限 - %d";
+
+/* Public Leaderboard Layer */
+"World Arena" = "ワールドアリーナ";
+
+/* Public Leaderboard Layer */
+"Leadership Course" = "リーダーシップコース";
+
+/* Public Leaderboard Layer */
+"Boot Camp" = "ブートキャンプ";
+
+/* Public Leaderboard Layer */
+"Your winnings was %s." = "勝利によってチップ%s枚を獲得しました。";
+
+/* Public Leaderboard Layer */
+"Your winnings is %s." = "勝利によってチップ%s枚を獲得しました。";
+
+/* Public Leaderboard Layer */
+"Your rank was at %s." = "あなたのランキングは%sでした。";
+
+/* Public Leaderboard Layer */
+"You didn't join the global challenge yesterday." = "あなたは昨日のグローバルチャレンジに参加しませんでした。";
+
+/* Public Leaderboard Layer */
+"CHALLENGE TODAY!" = "今日はチャレンジしましょう！";
+
+/* Public Leaderboard Layer */
+"You haven't joined the global challenge today." = "あなたは今日のグローバルチャレンジに参加しませんでした。";
+
+/* Public Leaderboard Layer */
+"CHALLENGE NOW!" = "今すぐチャレンジ！";
+
+/* Public Leaderboard Layer */
+"Ends in %s" = "終了まで: %s";
+
+/* Public Profile Layer */
+"Mute" = "ミュート";
+
+/* Public Profile Layer */
+"Unmute" = "ミュート解除";
+
+/* Area Picker Layer */
+"Area" = "地域";
+
+/* Battle Layer */
+"JOIN NOW" = "今すぐ参加";
+
+/* Battle Record Layer */
+"Game History" = "ゲーム履歴";
+
+/* Battle Record Layer */
+"Winnings" = "獲得したチップ";
+
+/* Main Scene */
+"Private" = "プライベート";
+
+/* Main Scene */
+"Play Now" = "今すぐプレイ";
+
+/* Main Scene */
+"Store" = "ストア";
+
+/* Public Cash Game Result Layer */
+"Achievement" = "実績";
+
+/* Public Cash Game Result Layer */
+"Are you sure to leave the game?" = "ゲームを退出して本当によろしいですか？";
+
+/* Public Leaderboard Layer */
+"PRR Summit" = "PRRサミット";
+
+/* Public Profile Layer */
+"Best PRR" = "ベストPRR";
+
+/* Public Profile Layer */
+"Best Monthly Rank" = "最高マンスリーランキング";
+
+/* Public Profile Layer */
+"Win Rate (BB/100)" = "勝率（BB/100）";
+
+/* Public Profile Layer */
+"Largest Pot" = "最大ポット";
+
+/* Settings Main Layer */
+"Settings" = "設定";
+
+/* Tutorial Layer */
+"4. Flip chip up to bet." = "4. チップをフリップアップしてベットします。";
+
+/* Tutorial Layer */
+"2. Input numbers to customize your bet size." = "2. 数字を入力してくださいクしてベットの大きさをカスタマイズします。";
+
+/* Tutorial Layer */
+"Drag the cards from the bottom up to peek." = "カードを下から上にドラッグしてピークします。";
+
+/* Tutorial Layer */
+"Double tap the cards." = "カードをダブルタップします。";
+
+/* Tutorial Layer */
+"Flip the cards up to fold." = "カードを表にめくってフォールドします。";
+
+/* Init Scene */
+"Please check your network status...." = "ネットワークの状態を確認してください....";
+
+/* Tutorial Layer */
+"2. Press “+” or “-” to fine-tune the betting amount." = "2. “+”または“-”を押してベットする額を微調整してください。";
+
+/* Cash Game Panel Layer */
+"The hand ranking of straight is higher than trips in the hosted game after turning on the switch." = "スイッチをオンにすると、ホストしたゲームにおけるストレートのハンドランキングがトリップスよりも高くなります。";
+
+/* Cash Game Panel Layer */
+"Straight > Trips" = "ストレート > トリップス";
+
+/* Game Table Layer */
+"Choose a game type" = "ゲームタイプを選択";
+
+/* SNG Game Panel Layer */
+"Blind Structure" = "ブラインドストラクチャ";
+
+/* Game Phone Scene */
+"Not enough players!" = "プレイヤーが不足しています！";
+
+/* Pot */
+"Pot" = "ポット";
+
+/* DLGSConnector */
+"_level_name_1" = "二等兵";
+
+"_level_name_2" = "中尉";
+"_level_name_3" = "大尉";
+"_level_name_4" = "少佐";
+"_level_name_5" = "中佐";
+"_level_name_6" = "大佐";
+"_level_name_7" = "准将";
+"_level_name_8" = "少将";
+"_level_name_9" = "中将";
+"_level_name_10" = "大将";
+
+/* Cash Hosting Result View */
+"Big Bet" = "ビッグベット";
+
+/* Cash Hosting Result View */
+"Small Bet" = "スモールベット";
+
+/* Data Model CPP */
+"7 Card Stud" = "セブンカード・スタッド";
+
+/* Game Big Card Model */
+"You cannot fold!!" = "フォールドできません！";
+
+/* Game Chip Action */
+"Bring in" = "ブリングイン";
+
+/* Hosting Layer */
+"Under Maintenance" = "メンテナンス中";
+
+/* Hosting Layer */
+"%s is currently under maintenance. Choose another game instead!" = "現在%sのメンテナンスを行っています。他のゲームを選択してください。";
+
+/* Game Big Card Model */
+"You cannot check now. You must pay the bring in at a minimum." = "今チェックすることはできません。最低額のブリングインを支払う必要があります。";
+
+/* Game Big Card Model */
+"You cannot fold now. You must pay the bring in at a minimum." = "今フォールドすることはできません。最低額のブリングインを支払う必要があります。";
+
+/* Stud Hand Log Layer */
+"Third Street" = "サードストリート";
+
+/* Stud Hand Log Layer */
+"Fourth Street" = "フォースストリート";
+
+/* Stud Hand Log Layer */
+"Fifth Street" = "フィフスストリート";
+
+/* Stud Hand Log Layer */
+"Sixth Street" = "シックスストリート";
+
+/* Stud Hand Log Layer */
+"Seventh Street" = "セブンスストリート";
+
+/* Popup Seven Card Stud */
+"Host and Play!" = "ホストしてプレイ！";
+
+/* Game Player Layer_name Tag A */
+"BRING IN" = "ブリングイン";
+
+/* Game History Layer */
+"Only the hands you played within 30 days are shown here." = "ここには30日以内にプレイしたハンドのみ表示されます。";
+
+/* Reward Layer */
+"Get extra %s gold\nwhen logging in with facebook" = "Facebookでログインすると\n%sゴールドを追加で取得できます";
+
+/* Reward Layer */
+"Get extra %s chips\nwhen logging in with facebook" = "Facebookでログインして\nボーナスチップ%s枚を取得";
+
+/* GS Connector */
+"Relaunch" = "再起動";
+
+/* GS Connector */
+"Oops! Something went wrong." = "問題が発生しました。";
+
+/* GS Connector */
+"Please wait a few minutes and relaunch Pokerrrr 2." = "数分お待ちいただいてからPokerrrr 2を再起動してください。";
+
+/* Collection Event */
+"Win any %d PLO hands" = "PLOハンドで%d回勝利する";
+
+/* Player Level Missions Layer */
+"Reach Level %s" = "レベル%sに到達";
+
+/* Player Level Missions Layer */
+"Accomplish Agent %s" = "エージェント%sを達成";
+
+/* Player Level Missions Layer */
+"To unlock Agent %s missions, you will need the following:" = "エージェント%sのミッションをアンロックするには、次の条件を満たす必要があります:";
+
+/* Player Level Map Layer */
+"LOCKED" = "ロックされています";
+
+/* Init Scene */
+"Sign in to get %s chips" = "サインインしてチップ%s枚を獲得";
+
+/* Main Tab Scene */
+"It’s highly recommended to bind your account in Pokerrrr 2. It not only ensures your data safety, but also keeps your Pokerrrr 2 account synchronised across multiple devices." = "ご登録のアカウントをPokerrrr 2とバインドすることを強くおすすめします。データの安全が守られるだけでなく、お使いのPokerrrr 2アカウントを複数のデバイス間で同期化することができます。";
+
+/* Init Scene */
+"or play as a guest" = "またはゲストとしてプレイ";
+
+/* Social Sign In Notice Dialog */
+"Login" = "ログイン";
+
+/* Game Phone Scene */
+"The game is terminated. It will end after this hand." = "ゲームが中止されました。このハンドの後、ゲームは終了します。";
+
+/* Game Phone Scene */
+"The game is terminated." = "ゲームが中止されました。";
+
+/* Init Scene */
+"Sign in with Google" = "Googleでサインイン";
+
+/* Settings Main Layer */
+"Google Login" = "Google ログイン";
+
+/* Settings Main Layer */
+"Google Logout" = "Google ログアウト";
+
+/* SNG Game Panel Layer */
+"%1$s and the %2$s are not allowed at the same time." = "%1$sと%2$sを同時に有効に有効にすることはできません。";
+
+/* SNG Game Panel Layer */
+"Double Rebuy" = "ダブルリバイ";
+
+/* SNG Game Panel Layer */
+"%1$s will be turned off." = "%1$sはオフにされます。";
+
+/* IAP Page Currency */
+"%s \nat purchase" = "ご購入時に\n%s";
+
+/* IAP Page Currency */
+"(for %s)" = "(%s)";
+
+/* Init Scene */
+"Sign in for %s free gold" = "サインインして無料ゴールを%s個取得";
+
+/* IAP Page Currency */
+"PRR Shield - %d hours" = "PRRシールド - %d時間";
+
+/* Battle Record Layer */
+"Chip Magnet" = "チップマグネット";
+
+/* Battle Record Layer */
+"PRR Shield" = "PRRシールド";
+
+/* Battle Record Layer */
+"%s left" = "残り%s";
+
+/* GS Connector */
+"%s will expire in %d mins" = "%sの有効期限はあと%d分です";
+
+/* IAP Page Currency */
+"+%1$s% chips for wins within the next %2$s hours" = "勝利時のチップが%1$s%アップ、%2$s時間有効です";
+
+/* IAP Page Currency */
+"Protect PRR exp from dropping" = "PRRが低下するのを防ぎます";
+
+/* IAP Page Currency */
+"Apprentice Chip Magnet" = "見習いチップマグネット";
+
+/* IAP Page Currency */
+"Expert Chip Magnet" = "エキスパートチップマグネット";
+
+/* IAP Page Currency */
+"Master Chip Magnet" = "マスターチップマグネット";
+
+/* IAP Page Currency */
+"Can only be used for Cash Game" = "キャッシュゲームでのみ利用可能です";
+
+/* Battle Record Layer */
+"Total Chips You've Won" = "合計獲得チップ数";
+
+/* IAP Page Currency */
+"Sapphire VIP" = "サファイアVIP";
+
+/* IAP Page Currency */
+"Bonus x %d" = "ボーナス x %d";
+
+/* IAP Page Currency */
+"Ruby VIP" = "ルビーVIP";
+
+/* IAP Page Currency */
+"Buy One Get One Free" = "1つ購入でもう1つ無料";
+
+/* IAP Page Currency */
+"One-time Only" = "1回限り";
+
+/* Limit Offer Popup PRR Level Up */
+"on your next chip purchase" = "次回のチップご購入時にご利用いただけます";
+
+/* Limit Offer Popup PRR Level Up */
+"Limited time offer" = "期間限定オファー";
+
+/* Popup Magic Item */
+"New tech has arrived!" = "新しいマジックアイテムが登場！";
+
+/* Public MTT List Layer */
+"Results" = "結果";
+
+/* Public Leaderboard Layer */
+"Last year" = "去年";
+
+/* Public MTT List Layer */
+"Upcomings" = "次の開催";
+
+/* Public Profile Layer */
+"Total Prize" = "合計賞金";
+
+/* IAP Page Currency */
+"When hosting 2 or more concurrent games, free pass will only be applied to one ongoing game." = "2個以上のゲームを同時にホスティングする場合、無料パスは開催中の1つのゲームにのみ適用されます。";
+
+/* Game Phone Scene */
+"You cannot rebuy after being kicked." = "追放された後にリバイすることはできません。";
+
+/* Public Profile Layer */
+"%s's Collection" = "%sのコレクション";
+
+/* OFC Game Panel Layer */
+"Speedy Mode" = "高速モード";
+
+/* OFC Game Panel Layer */
+"Dealing Sequential and the Speedy Mode are not allowed at the same time.\n*Speedy Mode will be turned off." = "逐次モードと高速モードを同時に有効に有効にすることはできません。\n*高速モードはオフにされます。";
+
+/* OFC Game Panel Layer */
+"Player(s) in Fantasyland can arrange their cards starting from the fourth round." = "ファンタジーランドに入ったプレイヤーは、第4ラウンドからカードの配置を開始することができます。";
+
+/* Game Phone Scene */
+"Rebuy twice" = "リバイ2回";
+
+/* SNG Game Panel Layer */
+"Bounty and the Double Buy-in are not allowed at the same time.\n*Double Buy-in will be turned off." = "バウンティとダブルバイインを同時に有効にすることはできません。\n*ダブルバイインはオフにされます。";
+
+/* SNG Game Panel Layer */
+"Double Buy-in" = "ダブルバイイン";
+
+/* SNG Game Panel Layer */
+"Allow any player to buy-in up to 2 times at once" = "各プレイヤーは1度に最大2回までバイインができます";
+
+/* Collection Event */
+"Log in %d days in a row" = "%d日間連続でログイン";
+
+/* Data Model CPP */
+"Clubs ownership : %1$s → %2$s" = "所有可能なクラブ数: : %1$s → %2$s";
+
+/* Data Model CPP */
+"Increase club managers : %1$s → %2$s" = "クラブ管理者の上限数が増える : %1$s → %2$s";
+
+/* Data Model CPP */
+"Host game : %1$s → %2$s" = "ホスト可能なゲーム数 : %1$s → %2$s";
+
+/* Data Model CPP */
+"Increase game records : %1$s → %2$s" = "ゲーム記録の上限数が増える：%1$s → %2$s";
+
+/* Data Model CPP */
+"Increase game records for %1$s days : %2$s → %3$s" = "%1$s日間ゲーム記録数の上限が増えます: %2$s → %3$s";
+
+/* GS Connector */
+"Do you want to upgrade to %s?" = "%sにアップグレードしますか？";
+
+/* IAP Page Currency */
+"%1$s Gold + %2$s chips\n+ %3$s random nameplate" = "%1$sゴールド + チップ%2$s枚 \n+ ランダムネームプレート%3$s個";
+
+/* Record Main Layer */
+"More records?" = "その他の記録？";
+
+/* Record Main Layer */
+"No records available." = "利用できる記録はありません。";
+
+/* Collection Event */
+"Reach Level %s or above (Lv.%d+)" = "%s またはそれ以上のレベルに到達（レベル%d以上）";
+
+/* Collection Event */
+"Host %1$s friend games (%2$s mins+)" = "友達ゲームを%1$s回ホストする（%2$s分以上）";
+
+/* Collection Event */
+"Win any %d NL Hold'em hands" = "NL ホールデムにどれでも%d回勝利する";
+
+/* GS Connector */
+"Mission Complete.\nNew Mission unlocked." = "ミッション完了。\n新しいミッションがアンロックされました。";
+
+/* GS Connector */
+"Mission Complete" = "ミッション完了";
+
+/* IAP Content List */
+"Unlock at Lv.%d" = "レベル%dでアンロック";
+
+/* Player Level Missions Layer */
+"Mission" = "ミッション";
+
+/* Player Level Missions Layer_tokyo-2021-05-LV3 */
+"To become an Agent %s, you will need to prove yourself by completing the following missions." = "エージェント%sになるには、次のミッションを完了して実力を証明してください。";
+
+/* Player Level Missions Layer_tokyo-2021-05-LV3 */
+"Accept" = "了解";
+
+/* Invite Layer */
+"Bonus Received (%d/30)" = "ボーナスを受け取りました（%d/30）";
+
+/* Invite Layer */
+"For each friend referral (Up to 30 bonus)\n%s" = "お友達を紹介するたびに（最大ボーナス30回まで）\n%s";
+
+/* Popup Player Level Mission1 */
+"Check Now" = "今すぐチェックする";
+
+/* Hosting Structure Result View */
+"Rebuy End" = "リバイ終了";
+
+/* Cash Game Panel Layer */
+"Rabbit Hunting" = "ラビットハンティング";
+
+/* Cash Game Panel Layer */
+"Allow players to rabbit hunt. Player will see the remaining sequence of cards after the hand is over." = "プレイヤーがラビットハントすることができます。プレイヤーはハンド終了後に残りのカードを順序通りに見ることができます。";
+
+/* Nameplate Congrats Popup */
+"%s is now in your collection." = "%sがコレクションに追加されました。";
+
+/* Cash Game Panel Layer */
+"Players will be allowed to set up auto reload." = "プレイヤーは自動補充を設定できるようになります。";
+
+/* Cash Game Panel Layer */
+"Auto reload is not available and will be turned off with the buy in confirmation setting." = "自動補充はバイイン承認設定では利用できないため、無効化されます。";
+
+/* Game Phone Scene */
+"Cancel Reload" = "自動補充のキャンセル";
+
+/* Game Phone Scene */
+"Are you sure to cancel reload ?\n(chips %s)" = "自動補充をキャンセルしてよろしいですか？\n（チップ%s枚）";
+
+/* Settings Layer */
+"The system will auto reload your chips base on your setting." = "システムが設定に応じてチップを自動補充します。";
+
+/* Auto Reload Confirm Layer */
+"The blinds have changed from %1$s to %2$s. Choose to change your auto-reload setting." = "ブラインドが%1$sから%2$sに変更されました。自動補充設定を変更してください。";
+
+/* Auto Reload Confirm Layer */
+"Reload to" = "この枚数まで補充";
+
+/* Auto Reload Confirm Layer */
+"When is under" = "次の枚数を下回った場合";
+
+/* Cash Game Panel Layer */
+"The host can choose if the game will “run it twice” - when no more betting can occur in a hand, the remaining community cards will be dealt twice, and the pot is split evenly into two boards - by selecting “Always” on the setting. When it's “Optional”, all participants must agree to proceed." = "ハンドでこれ以上ベットすることができない場合、ホストが『Run it Twice』を選ぶと、残りのコミュニティカードが2回ディールされ、『常に』を選択するとポットは両方のボードへ均等に分割されます。『オプション』になっている場合、続行する前に参加者全員が同意する必要があります。";
+
+/* Init Scene */
+"Entering the Bureau Lobby..." = "当局のロビーに入ります...";
+
+/* Cash Game Panel Layer */
+"Always" = "常に";
+
+/* Cash Game Panel Layer */
+"Optional on every hand" = "ハンドごとのオプション";
+
+/* Scene Manager */
+"You will remain seated at the table should any player enters Fantasyland and your hand cards will be auto-played by the system. Switch anyway?" = "いずれかのプレイヤーがファンタジーランドに入ると、あなたは着席したままとなり、システムによってハンドカードが自動的に作成されます。このままテーブルを変えますか？";
+
+/* Public Game Result Layer */
+"If your opponent(s) enter the Fantasyland, you will remain seated and the hand cards will be auto-played by the system. Leave anyway?" = "対戦相手がファンタジーランドに入ると、あなたは着席したままとなり、システムによってハンドカードが自動的に作成されます。このまま退席しますか？";
+
+/* Cash Game Panel Layer */
+"The blind will increase at the set up time." = "ブラインドがセットアップ時に増額されます。";
+
+/* Cash Game Panel Layer */
+"*Blinds start on" = "*ブラインド開始額";
+
+/* Cash Game Panel Layer */
+"Progressive Blind" = "プログレッシブブラインド";
+
+/* Cash Game Panel Layer */
+"You have to set up your blind structure before enable the feature." = "機能を有効にする前に、ブラインドストラクチャーを設定する必要があります。";
+
+/* Cash Game Panel Layer */
+"Queue is not available and will be turned off with the Progressive Blind setting." = "順番待ちは、プログレッシブブラインド設定では利用できないため、無効化されます。";
+
+/* Game Table Top Board Node */
+"Next Blinds" = "次のブラインド";
+
+/* Cash Game Panel Layer */
+"Edit Blind Structure" = "ブラインドストラクチャーを編集";
+
+/* Cash Game Panel Layer */
+"Advanced Settings" = "詳細設定";
+
+/* Room Model */
+"You will sit out on the next non-fantasyland hand. Sure to sit out?" = "次のファンタジーランドのハンドでシットアウトします。本当にシットアウトしてよろしいですか？";
+
+/* Room Model */
+"You will stand up on the next non-fantasyland hand. Sure to stand up?" = "次のファンタジーランドのハンドでスタンドアップします。本当にスタンドアップしてよろしいですか？";
+
+/* Reward Layer */
+"Renew Now" = "今すぐ更新";
+
+/* Scene Manager */
+"You will remain seated at the table should any player enters Fantasyland and your hand cards will be auto-arranged by the system. Switch anyway?" = "いずれかのプレイヤーがファンタジーランドに入ると、あなたは着席したままとなり、システムによってハンドカードが自動的に作成されます。このままテーブルを変えますか？";
+
+/*
+ * Public Game Result Layer
+ * **Hello Collaborators, we mean to put opponent(s) here instead of component(s), please translate accordingly**.
+*/
+"If your component(s) enter the Fantasyland, you will remain seated and the hand cards will be auto-arranged by the system. Leave anyway?" = "対戦相手がファンタジーランドに入ると、あなたは着席したままとなり、システムによってハンドカードが自動的に作成されます。このまま退席しますか？";
+
+/* Game Model */
+"Sit in with player(s) in Fantasyland" = "ファンタジーランドでプレイヤーとシットインする";
+
+/* Room Poker */
+"Join the next hand even when there are one or more players in Fantasyland. You may be in a disadvantaged position.\n\n*The system will sit you automatically when there is no player in Fantasyland." = "1人またはそれ以上のプレイヤーがファンタジーランドに入っている場合でも次のハンドに参加します。不利な状態でプレイをすることになる場合があります。\n\n*ファンタジーランドに入っているプレイヤーがいない場合、システムは自動的にあなたをシットインさせます。";
+
+/* Public Profile Layer */
+"Fantasyland Rate" = "ファンタジーランド率";
+
+/* Linear Collection Detail_ofc Joker2021-03 */
+"Play any %1$s games in %2$s to get reward." = "%2$sでお好きな%1$sゲームをプレイして報酬を手に入れましょう。";
+
+/* Linear Collection Detail_ofc Joker2021-03 */
+"%s hands" = "%sハンド";
+
+/* Popup OFC Joker */
+"Get FREE %s" = "無料の%sを取得しましょう";
+
+/* Popup OFC Joker */
+"How to Play" = "プレイ方法";
+
+/* Shop Cost Dialog_play Public OFC Joker Hands */
+"Play %1$s %2$s hands in %4$s to get free %3$s." = "%4$sで%1$s%2$sハンドをプレイして無料の%3$sを取得しましょう。";
+
+/* Settings Main Layer */
+"Apple Login" = "Appleログイン";
+
+/* Chat Preset Sentence Layer */
+"Whaaaa?" = "なにーーっ？";
+
+/* Chat Preset Sentence Layer */
+"No way!" = "まさか！";
+
+/* Chat Preset Sentence Layer */
+"Royal Flush~" = "ロイヤルフラッシュ～";
+
+/* Chat Preset Sentence Layer */
+"Boom!" = "ドーン！";
+
+/* GS Connector */
+"%1$s (%2$s: %3$s) will start in %s." = "%1$s (%2$s: %3$s)開始まであと%sです。";
+
+/* Public Game Result Layer */
+"Tournament Results" = "トーナメント結果";
+
+/* Public Game Result Layer */
+"You won the tournament" = "トーナメントに勝利しました";
+
+/* Public Game Result Layer */
+"You finished the tournament in %s place" = "トーナメントを%s位で終了しました";
+
+/* Public MTT Content */
+"Starting Blinds" = "スターティングブラインド";
+
+/* Public MTT Content */
+"Level %d" = "レベル %d";
+
+/* Public MTT Content */
+"Starting Ante" = "スターティングアンティ";
+
+/* Public MTT Detail Layer */
+"Sure to register the %1$s with %2$s chips?" = "チップ%2$s枚で%1$sに登録して本当によろしいですか？";
+
+/* Public MTT Detail Layer */
+"Sure to unregister the %s?" = "%sを登録解除して本当によろしいですか？";
+
+/* Public Profile Layer */
+"In the money" = "インザマネー";
+
+/* Battle Layer */
+"View All Scheduled Tournaments" = "スケジュールされたトーナメントをすべて表示";
+
+/* Public Game Result Layer */
+"The rebuy period has not ended so the result may be different." = "リバイ期間が終了していないため、結果が異なる場合があります。";
+
+/* Public MTT Content */
+"*Tournament will be canceled if entries under %s." = "*エントリー数が%s名未満の場合、トーナメントはキャンセルされます。";
+
+/* Public MTT Content */
+"Entries" = "エントリー";
+
+/* Public MTT List Layer */
+"View completed tournaments" = "完了したトーナメントを表示";
+
+/* Public MTT List Layer */
+"View scheduled tournaments" = "スケジュールされたトーナメントを表示";
+
+/* Public Profile Layer */
+"Champion" = "チャンピオン";
+
+/* Public Profile Layer */
+"1st-3rd rate" = "1～3位の割合";
+
+/* Public Profile Layer */
+"Final table rate" = "ファイナルテーブルレート";
+
+/* Public Profile Layer */
+"Current Rank" = "現在のランク";
+
+/* Shop Item Bundle_cny */
+"Lunar New Year Bundle" = "旧正月バンドル";
+
+/* Shop Item Bundle_cny */
+"Special nameplate, Chip-Con\nand 50,000 chips" = "特別なネームプレート、チップコン、50,000チップ";
+
+/* Init Scene */
+"Don't worry. You can change it later." = "ご心配はいりません。後から変更できます。";
+
+/* Settings Main Layer */
+"Sound" = "音声";
+
+/* Settings Main Layer */
+"4-Color Deck" = "4色デッキ";
+
+/* Settings Main Layer */
+"Free Chips" = "無料チップ";
+
+/* Settings Main Layer */
+"Free Gold" = "無料ゴールド";
+
+/* Settings Main Layer */
+"Public Game Challenge Result" = "公開ゲームチャレンジ結果";
+
+/* Settings Main Layer */
+"Certificate" = "証明書";
+
+/* Tutorial Layer */
+"Gesture" = "ジェスチャー";
+
+/* OFC Royalties Layer */
+"Scoring" = "スコア方法";
+
+/* Club Message Layer */
+"You have been kicked from the club" = "クラブから追放されました";
+
+/* Game Table Layer */
+"Jackpot is on the way." = "ジャックポッドのチャンス。";
+
+/* Game Table Layer */
+"hand(s)" = "ハンド";
+
+/* Announcement List Layer */
+"Delete Announcement" = "お知らせを削除";
+
+/* Announcement List Layer */
+"Are you sure to delete this announcement?" = "このお知らせを削除して本当によろしいですか？";
+
+/* Club Message Layer */
+"You can only post up to 3 announcements at the time. To delete old announcement, press and hold the text then click on the delete icon." = "一度に投稿できるお知らせは3件までです。古いお知らせを削除する場合は、テキストを長押ししてから削除アイコンをクリックしてください。";
+
+/* Collection Line Popup */
+"Win any %d Ultrasonic SNG" = "ウルトラソニックSNGにどれでも%d回勝利する";
+
+/* Collection Line Popup */
+"Login %d days in the row" = "%d日間連続でログインする";
+
+/* Collection Line Popup */
+"Claim %d daily bonus" = "%d個のデイリーボーナスを取得する";
+
+/* Collection Line Popup */
+"Play any %d PLO hands" = "PLOハンドをどれでも%d回プレイする";
+
+/* Collection Line Popup */
+"Win %d million pot" = "%d00万ポットを獲得する";
+
+/* Collection Line Popup */
+"Play any %d OFC hands" = "OFCハンドをどれでも%d回プレイする";
+
+/* Collection Line Popup */
+"Spend %d Gold" = "%dゴールド使う";
+
+/* Collection Line Popup */
+"Play any %d NL Hold'em hands" = "NL ホールデムをどれでも%d回プレイする";
+
+/* Collection Line Popup */
+"Host a friend game (%d mins+) " = "友達ゲームをホストする（%d分以上）　";
+
+/* GS Connector */
+"Mission [%d] Completed !" = "ミッション [%d] を完了しました！";
+
+/* Public Game Result Layer */
+"first place" = "1位";
+
+/* Public Game Result Layer */
+"second place" = "2位";
+
+/* Public Game Result Layer */
+"third place" = "3位";
+
+/*
+ * Collection Line Popup
+ * winter poker festival
+*/
+"Winter Pokerrrrfest" = "冬のPokerrrrフェスティバル";
+
+/* Collection Line Popup */
+"Unwrap mystery presents \nby completing 3 mission lines" = "3つのミッションラインを完了してプレゼントを開封。何が出るかはお楽しみ";
+
+/* Collection Line Popup */
+"Lines" = "ライン";
+
+/* Collection Line Popup */
+"Mission %d" = "ミッション %d";
+
+/* Collection Line Popup */
+"Nameplate, Deck, Chip-Con, or some Chips!" = "ネームプレート、デッキ、チップコン、またはチップ！";
+
+/* Collection Line Popup */
+"Congratulation!\nYou got %s" = "おめでとうございます！\n%sを獲得しました";
+
+/* Collection Line Popup */
+"Congratulation!\nYou got %s chips" = "おめでとうございます！\n%sチップを獲得しました";
+
+/* Public Game Result Layer */
+"You won the %s." = "%sになりました。";
+
+/* Public Game Season Reward Notify Layer */
+"You have achieved" = "次を達成しました:";
+
+/* Public Game Season Reward Notify Layer */
+"Earned you season reward" = "シーズン報酬を獲得しました";
+
+/* Reward Event_PRR20 Up */
+"Time to level up!" = "レベルアップの時間です！";
+
+/* Battle Layer */
+"This event has ended" = "このイベントは終了しました";
+
+/* Gold Collection Reward Detail Popup */
+"Claim your chips within %s" = "%s内にチップを回収しましょう";
+
+/* Gold Collection Event Layer */
+"Have a blessed Thanksgiving!" = "素晴らしい感謝祭をお過ごしください！";
+
+/* Gold Collection Reward Detail Popup */
+"Every GOLD Matters!" = "すべてのゴールドが重要です！";
+
+/* Gold Collection Reward Detail Popup */
+"Each gold you spend will be used to unlock CHEST OF CHIPS automatically." = "あなたが使ったゴールドはすべて、チップの宝箱を自動的にアンロックするために使用されます。";
+
+/* Private To Public Layer */
+"Let's play %1$s in %2$s" = "%2$sで%1$sをプレイしましょう";
+
+/* Private To Public Layer */
+"Let's Go!" = "プレイする！";
+
+/* Private To Public Layer */
+"Few more hands?" = "もう少しプレイしませんか？";
+
+/* Private To Public Layer */
+"Not today" = "今日はやめておく";
+
+/* Battle Layer */
+"Buy-in fee %d% off" = "バイイン料 %d%オフ";
+
+/* Chat Preset Sentence Layer */
+"Nice hand!" = "ナイスハンド！";
+
+/* Chat Preset Sentence Layer */
+"Good fold!" = "ナイスフォールド！";
+
+/* Chat Preset Sentence Layer */
+"Good call!" = "ナイスコール！";
+
+/* Chat Preset Sentence Layer */
+"So sick!" = "凄い！";
+
+/* Chat Preset Sentence Layer */
+"Got lucky~" = "ラッキーだったね";
+
+/* Chat Preset Sentence Layer */
+"Sorry." = "残念。";
+
+/* Chat Preset Sentence Layer */
+"I am bluffing." = "ブラフ中。";
+
+/* Chat Preset Sentence Layer */
+"Please fold~" = "フォールドお願い";
+
+/* Prize Plan Layer */
+"Itm" = "アイテム";
+
+/* Prize Plan Layer */
+"Invalid input" = "無効な入力";
+
+/* Prize Plan Layer */
+"Please delete previous prize before entering a new one." = "前回の賞金を削除してから、新しく入力してください。";
+
+/* Record Detail Layer */
+"Extra Prize" = "追加の賞金";
+
+/* SNG Game Panel Layer */
+"You have to input the ante in your custom structure before enable the feature." = "機能を有効にする前に、カスタムストラクチャーにアンティを入力する必要があります。";
+
+/* SNG Game Panel Layer */
+"Edit Now" = "今すぐ編集";
+
+/* Public Game Buy In Layer */
+"Buy-in at max" = "最高額でバイイン";
+
+/* Public Level List Layer */
+"All players with rating > %s will receive PRR Season Reward and be reset by PRR System at the end of season." = "レーティング%s以上の全プレイヤーにPRPシーズン報酬が付与され、レーティングはシーズン終了時にPRPシステムによってリセットされます。";
+
+/* Public Leaderboard Layer */
+"Last season" = "前シーズン";
+
+/* Public Level List Layer */
+"PRR Season Reset" = "PRPシーズンリセット";
+
+/* Public Game Season Result Layer */
+"Season rating reset" = "シーズンレーティングリセット";
+
+/* Linear Collection Detail_easter-2023_popup */
+"Congratulations!" = "おめでとうございます！";
+
+/* Linear Collection Detail_easter-2023_popup */
+"You've got $1s $2s" = "$1s $2sを獲得しました！";
+
+/* Linear Collection Detail_easter-2023_popup */
+"$1s Gifting" = "$1sのギフト";
+
+/* Linear Collection Detail_easter-2023_popup */
+"Egg Bomb" = "エッグボム";
+
+/* Linear Collection Detail_easter-2023_popup */
+"Golden Eggs" = "ゴールデンエッグ";
+
+/* Linear Collection Detail_easter-2023_popup */
+"Iron Barrel" = "鉄の筒";
+
+/* Public Game Season Reward Notify Layer */
+"You have achieved the level of %s(Lv.%d) and earned you PRR Season Reward." = "あなたは%s（レベル%d）を達成したので、PRPシーズン報酬を獲得しました。";
+
+/* Public Level Detail Layer */
+"Season Reward" = "シーズン報酬";
+
+/* Shop Item Bundle_halloween */
+"Halloween Bundle" = "ハロウィーンバンドル";
+
+/* Shop Item Bundle_halloween */
+"Special nameplate, deck\nand chip-con" = "特別なネームプレート、デッキ、チップコイン";
+
+/* Game Phone Scene */
+"Your registration of %1$s #%2$s won't be canceled" = "%1$s #%2$sの登録はキャンセルされません";
+
+/* GS Connector */
+"Kicked out" = "追放されました";
+
+/* Reward Layer */
+"Like our Facebook fan page\nand claim %d gold reward" = "Facebookファンページに「いいね」して\n%dゴールド報酬を取得しましょう";
+
+/* Scene Manager */
+"Logging in through Facebook is required before entering referral code.\n\n*First time login through Facebook will give you 10 bonus gold!" = "紹介コードを入力する前に、Facebook経由でのログインが必要です。\n\n*Facebook経由での初回ログインの場合は、10ボーナスゴールドを差し上げます！";
+
+/* Invite Layer */
+"*You'll get reward after your friend connects through Facebook" = "*友達がFacebook経由で接続すると、報酬を受け取ることができます。";
+
+/* Reward Layer */
+"Starts in %s" = "開始まであと %s";
+
+/* GS Connector */
+"Game On" = "ゲーム開始";
+
+/* GS Connector */
+"It's about time !" = "間もなく時間です！";
+
+/* GS Connector */
+"%1$s #%2$s hosted by %3$s will start in %s." = "%3$sがホストの%1$s #%2$sの開始まであと%sです。";
+
+/* GS Connector */
+"Join Now" = "今すぐ参加";
+
+/* GS Connector */
+"The Game is On" = "ゲームが開始されました";
+
+/* GS Connector */
+"%1$s #%2$s hosted by %3$s is started." = "%3$sがホストの%1$s #%2$sが開始されました。";
+
+/* GS Connector */
+"You have been kicked out from %1$s #%2$s hosted by %3$s." = "%3$sがホストの%1$s #%2$s から追放されました。";
+
+/* GS Connector */
+"Announcement" = "お知らせ";
+
+/* GS Connector */
+"%1$s #%2$s hosted by %3$s is terminated." = "%3$sがホストの%1$s #%2$sが中止されました。";
+
+/* SNG Game Panel Layer */
+"Schedule" = "スケジュール";
+
+/* SNG Game Panel Layer */
+"Schedule a %s in advance (up to %d days)" = "%sを事前にスケジュール（最大%d日まで）";
+
+/* SNG Game Panel Layer */
+"The time you schedule is out of range. (%s - %s)" = "スケジュールの日時が範囲外です。（%s～%s）";
+
+/* SNG Game Panel Layer */
+"Current Time: %s" = "現在の時刻: %s";
+
+/* Setting Layer */
+"Reset Time" = "時間をリセット";
+
+/* Time Setting Layer */
+"Set Time" = "時間を設定";
+
+/* Time Setting Layer */
+"Date" = "日付";
+
+/* Time Setting Layer */
+"Hour" = "時間";
+
+/* Time Setting Layer */
+"Minute" = "分";
+
+/* Popup Name Tag G */
+"Get it now!" = "今すぐゲット！";
+
+/* Dialog */
+"Total" = "合計";
+
+/* Setting Layer */
+"Leave next blind" = "次のブラインドで退席する";
+
+/* Nameplate Congrats Popup */
+"You win %s !" = "%sを獲得しました！";
+
+/* Special Offer Dialog Layer */
+"over %sExtra bonus" = "%s以上追加ボーナス";
+
+/* IAP Layer */
+"Chip Purchases" = "チップ購入";
+
+/* IAP Layer */
+"Please try again later." = "後ほど再度お試しください。";
+
+/* Special Offer Dialog Layer */
+"%sExtra bonus" = "%s追加ボーナス";
+
+/* Reward Layer */
+"Ongoing" = "実施中";
+
+/* Purchase Bonus Table */
+"Additional Bonus" = "追加ボーナス";
+
+/* Special Offer Dialog Layer */
+"Get Back In The Game" = "ゲームに戻りましょう";
+
+/* Special Offer Dialog Layer */
+"*%s chips will be reloaded automatically." = "*チップ%s枚が自動的に補充されます。";
+
+/* Special Offer Dialog Layer */
+"Your SPECIAL OFFER is here !" = "特別オファーの登場です！";
+
+/* Game Scene View */
+"Wow! Looks like you are going on a rush. Take it to the next level? (%s)" = "ワオ！お急ぎの様ですね。次のレベルに持っていきますか？ (%s)";
+
+/* IAP Layer */
+"*Nameplate will be replaced by 60 gold in case you own all nameplates we currently offer." = "*現在提供中のネームプレートをすべて所有している場合は、60ゴールドに変換されます。";
+
+/* Public Game Buy In Layer */
+"Range" = "範囲";
+
+/* SNG Hosting Result Desc Layer */
+"no description" = "説明なし";
+
+/* IAP Layer */
+"Welcome Bundle" = "ウェルカムバンドル";
+
+/* IAP Layer */
+"20 Gold + 10,000 chips\n+ 1 random nameplate" = "20ゴールド + チップ10,000枚\n+ ランダムネームプレート1個";
+
+/* IAP Layer */
+"Best for new players" = "新規プレイヤーに最適";
+
+/* Nameplate Congrats Popup */
+"Congratz !" = "おめでとうございます！";
+
+/* Nameplate Congrats Popup */
+"Equip Now" = "今すぐ装備";
+
+/* Popup Welcome Bundle */
+"Check it out !" = "チェックする！";
+
+/* Popup Welcome Bundle */
+"A little of everything?" = "少しずつ全部？";
+
+/* SNG Game Panel Layer */
+"Tournament Name (Optional)" = "トーナメント名（任意）";
+
+/* SNG Game Panel Layer */
+"Edit Description" = "説明を編集";
+
+/* SNG Hosting Result Desc Layer */
+"Tournament Info" = "トーナメント情報";
+
+/* SNG Hosting Result View */
+"Tournament Name" = "トーナメント名";
+
+/* Club Selection Layer */
+"Share Hand" = "ハンド共有";
+
+/* Club Detail Layer */
+"See more" = "詳細";
+
+/* Club Selection Layer */
+"Add something..." = "何か追加してください...";
+
+/* Club Share Hand Comment Layer */
+"View previous comments..." = "以前のコメントを表示...";
+
+/* Club Share Hand Comment Layer */
+"Reply" = "返信";
+
+/* Club Share Hand Comment Layer */
+"View replies..." = "返信を表示...";
+
+/* Club Share Hand Comment Layer */
+"Posting..." = "投稿中...";
+
+/* Club Share Hand Comment Layer */
+"View Replay" = "リプレイを表示";
+
+/* Club Share Hand Comment Layer */
+"Replying to" = "返信先:";
+
+/* Club Detail Layer */
+"Leave Club" = "クラブを退出";
+
+/* Game Phone Scene */
+"How long would you like to pause?" = "どれだけの間、一時停止しますか？";
+
+/* SNG Game Panel Layer */
+"Bounty is the prize for one player who knocks out the other player.\n*It cannot exceed 50% of Buy-in Ticket." = "バウンティは他のプレイヤーをノックアウトしたプレイヤー1人が獲得できる賞金です。\n*バイインチケットの50%を超えることはできません。";
+
+/* Ranking List Layer */
+"Bounty" = "バウンティ";
+
+/* Daily Reward Layer */
+"Daily Bonus" = "デイリーボーナス";
+
+/* Daily Reward Layer */
+"Day %d" = "%d日目";
+
+/* Popup Deck Discount */
+"Buy Now" = "今すぐ購入";
+
+/* Prize Plan Layer */
+"Bounty : " = "バウンティ: ";
+
+/* Record Detail Layer */
+"Prize/Bounty" = "賞金/バウンティ";
+
+/* Record Main Layer */
+"You will no longer access this record. Sure to delete?" = "この記録にアクセスできなくなります。削除してよろしいですか？";
+
+/* Cash Game Panel Layer */
+"Random Sit-in" = "ランダムシットイン";
+
+/* Cash Game Panel Layer */
+"All players will sit-in randomly." = "全プレイヤーがランダムにシットインします。";
+
+/* Main Layer */
+"Every game has its own unique game code. Get this code from the host, or host a game by yourself." = "各ゲームにはユニークなゲームコードが付いています。ホストからコードを取得するか、自分でゲームをホストしてください。";
+
+/* Game Player Layer */
+"Once" = "1回";
+
+/* DLTableLayer */
+"_Host_Noun" = "ホスト";
+
+/* HostedGameListLayer */
+"_Host_Verb" = "ホスト";
+
+/* Blind Structure Layer */
+"Select Default Structure" = "デフォルトストラクチャーを選択";
+
+/* Blind Structure Layer */
+"Select Custom Structure" = "カスタムストラクチャーを選択";
+
+/* Table Layer */
+"Manager broadcasting" = "管理者配信";
+
+/* Prize Plan Layer */
+"Select Default Distribution" = "デフォルト配分を選択";
+
+/* Prize Plan Layer */
+"Select Custom Distribution" = "カスタム配分を選択";
+
+/* Prize Plan Layer */
+"Edit Distribution" = "配分を編集";
+
+/* Game Phone Scene */
+"You are banned from using chat function. Please contact us for more information at “contact@pokerrrrapp.com”." = "チャット機能の使用は禁止されています。詳細は『contact@pokerrrrapp.com』にお問い合わせください。";
+
+"You need at least %s chips to join the table." = "テーブルに参加するには、%s枚以上チップが必要です。";
+
+/* Avatar Pick Layer */
+"Profile Photo" = "プロフィール写真";
+
+/* Main Scene */
+"Friend Game" = "友達ゲーム";
+
+/* Cash Game Panel Layer */
+"Straddle (UTG only) : Player can make a straddle bet only at the UTG position.\n\n3rd blind (Mandatory) : Player at UTG position have to make a mandatory straddle bet (2BB) every hand." = "ストラドル (UTG限定): プレイヤーはUTGのポジション時のみストラドルをベットすることができます。\n\nサードブラインド (強制): UTGポジションのプレイヤーはすべてのハンドでストラドルベット（2BB)をしなければなりません。";
+
+/* Cash Hosting Result View */
+"Straddle (UTG only)" = "ストラドル (UTG限定)";
+
+/* Data Model CPP */
+"PLO" = "PLO";
+
+/* Cash Hosting Result View */
+"3rd Blind (Mandatory)" = "サードブラインド (強制)";
+
+/* SNG Game Panel Layer */
+"Hold'em" = "ホールデム";
+
+/* IAP Name Tag List */
+"View in profile" = "プロフィール内で閲覧";
+
+/* Battle Layer */
+"Watch a short video and earn %d chips!" = "短い動画を観てチップ%d枚を獲得しましょう！";
+
+/* Club Message Layer */
+"%1$s is hosting %2$s." = "%1$sさんがあなたのクラブで%2$sをホスティングしています。";
+
+/* Public Profile Name Tag List */
+"Bronze" = "ブロンズ";
+
+/* Public Profile Name Tag List */
+"Unlocks at level %d" = "レベル%dでアンロック";
+
+/* Public Profile Name Tag List */
+"Silver" = "シルバー";
+
+/* Hosted Game List Layer */
+"Preparing" = "準備中";
+
+/* IAP Layer */
+"Goods" = "商品";
+
+/* IAP Layer */
+"Nameplate" = "ネームプレート";
+
+/* Public Profile Layer */
+"Profile" = "プロフィール";
+
+/* Public Profile Layer */
+"Equip" = "装備";
+
+/* Public Profile Layer */
+"Unequip" = "装備解除";
+
+/* Public Profile Layer */
+"Buy" = "購入";
+
+/* C Content */
+"Downloading..." = "ダウンロード中...";
+
+/* Public Profile Content List */
+"Equipped" = "装備済み";
+
+/* IAP Content List */
+"Download" = "ダウンロード";
+
+/* IAP Layer */
+"Deck" = "デッキ";
+
+/* Scene Manager */
+"No worry! Going to the new table now!" = "心配はいりません！今すぐ新しいテーブルへ移動します！";
+
+/* Chat Layer */
+"Microphone Permission" = "マイクへのアクセス許可";
+
+/* Chat Layer */
+"Don’t allow" = "許可しない";
+
+/* Chat Layer */
+"Pokerrrr requires access to the microphone so you can use your voice to chat with your friends during the game." = "Pokerrrrはゲーム中にあなたの声を使って友達とチャットできるようにするため、マイクにアクセスする必要があります。";
+
+/* Live Game Seat Page Layer */
+"You may assign seats for players by your staff or generate seat plan for players by clicking “Random Draw Seats.”" = "スタッフにプレイヤーの席を割り当ててもらうか、『ランダムに席決め』をクリックしてプレイヤーの席順を作成することができます。";
+
+/* SNG Game Panel Layer */
+"Based on custom structure" = "カスタムストラクチャーに基づく";
+
+/* Battle Layer */
+"Select a Table" = "テーブルを選択";
+
+/* Room Model */
+"Your chips will be reloaded on the next non-fantasyland hand." = "次のファンタジーランド以外のハンドでチップが補充されます。";
+
+/* Game Phone Scene */
+"Bankroll" = "バンクロール";
+
+/* Settings Layer */
+"Auto Reload" = "自動補充";
+
+/* Settings Layer */
+"The system will auto reload your chips to starting chips when your chip amount is zero." = "お手持ちのチップがゼロになると、システムがチップを開始時のチップ数に自動補充します。";
+
+/* GamePanelLayer */
+"_OFCGameTypeExplain" = "レギュラー:\nレギュラー・オープン・フェース・チャイニーズの場合、各プレイヤーはファンタジーランド状態で14枚のカードでプレイします。\n\nプログレッシブ:\nプログレッシブ OFCは、レギュラー OFCとほぼ同じルールですが、プレイヤーが常に14枚のカードでプレイするレギュラー OFCとは異なり、プログレッシブ OFCではファンタジーランド状態になると15、16、または17枚のカードでプレイできます。\n\nジョーカー:\nジョーカー OFCは、プログレッシブ OFCとほぼ同じルールですが、1枚または2枚のジョーカー（ホストが枚数を決定）がカードデッキに追加されます。ジョーカーカードは好きなカードとして使用することができ、各段で認められる最もスコアの高いハンドを構成できます。";
+
+/* Auto Export Layer */
+"(%s left)" = "(残り%s)";
+
+/* Battle Layer */
+"Earn free chips" = "無料チップを獲得";
+
+/* Poker Hand Log Layer */
+"SB" = "SB";
+
+/* Poker Hand Log Layer */
+"Win" = "勝利";
+
+/* Club Message Layer */
+"Hand Log" = "ハンドログ";
+
+/* Poker Hand Log Layer */
+"Summary" = "サマリー";
+
+/* Battle Layer */
+"Watch a short video and earn 200 chips!" = "短い動画を観てチップ200枚を獲得しましょう！";
+
+/* Battle Layer */
+"Watch Now" = "今すぐ視聴する";
+
+/* Cash Game Panel Layer */
+"Players will allow to muck their losing hand after turning on the option." = "このオプションをオンにすると、プレイヤーは負けのハンドをマックできなくなります。";
+
+/* Live Game Scene */
+"Start Game" = "ゲーム開始";
+
+/* Live Game Scene */
+"Confirm to start the tournament clock?" = "トーナメントクロックを開始させてよろしいですか？";
+
+/* OFC Hosting Result View Layer */
+"Joker" = "ジョーカー";
+
+/* Poker Hand Log Layer */
+"Receive" = "受け取る";
+
+/* Settings Layer */
+"Your hand will be auto-played after switching table. Are you sure to switch to another table?" = "テーブル変更後、あなたのハンドは自動でプレイされます。他のテーブルに移動して本当によろしいですか？";
+
+/* Data Model CPP */
+"Live Game" = "ライブゲーム";
+
+/* Live Game Layer */
+"Paused" = "一時停止";
+
+/* Live Game Layer */
+"Ended" = "終了しました";
+
+/* Live Game Layer */
+"Enter player's name" = "プレーヤー名を入力";
+
+/* Live Game Scene */
+"Are you sure to remove the player %s?" = "プレーヤー%sを本当に削除しますか？";
+
+/* Live Game Scene */
+"Finish Game" = "ゲームを終了する";
+
+/* Live Game Scene */
+"You cannot edit the game result after finishing the game.\nDo you want to finish now?" = "ゲーム終了後にゲームの結果を編集することはできません。今すぐ終了しますか？";
+
+/* Live Game Scene */
+"Random Draw Seat" = "ランダムに席決め";
+
+/* Live Game Scene */
+"System will re-arrange seats with least changes.\nDo you want to proceed?" = "システムが最小限の変更で席替えをします。\n続行しますか？";
+
+/* Live Game Scene */
+"System will arrange seats randomly.\nDo you want to proceed?" = "システムがランダムに席替えします。\n続行しますか？";
+
+/* Live Game Scene */
+"Rebuy Period" = "リバイ・ピリオド";
+
+/* Live Game Scene */
+"Add-on Period" = "アドオン・ピリオド";
+
+/* Public Game List Layer */
+"Get chips" = "チップを取得";
+
+/* SNG Game Panel Layer */
+"GTD" = "GTD";
+
+/* SNG Game Panel Layer */
+"You may setup a guaranteed prize pool for participants, the basic prize distribution will be based on it before the total prize pool being accumulated more than guaranteed amount." = "参加者のために保証された賞金プールを設定することができます。賞金プールの累計総額が保証額を上回るまでは、この設定に基づいて賞金の配分が行われます。";
+
+/* SNG Game Panel Layer */
+"The add-on period will become active when the rebuy period ends." = "リバイ・ピリオドが終了するとアドオン・ピリオドが有効になります。";
+
+/* Battle Layer */
+"Free Chips!" = "無料チップ！";
+
+/* Live Game Info Page Layer */
+"Live Clock URL" = "ライブ時計URL";
+
+/* Live Game Info Page Layer */
+"Tourney Display URL" = "トーナメントディスプレイURL";
+
+/* Live Game Info Page Layer */
+"View" = "表示";
+
+/* Live Game Layer */
+"Live Clock" = "ライブ時計";
+
+/* Live Game Layer */
+"Next" = "次";
+
+/* Live Game Layer */
+"Next break" = "次の休憩";
+
+/* Live Game Layer */
+"Info" = "情報";
+
+/* Live Game Layer */
+"Seats" = "シート";
+
+/* Live Game Layer */
+"Start" = "開始";
+
+/* Live Game Layer */
+"Finish" = "終了";
+
+/* Live Game Layer */
+"Register A Player" = "プレーヤーを登録";
+
+/* Live Game Players Page Layer */
+"Player\n(Seat)" = "プレーヤー\n（シート）";
+
+/* Live Game Players Page Layer */
+"Rebuy/\nAdd-on" = "リバイ/\nアドオン";
+
+/* Live Game Prize Page Layer */
+"Prize Pool : " = "賞金プール:　";
+
+/* Live Game Seat Page Layer */
+"Table" = "テーブル";
+
+/* Live Game Seat Page Layer */
+"Seat" = "シート";
+
+/* Live Player Update Dialog */
+"Eliminate" = "排除";
+
+/* SNG Game Panel Layer */
+"Duration" = "時間";
+
+/* Game Code Tutorial Layer */
+"1. Copy the live clock url.\n2. Open the link on the big-screen device. The professional tournament clock is right on your big screen!" = "1. ライブ時計のURLをコピーします。\n2．大画面のデバイスでリンクを開きます。プロフェッショナルトーナメント時計がお使いの大画面に表示されます！";
+
+/* Game Code Tutorial Layer */
+"1. Copy the tourney display url.\n2. Open the link on the big-screen device. Game on!" = "1. トーナメントディスプレイURLをコピーします。\n2. 大画面のデバイスでリンクを開きます。ゲーム開始！";
+
+/* Public Level List Layer */
+"At the end of this season players with Rating > %s will be reset by PRR system." = "本シーズンの終了時にレーティングが%s以上のプレーヤーはPRPシステムによってリセットされます。";
+
+/* Invite Layer */
+"Hey, I play poker with friends @ pokerrrr 2 app. Come and join us! Remember to enter my referral code( %s ). -  " = "@ pokerrrr 2 アプリで友達とポーカーをプレイしています。一緒にプレイしましょう！私の招待コード（ %s ）を忘れずに入力してくださいね。- ";
+
+/* Settings Layer */
+"Switch Table" = "テーブルを変える";
+
+/* Settings Layer */
+"Are you sure to switch to another table?" = "他のテーブルに変えますか？";
+
+/* Settings Layer */
+"You will sit-in with the starting chip after switching to new table." = "新しいテーブルに変更後、スターティングチップでシットインします。";
+
+/* Public Game Season Result Layer */
+"Last season: %s" = "前シーズン: %s";
+
+/* Public Game Season Result Layer */
+"New season starts at" = "新シーズンの開始スコア";
+
+/* It's an error message title. */
+"No Empty Seat" = "空席はありません";
+
+/* Battle Layer */
+"%s to next level" = "次のレベルまで%s";
+
+/* Club Main Layer */
+"Create a private club to play poker with friends anytime.\nGet %d bonus gold after creating/joining your first poker club. :)" = "いつでも友達とポーカーをプレイできるプライベートクラブを作成しましょう。最初のポーカークラブ作成で%dボーナスゴールドを取得できます。";
+
+/* Public Game List Layer */
+"There is no empty seat available now. Please try again later." = "現在、空席はありません。後ほど再度お試しください。";
+
+/* Club Main Layer */
+"Tap to create / join a club now." = "タップしてクラブを作成/参加してください。";
+
+/* Invite Layer */
+"For every new player who signs up with your referral code, you will receive 10 gold bonus." = "新しいプレーヤーがサインアップするたびに、プレーヤーとあなたの両方に追加ボーナスの10ゴールドを差し上げます。";
+
+/* Invite Layer */
+"For every new player who signs up with referral code, the inviter will receive 10 gold bonus." = "新しいプレーヤーがサインアップするたびに、プレーヤーと招待者の両方に追加ボーナスの10ゴールドを差し上げます。";
+
+/* Club Main Layer */
+"Create a private club to play poker with friends anytime.\nGet %d bonus gold after creating your first poker club. :)" = "いつでも友達とポーカーをプレイできるプライベートクラブを作成しましょう。最初のポーカークラブ作成で%dボーナスゴールドを取得できます。";
+
+/* GS Connector */
+"Claim the bonus gold in your inbox now." = "今すぐ受信箱からボーナスゴールドを取得してください。";
+
+/* Invite Layer */
+"Hey, I play poker with friends @ pokerrrr 2 app. Come and join us! Remember to enter my referral code( %s ) to receive extra 10 free gold coins. -  " = "@ Pokerrrr2 アプリで友達とポーカーをプレイしてるよ。一緒に参加してね！招待コード（%s）を入力して、無料のボーナス金貨10枚を忘れずにもらってくださいね。 -　";
+
+/* Invite Layer */
+"Referral Code" = "招待コード";
+
+/* Invite Layer */
+"Invalid Code" = "無効なコード";
+
+/* Club Main Layer */
+"Tap to create / search a club now." = "タップして今すぐクラブを作成 / 検索しましょう。";
+
+/* Club Message Layer */
+"Invite friends to join your club now! Chat and play poker here anytime." = "あなたのクラブに今すぐ友達を招待しましょう！クラブではいつでもチャットしながらポーカーをプレイできます。";
+
+/* Club Message Layer */
+"Invite" = "招待";
+
+/* Invite Layer */
+"Get 10 Free Gold!" = "10ゴールドを無料で取得！";
+
+/* Invite Layer */
+"For every new player who signs up with your referral code, both of you will receive 10 gold bonus." = "新しいプレーヤーがサインアップするたびに、プレーヤーとあなたの両方に追加ボーナスの10ゴールドを差し上げます。";
+
+/* Invite Layer */
+"Your Referral Code" = "あなたの招待コード";
+
+/* Invite Layer */
+"Enter referral code here" = "招待コードをこちらに入力";
+
+/* Invite Layer */
+"For every new player who signs up with referral code, you and inviter will both receive 10 gold bonus." = "新しいプレーヤーがサインアップするたびに、プレーヤーと招待者の両方に追加ボーナスの10ゴールドを差し上げます。";
+
+/* Invite Layer */
+"Enter Referral Code" = "招待コードを入力";
+
+/* Invite Layer */
+"View my referral code" = "私の招待コードを表示する";
+
+/* Setting Layer */
+"Leave next hand" = "次のハンドで退席する";
+
+/* Settings Main Layer */
+"Enter referral code" = "招待コードを入力";
+
+/* GS Connector */
+"Get back to receive your bonus chips!" = "戻ってボーナスチップを受け取ってください！";
+
+/* Cash Game Panel Layer */
+"GPS Location Check" = "GPS 位置確認";
+
+/* Cash Game Panel Layer */
+"Players with close location cannot join in the same table." = "現在地の近いプレイヤーが同じテーブルに参加することはできません。";
+
+/* GS Connector */
+"The game requests GPS location check for players. Please turn on the “Location” permission of pokerrrr app in the setting before joining this game." = "ゲームがプレーヤーのGPS 位置確認を求めています。このゲームに参加する前に設定からpokerrrrアプリの『位置情報サービス』をオンにしてください。";
+
+/* GS Connector */
+"You cannot join the table because your GPS location can not be verified." = "GPS 位置情報を認証できないため、テーブルに参加できません。";
+
+/* Game Phone Scene */
+"Sit in Restriction" = "シットイン制限";
+
+/* Game Phone Scene */
+"You cannot join the table because one of current players in the table is close to your location." = "現在テーブルにいるプレーヤーの一人が、あなたの現在地に近い所にいるためテーブルに参加できません。";
+
+"NSMicrophoneUsageDescription" = "音声メッセージを有効にするため。";
+
+/* Public Game Result Layer */
+"SNG Result" = "SNGの結果";
+
+/* Init Scene */
+"No worry! You are fine to change it again." = "ご心配なく！もう一度変更しても大丈夫です。";
+
+/* Public Game List Layer */
+"Seat arranging..." = "シートを配置中...";
+
+/* Public Game Result Layer */
+"Play Again" = "もう一度プレイする";
+
+/* Public Game Result Layer */
+"MTT Result" = "MTTの結果";
+
+/* Public Profile Layer */
+"Cash Game (NL Hold'em, PLO)" = "キャッシュゲーム（NLホールデム、PLO）";
+
+/* Public Profile Layer */
+"Cash Game (OFC)" = "キャッシュゲーム（OFC）";
+
+/* Public Profile Layer */
+"RPH (Royalty per Hand)" = "RPH（ロイヤリティ・パー・ハンド）";
+
+/* Public Profile Layer */
+"Fantasy Land Rate" = "ファンタジーランド率";
+
+/* Public Profile Layer */
+"Foul Rate" = "ファール率";
+
+/*
+ * Someone hosted some game.
+ * ex : John hosted NL hold'em.
+*/
+"%1$s hosted %2$s." = "%1$sさんが%2$sをホストしました。";
+
+/* OFC Player Cards Node */
+"I'm ready!" = "準備完了！";
+
+/* Blind Structure Layer */
+"Level" = "レベル";
+
+/* Blind Structure Layer */
+"BB / SB" = "BB / SB";
+
+/* Blind Structure Layer */
+"/ SB" = "/ SB";
+
+/* Ofc Player Cards1 Node */
+"READY!" = "準備完了！";
+
+/* Auto Export Layer */
+"month" = "月";
+
+/* Auto Export Layer */
+"Auto Export" = "自動エクスポート";
+
+/* Record Detail Layer */
+"Auto Export On" = "自動エクスポート オン";
+
+/* Record Detail Layer */
+"Auto Export Off" = "自動エクスポート オフ";
+
+/* Auto Export Layer */
+"System will automatically export every game result to the email after the game is completed." = "システムがゲーム完了時にすべてのゲーム結果をメールで自動的にエクスポートします。";
+
+/* Auto Export Layer */
+"Export to" = "エクスポート先";
+
+/* Auto Export Layer */
+"Please enter a valid email address." = "有効なメールアドレスを入力してください。";
+
+/* Ofc Player Cards1 Node */
+"You can only place two cards this turn." = "今回配置できるカードは2枚だけです。";
+
+/* Club Detail Layer */
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join my club! My club code : #%s. Receive extra 10 free gold coins by downloading here : " = "Pokerrrr2 アプリで友達とポーカーをプレイしてるよ。私のクラブに参加してくださいね！クラブコードは#%sです。こちらからダウンロードして、無料のボーナス金貨を10枚をゲット :　";
+
+/* RecordHistoryHandLayer */
+"_PAS_Explain" = "チップの不足により、負け分のチップを全額支払うことができなプレーヤーがいるため、ゲーム結果の公平性を期し、アジャストシステムが各プレーヤーの勝利/敗北の回数に基づいて数字を計算します。";
+
+/* RoyaltiesLayer */
+"_ofc_scoring_text_0" = "最も一般的なOFCスコアボーナスは『スクープ』です。上段、中段、下段のすべてで対戦相手に勝つと、追加の3ポイント(+3)を獲得できます。条件をクリアしたハンドが成立しなかった場合は、上段、中段、下段がすべてゼロとなります。";
+
+"_ofc_scoring_text_1" = "下段のボーナスの範囲はストレートの＋2からロイヤルフラッシュの＋25です。中段のボーナス範囲はスリーカードの+2からロイヤルフラッシュの最大+50です。上段のボーナスは6のペアの+1以上となります。";
+"_ofc_how_to_play_text_0" = "オープン・フェース・チャイニーズ・ポーカー (OFC)はチャイニーズポーカーの一種です。\n\nテーブルあたり2人または3人のプレイヤーでプレイします。各プレイヤーは13枚のカードを使って「フロント(上段)」、「ミドル(中段)」、「バック(下段)」に3つのハンドを成立させます。プレイ中にベットは行いません。その代わり、ゲームはポイント制でスコアが付けられます。";
+"_ofc_how_to_play_text_1" = "プレイヤーは最初のターンでカードを5枚取り、ボード上にすべてのカードを置きます。最初のターンの後、さらに4ラウンド行います。プレイヤーは3枚のカードを取り、2枚だけ使用して1枚は捨てます。カードを置いてターンが完了すると、カードを他の段へ移動させることはできません。";
+"_ofc_how_to_play_text_2" = "OFCの第一の目的は『条件をクリア』したハンドを成立させることです。下段のハンドは中段のハンドよりも強くなければならず、中段のハンドは上段よりも強くなければなりません。";
+"_ofc_how_to_play_text_2_1" = "最後までハンドを完成させることができなかった場合、手持ちのハンドはファウルとなり没収されます。";
+"_ofc_how_to_play_text_3" = "ボタン（ディーラー）の左にいるプレイヤーからプレイを始め、時計回りの順にプレイしていきます。プレイヤーのターンが完了すると、他プレイヤーはそのプレイヤーが配置したカードを見ることができるようになります。さらに、次のプレイヤーがカードを配置していきます。";
+"_ofc_how_to_play_text_3_new" = "ボタン（ディーラー）の左にいるプレイヤーからプレイを始め、時計回りの順にプレイしていきます。プレイヤーのターンが完了すると、他プレイヤーはそのプレイヤーが配置したカードを見ることができるようになります。さらに、次のプレイヤーがカードを配置していきます。";
+"_ofc_how_to_play_text_4" = "ジョーカー OFCは、プログレッシブ OFCとほぼ同じルールですが、2枚のジョーカーがカードデッキに追加されます。ジョーカーカードは好きなカードとして使用することができ、各段で認められる最もスコアの高いハンドを構成できます。";
+"_ofc_how_to_play_text_4_new" = "OFCジョーカーのルールは、OFCプログレッシブとほぼ同じです。唯一異なる点として、2枚のジョーカーがカードデッキに追加されます。ジョーカーカードは好きなカードとして使用することができ、最もスコアが高くなるハンドを構成することができます。";
+"_ofc_fantasyland_text_0" = "ファンタジーランドはハイハンドを完了したプレイヤーに対する特別ボーナスです。";
+"_ofc_fantasyland_text_1" = "プレイヤーはQペアまたはそれ以上のハンドを上段に成立させるとファンタジーランドに突入できます。";
+"_ofc_fantasyland_text_2" = "前回のハンドにおける上段のハンドランキングに応じて、プレイヤーは最大１７枚のカードを取ることができます。ファンタジーランドに入っているプレイヤーは、他のプレイヤーがすべてのラウンドを完了するまでカードを伏せておきます。\n\nただし、連続でファンタジーランドに突入した場合、引くことのできるカードは14枚となります。";
+"_ofc_fantasyland_text_3" = "ファンタジーランドの連続\nファンタジーランドに入っているプレイヤーは、下段がフォーカード以上、または上段がスリーカード以上で『ファンタジーランドに連続で入る』ことができます。";
+"_ofc_fantasyland_text_4" = "1人またはそれ以上のプレイヤーがファンタジーランドに入ると、次のルールが適用されます\n● ディーラーポジションが固定されます。\n● ファンタジーランドに入っていないプレイヤーは、ファンタジーランドに入っているプレイヤーが1人もいなくなるまでテーブルから退席することはできません。";
+
+/* TutorialLayer */
+"_poker_rule_NLH_pre_flop" = "テキサスホールデムのゲームでは、各プレイヤーに「ホールカード」と呼ばれる2枚の伏せたカードが配られます。次に、ベットのラウンドが始まり、プレイヤーは「チェック」、「ベット」、または「フォールド(降りる)」することができます。ゲームのこの段階を「プリフロップ」と呼びます。";
+
+"_poker_rule_NLH_pre_flop_2" = "チェックしたプレイヤーは、ベットしなくてもカードをキープしたまま次のプレイヤーにアクションをまわすことができます。ただし、チェックができるのは、テーブル上にベットがない場合に限られます。";
+"_poker_rule_NLH_pre_flop_3" = "プレイヤーがベットする方法には次の2通りがあります:\n1. コール: 先にベットしたプレイヤーと同額を賭けます。\n2. レイズ: 他のプレイヤーがベットした額よりも高い額を賭けます。";
+"_poker_rule_PLO_pre_flop" = "ポットリミットオマハ (PLO)は、ノーリミットホールデムに似たゲームです。PLOをプレイする場合、各プレイヤーに「ホールカード」と呼ばれる4枚の伏せたカードが配られます。次に、ベットのラウンドが始まり、プレイヤーは「チェック」、「ベット」、または「フォールド(降りる)」することができます。ゲームのこの段階を「プリフロップ」と呼びます。";
+"_poker_rule_NLH_flop" = "プリフロップでプレイヤー全員のベットが終了すると、ボード上に3枚のコミュニティカードが表向きに置かれます。この3枚のカードが開かれた段階を「フロップ」と呼ばれます。";
+"_poker_rule_PLO_flop" = "プリフロップでプレイヤー全員のベットが終了すると、ボード上に3枚のコミュニティカードが表向きに置かれます。この3枚のカードは「フロップ」と呼ばれます。";
+"_poker_rule_NLH_turn" = "プリフロップの後、もう一度ベットのラウンドを行い、ボード上に4枚目のコミュニティーカードが置かれます。このカードは「ターン」と呼ばれます。";
+"_poker_rule_PLO_turn" = "プリフロップの後、もう一度ベットのラウンドを行い、ボード上に4枚目のコミュニティーカードが置かれます。このカードは「ターン」と呼ばれます。";
+"_poker_rule_NLH_river" = "ベットの最終ラウンドが来て、5枚目のコミュニティカードがボード上に置かれます。このカードは「リバー」と呼ばれます。";
+"_poker_rule_PLO_river" = "ベットの最終ラウンドが来て、5枚目のコミュニティカードがボード上に置かれます。このカードは「リバー」と呼ばれます。";
+"_poker_rule_NLH_compare" = "プレイヤーは、2枚のホールカードと5枚のコミュニティカードの中から最も良い5枚のカードを使ってハンドを成立させます。";
+"_poker_rule_PLO_compare" = "PLOのルールで主に異なる点は次の2つです:\n1. 各プレイヤーはホールカード2枚とコミュニティカード3枚を使ってカード5枚のハンドを成立させなければならない。\n2. ベットの上限額はポットサイズとなる。";
+"_poker_rule_PLO_compare_new" = "PLOには主に次の2つの違いがあります:\n1. 各プレイヤーは2枚のホールカードと3枚のコミュニティカードを使ってカード5枚のハンドを完成させます。例えば、手札が7s-7d-9h-Kdでコミュニティカードが7h-9c-As-Ad-2cの場合、フルハウス（7s-7d-7h-As-Ad）ができます。コミュニティカードが9s-Qd-Qc-Qh-Qsだった場合は、フルハウス（7s-7d-Qd-Qc-Qh）はできますが、クアッズにはなりません。";
+
+/* Data Model CPP */
+"Spring" = "春";
+
+/* Data Model CPP */
+"Summer" = "夏";
+
+/* Data Model CPP */
+"Fall" = "秋";
+
+/* Data Model CPP */
+"Winter" = "冬";
+
+/* Public Explain Dialog */
+"Season" = "シーズン";
+
+/* IAP Page Currency */
+"Your claim is complete." = "取得が完了しました。";
+
+/* Daily Reward Layer */
+"Allow Notifications to Earn %d% More!" = "通知を許可して、さらに%d%獲得！";
+
+/* Daily Reward Layer */
+"Allow" = "許可";
+
+/* Popup Notification Refine */
+"Turn on push notifications to earn %1$s% extra daily login reward!" = "プッシュ通知をオンにして、デイリーログイン報酬%1$s%追加ボーナスを獲得しましょう！";
+
+/* Popup Notification Refine */
+"Turn On" = "オンにする";
+
+/* Invite Layer */
+"%s Gold." = "%sゴールド。";
+
+/* Invite Layer */
+"%s Gold and %s Chips." = "%sゴールドとチップ%s枚。";
+
+/* Invite Layer */
+"%s Chips." = "チップ%s枚。";
+
+/* Invite Layer */
+"For every new player who signs up with referral code, the inviter will receive:" = "紹介コードを使って新しいプレイヤーがサインアップするたびに、招待者の方に次の報酬を差し上げます:";
+
+/* Popup LNY2022 */
+"Wishing you luck for the new Tiger year" = "新しい寅年の幸運を祈って";
+
+/* Espionage Room Layer */
+"Location" = "所在地";
+
+/* Espionage Room Layer */
+"Mission Complete. Click above to claim the reward now!" = "ミッション完了。上をクリックして、今すぐ報酬を受け取りましょう！";
+
+/* Espionage Room Layer */
+"Mission Complete. Congratulations!" = "ミッション完了。おめでとうございます！";
+
+/* Espionage Room Layer */
+"Sign in to play on multiple devices, and keep your Pokerrrr account safe." = "サインインして複数のデバイスでプレイ、Pokerrrrアカウントの安全を守りましょう。";
+
+/* Espionage Room Layer */
+"Click above to accept %s missions now!" = "上をクリックして%sミッションを今すぐ開始しましょう！";
+
+/* Espionage Room Layer */
+"Click the banner above to discover special missions now!" = "上のバナーをクリックして、特別ミッションを今すぐ確認しましょう！";
+
+/* Club Main Layer */
+"Game Record" = "ゲーム記録";
+
+/* Main Scene */
+"CLUB" = "クラブ";
+
+/* Main Scene */
+"FRIEND GAME" = "友達ゲーム";
+
+/* Main Scene */
+"PLAY NOW" = "今すぐプレイ";
+
+/* Main Scene */
+"TOURNAMENT" = "トーナメント";
+
+/* Invite Layer */
+"Get %s Gold and %s Chips!" = "%sゴールドとチップ%s枚を取得しましょう！";
+
+/* Invite Layer */
+"Earn Free Rewards!" = "無料報酬を獲得しましょう！";
+
+/* Reward Layer */
+"Earn extra rewards\nby inviting your friends!" = "友達を招待して\n追加報酬を獲得しましょう！";
+
+/* Public Game Waiting Layer */
+"Now" = "現在";
+
+/* Linear Collection Detail_christmas-2021 */
+"Every winning blinds and PRR in %1$s will form half Frost Shard %2$s." = "%1$sでブラインドとPRRに勝利するたびに、氷の破片が半分形成されます%2$s。";
+
+/* Collection Event */
+"Frost Shards %s +%d" = "氷の破片 %s +%d";
+
+/* GS Connector */
+"Time to unwrap your present." = "プレゼントを開ける時間です。";
+
+/* Linear Collection Detail_christmas-2021 */
+"Unwrap mystery present by collecting Frost Shards !" = "氷の破片を集めて、ミステリープレゼントを開けましょう！";
+
+/* Linear Collection Detail_christmas-2021 */
+"Frost Shards %2$s : %1$s" = "氷の破片 %2$s : %1$s";
+
+/* Linear Collection Detail_christmas-2021 */
+"Merry Christmas!" = "メリークリスマス！";
+
+/* Popup Return User Bonus */
+"Welcome Back!" = "おかえりなさい！";
+
+/* Popup Return User Bonus */
+"Here are some FREE CHIPS for you" = "あなたへの無料チップをどうぞ";
+
+"_poker_rule_bomb_pot" = "ボムポットでは、全プレイヤーが一定額のアンティを支払い、プリフロップラウンドでのベットは行われません。%2$s内で %1$sが付いているゲームでは、一定の確立でボムポットが発生します。";
+"_poker_rule_NLH_end_game" = "手持ちのカードが「7-7」で、コミュニティカードが「7-9-A-A-2」の場合、フルハウス「7-7-7-A-A」が成立します。コミュニティカードが「J-7-5-6-2」の場合は、スリーカードのみ成立します。\n5枚のコミュニティカード自体が最良のハンドとなる場合もあります。例えば、ボード上のカードが「3-4-5-6-7」で、手持ちのカードが「9-9」の場合、既に役の高いストレートが成立しているので、手持ちのホールカードを使ってプレイすることはできません。\n\nハンドが終了する方法には次の2通りがあります。1つ目は、プレイヤーがホールカードを表向きに開き、最良のハンドを成立さえたプレイヤーが勝利する「ショーダウン」です。2つ目は、他のプレイヤーが全員フォールドするまで、ベットし続ける方法です。ノーリミットホールデムでは、ほとんどの場合2つ目の方法でハンドが終了します。まさに、それがこのゲームの醍醐味。勝利するために、必ずしも最良のハンドが必要となるわけではありません。";
+"_poker_rule_PLO_end_game" = "手持ちのカードが「7s-7d-9h-Kd」でコミュニティカードが「7h-9c-As-Ad-2c」の場合、フルハウス「7s-7d-7h-As-Ad」が成立します。コミュニティカードが「9s-Qd-Qc-Qh-Qs」の場合は、フルハウス「7s-7d-Qd-Qc-Qh」のみ成立し、フォーカードは成立しません。\n\nハンドが終了する方法には次の2通りがあります。\n1つ目は、プレイヤーがホールカードを表向きに開き、最良のハンドを成立さえたプレイヤーが勝利する「ショーダウン」です。2つ目は、他のプレイヤーが全員フォールドするまで、ベットし続ける方法です。POLでは、ほとんどの場合2つ目の方法でハンドが終了します。まさに、それがこのゲームの醍醐味。勝利するために、必ずしも最良のハンドが必要となるわけではありません。";
+"_poker_rule_PLO_end_game_new" = "2. ベットの上限はポットのサイズとなります。\n\nハンドは次の2通りの方法で終了します。\n1つ目は、ハンドに参加しているプレイヤーがホールカードをオープンし、最高のハンドのプレイヤーが勝利します。これは、「ショーダウン」と呼ばれる方法です。もう1つの方法では、プレイヤーが他のプレイヤー全員がフォールドするまでベットします。PLOではこの方法でハンドが終了することが多く、これがゲームの醍醐味となっています。最高のハンドができなくても、ゲームに勝てる可能性があるのです。";
+"Register with an Entry of %s?\n(The Entry is only used for record and does not consume gold.) \n" = "%sのエントリーで登録しますか？\n（エントリーは記録されるだけで、ゴールドは消費されません。）\n";
+"Entry" = "エントリー";
+
+/* Roulette Collection Detail_pizza-2023 */
+"The mission has ended and you’ve earned %1$s.\nAs a hardworking agent, we will exchange your hard work for %2$s as your reward!" = "ミッションが終了し、あなたは%1$sを獲得しました。勤勉なエージェントであるあなたに、努力の見返りとして%2$sの報酬を差し上げます！";
+
+/* Roulette Collection Detail_pizza-2023 */
+"The mission has ended but you're short on %1$s. As a hardworking agent, we decided to let you use %2$s gold coins in exchange for the new pizza chip-con!" = "ミッションが終了しましたが、あなたはあと%1$s足りませんでした。勤勉なエージェントであるあなたのために、金貨%2$s枚と新しいピザチップコンを交換できるようにしました！";
+
+/* Collection Layer Logic */
+"Get a %1$s by collecting %d pieces of %2$s from spinning the wheel!" = "ルーレットを回して%2$sを%d個集めて、%1$sを手に入れましょう！";
+
+/* Collection Layer Logic */
+"random nameplate" = "ランダムネームプレート";
+
+/* Setting Layer */
+"Chips in %s" = "%sのチップ";
+
+/* Roulette Collection Reward Detail_pizza-2023 */
+"Bonus Spin! Own %s and log in to earn one extra spin per day!" = "ボーナススピン！%sを所有した状態でログインすると、1日1回の追加スピンがもらえます！";
+
+/* Roulette Collection Detail_pizza-2023 */
+"Extra %s chips &\n %d% off coupon in Pokerrrr Store" = "Pokerrrrストアで使用できる%d％オフクーポン\nと追加のチップ%s枚";
+
+/* Roulette Collection Reward Detail_pizza-2023 */
+"Play a total of %d hands in Global Pokerrrr Challenge (Poker, Stud, and OFC game types)." = "グローバルPokerrrrチャレンジ（ポーカー、スタッド、OFCのゲームタイプ）で、合計%dハンドプレイしましょう。";
+
+"Extra spin! Own %s and log in to earn one extra spin per day!" = "追加スピン！%sを所有した状態でログインすると、1日1回の追加スピンがもらえます！";
+
+/* Collection Layer Logic */
+"Pokerrrr Store Coupon Code" = "Pokerrrrストアクーポンコード";
+
+/* Collection Layer Logic */
+"Get the %1$s by collecting %d pieces of %2$s from spinning the wheel!" = "ルーレットを回して%2$sを%d個集めて、%1$sを手に入れましょう！";
+
+/* Roulette Collection Event */
+"Bonus Spin" = "ボーナススピン";
+
+/* Roulette Collection Event */
+"You’ve earned spin chances!" = "スピンチャンスを獲得しました！";
+
+/* Roulette Collection Event */
+"Own %s and log in to earn one extra spin per day!" = "%sを所有した状態でログインすると、1日1回の追加スピンがもらえます！";
+
+/* Roulette Collection Detail_pizza-2023 */
+"Operation %s" = "オペレーション %s";
+
+/* Roulette Collection Detail_pizza-2023 */
+"Pizza Fragments" = "ピザの欠片";
+
+/* Roulette Collection Detail_pizza-2023 */
+"Spin Now" = "今すぐスピン";
+
+/* Roulette Collection Detail_pizza-2023 */
+"Get %d" = "%d取得";
+
+/* Roulette Collection Detail_pizza-2023 */
+"You’ve got %d pizza fragments. You earned %s." = "ピザの欠片を%d個手に入れました。%sを獲得しました。";
+
+/* Roulette Collection Detail_pizza-2023 */
+"You’ve got %d pizza fragments. You earned a %s." = "ピザの欠片を%d個手に入れました。%sを獲得しました。";
+
+/* Roulette Collection Detail_pizza-2023 */
+"There’s more to come and more great prizes await!" = "さらに多くの素晴らしい商品があなたをお待ちしています！";
+
+/* Roulette Collection Detail_pizza-2023 */
+"Code: %s" = "コード: %s";
+
+/* Roulette Collection Detail_pizza-2023 */
+"code copied" = "コードが適用されます";
+
+/* Roulette Collection Reward Detail_pizza-2023 */
+"Prizes" = "賞品";
+
+/* Public Game Waiting Layer */
+"Sure to join Rummy with %s chips?" = "チップ%s枚でRummyに参加して本当によろしいですか？";
+
+/* Game Room */
+"Final Round!" = "最終ラウンド！";
+
+/* Game Phone Scene */
+"You will sit back after this round." = "このラウンドの後はシットバックになります。";
+
+/* Record Detail Layer */
+"Scores" = "スコア";
+
+/* Game Panel Layer */
+"An extra 30 seconds will be given when applying a Time Bank in the round." = "タイムバンクを適用すると、そのラウンド中は%1$s秒の追加時間が与えられます。";
+
+/* Game Room */
+"Abnormal move-attempts detected! Your cards will be drawn by the system." = "異常なムーブ操作が検出されました！あなたのカードはシステムによってドローされます。";
+
+/* Game Room */
+"Note!" = "注意！";
+
+/* Game Room */
+"Abnormal move-attempts detected! You only have %d moves left." = "異常なムーブ操作が検出されました！残りのムーブ回数は%dです。";
+
+/* Game Room */
+"Got it" = "了解";
+
+/* Popup New Private Rummy Game */
+"Only need 2+ players to start the game!" = "あとプレイヤー2名で、ゲームを開始できます！";
+
+/* Popup New Private Rummy Game */
+"Host Now!" = "今すぐホストする！";
+
+/* Popup New Public Rummy Game */
+"New game discount!" = "新しいゲーム割引！";
+
+/* Popup New Public Rummy Game */
+"0% entrance fee, check out and play!" = "0%エントリー料、今すぐチェックしてプレイ！";
+
+/* Popup New Public Rummy Game */
+"Check Now!" = "今すぐチェック";
+
+/* Challenge Profile Page */
+"RMR Elite" = "RMRエリート";
+
+/* Challenge Profile Page */
+"Best Scores" = "ベストスコア";
+
+/* Game Control Layer */
+"Undo" = "元に戻す";
+
+/* Game Control Layer */
+"Sort" = "並べ替え";
+
+/* Game Control Layer */
+"Draw" = "ドロー";
+
+/* Game Table Layer */
+"Buy-In Ticket:" = "バイインチケット:";
+
+/* Hosting Result View Layer */
+"Time Bank (30 secs/time)" = "タイムバンク (30秒/回)";
+
+/* Tutorial Layer */
+"Press and hold to drag a set of cards." = "長押しでカード1セットをドラッグします。";
+
+/* Tutorial Layer */
+"Sort the cards by numbers or suits." = "カードを数字またはスートで並べ替えます";
+
+/* Record History Layer */
+"Final Hand Cards" = "最終手札";
+
+/* Tutorial Layer */
+"Game Play" = "ゲームプレイ";
+
+/* Tutorial Layer */
+"1. All players will be given 14 hand cards at the start of the game, the rest of the cards will go to the Stock Pile." = "1. ゲーム開始時に、プレイヤー全員に14枚の手札を配り、残りのカードは「山札」に移動します。";
+
+/* Tutorial Layer */
+"2. Each players will take turns to draw or meld the cards on the board." = "2. 各プレイヤーは順番にカードをドローまたはボード上にメルドを作ります。";
+
+/* Tutorial Layer */
+"3. For the player’s initial meld they must play a set (or more) with the value of at least 30 points. After the initial meld, the players can use the hand cards to meld with the cards on the table. (Note: Cannot put community cards back on the rack)" = "3. プレイヤーが最初にメルドを作る場合は、価値が30ポイント以上となるようセットを1つ（またはそれ以上）作る必要があります。最初のメルドを作った後、プレイヤーは手札を使って、テーブル上のカードとメルドを作ることができます。（注意: コミュニティカードをラックに戻すことはできません）";
+
+/* Tutorial Layer */
+"4. The first player who played all the hand cards on the rack wins!" = "4. ラック上にあるすべての手札を最初に使い切ったプレイヤーが勝利します！";
+
+/* Tutorial Layer */
+"Cards" = "カード";
+
+/* Tutorial Layer */
+"The game consists of 104 number cards and 2 joker cards. The number cards consist of 4 suits with A-K order. Joker cards are wild cards. Can be used as any number and any color set." = "このゲームでは、104枚の数字カードと2枚のジョーカーを使います。数字カードには、AからKの順序で4つのスートが含まれます。ジョーカーカードはワイルドカードですので、あらゆる数字やスートのセットとして使用できます。";
+
+/* Tutorial Layer */
+"Set" = "セット";
+
+/* Tutorial Layer */
+"The 2 valid set types are called runs and groups and the set is composed of at least 3 cards." = "有効なセットには、ランとグループの2種類があり、セットは3枚以上のカードで構成されています。";
+
+/* Tutorial Layer */
+"Groups:" = "グループ:";
+
+/* Tutorial Layer */
+"Same numbers, Different suits" = "数字が同じ、スートは異なる";
+
+/* Tutorial Layer */
+"Runs:" = "ラン:";
+
+/* Tutorial Layer */
+"Same suit, Consecutive numbers" = "スートが同じ、数字は連番";
+
+/* Tutorial Layer */
+"(A and K are not consecutive numbers)" = "（AとKは連番にはなりません）";
+
+/* Tutorial Layer */
+"Feature instructions" = "機能の説明";
+
+/* Tutorial Layer */
+"If the player gets a timeout during the action time, the system will restore the card sets to the last valid arrangement of the cards on the table." = "アクションタイム中にプレイヤーがタイムアウトを取った場合、システムはカードセットを直近のボード上での有効なカード配置に戻します。";
+
+/* Tutorial Layer */
+"Button features" = "ボタンの機能";
+
+/* Tutorial Layer */
+"Click once for an extra 30 secs action time." = "1回クリックするとアクションタイムが30秒追加されます。";
+
+/* Tutorial Layer */
+"Return to the previous state." = "直前の状態に戻します";
+
+/* Tutorial Layer */
+"Restore all hand cards arrangement state of the start of the round." = "すべての手札をラウンド開始時の状態に戻します。";
+
+/* Tutorial Layer */
+"Add a card into a formed set." = "形成したセットにカードを1枚追加します。";
+
+/* Tutorial Layer */
+"Add a card into a formed set, and utilize the card for a new set." = "形成したセットにカードを1枚追加し、そのカードを利用して新しいセットを作ります。";
+
+/* Tutorial Layer */
+"Add a card to the Joker spot and utilize the Joker to form a new set." = "ジョーカーのスポットにカードを追加し、そのジョーカーを利用して新しいセットを作ります。";
+
+/* Tutorial Layer */
+"Reformed the current sets and take out the Joker, use the Joker to form a new set." = "現在のセットを作り直してジョーカーを取り出し、そのジョーカーを使って新しいセットを作ります。";
+
+/* Tutorial Layer */
+"Points" = "ポイント";
+
+/* Tutorial Layer */
+"Once a player wins the game (played all hand cards), the winning points would be the total of all the remaining hand cards from the rest of the players.   The rest of the players would be deducting points based on the total of the remaining hand cards." = "プレイヤーがゲームに勝利すると（手札をすべて使い切る）、他のプレイヤーの持っている残りの手札の合計を勝利ポイントとして獲得します。負けたプレイヤーは、残った手札の合計に基づいてポイントが差し引かれます。";
+
+/* Tutorial Layer */
+"Once all the cards are about to be drawn from the pile, the game will enter the “Final Round” phase and ends once all players play a hand. The winner will be the one who has the lowest points from the total of remaining hand cards." = "パイルからすべてのカードがドローされると、ゲームは「最終ラウンド」のフェーズに入り、プレイヤー全員が手札を1回ずつプレイした時点でゲームが終了します。残った手札の合計ポイントが一番低かったプレイヤーが勝利します。";
+
+/* Tutorial Layer */
+"Rearranging Sets" = "セットの並べ替え";
+
+"All" = "すべて";
+"You haven’t set any club to Favorite yet." = "お気に入りに設定したクラブはまだありません。";
+"Tap the button next to the club name to set the club as Favorite." = "クラブ名の横にあるボタンをタップして、「お気に入り」に設定します。";
+"The icon is shown after being set as Favorite." = "「お気に入り」として設定されると、アイコンが表示されます。";
+"PRR, SDR, and PAR will be %1$s to the number of your %3$s, and BJR will be %2$s times the number of your %3$s." = "PRR、SDR、PARは%3$sの数と%1$sになり、BJRは%3$sの数の%2$s倍になります。";
+"equivalent" = "同じ";
+
+/* ChallengeScoreExplainDialog */
+"_BJRScoreExplain" = "『BJR』レーティングは高度レーティングシステムによって計算されたシステムです。レーティングは次の要素に基づいて行われます:\n- 勝率\n- 年齢ブラインド/バイイン要素\n- 年齢 \n\nグローバルチャレンジの各シーズンは%d日間で、プレイヤーのレーティングが%sを超える場合は、前回のスコアと年齢に応じて次期シーズン開始時に調整されます。\n\n*Pokerrrr グローバルチャレンジはレーティングアルゴリズムとゲームルールを継続的に最適化しています。";
+
+/* Data Model CPP */
+"OFC Progressive" = "OFC プログレッシブ";
+
+/* Data Model CPP */
+"OFC Pineapple" = "OFC パイナップル";
+
+/* Table Layer */
+"OFC" = "OFC";
+
+/* Game Length Setting Layer */
+"Blinds" = "ブラインド";
+
+/* Invite Layer */
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join us! Receive extra 10 free gold coins by downloading here : " = "Pokerrrr2 アプリで友達とポーカーをプレイしてるよ。私のクラブに参加してくださいね！こちらからダウンロードして、無料のボーナス金貨を10枚をゲット :　";
+
+/* OFC Game Control Layer */
+"You are now below min stack: %s\nReload chips to continue." = "最小スタック未満となりました: %s\nチップを補充して続行してください。";
+
+/* OFC Game Panel Layer */
+"Min. Stack" = "最小スタック";
+
+/* OFC Game Panel Layer */
+"Min. Stack can not be higher than buy-in range." = "最小スタックをバイインの範囲より高く設定することはできません。";
+
+/* OFC Hosting Result View Layer */
+"Pineapple" = "パイナップル";
+
+/* OFC Hosting Result View Layer */
+"Progressive" = "プログレッシブ";
+
+/* OFC Hosting Result View Layer */
+"Concurrent" = "同時";
+
+/* OFC Hosting Result View Layer */
+"Sequential" = "順次";
+
+/* OFC Player Name Plate Node */
+"Scoop" = "スクープ";
+
+/* OFC Record History Hand Layer */
+"Pokerrrr adjusting system (PAS)" = "Pokerrrr アジャストシステム (PAS)";
+
+/* Cash Game Panel Layer */
+"Ante" = "アンティ";
+
+/* OFC Game History Layer */
+"Ranking" = "ランキング";
+
+/* OFC Game Panel Layer */
+"Dealing" = "ディーリング";
+
+/* OFC Record History Hand Layer */
+"This hand result is calculated by Pokerrrr adjusting system(PAS)." = "このハンドの結果はPokerrrr アジャストシステム (PAS)によって計算されています。";
+
+/* Setting Layer */
+"Royalties" = "ロイヤルティ";
+
+/* OFC Royalties Layer */
+"Bottom Row" = "上段";
+
+/* OFC Royalties Layer */
+"Middle Row" = "中段";
+
+/* OFC Royalties Layer */
+"Top Row" = "下段";
+
+/* Settings Layer */
+"4-Color Deck On" = "4色デッキ オン";
+
+/* Settings Layer */
+"4-Color Deck Off" = "4色デッキ オフ";
+
+/* Ad Dialog Layer */
+"Know more" = "詳細";
+
+/* Public Cash Game Type Layer */
+"Choose Game" = "ゲームを選択";
+
+/* Main Layer */
+"Changed too frequently! You can only change 2 times every 4 weeks." = "変更頻度が高すぎます。変更できるのは4週間あたり２回だけです。";
+
+/* Main Layer */
+"You can only change 2 times every 4 weeks. (%d left)" = "変更できるのは4週間あたり２回だけです。（残り%d回）";
+
+/* Game Phone Scene */
+"Your game will keep running." = "ゲームの実行は継続されます。";
+
+/* Prize Plan Layer */
+"unit : %" = "単位 : %";
+
+/* Setting Layer */
+"Auto Peek" = "自動ピーク";
+
+/* Setting Layer */
+"(take effect next hand)" = "（次のハンドから効果が反映されます）";
+
+/* ChallengeScoreExplainDialog */
+"_PRRScoreExplain" = "『PRR』レーティングは高度レーティングシステムによって計算されたシステムです。レーティングは次の要素に基づいて行われます:\n- 勝率/終了時の順位\n- ブラインド/バイイン要素\n- 対戦相手の強さ\n- 時間と共に反比例する関数 \n\nグローバルチャレンジの各セッションは%d日間で、プレイヤーのレーティングが%sを超える場合は、前回のスコアと年齢に応じて次期シーズン開始時に調整されます。\n\n*Pokerrrr グローバルチャレンジはレーティングアルゴリズムとゲームルールを継続的に最適化しています。";
+
+/* ChallengeScoreExplainDialogGSOP */
+"_GSOPPrizeExplain" = "「Pokerrrrグローバルシリーズ」のランクと賞金は、シーズン毎に計算されます。\n\n冬: 1月1日～3月31日\n春: 4月1日～6月30日\n夏: 7月1日～9月30日\n秋: 10月1日～12月31日";
+
+/* ChallengeScoreExplainDialogPSR */
+"_PSRScoreExplain" = "『PSR』レーティングは高度なランキングシステムによって計算されているトーナメントレーティングシステムです。レーティングシステムは次の要素に基づいてます :\n- 終了時の順位\n- バイイン要素\n- 対戦相手の強さ\n- 時間と共に反比例する関数\n\nグローバルチャレンジの各セッションは%d日間で、プレイヤーのレーティングは前回のスコアと年齢要素に応じて、次シーズンの開始時に調整される場合があります。\n\n*Pokerrrr グローバルチャレンジはレーティングアルゴリズムとゲームルールを継続的に最適化しています。";
+
+"Chip will be reloaded: %s" = "チップが補充されます: %s枚";
+
+/* Main Page Unit */
+"No more waiting!" = "もう待つ必要はありません！";
+
+/* Main Page Unit */
+"We’ve got you covered with the “Handicap System”. You will be given a set score while sitting with the player(s) in Fantasyland." = "プレイヤーの皆さまのため「ハンディキャップシステム」をご用意しました。ファンタジーランドのプレイヤーと同じテーブルにいる間、一定のスコアが付与されます。";
+
+/* Cash Game Panel Layer */
+"Please select at least 2 games to host" = "ホストするゲームを少なくとも2つ選択してください";
+
+/* Cash Game Panel Layer */
+"Run it twice feature is not available in the 9-player PLO5 table, the feature will be turned off." = "ラン・イット・トゥワイスの機能は、9人制PLO5のテーブルではオフにされるため、使用できません。";
+
+/* Roe Select Game Type Row */
+"Random Order" = "ランダムな順番";
+
+/* Roe Select Game Type Row */
+"By turning on “Random Order”, the selected games will rotate randomly." = "「ランダムな順番」をオンにすると、選択したゲームがランダムにローテーションします。";
+
+/* Cash Game Panel Layer */
+"Rotation Frequency" = "ローテーションの頻度";
+
+/* Cash Hosting Result View */
+"Select Games" = "ゲームを選択";
+
+/* Roe Select Game Type Row */
+"Select Games (Choose at least 2)" = "ゲームを選択（少なくとも２つ以上）";
+
+/* Roe Select Game Type Row */
+"Select All" = "すべて選択";
+
+/* Game Introduction Layer */
+"Tap on game icons to switch between different game types. There are 5 game types in Global Pokerrrr Challenge, including %s1, %s2, %s3, %s4, and %s5." = "ゲームアイコンをタップして、他の種類のゲームに切り替えることができます。グローバルPokerrrrチャレンジには、%s1、%s2、%s3、%s4、%s5の5つの種類のゲームが含まれています。";
+
+/* Game Introduction Layer */
+"Texas Hold’em" = "テキサスホールデム";
+
+/* Game Player Layer */
+"Twice" = "トゥワイス";
+
+/* Click Settings Layer */
+"Tap and locate “How to Play”." = "タップして「プレイ方法」を見つけてください。";
+
+/* Click Settings Layer */
+"You can access “How to Play” and “Gesture Tutorial” here" = "「プレイ方法」と「ジェスチャーのチュートリアル」にはここからアクセスできます";
+
+/* Click Settings Layer */
+"You’re all set! It’s time to start your new chapter as a Pokerrrr agent." = "これで準備完了です！Pokerrrrエージェントとしての、新しい章の幕開けです。";
+
+/* First Time Login Layer */
+"Agent ID: %s, will compete with real poker pros worldwide on the table at any time and advance the agent level by your own ability." = "エージェントID: %s、世界中にいる本物のポーカーのプロたちと、いつでも好きな時にテーブルで対戦し、自分の能力を駆使してエージェントレベルを高めていきましょう。";
+
+/* Gesture Introduction Layer */
+"Let’s learn some gestures to help you compete with worldwide poker pros more smoothly!" = "世界中のポーカーのプロたちとスムーズに対戦できるよう、役立つジェスチャーをいくつか覚えましょう！";
+
+/* Gesture Introduction Layer */
+"Let’s learn classic Blackjack gestures to help you compete with top Blackjack agents more smoothly!" = "ブラックジャックのトップエージェントたちとスムーズに対戦ができるよう、定番のブラックジャックのジェスチャーを覚えましょう！";
+
+/* Collection Event Mission */
+"Use the “Hit” feature to get 21 points for %d hands." = "「ヒット」機能を使って21点を%dハンド完成させる。";
+
+/* Collection Event Mission */
+"Use the “Hit” feature when the hand card value is equal to or less than 16 for %d hands." = "手札の点数が16点またはそれ以下のときに、「ヒット」機能を%d回使用する。";
+
+/* Collection Event Mission */
+"Use the “Stand” feature when the hand card value is equal to or more than 17 for %d hands." = "手札が17点またはそれ以上のときに、「スタンド」機能を%dターン使用する。";
+
+/* Collection Event Mission */
+"Use the “Double” feature when the hand card value is equal to 10 or 11 for %d hands." = "手札が10点または11点のときに、「ダブル」機能を%dターン使用する。";
+
+/* Collection Event Mission */
+"When the dealer’s first show card is an Ace, use the “Buy Insurance” feature for %d hands." = "ディーラーの最初のショーカードがエースのときに、「インシュアランスを購入」機能を%dターン使用する。";
+
+/* Collection Event Mission */
+"When hand cards are Aces or 8s, use the “Split” feature for %d hands." = "両方の手札がエースまたは8のときに、「スプリット」機能を%dハンド使用する。";
+
+/* Main Page Club */
+"Create / Join a club" = "クラブを作成 / クラブに参加";
+
+/* Anniversary Popup_10th Anniversary-2023 */
+"for %d days" = "%d日間";
+
+/* Anniversary Event Popup */
+"Great job! You've earned the exclusive Diamond VIP for %d days! Keep it up and earn more!" = "お見事です！%d日間の限定ダイヤモンドVIPを獲得しました！その調子で、もっと獲得しましょう！";
+
+/* IAP Module */
+"Diamond VIP" = "ダイヤモンドVIP";
+
+/* Anniversary Popup_10th Anniversary-2023 */
+"Get Diamond VIP for every 199 gold spent in the Store! (Max 10 times)" = "ストアで199ゴールド使うたびに、ダイヤモンドVIPが手に入ります（最高10回まで）";
+
+/* Anniversary Popup_10th Anniversary-2023 */
+"own Sapphire and Diamond VIP at the same time" = "サファイアVIPとダイヤモンドVIPを同時に所有する";
+
+/* IAP Page Currency Sapphire */
+"own Diamond and Sapphire VIP at the same time" = "ダイヤモンドVIPとサファイアVIPを同時に所有する";
+
+/* Collection Event Mission */
+"Host %1$s Friendly/Club games (4 people+, %2$s mins+)" = "フレンドリー/クラブゲームを%1$s回ホストする（4人以上、%2$s分以上）";
+
+/* Collection Event Mission */
+"Host %1$s Friendly/Club game (4 people+, %2$s mins+)" = "フレンドリー/クラブゲームを%1$s回ホストする（4人以上、%2$s分以上）";
+
+/* Collection Event Mission */
+"Play %d %s games" = "%sゲームを%d回プレイする";
+
+/* Collection Event Mission */
+"Send gifts in Friendly/Club games %d times" = "フレンドリー/クラブゲームで%d回ギフトを贈る";
+
+/* Collection Event Mission */
+"Play %d Friendly/Club games" = "フレンドリーゲームを%d回プレイする";
+
+/* Collection Event Mission */
+"Host %1$s friendly games (4 people+, %2$s mins+)" = "フレンドリーゲームを%1$s回ホストする（4人以上、%2$s分以上）";
+
+/* Collection Event Mission */
+"Host %1$s friendly game (4 people+, %2$s mins+)" = "フレンドリーゲームを%1$s回ホストする（4人以上、%2$s分以上）";
+
+/* Main Page Club */
+"Friendly Game" = "フレンドリーゲーム";
+
+/* Main Scene */
+"FRIENDLY" = "フレンドリー";
+
+/* GS Connector */
+"Action Required" = "アクションが必要です";
+
+"The system will refresh the Time Bank card based on the set blind level or time, adding 1 card at a time. The number of Time Bank cards will only refresh to the Max Time Bank Cards set by the host." = "システムは設定されたブラインドレベルまたは時間に基づいて「タイムバンク」を更新し、一度に1枚ずつカードを追加します。「タイムバンク」のカード数は、ホストが設定したタイムバンクカードの上限数まで更新されます。";
+
+/* GS Connector */
+"Please enable the “In-App Purchases” feature in device settings." = "デバイス設定から「アプリ内購入」機能を有効にしてください。";
+
+/* Other Player Medal List */
+"%s’s Medals" = "%sさんのメダル";
+
+/* Collection Event Mission */
+"Play %d Friend/Club games" = "友達/クラブゲームを%d回プレイする";
+
+/* Collection Layer Logic */
+"Special Deal" = "特別割引";
+
+/* Collection Layer Logic */
+"Valid for %d days" = "%d日間有効です";
+
+/* Collection Layer Logic */
+"%s for %d gold" = "%sを%dゴールドで購入できます";
+
+/* Collection Line Popup_jaihind-2023 */
+"Unwrap the special gifts by winning 1, 4, and 8 lines!" = "1、4 、8 列で勝利して、特別ギフトを開封しましょう！";
+
+"Level Badges" = "レベルバッジ";
+
+/* Cash Hosting Result View */
+"card" = "カード";
+
+/* Cash Hosting Result View */
+"cards" = "カード";
+
+/* Cash Hosting Result View */
+"Every %d mins" = "%d分ごと";
+
+/* Cash Hosting Result View */
+"Max" = "最大";
+
+/* Poker Game Panel Base */
+"An amount of extra time that can be given to a player for their action time." = "タイムバンクにある時間をプレイヤーの持ち時間に追加することができます。";
+
+/* Poker Game Panel Base */
+"Time Bank Refresh Interval" = "タイムバンクを更新する間隔";
+
+/* Poker Game Panel Base */
+"Every %d blind level" = "%dブラインドレベルごと";
+
+/* Poker Game Panel Base */
+"Every %d blind levels" = "%dブラインドレベルごと";
+
+/* Cash Game Panel Layer */
+"Time Bank Cards" = "タイムバンクカード";
+
+/* Cash Game Panel Layer */
+"Max Time Bank Cards" = "タイムバンクカードの最大枚数";
+
+/* Cash Hosting Result View */
+"Refresh Interval" = "更新の間隔";
+
+/* How To Send Gift */
+"How to send Gifts" = "ギフトを贈る方法";
+
+/* Collection Line Popup_natsumatsuri-2023 */
+"Unwrap the festive $1s rewards by sending table gifts." = "テーブルでギフトを贈って、お祭りの$1s報酬を開封しましょう。";
+
+/* Collection Line Popup_natsumatsuri-2023 */
+"%1$s in tables with %2$s icon" = "%2$sアイコンのテーブルで%1$s";
+
+/* How To Send Gift */
+"Tap on your opponents' nameplates on the table to find all Gifting options, choose one and send it out!" = "テーブルで対戦相手のネームプレートをタップすると、ギフトオプションがすべて表示されます。ギフトを1つ選んで贈りましょう！";
+
+/* Game Gift Select Layer */
+"Limited" = "限定";
+
+/* Collection Event Mission */
+"Gentleman: Send a gift to the winner from the previous hand" = "紳士: 前回のハンドでの勝者にギフトを贈る";
+
+/* Collection Event Mission */
+"Clown: Send a gift to the opponent after winning a hand" = "道化師: ハンドで勝利した後に、対戦相手にギフトを贈る";
+
+/* Collection Layer Logic */
+"Get %d% off on all in-game gifting for %d mins" = "ゲーム内でのギフトが%d分間すべて%d%オフになります";
+
+/* Collection Layer Logic */
+"Gifting Prime Time" = "ギフトゴールデンタイム";
+
+/* Collection Layer Logic */
+"Gifting Coupon" = "ギフトクーポン";
+
+/* Collection Layer Logic */
+"Get %d% off on Gifting items in Store (Valid for %d days)" = "ストアのギフトアイテムが%d%オフになります（%d日間有効）";
+
+/* Collection Layer Logic */
+"Gifting Bundle" = "ギフトバンドル";
+
+/* Collection Line Popup_natsumatsuri-2023 */
+"LINES" = "ライン";
+
+/* Collection Line Popup_natsumatsuri-2023 */
+"Get 50% off on all in-game gifting for 30mins" = "ゲーム内のギフトが30分間すべて50%オフ";
+
+/* Espionage Room Layer */
+"To unlock Agent %s missions, you will need to accomplish Agent %s." = "エージェント%sのミッションをアンロックするには、エージェント%sを達成する必要があります。";
+
+"Conquer the challenge now" = "チャレンジを今すぐクリアしましょう";
+"When a player’s current chips are less than the buy-in chips for the table, the system will automatically reload the chips to the player’s stack on the next hand, making their current chips equal to the buy-in chip amount. If the player’s buy-in chips are not a whole number of the BB, the decimal will be rounded down." = "プレイヤーの手持ちのチップが、テーブルのバイインのチップよりも少なくなった場合、次のハンドで手持ちのチップがバイインのチップと同じになるよう、システムによってチップが自動的に補充されます。プレイヤーのバイインのチップがBBの整数に満たない場合、小数点以下は切り捨すてとなります。";
+
+/* Collection Layer Logic */
+"Collect all %d %2$s to win %1$s!" = "%d%2$sをすべて集めて%1$sを獲得しましょう！";
+
+/* Global Alert Layer */
+"SPIN" = "スピン";
+
+/* Collection Layer Logic */
+"Send gifts to your opponents in Global Pokerrrr Challenge by tapping on their nameplates!" = "「グローバルPokerrrrチャレンジ」で対戦相手のネームプレートをタップして、ギフトを贈りましょう！";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"Collect nameplate pieces to win" = "ネームプレートピースを集めて獲得しましょう";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"SPIN X%d" = "スピン X%d";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"You’ve won a Nameplate Piece!" = "ネームプレートピースを獲得しました！";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"Reset : %s" = "リセット : %s";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"Reset" = "リセット";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"Play and accumulate exp. ratings to earn spin chances!" = "プレイして経験レーティングをためて、スピンのチャンスを獲得しましょう！";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"You’ve got all the nameplate pieces and won a brand-new nameplate! Keep on spinning to win more prizes!" = "ネームプレートピースをすべて集めて、新しいネームプレートを獲得しました！ルーレットを回して、報酬をもっと手に入れましょう！";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"You’ve won $d chips!" = "チップ$d枚を獲得しました！";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"You’ve won $d gifting!" = "$dのギフトを獲得しました！";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"You’ve won a Bronze Ticket!" = "ブロンズチケットを獲得しました！";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"You’ve won an Apprentice Shield!" = "見習いシールドを獲得しました！";
+
+/* Roulette Collection Reward Detail_wheel Of Freedom-2023 */
+"RULES" = "ルール";
+
+/* Roulette Collection Reward Detail_wheel Of Freedom-2023 */
+"All game type ratings (SDR, PAR, PRR, BJR, RMR, and PSR) can and will be counted for the progress bar of spin chances, except for MTT rankings. The progress bar will reset daily." = "MTTレーティングを除くすべてのゲームタイプのレーティング（SDR、PAR、PRR、BJR、RMR、PSR）が、スピンチャンスの進捗バーにカウントされます。進捗バーは毎日リセットされます。";
+
+/* Roulette Collection Reward Detail_wheel Of Freedom-2023 */
+"PRIZES" = "賞品";
+
+/* Roulette Collection Reward Detail_wheel Of Freedom-2023 */
+"Nameplate pieces" = "ネームプレートピース";
+
+/* Roulette Collection Detail_wheel Of Freedom-2023 */
+"You’ve won an Apprentice Shield! " = "見習いシールドを獲得しました！　";
+
+/* Player Medal List Item */
+"Locked" = "ロックされています";
+
+/* Player Medal List */
+"Medal of Honor" = "名誉勲章";
+
+/* Roulette Collection Detail Layer */
+"You have spin(s) available and chances of getting great prizes! Sure to leave?" = "ルーレットを回して、素晴らしい賞品をもらえるチャンスがあります！本当に退出しますか？";
+
+/* Roulette Collection Detail Layer */
+"Spin now!" = "今すぐスピン！";
+
+/* Roulette Collection Detail Layer */
+"Sure to jump out?" = "本当にやめますか？";
+
+/* Roulette Collection Detail Layer */
+"Don’t show for today" = "今日は表示しない";
+
+/* Control Layer */
+"You can only choose between “All-In” or “Fold” your hand cards in this game mode." = "このゲームモードでは、手札のカードの「オールイン」または「フォールド」のみ選択できます。";
+
+/* Poker Game Panel Base */
+"All-in or Fold" = "オールインまたはフォールド";
+
+/* Poker Game Panel Base */
+"Players can only choose between “All-in” or “Fold” their hand cards when the feature is turned on." = "この機能がオンになっている場合、プレイヤーは手札のカードの「オールイン」または「フォールド」のみ選択できます。";
+
+/* Poker Game Panel Base */
+"The “Muck Losing Hand” feature is turned off automatically in “All-in or Fold” game mode." = "「オールインまたはフォールド」ゲームモードでは、「負けのハンドをマックする」機能が自動的に無効化されます。";
+
+"Enjoying %s?" = "%sをお楽しみいただいていますか？";
+
+/* IAP Page Gifting */
+"TREAT" = "ご褒美";
+
+/* IAP Page Gifting */
+"TEASE" = "いたずら";
+
+/* IAP Page Gifting */
+"Are you sure about buying this gifting?" = "このギフトを購入して本当によろしいですか？";
+
+/* Gesture Insurance */
+"To buy insurance, drag and place the Chip-Con to the insurance betting area." = "インシュアランスを購入するには、チップコンをインシュアランスのベッティングエリアにドラッグアンドドロップします。";
+
+/* Gesture Split */
+"Drag and place the Chip-Con to the “Split” betting area." = "チップコンをドラッグして、「スプリット」のベッティングエリアに置きます。";
+
+/* Gesture Bet */
+"Drag and place the Chip-Con to the betting area." = "チップコンをドラッグして、ベッティングエリアに置きます。";
+
+/* Popup Black Jack Gesture */
+"Check it out!" = "チェックする！";
+
+/* Game Gift Select Layer */
+"Free" = "無料";
+
+/* IAP Page */
+"(%s will expire in %s)" = "（%s個があと%sで期限切れ）";
+
+/* Public Profile Toolkit List */
+"GIFTING" = "ギフト";
+
+/* IAP Layer */
+"Gifting" = "ギフト";
+
+/* IAP Page Gifting */
+"Max Stock" = "所持上限";
+
+/* Public Profile Layer */
+"Toolkit" = "ツールキット";
+
+/* Host Game Panel */
+"Auto Start" = "自動開始";
+
+/* Public Profile Layer */
+"No gear available!" = "利用できるギアはありません！";
+
+/* Host Game Panel */
+"The game will start automatically when the players reach the set number." = "プレイヤーが一定数集まると、ゲームが自動的に開始されます。";
+
+/* Gesture End */
+"Great work, you've learned all the gestures now!\nPut the skills into practice!" = "素晴らしいです。これで、すべてのジェスチャーを覚えました！\nそのスキルを実践で試してみましょう！";
+
+/* Host Game Panel */
+"players" = "プレイヤー";
+
+/* Setting Layer */
+"Gesture Hints" = "ジェスチャーのヒント";
+
+/* Rumble Bundle Popup */
+"Open up the Rumble Bundle, you will find the mysterious force of becoming a poker pro!" = "ランブルバンドルを開けば、ポーカーのプロになれる不思議な力が見つかるでしょう！";
+
+/* Rumble Bundle Popup */
+"Random Nameplate + Random Deck + %s chips" = "ランダムネームプレート＋ランダムデッキ＋チップ%s枚";
+
+/* Mini Gesture Layer */
+"Place Chips" = "チップを置く";
+
+/* Popup Black Jack Gesture Anim */
+"Experiencing real-life BJ gestures in the app!" = "このアプリで、リアルなブラックジャックのハンドジェスチャーを体験！";
+
+/* Mini Gesture Layer */
+"The same hand gesture applies to “Stand” and not buying insurance." = "「スタンド」とインシュアランス購入なしを同じハンドジェスチャーで適用できます。";
+
+/* Popup Invite Layer */
+"Looks like you've helped your friends claim the reward! Why not host a game and play together?" = "あなたのおかげで友達が報酬を受け取れたようです！ゲームをホストして一緒にプレイしてはいかがですか？";
+
+/* Ice Breaker Hint Layer */
+"Initial Move：    %s/%d  Points" = "先手：    %s/%d ポイント";
+
+/* Achievement Layer */
+"You won the 1st place! " = "1位を獲得しました！　";
+
+/* Achievement Layer */
+"You won the 2nd place!" = "2位を獲得しました！";
+
+/* Achievement Layer */
+"You won the 3rd place!" = "3位を獲得しました！";
+
+/* Collection Event Mission */
+"Spend %d gold in the Store" = "ストアで%dゴールド使う";
+
+/* Collection Event Mission */
+"Claim daily bonus %d times" = "デイリーボーナスを%d回取得する";
+
+/* Collection Event Mission */
+"Play %d %s hands" = "%sを%dハンドプレイする";
+
+/* Collection Event Mission */
+"Play %s %d hands" = "%dを%sハンドプレイする";
+
+/* Collection Event Mission */
+"Win %s %d hands" = "%dで%sハンド勝利する";
+
+/* Collection Event Mission */
+"Play %s %d games" = "%dを%sゲームプレイする";
+
+/* Collection Event Mission */
+"Win any %1$s Stud games (%2$s / %3$s), power through for the reward!" = "スタッドゲームに%1$s回勝利する（%2$s / %3$s）、報酬を目指してやり遂げましょう！";
+
+/* Collection Event Mission */
+"Win %d %s hands" = "%sで%dハンド勝利する";
+
+/* Collection Event Mission */
+"Win %d %s games" = "%sで%dゲーム勝利する";
+
+/* Collection Event Mission */
+"Play $5%d more hands to finish $1%s Mission [$2%d]!" = "さらに$5%dハンドプレイして、$1%sミッション [$2%d]を終了しましょう！";
+
+/* Collection Event Mission */
+"Win $5%d more hands to finish $1%s Mission [$2%d]!" = "さらに$5%dハンド勝利して、$1%sミッション [$2%d]を終了しましょう！";
+
+/* Collection Line Popup */
+"Sure to unlock the mission with gold coins?" = "金貨を使って、ミッションをアンロックして本当によろしいですか？";
+
+/* Public Game Result Layer */
+"Sure to leave the game?" = "ゲームを退出して本当によろしいですか？";
+
+/* Public Game Result Layer */
+"If you leave while your opponent(s) is in Fantasyland, your final score might differ from what's showing upon leaving and facing chances of losing chips without playing. Sure to leave?" = "対戦相手がファンタジーランドに入っている間にゲームを退出すると、あなたの最終スコアは退出時に表示されていたスコアと異なる場合があり、あなたはプレイせずにチップを失う可能性があります。本当に退出しますか？";
+
+/* Game Chip Action */
+"Double" = "ダブル";
+
+/* Game Chip Action */
+"Split" = "スプリット";
+
+/* IAP Page Chip Con */
+"Valid for NLH, PLO, Stud, and Blackjack games" = "NLH、PLO、スタッド、およびブラックジャックのゲームで有効です";
+
+/* Game Control Layer */
+"Stand" = "スタンド";
+
+/* Game Control Layer */
+"No Insurance" = "インシュアランスなし";
+
+/* Gesture Bet */
+"Drag and drop the chip-con to the betting area." = "ベッティングエリアにチップコンをドラッグアンドドロップします。";
+
+/* Gesture Bet Adjust */
+"Slide the upper bar clockwise to adjust betting amount." = "上のバーを時計回りにスライドさせてベットする額を調整します。";
+
+/* Gesture Hit */
+"Hit" = "ヒット";
+
+/* Gesture Hit */
+"Double tap on the table." = "テーブルをダブルタップします。";
+
+/* Gesture Insurance */
+"To buy insurance, drag and drop the chip-con to the dealer." = "インシュアランスを購入するには、チップコンをディーラーにドラッグアンドドロップします。";
+
+/* Gesture No Insurance */
+"If no insurance is needed, slide to the right side of the screen until the arrow is filled." = "インシュアランスが不要な場合は、矢印が満タンになるまで画面の右へ指をスライドさせます。";
+
+/* Gesture Split */
+"Drag and drop the chip-con to the “Split” area." = "「スプリット」エリアにチップコンをドラッグアンドドロップします。";
+
+/* Gesture Stand */
+"Slide to the right of the screen to fill up the arrow." = "画面の右へ指をスライドさせて、矢印を満タンにします。";
+
+"Buy Insurance" = "インシュアランスを購入";
+"Bet (x)" = "ベット (x)";
+"Exp. ratings: PRR, SDR, PAR, BJR and RMR" = "経験レーティング: PRR、SDR、PAR、BJR、RMR";
+
+/* Linear Collection Detail_easter-2023_popup */
+"Join the tables with %1$s icon to accumulate exp. ratings for %2$s!" = "%1$sのアイコンがあるテーブルに参加して、経験値レーティングをためて、%2$sを集めましょう！";
+
+/* IAP Page Currency */
+"Get $1d $2s for every gold spent in the Store!" = "ストアで1ゴールド使うたびに、$1d個の$2sが手に入ります！";
+
+/* Linear Collection Detail_easter-2023_popup */
+"Unlimited Gift\n(for $1d days)" = "無制限ギフト\n（$1d日間）";
+
+/* Linear Collection Detail_easter-2023_popup */
+"Collect $1s to charge and activate the golden eggs!" = "$1sを集めてチャージして、ゴールデンエッグを獲得しましょう！";
+
+"Best Season Rank" = "最高シーズンランク";
+
+/* Challenge Profile Page GSOP */
+"1st-3rd Rate" = "1～3位の割合";
+
+/* Challenge Profile Page GSOP */
+"Final Table Rate" = "ファイナルテーブルレート";
+
+"Play the OFC game and get to Fantasyland %d times" = "OFCゲームをプレイして、ファンタジーランドに%d回入る";
+"Tap other players' nameplates to send gift %d times" = "他のプレイヤーのネームプレートをタップして、ギフトを%d回送る";
+
+/* IAP Page Currency Sapphire */
+"Purchase limits reached" = "ご購入の上限に達しました。";
+
+/* Game Play */
+"Can’t rearrange or add hand cards to the sets on the table in the initial move!" = "初手のムーブでは、テーブル上のセットを並べ替える、または手札を追加することはできません！";
+
+/* Data Model CPP */
+"You’ve reached the purchase limits as you have an ongoing %s for %d+ days at the moment." = "現在進行中の%sを%d日以上所有しているため、ご購入の上限に達しました。";
+
+/* IAP Page Currency */
+"Not eligible for purchase!" = "購入できません！";
+
+/* Popup Emerald VIP */
+"Shine elegantly like an Emerald" = "エメラルドのような上品な輝き";
+
+/* Popup Emerald VIP */
+"Brand new Emerald VIP with unlimited gifting and bonuses! Don’t miss out!" = "ギフトとボーナスが無制限のエメラルドVIPが新登場！お見逃しなく！";
+
+/* IAP Page Currency Emerald */
+"Emerald VIP" = "エメラルドVIP";
+
+/* IAP Page Currency Emerald */
+"Unlimited Gifts" = "無制限ギフト";
+
+/* IAP Page Currency Emerald */
+"Extra Bonus：%s" = "追加ボーナス: %s";
+
+/* IAP Page Currency Emerald */
+"own Emerald and Sapphire VIP at the same time" = "エメラルドVIPとサファイアVIPを同時に所有する";
+
+/* Collection Event Mission */
+"Send gifts by tapping other's nameplate" = "他のプレイヤーのネームプレートをタップしてギフトを送る";
+
+/* Collection Line Popup_patrick-2023 */
+"Unwrap the special gifts by winning 1, 3, 5, and 8 lines!" = "1、3 、5、8 列で勝利して、特別ギフトを開封しましょう！";
+
+/* Collection Line Popup_patrick-2023 */
+"%1$s in the tables with the %2$s icon" = "%2$sアイコンのテーブルで%1$s";
+
+/* Collection Line Popup_patrick-2023 */
+"%1$s\n(for %2$s)" = "%1$s\n(%2$s)";
+
+/* Collection Line Popup_patrick-2023 */
+"Green Beer Gifting" = "グリーンビールのギフト";
+
+/* Collection Line Popup_patrick-2023 */
+"You’ve got %s" = "%sを取得しました";
+
+/* Collection Line Popup_patrick-2023 */
+"Here's your reward." = "あなたへの報酬をどうぞ。";
+
+/* Roulette Collection Reward Detail_pizza-2023 */
+"You can also get 1 bonus spin/day by equipping %s during the event time!" = "イベント期間中に%sを装備すると、1日1回ボーナススピンがもらえます！";
+
+/* Roulette Collection Reward Detail_pizza-2023 */
+"Spin and collect the Pizza Fragments to get the brand new Pizza Chip-con! Play a total of %d hands in Global Pokerrrr Challenge (Poker, Stud, and OFC game types) to earn 1 spin!" = "ルーレットを回して「ピザの欠片」を集めて、新登場のピザチップコンを手に入れましょう！グローバルPokerrrrチャレンジ（ポーカー、スタッド、OFCのゲームタイプ）で合計%dハンドプレイすると、ルーレットを1回スピンすることができます！";
+
+/* ChallengeScoreExplainDialog */
+"_RMRScoreExplain" = "『BJR』レーティングは高度レーティングシステムによって計算されたシステムです。レーティングは次の要素に基づいて行われます:\n- 勝率/終了時の順位\n- エントリー料\n- 対戦相手の強さ\n- 年齢 \n\nグローバルチャレンジの各シーズンは%d日間で、プレイヤーのレーティングが%sを超える場合は、前回のスコアと年齢に応じて次期シーズン開始時に調整されます。\n\n*Pokerrrr グローバルチャレンジはレーティングアルゴリズムとゲームルールを継続的に最適化しています。";
+
+/* Collection Event */
+"Be the Champ of %s" = "%sのチャンピオンになろう";
+
+/* Collection Event */
+"Finish the Daily Battle at 1st place" = "デイリーバトルを第1位で終了する";
+
+/* Collection Event */
+"Win a %s million+ pot" = "%s00万ポットを獲得する";
+
+/* Collection Event */
+"Play %s %d hands in Global Pokerrrr Challenge to get free nameplate." = "「グローバルPokerrrrチャレンジ」で%sを%dハンドプレイして、無料のネームプレートを獲得しましょう。";
+
+/* Collection Event */
+"Play any %d %s hands" = "%sをどれでも%dハンドプレイする";
+
+/* Player Level Missions Layer_ofc-joker-2021-11 */
+"Play any %s games in Global Pokerrrr Challenge to get reward." = "「グローバルPokerrrrチャレンジ」で%sをどれでもプレイして、報酬を手に入れましょう。";
+
+/* Collection Event */
+"Agent %s" = "エージェント%s";
+
+/* IAP Page Currency */
+"First Chip Purchase Extra %d% Bonus" = "初回チップ購入で%d%追加ボーナス";
+
+/* IAP Page Currency */
+"Expires in" = "有効期限まで";
+
+/* IAP Page Currency */
+"First Chip Purchase Buy 1 get 1 Free" = "初回チップ購入で、もう1つ無料プレゼント";
+
+/* Public MTT Content */
+"No show" = "無断キャンセル";
+
+/* Invite Layer */
+"*You'll get reward after your friends sign in." = "*友達がサインインすると、報酬を受け取ることができます。";
+
+/* Scene Manager */
+"Logging in is required before entering referral code." = "招待コードを入力する前にログインする必要があります。";
+
+/* Scene Manager */
+"*First time login will give you %s bonus chips!" = "*初回ログイン時にボーナスチップ%s枚をプレゼント！";
+
+/* Scene Manager */
+"*First time login will give you %s bonus gold!" = "*初回ログイン時に%sボーナスゴールドをプレゼント！";
+
+/* Public Profile Layer */
+"View Collection" = "コレクションを見る";
+
+/* Social Sign In Notice Dialog */
+"Get %s Gold!" = "%sゴールドを取得！";
+
+/* Social Sign In Notice Dialog */
+"Get %s Chips!" = "チップ%s枚を取得！";
+
+/* Popup Halloween Limit */
+"Last Chance" = "最後のチャンス";
+
+/* Social Sign In Notice Dialog */
+"Sign in" = "サインイン";
+
+/* Social Sign In Notice Dialog */
+"Keep your Pokerrrr account safe" = "Pokerrrrアカウントの安全を守る";
+
+/* Social Sign In Notice Dialog */
+"Play on multiple devices" = "複数のデバイスでプレイ";
+
+/* Social Sign In Notice Dialog */
+"*Deleting the app/data/cache may wipe your guest account" = "*アプリ/データ/キャッシュを削除すると、ゲストアカウントが完全に削除される場合があります";
+
+/* Social Sign In Notice Dialog */
+"continue as guest" = "ゲストとして続行する";
+
+/* Public MTT Content */
+"*No show player will be removed after Level 2." = "*無断キャンセルしたプレイヤーは、レベル２以降削除されます。";
+
+/* Daily Reward Layer */
+"Daily Login Reward" = "デイリーログイン報酬";
+
+/* Daily Reward Layer */
+"Watch video to earn %d chips !" = "動画を視聴してチップ%d枚を獲得！";
+
+/* Settings Main Layer */
+"Gameplay" = "ゲームプレイ";
+
+/* TutorialLayer */
+"_stud_tutorial_desc_intro" = "セブンカード・スタッドはクラシックなポーカーゲームです。このゲームでは、プレイヤー全員に7枚のカードが配られます。その中から5枚のカードを使い、一番良いポーカーの役をつくったプレイヤーが勝者となります。";
+
+"_stud_tutorial_desc_intro_new" = "セブンカード・スタッドはクラシックなポーカーゲームです。このゲームでは、プレイヤー全員に7枚のカードが配られます。その中から5枚のカードを使い、一番良いポーカーのハンドをつくったプレイヤーが勝者となります。";
+"_stud_tutorial_desc_3rd_street" = "ゲーム開始時に、各プレイヤーには裏向きでカード2枚（ホールカード）と表向きでカード1枚（ドアカード）が配布されます。プレイヤーは全員同額のアンティを払い、ドアカードが一番弱いプレイヤーから時計回りにプレイを始めます。カードの強さが同じ場合は、スートで順位を付けます: クラブが一番弱く、次にダイヤモンド、ハート、スペードの順になります。最初のプレイヤーは、「ブリングイン」と呼ばれるブラインドベットを行ってからゲームを開始します。このベットは、予め決められたブリングインの額からスモールベットの全額の間で自由に決めることができます。このラウンドはプリフリップではなく、「サードストリート」と呼びます。";
+"_stud_tutorial_desc_4th_street" = "すべてのプレイヤーがアクションを完了し、ポットの金額が正しければ、フォースストリート」に進み、プレイヤー全員に2枚目のドアカードが配布されます。ベッティングラウンドが開始します。";
+"_stud_tutorial_desc_5th_street" = "次に、フィフスストリートでドアカードがもう1枚配布され、ベッティングラウンドが開始します。";
+"_stud_tutorial_desc_6th_street" = "さらに、シックスストリートでもう1枚ドアカードが配布され、ベッティングラウンドが開始します。";
+"_stud_tutorial_desc_7th_street" = "最後に、リバーが伏せて配布され、最終ベッティングラウンドが開始します。　";
+"_stud_tutorial_desc_result" = "5つのカードで最も強いハンドをつくったプレイヤーがポットを獲得します。";
+
+/* Main Tab Scene */
+"End Game" = "ゲームを終了";
+
+"_stud_tutorial_desc_end" = "このゲームでは、ハンドの強さによって順番が変わりますのご注意ください。サードストリート以外では、一番強いハンドを持つプレイヤーからアクションを行います。その他に、NLHと大きく異なる点として、セブンカード・スタッドにはベットリミットがあります。各ゲームには「スモールベット」と「ビッグベット」が設定されています。スモールベットはサードストリートとフォースストリートで使用され、ビッグベットはフィフス、シックス、セブンスストリートで使用されます。プレイヤーはスモールベットまたはビッグベットの単位でベットやレイズを行います。例えば、ゲームが10/20で開始される場合、サードおよびフォースストリートでは、チップ10枚をベットしてから、さらに10枚レイズできます。フィフスストリート以降は、ベットできる枚数が20枚になります。テキサスホールデムと同様、各ベッティングラウンドで、プレイヤーはチェック、ベット、コール/レイズ、またはフォールドすることができます。";
+"_stud_tutorial_desc_end_new" = "このゲームでは、ハンドの強さによって順番が変わりますのご注意ください。サードストリート以外では、一番強いハンドを見せているプレイヤーからアクションを行います。その他に、NLHと大きく異なる点として、セブンカード・スタッドにはベットリミットがあります。各ゲームには「スモールベット」と「ビッグベット」が設定されています。スモールベットはサードストリートとフォースストリートで使用され、ビッグベットはフィフス、シックス、セブンスストリートで使用されます。プレイヤーはスモールベットまたはビッグベットの単位でベットやレイズを行います。例えば、ゲームが10/20で開始される場合、サードおよびフォースストリートでは、チップ10枚をベットしてから、さらに10枚レイズできます。フィフスストリート以降は、ベットできる枚数が20枚になります。テキサスホールデムと同様、各ベッティングラウンドで、プレイヤーはチェック、ベット、コール/レイズ、またはフォールドすることができます。";
+
+/* Data Model CPP */
+"PL Hold'em" = "PL ホールデム";
+
+/* Cash Game Panel Layer */
+"No Limit" = "無制限";
+
+/* Cash Game Panel Layer */
+"Pot Limit" = "ポットリミット";
+
+/* Replay Layer */
+"This hand is unavailable" = "このハンドは使用できません";
+
+/* Settings Main Layer */
+"Apple Logout" = "Apple ログアウト";
+
+/* IAP Layer */
+"It will start right after you make the purchase." = "購入後直ちに開始されます。";
+
+/* Init Scene */
+"Sign in with Facebook" = "Facebookでサインイン";
+
+/* Table Mode Select Dialog */
+"Join as Table Mode" = "テーブルモードで参加";
+
+/* Table Mode Select Dialog */
+"Use iPad as a poker table only." = "iPadをポーカーテーブルとして使用する場合のみ。";
+
+/* Table Mode Select Dialog */
+"1. Host a game on another device.\n2. Enter the generated game code here." = "1.他のデバイスでゲームをホストする。\n2. 生成されたゲームコードをここに入力。";
+
+"Entrants" = "参加者";
+
+/* Public Game Waiting Layer */
+"Sure to join the SNG with %s chips?" = "チップ%s枚でSNGに参加して本当によろしいですか？";
+
+/* Public Game Waiting Layer */
+"Join Ultrasonic SNG" = "ウルトラソニックSNGに参加する";
+
+/* Keyboard Layer */
+"Paste" = "貼り付ける";
+
+/* Battle Record Layer */
+"PSR Monthly Reset" = "PSR マンスリーリセット";
+
+/* Game Phone Scene */
+"The game has not ended so your hand will be auto-played after leaving the table.\n\nAre you sure to leave the game?" = "ゲームが終了していないため、テーブル退出後もあなたのハンドは自動でプレイされます。\n\nゲームから退出して本当によろしいですか？";
+
+/* Public Leaderboard Layer */
+"Wins" = "勝利";
+
+/* Public Profile Layer */
+"View collection" = "コレクションを見る";
+
+/* Public Profile Layer */
+"View my collection" = "獲得したコレクションを見る";
+
+/* Public Game Detail Layer */
+"1st Prize" = "1位の賞金";
+
+/* Public Game Detail Layer */
+"2nd Prize" = "2位の賞金";
+
+/* Public Game Season Result Layer */
+"Monthly rating reset" = "マンスリーレーティングリセット";
+
+/* Public Game Season Result Layer */
+"Last season\n%s" = "前シーズン\n%s";
+
+/* Public Profile Layer */
+"Best PSR" = "ベスト PSR";
+
+/* Public Profile Layer */
+"Best Daily Total Win" = "1日あたりの最高トータル勝利回数";
+
+/* Public Profile Layer */
+"My Collection" = "獲得したコレクション";
+
+/* Record Detail Layer */
+"*The game is terminated by %s" = "*ゲームは%sによって終了されました";
+
+/* Public Leaderboard Layer */
+"PSR Apex" = "PSRトップ";
+
+/* Public Leaderboard Layer */
+"SNG Rush" = "SNGラッシュ";
+
+/* Main Layer */
+"Your friends can join game by inputing the game code here." = "ここのゲームコードを入力すると、友達もゲームに参加できます。";
+
+/* Main Layer */
+"You can host a poker game with your friends. There will be a “game code” for every hosted game." = "ポーカーゲームをホストして友達とプレイできます。ホストしたゲームごとに「ゲームコード」が割り当てられます。";
+
+/* Muck Losing Hand, which means that you will never show a losing hand and automatically muck it. */
+"Muck Losing Hand" = "負けのハンドをマックする";
+
+/* Game Phone Scene */
+"Stand Up" = "スタンドアップ";
+
+/* Game Phone Scene */
+"You will stand up after leaving." = "退出後、あなたはスタンドアップとなります。";
+
+/* Game Phone Scene */
+"Sure to stand up?" = "スタンドアップしますか？";
+
+/* Game Phone Scene */
+"You will stand up after this hand." = "このハンド後はスタンドアップになります。";
+
+/* Game Phone Scene */
+"Sit back" = "シットバック";
+
+/* Game Phone Scene */
+"Sure to sit back?" = "シットバックしますか？";
+
+/* Game Phone Scene */
+"You will sit back after this hand." = "このハンドの後はシットバックになります。";
+
+/* Table Layer */
+"(Stand up in %s)" = "（スタンドアップまで%s）";
+
+/* Game Control Layer */
+"I'm Back" = "戻りました";
+
+/*
+ * Next small blind & big blind. E.g, "Next :  4/8".
+ * Small blinds and big blinds will continue to increase as game time passes.
+*/
+"Next : %s/%s" = "次のレベル : %s/%s";
+
+/* Tutorial Mini Layer */
+"Hide the tutorial button." = "チュートリアルボタンを非表示にします。";
+
+/* Club Record Main Layer */
+"Manage" = "管理";
+
+/* Club Member Layer */
+"Search players" = "プレイヤーを検索";
+
+/* Club Message Layer */
+"Members" = "メンバー";
+
+/* Record Main Layer */
+"Calculate" = "計算";
+
+/* IAP Layer */
+"3 HOUR PASS" = "3時間パス";
+
+"Removes hosting fee (3hr)" = "ホスティング料を排除（3時間）";
+
+/* IAP Layer */
+"Purchase Cooldown" = "購入可能な間隔";
+
+/* Game Phone Scene */
+"Always wait for big blind" = "常にビッグブラインドを待つ";
+
+/* Data Conversion */
+"Host game capacity : %d → %d" = "ホストゲーム数上限: %d → %d";
+
+"Removes hosting fee (24hr)" = "ホスティング料を排除（24時間）";
+
+/* Game Phone Scene */
+"Add-on" = "アドオン";
+
+/* Game Phone Scene */
+"The break starts after this hand." = "このハンドの後、休憩が開始します。";
+
+/* SNG Hosting Result View */
+"%1$s for %2$s chips" = "チップ%2$s枚に%1$s";
+
+/* Game Info Layer */
+"The add-on period will become active when the rebuy period ends. The add-on period will last for %d minutes." = "アドオン期間は再購入期間終了時に有効になります。アドオン期間は%d分間続きます。";
+
+/* Game Phone Scene */
+"The add-on price is %1$s for %2$s chips?\n(The price is only used for record and does not consume gold.)" = "アドオンの価格はチップ%2$s枚で%1$s？（価格は記録のために使用され、ゴールドは消費されません。）";
+
+/* Game Info Layer */
+"Price" = "価格";
+
+/* Update Terms Dialog */
+"Disagree" = "同意しない";
+
+/* Update Terms Dialog */
+"Agree" = "同意する";
+
+/* GS Connector */
+"Update to our Terms & Privacy" = "規約とプライバシーの更新";
+
+/* GS Connector */
+"We have recently updated our Terms & Privacy. Please read and accept these new terms to continue using Pokerrrr 2." = "このたび規約とプライバシーを更新いたしました。引き続きPokerrrr 2をお楽しみいただくには、新たな規約をお読みのうえ同意していただく必要があります。";
+
+/* Game Info Layer */
+"Chip Unit" = "チップの単位";
+
+/* Init Scene */
+"You have to agree to our “Terms and Privacy” first." = "「規約とプライバシー」に同意する必要があります。";
+
+/* Init Scene */
+"By ticking the box, you agree to our" = "ボックスをクリックすることにより、あなたは次の内容に同意したことになります:";
+
+/* Club Message Layer */
+"Delete Message" = "メッセージを削除";
+
+/* Club Message Layer */
+"Are you sure to delete this message?" = "このメッセージを削除して本当によろしいですか？";
+
+/* Club Settings Layer */
+"Member Messages" = "メンバーのメッセージ";
+
+/* Club Settings Layer */
+"Manager Messages" = "管理者のメッセージ";
+
+/* Club Settings Layer */
+"New Games" = "新しいゲーム";
+
+/* Club Settings Layer */
+"Notifications" = "通知";
+
+/* Title of a dialog when removing players from queue */
+"Remove" = "削除";
+
+/* Queue */
+"Are you sure you want to remove “%s” from the queue?" = "本当に『%s』を順番待ちから削除しますか？";
+
+/* Queue */
+"Decline" = "拒否";
+
+/* GS Connector */
+"It's your turn to join Game #%1$s hosted by %2$s." = "%2$sがホストしているゲーム＃%1$sにあなたが参加する番です。";
+
+/* Room Queue */
+"Are you sure you want to leave queue?" = "本当に順番待ちをやめますか？";
+
+/* Game Phone Scene */
+"You just sat out, hit and run rule requires you to buy-in with the same amount." = "あなたはシットアウトしたばかりです。ヒットアンドランルールにより、同額をバイインする必要があります。";
+
+/* Input number is not valid. */
+"Invalid" = "無効";
+
+/* GS Connector */
+"Select seat" = "シートを選択";
+
+/* GS Connector */
+"Your Turn" = "あなたの番";
+
+/* Game Info Layer */
+"Queue" = "順番待ち";
+
+/* Game Info Layer */
+"Players can queue for the table if it is full." = "テーブルが満席の場合、プレイヤーは順番待ちすることができます。";
+
+/* Room Queue */
+"Are you sure you want to sit in?" = "本当に着席しますか？";
+
+/* Room Queue List Layer */
+"Your changes will be discarded.\n Exit without saving?" = "変更内容は破棄されます。\n保存せずに終了しますか？";
+
+/* Game Info Layer */
+"Join Queue" = "順番待ちに入る";
+
+/* Game Info Layer */
+"Leave Queue" = "順番待ちをやめる";
+
+/* Game Table Layer */
+"View Queue" = "順番待ちを見る";
+
+/* Room Queue List Layer */
+"Your buy-in request is pending approval from host." = "あなたのバイインリクエストはホストからの承認待ち中です。";
+
+/* Room Queue List Layer */
+"Currently no players in queue." = "現在順番待ちのプレイヤーはいません。";
+
+/* Room Request Detail Layer */
+"Requests" = "リクエスト";
+
+/* Room Request Detail Layer */
+"Request History" = "リクエスト履歴";
+
+/* Room Request Detail Layer */
+"Currently no requests." = "現在リクエストはありません。";
+
+/* Room Request Detail Layer */
+"Buy-in confirmation is disabled." = "バイインの確認が無効にされています。";
+
+/* Room Request Detail Queue Layer */
+"Queue is disabled." = "順番待ちが無効にされています。";
+
+/* Room Request List Layer */
+"Game List" = "ゲームリスト";
+
+/* After searching clubs */
+"You are now part of this club!" = "クラブに参加しました。";
+
+/* SNG Break settings */
+"Every %d Lv." = "%dレベルごと";
+
+/* text shown on the table during break time */
+"Game Break" = "休憩中";
+
+/* SNG Break settings */
+"Break" = "休憩";
+
+/* search club */
+"Please enter the club’s code here" = "クラブコードを入力してください";
+
+/* After searching clubs */
+"You sent this club a join request." = "クラブへの参加をリクエストしました。";
+
+"This player changed their name recently. Are you sure you want to accept this request?" = "このプレーヤーは最近名前を変えました。リクエストを承認して本当によろしいですか？";
+"You are not allowed to export this game because record privacy is enabled." = "記録プライバシーによりエクスポートできません。";
+
+/* confirm to change language */
+"Change to %s?" = "%sに変更しますか？";
+
+/* App Rate */
+"Enjoying Pokerrrr 2?" = "Pokerrrr 2をお楽しみいただいていますか？";
+
+/* Setting options to change app language */
+"Language" = "言語";
+
+/* App Rate */
+"Not really" = "それほどでも";
+
+/* App Rate */
+"Yes!" = "はい！";
+
+/* App Rate */
+"How about a rating on the Google play?" = "Google Playで評価していただけますか？";
+
+/* App Rate */
+"How about a rating on the AppStore?" = "AppStoreで評価していただけますか？";
+
+/* App Rate */
+"No, thanks" = "いいえ、結構です";
+
+/* App Rate */
+"Ok, sure!" = "もちろん！";
+
+/* App Rate */
+"Would you mind giving us some feedback?" = "フィードバックをいただけませんか？";
+
+/* Advertisement Event Listener */
+"Oops!" = "おっと！";
+
+/* Battle Layer */
+"Join cash game challenge" = "キャッシュゲームチャレンジに参加";
+
+/* Battle Layer */
+"Sure you want to join the cash game with %s chips?" = "チップ%s枚でキャッシュゲームに参加して本当によろしいですか？";
+
+/* Battle Layer */
+"Cancel" = "キャンセル";
+
+/* Battle Layer */
+"OK" = "OK";
+
+/* Battle Layer */
+"Loading..." = "読み込み中...";
+
+/* Battle Layer */
+"Daily Profit" = "一日あたりの利益";
+
+/* Battle Layer */
+"This is your daily profit in “Challenge”; your ranking is based on this." = "これがあなたの「Pokerrrr チャレンジ」での一日当たりの利益です。この値を基にランキングが決められています。";
+
+/* Big Cards Layer */
+"Check" = "チェック";
+
+/* Big Chip Control Layer */
+"BB" = "BB";
+
+/* Big Chip Control Layer */
+" X" = " X";
+
+/* Buy Chip Layer */
+"Confirmation" = "確認";
+
+/* Buy Chip Layer */
+"Are you sure about buying %s?" = "%sを購入して本当によろしいですか？";
+
+/* Buy Chip Layer */
+"chips" = "チップ";
+
+/* Cash Hosting Result View */
+"No limit" = "無制限";
+
+/* Cash Hosting Result View */
+"on" = "オン";
+
+/* Cash Hosting Result View */
+"off" = "オフ";
+
+/* Cash Hosting Result View */
+"mins" = "分";
+
+/* Cash Hosting Result View */
+"secs" = "秒";
+
+/* Minutes free of charge */
+"%d mins free" = "%d分間無料";
+
+/* Cash Hosting Result View */
+"Cap" = "キャップ";
+
+/* Cash Hosting Result View */
+"hr" = "時間";
+
+/* Cash Hosting Result View */
+"Copied" = "コピーしました";
+
+/* Club Create Layer */
+"Joined" = "参加しました";
+
+/* Club Create Layer */
+"Requesting" = "リクエスト中";
+
+/* Club Create Layer */
+"Join" = "参加";
+
+/* Club Create Layer */
+"You can only create %d clubs." = "クラブは%d個までしか作成できません。";
+
+/* Club Create Layer */
+"Anyone who wants to join should be confirmed by owner." = "参加希望者は全員、オーナーからの許可が必要です。";
+
+/* Club Detail Layer */
+"(Owner)" = "（オーナー）";
+
+/* Club Detail Layer */
+"(Manager)" = "（管理者）";
+
+/* Club Detail Layer */
+"On" = "オン";
+
+/* Club Detail Layer */
+"Off" = "オフ";
+
+/* Club Detail Layer */
+"Member" = "メンバー";
+
+/* Club Detail Layer */
+"Manager" = "管理者";
+
+/* Club Detail Layer */
+"Owner" = "オーナー";
+
+/* Club Detail Layer */
+"Delete" = "削除";
+
+/* Club Detail Layer */
+" Leave " = "　退出　";
+
+/* Club Detail Layer */
+"Promote to owner?" = "オーナーに昇格しますか？";
+
+/* Club Detail Layer */
+"Promote to manager?" = "管理者に昇格しますか？";
+
+/* Club Detail Layer */
+"You will be demoted to manager; the new owner will take all of your owner privileges. Are you sure you want to promote %s? \n" = "あなたは管理者に降格され、その後は新しいオーナーがすべてのオーナー特権を引き継ぎます。\n%sさんを昇格させて本当によろしいですか？";
+
+/* Club Detail Layer */
+"Managers are allowed to accept or reject requesting members, and kick or promote current members. Are you sure you want to promote %s?" = "管理者は『参加リクエストの承認/拒否、メンバーの追放/昇格』が許可されています。%sさんを管理者に昇格させて本当によろしいですか？";
+
+/* Club Detail Layer */
+"Confirm" = "確定";
+
+/* Club Detail Layer */
+"Demoting a manager will remove their privileges to accept or reject requesting members, and kick or promote current members. Are you sure you want to demote %s to a member?" = "管理者を降格すると、管理者の特権である『参加リクエストの承認/拒否、メンバーの追放/昇格』がはく奪されます。%sさんを降格させて本当によろしいですか？";
+
+/* Club Detail Layer */
+"Demote to member?" = "メンバーに降格しますか？";
+
+/* Club Detail Layer */
+"This member will no longer see the club messages or receive club notifications once kicked. Are you sure you want to kick %s out?" = "追放されると、そのメンバーはクラブのメッセージを見ることができなくなり、通知も受け取れなくなります。%sさんを追放して本当によろしいですか？";
+
+/* Club Detail Layer */
+"Kick the member?" = "メンバーを追放しますか？";
+
+/* After requesting to join club, you can choose to cancel your request */
+"Cancel Request" = "リクエストをキャンセル";
+
+/* Club Detail Layer */
+"Sure to cancel your request?" = "リクエストをキャンセルして本当によろしいですか？";
+
+/* Club Detail Layer */
+"No" = "いいえ";
+
+/* Club Detail Layer */
+"Sure to leave this club?" = "このクラブを退出して本当によろしいですか？";
+
+/* Club Detail Layer */
+"Sure to delete this club?" = "このクラブを削除して本当によろしいですか？";
+
+/* Club Main Layer */
+"Invite friends to your clubs" = "あなたのクラブに友達を招待する";
+
+/* Club Message Layer */
+"Type here..." = "ここに入力...";
+
+/* Club Message Layer */
+"Club Code" = "クラブコード";
+
+/* Club Message Layer */
+"is requesting to join the club." = "さんがクラブへの参加をリクエストしています。";
+
+/* Club Message Layer */
+"hosted a game." = "さんがゲームをホストしました。";
+
+/* Club Message Layer */
+"joined the club." = "さんがクラブに参加しました。";
+
+/* Club Message Layer */
+"has left the club." = "さんがクラブを退出しました。";
+
+/* Club Message Layer */
+"has been kicked by owner." = "さんがオーナーによって追放されました。";
+
+/* PlayerA has been kicked out by PlayerB. */
+"has been kicked by %s." = "さんが%sさんによって追放されました。";
+
+/* Club Message Layer */
+"has been rejected by owner." = "さんがオーナーによって拒否されました。";
+
+/* Club Message Layer */
+"has been rejected by %s." = "さんが%sによって拒否されました。";
+
+/* Club Message Layer */
+"This club has been closed by owner." = "このクラブはオーナーによってクローズされました。";
+
+/* Club Message Layer */
+"was promoted by %s." = "さんが%sさんによって昇格されました。";
+
+/* PlayerA gets demoted by PlayerB */
+"was demoted by %s." = "さんが%sさんによって降格されました。";
+
+/* Club Message Layer */
+"new messages" = "新着メッセージ";
+
+/* Club Message Layer */
+"Sorry" = "申し訳ありません";
+
+/* Club Message Layer */
+"You are not allowed to host in this club." = "あなたがこのクラブでホストすることは許可されていません。";
+
+/* Club Message Layer */
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join my club! My club code : #%s. Download here : " = "Pokerrrr2 アプリで友達とポーカーをプレイしてるよ。私のクラブに参加してくださいね！クラブコードは#%sです。こちらからダウンロード :　";
+
+/* Club Record Main Layer */
+"Record Deletion" = "記録削除";
+
+/* Club Record Main Layer */
+"Members cannot access the results of deleted records, except for their own results." = "自身の記録以外、メンバーは削除された記録にアクセスできません。";
+
+/* Number of friends in the club. */
+"%d of your friends in this club" = "このクラブにいる友達の%d人";
+
+/* Club Selection Layer */
+"You can start to share hand records after you join/create clubs." = "クラブ参加/作成後、ハンド記録の共有を開始できます。";
+
+/* Data Conversion */
+"(%d days)" = "(%d日)";
+
+/* Data Conversion */
+"Max capacity of game records : 20 → %d" = "記録可能なゲーム数の上限 : 20 → %d";
+
+/* Data Conversion */
+"Max capacity of creating clubs : 3 → %d" = "作成可能なクラブ数の上限 : 3 → %d";
+
+/* Data Conversion */
+"Max number of club managers: 2 → %d" = "クラブ管理者の上限数: 2 → %d";
+
+/* Data Conversion */
+"Concurrent games hosting : 1 → %d" = "同時にホスティングできるゲーム数 : 1 → %d";
+
+/* Control Layer */
+"Straddle" = "ストラドル";
+
+/* System calculates an adjustable percentage of pot to the tips box. This percentage can be set & adjusted by the host. */
+"System will calculate a designated % of pot to tips box." = "システムがポットの%を計算してチップボックスに入れます。";
+
+/* Control Layer */
+"All in" = "オールイン";
+
+/* Raise to x amount of chips */
+"Raise to" = "にレイズする";
+
+/* Control Layer */
+"Call" = "コール";
+
+/* Control Layer */
+"Bet" = "ベット";
+
+/* Control Layer */
+"Raise" = "レイズ";
+
+/* Control Layer */
+"You can Check!!" = "チェックできます！";
+
+/* Round of each. If no direct translation, leave as R.O.E. */
+"R.O.E." = "R.O.E.";
+
+/* Control Layer */
+"Are you sure you wanna fold?" = "本当にフォールドしますか？";
+
+/* Control Layer */
+"You cannot check!!" = "チェックできません！！";
+
+/* Control Layer */
+"Other player betted, you cannot check now." = "他のプレイヤーがベットしたので、今チェックすることはできません。";
+
+/* Data Model CPP */
+"Hi-Lo PLO" = "PLO ハイロー";
+
+/* Data Model CPP */
+"NL Hold'em" = "NL ホールデム";
+
+/* Data Model CPP */
+"5-Card PLO" = "PLO 5カード";
+
+/* Game End Control Layer */
+"Leave" = "退出";
+
+/* Game Phone Scene */
+"sent a voice message." = "さんがボイスメッセージを送信しました。";
+
+/* Game Phone Scene */
+"ROYAL FLUSH" = "ロイヤルフラッシュ";
+
+/* Game Phone Scene */
+"FOUR OF A KIND" = "フォーカード";
+
+/* Game Phone Scene */
+"STRAIGHT FLUSH" = "ストレートフラッシュ";
+
+/* Game Phone Scene */
+"FULL HOUSE" = "フルハウス";
+
+/* Game Phone Scene */
+"FLUSH" = "フラッシュ";
+
+/* Game Phone Scene */
+"STRAIGHT" = "ストレート";
+
+/* Game Phone Scene */
+"THREE OF A KIND" = "スリーカード";
+
+/* Game Phone Scene */
+"TWO PAIRS" = "ツーペア";
+
+/* Game Phone Scene */
+"PAIR" = "ペア";
+
+/* Game Phone Scene */
+"HIGH CARD" = "ハイカード";
+
+/* Game Phone Scene */
+"Leave Game" = "ゲームを退出";
+
+/* Game Phone Scene */
+"Viewers are not allowed to chat in this game." = "観覧者がこのゲーム内でチャットすることは許可されていません。";
+
+/* Game Phone Scene */
+"Game will be terminated right away." = "ゲームは直ちに終了されます。";
+
+/* Game Phone Scene */
+"You are leaving the game you hosted.\nDo you want to terminate this game?" = "あなたがホストしたゲームから退出しようとしています。\nこのゲームを終了しますか？";
+
+/* Game Phone Scene */
+"Terminate" = "終了";
+
+/* Game Phone Scene */
+"Keep" = "そのまま続ける";
+
+/* Game Phone Scene */
+"You will sit out after leaving." = "退出後、あなたはシットアウトとなります。";
+
+/* Game Phone Scene */
+"Sure to leave this Game?" = "このゲームを退出して本当によろしいですか？";
+
+/* Game Phone Scene */
+"Reload" = "補充";
+
+/* Game Phone Scene */
+"Your chips exceed the maximum buy-in, you cannot reload chips!" = "チップがバイインの上限を超えています。チップを補充できません！";
+
+/* Game Phone Scene */
+"Reload Range" = "補充範囲";
+
+/* Game Phone Scene */
+"Host Again" = "もう一度ホストする";
+
+/* Game Phone Scene */
+"You will host a new game with the same settings." = "同じ設定で新しいゲームをホストします。";
+
+/* Game Phone Scene */
+"Warning" = "警告";
+
+/* you haven't sat in the table yet, do you wanna start the game directly? */
+"You haven't sat in, do you wanna start the game directly?" = "あなたはまだシットインしていません。ゲームを直接開始しますか？";
+
+/* Game Phone Scene */
+"Sit Out" = "シットアウト";
+
+/* Game Phone Scene */
+"Sure to sit out?" = "シットアウトして本当によろしいですか？";
+
+/* Game Phone Scene */
+"You will sit out after this hand." = "このハンドの後はシットアウトになります。";
+
+/* Game Phone Scene */
+"Terminate Game" = "ゲーム終了";
+
+/* Game Phone Scene */
+"Sure to end this game?" = "このゲームを終了して本当によろしいですか？";
+
+/* Game Phone Scene */
+"The game will end after this hand." = "このハンドの後、ゲームが終了されます。";
+
+/* Game Phone Scene */
+"Pause" = "一時停止";
+
+/* Game Phone Scene */
+"Sure to pause?" = "一時停止して本当によろしいですか？";
+
+/* Game Phone Scene */
+"Game will be paused after this hand." = "このハンドの後、ゲームが一時停止されます。";
+
+/* Game Phone Scene */
+"This feature is only available for games in clubs." = "この機能はクラブ内のゲームでのみ利用可能です。";
+
+/* Game Phone Scene */
+"You just sat out few mins ago." = "数分前にシットアウトしたばかりです。";
+
+/* %s = number of chips. E.g, "Buy-in must be 4,546" */
+"Buy-in must be %s" = "%sをバイインしてください";
+
+/* Game Phone Scene */
+"Buy-in range must be %s ~ %s ." = "バイインは%s～%sの間で行ってください。";
+
+/* Game Phone Scene */
+"Buy-in Range : %s ~ %s ." = "バイイン範囲 : %s ~ %s。.";
+
+/* Game Phone Scene */
+"Sit" = "シットイン";
+
+/* Game Phone Scene */
+"Buy-in Amount" = "バイイン価格";
+
+/* Game Phone Scene */
+"Reconnecting..." = "再接続中...";
+
+/* Game Phone Scene */
+"This game is terminated." = "このゲームは終了しました。";
+
+/* Game Phone Scene */
+"Chips %s will be reloaded next hand." = "次のハンドでチップ%s枚が補充されます。";
+
+/* Game Phone Scene */
+"Your request has been sent." = "あなたのリクエストが送信されました。";
+
+/* Game Phone Scene */
+"Waiting for the host's confirmation (%s)." = "ホストからの確定を待っています（%s）。";
+
+/* Game Phone Scene */
+"Final Table" = "ファイナルテーブル";
+
+/* Game Phone Scene */
+"Table %d" = "テーブル%d";
+
+/* Game Phone Scene */
+"The game has ended." = "このゲームは終了しました。";
+
+/* Game Phone Scene */
+"The game is closing.\n Waiting for other tables" = "ゲームをクローズしています。\n他のテーブルを待機中";
+
+/* Game Phone Scene */
+"Hand-for-hand play.\n Waiting for the other table" = "ハンド フォー ハンドプレイ。\n他のテーブルを待機中";
+
+/* Game Phone Scene */
+"Waiting" = "待機中";
+
+/* Game Phone Scene */
+"Resume" = "再開";
+
+/* Game Phone Scene */
+"Game Paused" = "ゲーム一時停止";
+
+/* Game Phone Scene */
+"Not enough players! \nGame will end in %s." = "プレイヤーが不足しています！\nあと%sでゲームが終了します。";
+
+/* Game Phone Scene */
+"Successfully reloaded" = "補充が完了しました";
+
+/* Game Phone Scene */
+"Oops! Insufficient chips" = "おっと！チップが足りません";
+
+/* Game Phone Scene */
+"Buy more chips?" = "チップをさらに購入しますか？";
+
+/* Game Phone Scene */
+"Next time" = "次回";
+
+/* Game Phone Scene */
+"Let’s go!" = "レッツゴー！";
+
+/* Game Phone Scene */
+"Register" = "登録";
+
+/* Game Phone Scene */
+"Join Game?" = "ゲームに参加しますか？";
+
+/* Game Phone Scene */
+"Register with buy-in ticket of %s?\n(The buy-in or ticket is only used for record and does not consume gold.) \n" = "%sのバイインチケットに登録しますか？\n（バイインまたはチケットは記録のために使用され、ゴールドは消費されません。）";
+
+/* GS Connector */
+"Logout" = "ログアウト";
+
+/* Game Phone Scene */
+"%s just hosted a new game." = "%sさんが新しいゲームをホストしました。";
+
+/* GS Connector */
+"Your account has been logged-in on another device." = "お使いのアカウントは他のデバイスでログインされています。";
+
+/* GS Connector */
+"Update!" = "アップデート！";
+
+/* GS Connector */
+"Please update to the latest version." = "最新バージョンにアップデートしてください。";
+
+/* GS Connector */
+"Chips" = "チップ";
+
+/* GS Connector */
+"Gold" = "ゴールド";
+
+/* GS Connector */
+"Get back to receive your bonus gold!" = "戻ってボーナスゴールドを受け取ってください！";
+
+/* GS Connector */
+"Your action time +%d secs." = "あなたのアクションタイム+%d秒。";
+
+/* GS Connector */
+"Please enter your club’s name and description." = "名前と説明を入力してください。";
+
+/* GS Connector */
+"Please fill in the search bar" = "検索バーに入力してください";
+
+/* GS Connector */
+"Complete" = "完了";
+
+/* GS Connector */
+"Thanks for your feedback" = "フィードバックをありがとうございます";
+
+/* Init Scene */
+"Get %s free gold" = "無料ゴールド%s個を取得";
+
+/* Init Scene */
+"Enter your name" = "名前を入力";
+
+/* Init Scene */
+"Display Name" = "表示名";
+
+/* Init Scene */
+"Too Long!" = "長過ぎます！";
+
+/* Init Scene */
+"Too short!" = "短すぎます！";
+
+/* Init Scene */
+"1. Host a game by the other device.\n2. Enter the generated game code here." = "1.他のデバイスでゲームをホストする。\n2. 生成されたゲームコードをここに入力。";
+
+/* Player Info */
+"Streak" = "ストリーク";
+
+/* Player Layer */
+"Offline" = "オフライン";
+
+/* Player Layer */
+"RAISE" = "レイズ";
+
+/* Table Layer */
+"Host" = "ホスト";
+
+/* Table Layer */
+"MTT" = "MTT";
+
+/* Table Layer */
+"SNG" = "SNG";
+
+/* Table Layer */
+"min" = "分";
+
+/* Table Layer */
+"sec" = "秒";
+
+/* Table Layer */
+"Rebuy" = "リバイ";
+
+/* Game Info Layer */
+"hours" = "時間";
+
+/* Game Info Layer */
+"hour" = "時間";
+
+/* Game Info Layer */
+"%d winners" = "%d人の勝者";
+
+/* Game Info Layer */
+"Custom" = "カスタム";
+
+/* Game Info Layer */
+"Plan" = "プラン";
+
+/* Game Info Layer */
+" / game" = " / ゲーム";
+
+/* Game Info Layer */
+"Unregister" = "登録解除";
+
+/* Game Info Layer */
+"Sit out" = "シットアウト";
+
+/* Game Info Layer */
+"Game Length" = "ゲームの長さ";
+
+/* Game Info Layer */
+"Game will end at the designated time." = "設定時間にゲームがクローズされます。";
+
+/* Game Info Layer */
+"Tips Box" = "チップボックス";
+
+/* Game Info Layer */
+"System will calculate the designated % of pot to tips box with the upper limit (Cap)." = "システムがポットの%を計算してチップボックスに入れます。上限（キャップ）を設定することもできます。";
+
+/* Game Info Layer */
+"Buy-in Confirmation" = "バイインの確認";
+
+/* Game Info Layer */
+"Every buy-in should be confirmed by host." = "バイインはホストの許可が必要になります。";
+
+/* Game Info Layer */
+"Registration Confirmation" = "申し込みの許可";
+
+/* Game Info Layer */
+"Every registration should be confirmed by host." = "申し込みはホストの許可が必要になります。";
+
+/* Game Info Layer */
+"Record Privacy" = "記録のプライバシー";
+
+/* Game Info Layer */
+"Players only have access to their own buy-in amount and profit info." = "プレイヤーは自分のバイイン金額および利益の情報にのみアクセスできます。";
+
+/* Game Info Layer */
+"Viewer Mute" = "観覧者ミュート";
+
+/* Game Info Layer */
+"Viewers cannot chat with players." = "観覧者がプレイヤーとチャットすることはできません。";
+
+/* Game Info Layer */
+"Time Bank" = "タイムバンク";
+
+/* Game Info Layer */
+"Each player has %1$d secs in their time bank at start of the game. An extra %2$d secs will be awarded to players' time bank every %3$d minutes into a game.\nTime bank can only hold max %4$d secs." = "ゲーム開始時、各プレイヤーはタイムバンクに%1$d秒間の持ち時間があります。ゲーム参加中は%3$d分経過するごとにプレイヤーのタイムバンクに%2$d秒間が追加されます。\nタイムバンクで保有できる時間の上限は%4$d秒です。";
+
+/* Game Info Layer */
+"Each player has %1$d secs in their time bank at start of the game. An extra %2$d secs will be awarded to players' time bank every %3$d blind levels into a game.\nTime bank can only hold max %4$d secs." = "ゲーム開始時、各プレイヤーはタイムバンクに%1$d秒間の持ち時間があります。ゲーム参加中は%3$dブラインドレベルごとにプレイヤーのタイムバンクに%2$d秒間が追加されます。\nタイムバンクで保有できる時間の上限は%4$d秒です。";
+
+/* Game Info Layer */
+"Run It Twice" = "ランイットトワイス";
+
+/* Game Info Layer */
+"When no more betting can occur in a hand, the remaining community cards will be dealt twice, creating two separate boards. The pot is split evenly between both boards, awarding the two halves of the pot according to the final results of each board." = "ハンドでこれ以上ベットすることができない場合、残りのコミュニティカードが2回ディールされ、2つの個別のボードが作成されます。ポットは両方のボードへ均等に分割され、各ボードの最終結果に基づいてポットの半分が2個与えられます。";
+
+/* Game Info Layer */
+"UTG player can make a straddle bet after turning on the option." = "UTGプレイヤーはオプションをオンにした後、ストラドルベットを行うことができます。";
+
+/* Game Info Layer */
+"Rebuy & late registration" = "リバイとレイトレジスト";
+
+/* Game Info Layer */
+"Until Lv.%d" = "レベル%dまで";
+
+/* Game Info Layer */
+"“Rebuy & late registration” is only available for SNG when 3 or more players are still playing." = "「リバイとレイトレジスト」は3人以上のプレイヤーがプレイしているSNGでのみ利用できます。";
+
+/* Game Info Layer */
+"“Rebuy & late registration” will end for 36 and 90 player MTTs after the final table has been settled." = "MTTでは36と90のプレイヤーMTTでファイナルテーブル決定後に「リバイとレイトレジスト」ができなくなります。";
+
+/* Game Info Layer */
+"Unlimited" = "無制限";
+
+/* Game Info Layer */
+"days" = "日間";
+
+/* Game Info Layer */
+"day" = "日間";
+
+/* Game Info Layer */
+"hrs" = "時間";
+
+/* Game Info Layer */
+"Free Host" = "無料ホスト";
+
+/* If playing 5 card poker AND table is set to 9 players max, then 'run it twice' is NOT an option and will automatically be switched off. */
+"A 9-Max 5-Card game does not support run it twice; the switch will remain off." = "9プレイヤー・5カードのゲームではランイットトワイスを利用できません。ランイットトワイスのスイッチはオフにされます。";
+
+/* Game Info Layer */
+"A Hi-Lo PLO game does not support run it twice, the switch will remain off." = "PLO ハイローゲームではランイットトワイスを利用できません。ランイットトワイスのスイッチはオフにされます。";
+
+/* Global Alert Layer */
+"Big Blind" = "ビッグブラインド";
+
+/* Global Alert Layer */
+"Buy-in Ticket" = "バイインチケット";
+
+/* Global Alert Layer */
+"(Rebuy x %d)" = "(リバイ x %d)";
+
+/* Global Alert Layer */
+"Buy-in" = "バイイン";
+
+/* Global Alert Layer */
+"Total Buy-in" = "バイイン合計";
+
+/* Global Alert Layer */
+"Accepted" = "承認しました";
+
+/* Global Alert Layer */
+"Rejected" = "拒否しました";
+
+/* Global Alert Layer */
+"Expired" = "期限が切れました";
+
+/* Helper */
+"ago" = "前";
+
+/* Helper */
+"just now" = "たった今";
+
+/* Hosted Game List Layer */
+"Upgrade" = "アップグレード";
+
+/* Hosted Game List Layer */
+"Host Game Limit : " = "ホストできるゲーム数の上限 : ";
+
+/* IAP Layer */
+"Cash Game" = "キャッシュゲーム";
+
+/* IAP Layer */
+"Note" = "メモ";
+
+/* IAP Layer */
+"When hosting 2 or more concurrent games, free pass will only be applied to the first game." = "2個以上のゲームを同時にホスティングする場合、無料パスは最初のゲームにのみ適用されます。";
+
+/* Referring to "I understand" */
+"I see" = "分かりました";
+
+/* IAP Layer */
+"Error" = "エラー";
+
+/* IAP Layer */
+"Your purchase is complete." = "ご購入が完了しました。";
+
+/* IAP Layer */
+"Countdown" = "カウントダウン";
+
+/* IAP Layer */
+"Upgrade to %s?" = "%sにアップグレードしますか？";
+
+/* IAP Layer */
+"If already purchased other items, you will receive a proportional gold refund based on the days remaining." = "パッケージの通常価格から一部返金を受け取ることができます。";
+
+/* Invite Layer */
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join us! Download here : " = "Pokerrrr2のアプリで友達とポーカーをやってるよ。一緒にやろうよ。下のリンクでダウンロードしてね： ";
+
+/* Leaderboard Layer */
+"Your rank is at %s." = "あなたのランキングは%s位です。";
+
+/* Leaderboard Layer */
+"Your rank is now at %s." = "あなたの現在のランキングは%s位です。";
+
+/* Leaderboard Layer */
+"Yesterday" = "昨日";
+
+/* Leaderboard Layer */
+"Last week" = "先週";
+
+/* Leaderboard Layer */
+"Last month" = "先月";
+
+/* Leaderboard Layer */
+"Countdown:" = "カウントダウン:";
+
+/* Leaderboard Layer */
+"View Current" = "現在を表示";
+
+/* View Previous day/month */
+"View Previous" = "その前を表示";
+
+/* Main Layer */
+"Enter Redeem Code" = "引き換えコードを入力";
+
+/* Main Layer */
+"Redeem Code" = "引き換えコード";
+
+/* Main Layer */
+"Prize" = "賞金";
+
+/* Main Layer */
+"Bonus Ready!" = "ボーナスの準備が完了しました！";
+
+/* Main Layer */
+"Bonus" = "ボーナス";
+
+/* Main Layer */
+"Facebook Login" = "Facebook ログイン";
+
+/* -------------------- */
+"_facebook_account_link_explain" = "Facebookでの初回ログインで10ゴールドボーナスがもらえます！\nデータの安全のため、PokerrrrアカウントをFacebookとバインドすることを強く推奨しています。\nFacebookでログインすることにより、Pokerrrrアカウントを複数のデバイスで同期することもできます。";
+
+/* Main Tab Scene */
+"Are you sure you wish to quit Pokerrrr 2?" = "Pokerrrr 2を終了して本当によろしいですか？";
+
+/* Manager Selection Layer */
+"(Member)" = "（メンバー）";
+
+/* Player List Layer */
+"Kicked" = "追放されました";
+
+/* Player List Layer */
+"Kick" = "追放";
+
+/* Player List Layer */
+"Are you sure you want to kick %s out?" = "%sさんを追放して本当によろしいですか？";
+
+/* Player List Layer */
+"Kick the player?" = "プレイヤーを追放しますか？";
+
+/* Poker Settings */
+"%d mins" = "%d分間";
+
+/* Prize Distribution Selection Layer */
+"Remaining" = "残り";
+
+/* Prize Distribution Selection Layer */
+"Edit" = "編集";
+
+/* Prize Distribution Selection Layer */
+"Your changes will be discarded.\n Leave without saving?" = "変更内容は破棄されます。\n保存せずに移動しますか？";
+
+/* Prize Distribution Selection Layer */
+"The propotion is too large." = "割合が大き過ぎます。";
+
+/* Indicating Player has left game */
+"(Left)" = "（退出済み）";
+
+/* Indicates Player has been kicked out of game. */
+"(Kicked)" = "（追放されました）";
+
+/* Ranking List Layer */
+"Profit" = "利益";
+
+/* Ranking List Layer */
+"Stack" = "スタック";
+
+/* Record History Layer */
+" winners" = "　人の勝者";
+
+/* Record Main Layer */
+"Record Limit" = "記録上限";
+
+/* Record Main Layer */
+"You" = "あなた";
+
+/* Record Main Layer */
+"Export Records" = "記録をエクスポート";
+
+/* Record Main Layer */
+"Please check the application to where you exported the csv file, and make sure the file was sent successfully." = "CSVファイルをエクスポートしたアプリを確認して、ファイルの送信が完了していることを確認してください。";
+
+/* Record Main Layer */
+"Not yet" = "まだ";
+
+/* Record Main Layer */
+"Finished" = "終了済み";
+
+/* Record Main Layer */
+"The record's results will be exported to a .csv file.\nIt costs %d gold, are you sure you want to export?" = "計算結果が.csvファイルでエクスポートされます。%dゴールドが消費されます。エクスポートして本当によろしいですか？";
+
+/* Reward Layer */
+"has signed up." = "さんがサインアップしました。";
+
+/* Reward Layer */
+"invited me." = "さんが私を招待しました。";
+
+/* Reward Layer */
+"Extra FREE" = "追加無料";
+
+/* Reward Layer */
+"Claimed" = "取得済み";
+
+/* Reward Layer */
+"Claim" = "取得する";
+
+/* Reward Layer */
+"Message" = "メッセージ";
+
+/* Room */
+"%s has reloaded chips %s." = "%sさんがチップを%s枚補充しました。";
+
+/* Settings Layer */
+"Version" = "バージョン";
+
+/* Settings Layer */
+"Host Control" = "ホストコントロール";
+
+/* Settings Layer */
+"Manager Control" = "管理者コントロール";
+
+/* Settings Layer */
+"Sound On" = "音声オン";
+
+/* Settings Layer */
+"Sound Off" = "音声オフ";
+
+/* Settings Layer */
+"Vibration On" = "振動オン";
+
+/* Settings Layer */
+"Vibration Off" = "振動オフ";
+
+/* Time elapsed (passed) since game has started. */
+"Elapsed" = "経過";
+
+/* Settings Layer */
+"Ends in" = "終了まで";
+
+/* SNG Hosting Result View */
+"Max : %s times, until Lv. %s" = "上限 : %s回、レベル%sまで";
+
+/* Tutorial Layer */
+"3. Flip chip up to bet." = "3. チップをフリップアップしてベットします。";
+
+/* Tutorial Layer */
+"Invite friends to\njoin your game" = "友達を招待して\nゲームに参加してもらいましょう";
+
+/* Tutorial Layer */
+"Peek" = "ピーク";
+
+/* Tutorial Layer */
+"Adjust Betting" = "ベットを調整";
+
+/* Try adjust the betting amount to exactly 556 chips. */
+"Try to bet with 556" = "556枚をベットしてみてください";
+
+/* Tutorial Layer */
+"Fold" = "フォールド";
+
+/* Battle Layer */
+"Challenge" = "チャレンジ";
+
+/* Battle Record Layer */
+"Challenge Record" = "チャレンジ記録";
+
+/* Battle Record Layer */
+"Time" = "時間";
+
+/* Battle Record Layer */
+"Game Type" = "ゲームの種類";
+
+/* Buy Chip Layer */
+"Buy Chips" = "チップを購入";
+
+/* Buy Chip Layer */
+"Your gold : " = "ゴールド: ";
+
+/* Buy Chip Layer */
+"SALE" = "セール";
+
+/* Cash Hosting Result View */
+"Game Code" = "ゲームコード";
+
+/* Cash Hosting Result View */
+"Invite players to join with this code." = "このコードを使ってプレイヤーを招待しましょう。";
+
+/* Cash Hosting Result View */
+"Copy" = "コピー";
+
+/* Cash Hosting Result View */
+"Buy-in Range:" = "バイインの範囲:";
+
+/* Cash Hosting Result View */
+"Action Time" = "アクション時間";
+
+/* Cash Hosting Result View */
+"Tips box" = "チップボックス";
+
+/* Cash Hosting Result View */
+"Service charge (Host only)" = "サービス料（ホスト限定）";
+
+/* Club Create Layer */
+"Name" = "名前";
+
+/* Club Create Layer */
+"Description" = "説明";
+
+/* Club Create Layer */
+"Private Club" = "非公開クラブ";
+
+/* Club Create Layer */
+"Game Hosting" = "ゲームホスティング";
+
+/* Club Create Layer */
+"Create" = "作成";
+
+/* Club Create Layer */
+"No matched data." = "一致するデータがありません。";
+
+/* Club Create Layer */
+"Enter keyword or club code" = "キーワードまたはクラブコードを入力";
+
+/* Club Create Layer */
+"Search" = "検索";
+
+/* Club Detail Layer */
+"Member List :" = "メンバーリスト :";
+
+/* Club Detail Layer */
+"Notification" = "通知";
+
+/* Club Detail Layer */
+"Promote" = "昇格";
+
+/* Club Detail Layer */
+"Demote" = "降格";
+
+/* Club Edit Layer */
+"Save" = "保存";
+
+/* Club Main Layer */
+"CLUBS" = "クラブ";
+
+/* Club Main Layer */
+"No club yet? Click the button at the TOP-RIGHT corner to a join friends club, or create your own poker club!" = "まだクラブがありませんか？右上角のボタンをクリックして、他の人のクラブに参加するか、オリジナルのポーカークラブを作成してください！";
+
+/* Club Message Layer */
+"No messages. Chat with friends now!" = "メッセージはありません。今すぐ友達とチャットしましょう！";
+
+/* Club Message Layer */
+"New Message" = "新しいメッセージ";
+
+/* Club Message Layer */
+"shared a hand." = "さんがハンドを共有しました。";
+
+/* Club Message Layer */
+"Player" = "プレイヤー";
+
+/* Club Message Layer */
+"New messages" = "新しいメッセージ";
+
+/* Club Message Layer */
+"Send" = "送信";
+
+/* Club Message Layer */
+"Messages" = "メッセージ";
+
+/* Club Message Layer */
+"Games" = "ゲーム";
+
+/* Club Message Layer */
+"More friends, more fun! 🎉🎉🎉\nInvite new friends to join Pokerrrr2 and earn bonus gold!" = "友達が増えればもっと楽しい！🎉🎉🎉\n新しい友達をPokerrrr2に招待して追加のゴールドボーナスを獲得しましょう。";
+
+/* Club Selection Layer */
+"Share Hand To..." = "ハンドの共有先...";
+
+/* Club Selection Layer */
+"Share" = "共有";
+
+/* Club Selection Layer */
+"Shared" = "共有しました";
+
+/* Club Settings Layer */
+"Message Notifications" = "メッセージ通知";
+
+/* Club Settings Layer */
+"New Game Notifications" = "新しいゲーム通知";
+
+/* Feedback Dialog */
+"Feedback" = "フィードバック";
+
+/* Game Control Layer */
+"Show Card" = "カードを表示";
+
+/* Game Control Layer */
+"Undo pre-fold" = "プリフォールドをキャンセル";
+
+/* Game Control Layer */
+"Cancel Straddle" = "ストラドルをキャンセル";
+
+/* Game History Layer */
+"Hand#" = "ハンド数";
+
+/* Game History Layer */
+"Community Cards" = "コミュニティカード";
+
+/* Game History Layer */
+"Winner" = "勝者";
+
+/* Game History Layer */
+"Only the hands you played are shown here." = "あなたがプレイしたハンドのみこちらに表示されます。";
+
+/* Game Info Layer */
+"Register Here" = "こちらから申し込む";
+
+/* Game Info Layer */
+"4-Card" = "4カード";
+
+/* Game Info Layer */
+"Hi-Lo" = "ハイロー";
+
+/* Game Info Layer */
+"5-Card" = "5カード";
+
+/* Game Info Layer */
+"Buy-in Range" = "バイインの範囲";
+
+/* Game Info Layer */
+"Table Type (Max. players)" = "テーブルの種類（プレイヤー数上限）";
+
+/* Game Info Layer */
+">10 hours" = ">10時間";
+
+/* Game Info Layer */
+"Game Settings" = "ゲーム設定";
+
+/* Game Info Layer */
+"Service Charge :" = "サービス料";
+
+/* Game Info Layer */
+"Tournament Structure" = "トーナメントの構造";
+
+/* Game Info Layer */
+"Interval" = "間隔";
+
+/* Game Info Layer */
+"Ultrasonic" = "超音波";
+
+/* Game Info Layer */
+"Regular" = "レギュラ―";
+
+/* Game Info Layer */
+"Deep" = "ディープ";
+
+/* Game Info Layer */
+"Participant Limit" = "参加者数の上限";
+
+/* Game Info Layer */
+"(for record)" = "（記録のため）";
+
+/* Game Info Layer */
+"Prize Plan" = "賞金プラン";
+
+/* Game Info Layer */
+"Late Registration (Level)" = "レイトレジスト（レベル）";
+
+/* Game Info Layer */
+"Rebuy Period (Level)" = "リバイ期間（レベル）";
+
+/* Game Info Layer */
+"Rebuy Limit (times)" = "リバイ上限（回数）";
+
+/* Game Info Layer */
+"Shuffle & Deal" = "シャッフルアンドディール";
+
+/* Game Player Layer */
+"BET" = "ベット";
+
+/* Game Player Layer */
+"CHECK" = "チェック";
+
+/* Game Player Layer */
+"CALL" = "コール";
+
+/* Game Player Layer */
+"Timeout" = "タイムアウト";
+
+/* Game Player Layer */
+"ALL-IN" = "オールイン";
+
+/* Game Table Layer */
+"Check out the realtime status" = "リアルタイムステータスをチェックする";
+
+/* Game Table Layer */
+"Select your seat" = "シートを選択";
+
+/* Game Table Layer */
+"Side Pot" = "サイドポット";
+
+/* Game Table Layer */
+"Tournament" = "トーナメント";
+
+/* Game Table Layer */
+"Host broadcasting" = "ホスト配信";
+
+/* Hosted Game List Layer */
+"Hosted Game" = "ホストしたゲーム";
+
+/* Hosted Game List Layer */
+"LIVE" = "ライブ";
+
+/* Hosted Game List Layer */
+"Structure" = "構造";
+
+/* Hosted Game List Layer */
+"Service Charge" = "サービス料";
+
+/* "View" used to enter a specific game from a list of games. */
+" View " = " 観覧する ";
+
+/* Hosted Game List Layer */
+"Reached host limit! You have to terminate ongoing games before hosting a new one." = "ホスト上限に達しました！新しいゲームをホストする前に進行中のゲームを終了させる必要があります。";
+
+/* IAP Layer */
+"STORE" = "ストア";
+
+/* IAP Layer */
+"(Not including MTT)" = "（MTTを含まない）";
+
+/* IAP Layer */
+"FREE" = "無料";
+
+/* IAP Layer */
+"Get extra gold\nby inviting your friends" = "友達を招待して\n追加ゴールドを取得しましょう";
+
+/* Init Scene */
+"Table Mode" = "テーブルモード";
+
+/* Refers to using the iPad as the poker table only, and using each player's smart phone for their cards only. */
+"Serve as a poker table only" = "ポーカーテーブルとしてのみ使用";
+
+/* Init Scene */
+"Player Mode" = "プレイヤーモード";
+
+/* Init Scene */
+"Host & Join Games" = "ホストしてゲームに参加";
+
+/* Init Scene */
+"Get 10 FREE Gold" = "10ゴールドを無料で取得";
+
+/* Init Scene */
+"Log in" = "ログイン";
+
+/* Init Scene */
+"Play as a guest" = "ゲストとしてプレイ";
+
+/* Init Scene */
+"Terms & Privacy" = "規約とプライバシー";
+
+/* Init Scene */
+"By signing up, you agree to the" = "サインアップすることにより、あなたは次の内容に同意したことになります:";
+
+/* Init Scene */
+"Join as a table" = "テーブルとして参加";
+
+/* Invite Layer */
+"Earn more gold\nby inviting friends" = "友達を招待して\nゴールドをもっと獲得しましょう";
+
+/* Invite Layer */
+"Invite friends" = "友達を招待";
+
+/* Invite Layer */
+"For every friend who signs up,\nboth of you will get 10 extra gold." = "友達がサインアップするたびに、\n友達とあなたの両方に追加の10ゴールドを差し上げます。";
+
+/* Leaderboard Layer */
+"Monthly" = "マンスリー";
+
+/* Leaderboard Layer */
+"Daily" = "デイリー";
+
+/* Leaderboard Layer */
+"Weekly" = "ウィークリー";
+
+/* Leaderboard Layer */
+"Today" = "今日";
+
+/* Leaderboard Layer */
+"No data yet..." = "データはまだありません...";
+
+/* Leaderboard Layer */
+"Rank#" = "ランキング順位";
+
+/* Leaderboard Layer */
+"Score" = "スコア";
+
+/* Leaderboard Layer */
+"Leaderboard" = "リーダーボード";
+
+/* Loading Layer */
+"Loading" = "読み込み中";
+
+/* Main Layer */
+"Join\nGame" = "ゲームに\n参加";
+
+/* Main Layer */
+"Host\nGame" = "ゲームを\nホスト";
+
+/* Main Scene */
+"Club" = "クラブ";
+
+/* Main Scene */
+"Record" = "記録";
+
+/* Main Scene */
+"Shop" = "ショップ";
+
+/* Manager Selection Layer */
+"Assign Manager" = "管理者をアサイン";
+
+/* Manager Selection Layer */
+"(From club members)" = "（クラブメンバーから）";
+
+/* Mode Switch Bg6 */
+"PLO SNG" = "PLO SNG";
+
+/* Used as No. 1, No. 2, No. 3 etc (Number 1, Number 2, Number 3). */
+"No." = "番号";
+
+/* Prize Distribution Layer */
+"Prize Distribution" = "賞金配分";
+
+/* Number of players involved. */
+"Player #" = "プレイヤー数";
+
+/* Prize Distribution Layer */
+"1st" = "1位";
+
+/* Prize Distribution Layer */
+"2nd" = "2位";
+
+/* Prize Distribution Layer */
+"3rd" = "3位";
+
+/* Prize Distribution Selection Layer */
+"Edit Custom Distribution" = "カスタム配分を編集";
+
+/* Prize Distribution Selection Layer */
+"Prize / player" = "賞金 / プレイヤー";
+
+/* Percentage of prize given 'for' players ranked #1, #2, etc. */
+"for" = "を";
+
+/* Prize Distribution Selection Layer */
+"Remaining : " = "残り: ";
+
+/* Prize Distribution Selection Layer */
+"Proportion" = "割合";
+
+/* Prize Distribution Selection Layer */
+"Players" = "プレイヤー";
+
+/* Prize Distribution Selection Layer */
+"Add" = "追加";
+
+/* In a multi-table tournament, the tables will be numbered. Table#1, Table#2, etc */
+"Table#" = "テーブル番号";
+
+/* Record Detail Layer */
+"Hand History" = "ハンド履歴";
+
+/* Record Detail Layer */
+"Result" = "結果";
+
+/* Record Detail Layer */
+"Hands" = "ハンド";
+
+/* Record History Layer */
+"Replay" = "リプレイ";
+
+/* Record Main Layer */
+"GAME RECORD" = "ゲーム記録";
+
+/* Record Main Layer */
+"Host:" = "ホスト:";
+
+/* Record Main Layer */
+"No data, host a game with friends now!" = "データがありません。今すぐ友達と一緒にゲームをホストしましょう！";
+
+/* Record Main Layer */
+"Pay Off" = "ペイオフ";
+
+/* Record Main Layer */
+"Result Summary" = "結果サマリー";
+
+/* Record Main Layer */
+"Secured records of other players (with record privacy) will not be calculated." = "（記録プライバシーにより）セキュリティ保護された他のプレイヤーの記録は計算されません。";
+
+/* Record Main Layer */
+"CG Hands" = "CGハンド";
+
+/* Record Main Layer */
+"Tips" = "チップ";
+
+/* Record Main Layer */
+"Export" = "エクスポート";
+
+/* Record Main Layer */
+"(Paid)" = "(支払い済み)";
+
+/* Reward Layer */
+"Get extra 10 gold\nwhen logging in with facebook" = "Facebookでログインすると\n10ゴールドを追加で取得できます";
+
+/* Setting Layer */
+"Game Info" = "ゲーム情報";
+
+/* Setting Layer */
+"Late Registration" = "レイトレジスト";
+
+/* Setting Layer */
+"Back to club\n(remain hosting)" = "クラブに戻る\n（ホスティングをそのまま続ける）";
+
+/* Setting Layer */
+"Game" = "ゲーム";
+
+/* Setting Layer */
+"Yes" = "はい";
+
+/* Setting Layer */
+"Buy Gold" = "ゴールドを購入";
+
+/* Setting Layer */
+"Reload Chips" = "チップを補充";
+
+/* Setting Layer */
+"Sit Out & Watch" = "シットアウトして見る";
+
+/* Setting Layer */
+"General" = "全般";
+
+/* Setting Layer */
+"Vibration" = "振動";
+
+/* Setting Layer */
+"How to play" = "プレイ方法";
+
+/* Setting Layer */
+"Betting" = "ベット";
+
+/* The in-game movements involve flipping chips & cards towards the table. Flipping sensitivity (easy/normal/hard) allows you adjust the touch force needed to complete the action. */
+"Flipping sensitivity" = "フリップ感度";
+
+/* Setting Layer */
+"Easy" = "イージー";
+
+/* Setting Layer */
+"Normal" = "ノーマル";
+
+/* Setting Layer */
+"Hard" = "ハード";
+
+/* Setting Layer */
+"Betting options" = "ベットオプション";
+
+/* Setting Layer */
+"1. Pre-flop (BB)" = "1. プリ フロップ (BB)";
+
+/* Setting Layer */
+"2. Post-flop (Pot %)" = "2. ポスト フロップ (ポット %)";
+
+/* Setting Layer */
+"3. Raise times (x)" = "3. レイズ倍数 (x)";
+
+/* Setting Layer */
+"Account" = "アカウント";
+
+/* Setting Layer */
+"Facebook Logout" = "Facebook ログアウト";
+
+/* Setting Layer */
+"About" = "アプリ情報";
+
+/* Setting Layer */
+"FAQ" = "FAQ";
+
+/* Setting Layer */
+"Contact Us" = "お問合せ";
+
+/* Setting Layer */
+"Terms" = "規約";
+
+/* Setting Layer */
+"Attribution" = "属性";
+
+/* Setting Layer */
+"Promo Code" = "割り引きコード";
+
+/* SNG Custom Setting Layer */
+"Tournament Setting" = "トーナメント設定";
+
+/* SNG Custom Setting Layer */
+"Starting Chips" = "スターティングチップ";
+
+/* SNG Hosting Result View */
+"Time Interval" = "タイムインターバル";
+
+/* Tutorial Layer */
+"Host (You)\n@ home" = "ホスト (あなた)\n@ ホーム";
+
+/* Tutorial Layer */
+"Pokerrrr with friends!" = "友達と一緒にPokerrrr！";
+
+/* Tutorial Layer */
+"Done" = "完了";
+
+/* -------------------- */
+"1 DAY PASS" = "1日パス";
+
+"1 MONTH PASS" = "1ヶ月パス";
+"1st\nTIME" = "初回";
+"4 Color Deck" = "4色デッキ";
+"Concurrent Hosting" = "同時ホスティング";
+"Game Records" = "ゲーム記録";
+"Not enough chips." = "チップが十分ではありません。";
+"Oops! Insufficient gold" = "おっと！ゴールドが不足しています";
+"Ruby VIP Package" = "ルビーVIPパッケージ";
+"Unlimited hosting" = "無制限ホスティング";

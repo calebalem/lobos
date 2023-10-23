@@ -269,5 +269,263 @@
         "notificationCount": 0
       }
     }
+  },
+  {
+    "action": 15,
+    "id": "c8P3MpmUd8:3572139",
+    "connectionId": "c8P3MpmUd8",
+    "connectionSerial": 2,
+    "channel": "room:6536a242574c0f6fd68ef2a7:public",
+    "channelSerial": "e91fCAA_QBUTw224474437@1698079354338-0",
+    "timestamp": 1698079354263,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {
+          "roomId": "6536a242574c0f6fd68ef2a7",
+          "senderId": "65366f58c0013e4dcc0be63f",
+          "roomUpdate": {
+            "players": [
+              {
+                "empty": false,
+                "seat": 0,
+                "playerId": "652818b5c0013e4dcc0a6370",
+                "playerCode": "PCNWG",
+                "displayName": "truth",
+                "chips": 50,
+                "stack": 50,
+                "inRoom": true
+              },
+              {
+                "empty": false,
+                "seat": 1,
+                "playerId": "65366f58c0013e4dcc0be63f",
+                "playerCode": "N444L",
+                "displayName": "kaleb",
+                "chips": 50,
+                "stack": 50,
+                "inRoom": true
+              }
+            ],
+            "updatedAt": 1698079354212
+          },
+          "sentTs": 1698079354249
+        },
+        "name": "sitMsg"
+      }
+    ]
+  },
+  {
+    "encoding": "json",
+    "data": {
+      "roomId": "6536a242574c0f6fd68ef2a7",
+      "roomUpdate": {
+        "updatedAt": 1698079634967,
+        "status": "PLAYING",
+        "handSN": 7,
+        "moveSN": 2,
+        "moves": [
+          {
+            "_new": 1,
+            "sn": 0,
+            "events": [
+              {
+                "eventName": "tableDidPerformMove",
+                "move": { "sn": 0, "seat": 0, "type": "bet", "chips": 1 },
+                "seatState": { "stackChips": 52, "bettingChips": 1 },
+                "activeSeat": -1
+              }
+            ],
+            "handSN": 7
+          },
+          {
+            "_new": 1,
+            "sn": 1,
+            "events": [
+              {
+                "eventName": "tableDidPerformMove",
+                "move": { "sn": 1, "seat": 1, "type": "bet", "chips": 2 },
+                "seatState": { "stackChips": 45, "bettingChips": 2 },
+                "activeSeat": 0
+              }
+            ],
+            "handSN": 7
+          }
+        ],
+        "tableInit": {
+          "handSN": 7,
+          "bigBlind": 2,
+          "SBSeat": 1,
+          "events": [
+            {
+              "eventName": "tableDidInit",
+              "seatStates": [
+                {
+                  "seat": 0,
+                  "seated": true,
+                  "id": "652818b5c0013e4dcc0a6370",
+                  "name": "truth",
+                  "stackChips": 52,
+                  "initStackChips": 53
+                },
+                {
+                  "seat": 1,
+                  "seated": true,
+                  "id": "65366f58c0013e4dcc0be63f",
+                  "name": "kaleb",
+                  "stackChips": 45,
+                  "initStackChips": 47
+                }
+              ],
+              "activeSeat": -1,
+              "dealerSeat": 0,
+              "SBSeat": 0,
+              "BBSeat": 1
+            }
+          ],
+          "blindCount": 2
+        },
+        "players": [
+          {
+            "empty": false,
+            "seat": 0,
+            "playerId": "652818b5c0013e4dcc0a6370",
+            "playerCode": "PCNWG",
+            "displayName": "truth",
+            "chips": 50,
+            "stack": 53,
+            "inRoom": true
+          },
+          {
+            "empty": false,
+            "seat": 1,
+            "playerId": "65366f58c0013e4dcc0be63f",
+            "playerCode": "N444L",
+            "displayName": "kaleb",
+            "chips": 50,
+            "stack": 47,
+            "inRoom": true
+          }
+        ],
+        "startCountingAt": 1698079634967,
+        "timeout": 1698079665967,
+        "reloads": {},
+        "disconTBSecs": 0,
+        "actionTime": 30,
+        "v": 6
+      },
+      "sentTs": 1698079634974
+    },
+    "name": "dealMsg"
+  },
+
+  {
+    "encoding": "json",
+    "data": {
+      "roomId": "6536a53d574c0f6fd6cb7bae",
+      "roomUpdate": {
+        "updatedAt": 1698080177595,
+        "status": "PLAYING",
+        "handSN": 1,
+        "moveSN": 2,
+        "moves": [
+          {
+            "_new": 1,
+            "sn": 0,
+            "events": [
+              {
+                "eventName": "tableDidPerformMove",
+                "move": { "sn": 0, "seat": 3, "type": "bet", "chips": 1 },
+                "seatState": { "stackChips": 49, "bettingChips": 1 },
+                "activeSeat": -1
+              }
+            ],
+            "handSN": 1
+          },
+          {
+            "_new": 1,
+            "sn": 1,
+            "events": [
+              {
+                "eventName": "tableDidPerformMove",
+                "move": { "sn": 1, "seat": 0, "type": "bet", "chips": 2 },
+                "seatState": { "stackChips": 48, "bettingChips": 2 },
+                "activeSeat": 3
+              }
+            ],
+            "handSN": 1
+          }
+        ],
+        "tableInit": {
+          "handSN": 1,
+          "bigBlind": 2,
+          "SBSeat": 0,
+          "events": [
+            {
+              "eventName": "tableDidInit",
+              "seatStates": [
+                {
+                  "seat": 0,
+                  "seated": true,
+                  "id": "652818b5c0013e4dcc0a6370",
+                  "name": "truth",
+                  "stackChips": 48,
+                  "initStackChips": 50
+                },
+                {},
+                {},
+                {
+                  "seat": 3,
+                  "seated": true,
+                  "id": "65366f58c0013e4dcc0be63f",
+                  "name": "kaleb",
+                  "stackChips": 49,
+                  "initStackChips": 50
+                }
+              ],
+              "activeSeat": -1,
+              "dealerSeat": 3,
+              "SBSeat": 3,
+              "BBSeat": 0
+            }
+          ],
+          "blindCount": 2
+        },
+        "players": [
+          {
+            "empty": false,
+            "seat": 0,
+            "playerId": "652818b5c0013e4dcc0a6370",
+            "playerCode": "PCNWG",
+            "displayName": "truth",
+            "chips": 50,
+            "stack": 50,
+            "inRoom": true
+          },
+          { "seat": 1 },
+          { "seat": 2 },
+          {
+            "empty": false,
+            "seat": 3,
+            "playerId": "65366f58c0013e4dcc0be63f",
+            "playerCode": "N444L",
+            "displayName": "kaleb",
+            "chips": 50,
+            "stack": 50,
+            "inRoom": true
+          },
+          { "seat": 4 },
+          { "seat": 5 }
+        ],
+        "startCountingAt": 1698080177577,
+        "timeout": 1698080208595,
+        "reloads": {},
+        "disconTBSecs": 0,
+        "actionTime": 30,
+        "v": 6
+      },
+      "sentTs": 1698080177603
+    },
+    "name": "dealMsg"
   }
 ]

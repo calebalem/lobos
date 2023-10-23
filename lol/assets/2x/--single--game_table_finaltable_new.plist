@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>__game_table_finaltable_new.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,35}</string>
+                <key>spriteSize</key>
+                <string>{706,374}</string>
+                <key>spriteSourceSize</key>
+                <string>{740,444}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{706,374}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>--single--game_table_finaltable_new.png</string>
+            <key>size</key>
+            <string>{710,378}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:958f616727dbb6a30356bfc8e45a8d46:7bb98f451a329c0cf7e825dc0248489c:dd3c89dbc48eabf93e0004d5fa71bd91$</string>
+            <key>textureFileName</key>
+            <string>--single--game_table_finaltable_new.png</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>__login_ad.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{19,28}</string>
+                <key>spriteSize</key>
+                <string>{1136,1560}</string>
+                <key>spriteSourceSize</key>
+                <string>{1184,1616}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{1136,1560}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>premultiplyAlpha</key>
+            <true/>
+            <key>realTextureFileName</key>
+            <string>--single--login_ad.astc</string>
+            <key>size</key>
+            <string>{1140,1564}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:6982ff851b1e886082a2d9b1ad58c3cc:8b095fedc5a5ea15dda6cb9beb73f8fe:b994a61c2aa9e693ab19c72fb0823aec$</string>
+            <key>textureFileName</key>
+            <string>--single--login_ad.astc</string>
+        </dict>
+    </dict>
+</plist>

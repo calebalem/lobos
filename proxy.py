@@ -1,8 +1,6 @@
 import json
 from mitmproxy import http
-import socket
-import uuid
-import subprocess
+
 
 access_token_domain = "https://ptfarm-realtime.ably.io/?accessToken="
 token_domain = "https://gateway-n304059d9xl3.pt-prod.pokerrrrapp.com/bridge/?token="
@@ -54,11 +52,4 @@ def getCreds(flow: http.HTTPFlow):
                 #     botSpawned = True
 
 
-def ip_to_domain(ip):
-    try:
-        domain = socket.gethostbyaddr(ip)
-        return domain[0]
-    except Exception as e:
-        print(e)
-        return "Unknown"
     

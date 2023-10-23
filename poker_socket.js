@@ -40,6 +40,7 @@ function startRealtime(creds) {
                     gameEvent.emit("gameEnded", { "data": data.roomUpdate.ranking, "roomId": data.roomId })
                     //gameEvent.emit("playerLeft", { "data": gameData.roomUpdate.players, "roomId": gameData.roomId })
                 } else if (message.name == "dealMsg") {
+                    //console.log("started: ",JSON.stringify(message))
                     gameEvent.emit("gameStarted", { "data": data.roomUpdate.players, "roomId": data.roomId })
                 } else if (message.name == "leaveMsg") {
                     gameEvent.emit("playerLeft", { "data": data.roomUpdate.players, "roomId": data.roomId })

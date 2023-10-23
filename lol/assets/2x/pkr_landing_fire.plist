@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>pkr_landing_fire_01.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-26.5,-76.5}</string>
+                <key>spriteSize</key>
+                <string>{289,235}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{206,1251},{289,235}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 9 7 8 9 6 2 5 6 7 2 3 4 5 2 3 5 1 2 7 1 7 9 0 9 10 11 12 13 14 15 16</string>
+                <key>vertices</key>
+                <string>297 171 313 204 313 262 295 388 290 388 293 337 255 329 237 279 194 214 223 172 256 153 43 388 24 388 24 333 252 346 219 348 227 316</string>
+                <key>verticesUV</key>
+                <string>479 1269 495 1302 495 1360 477 1486 472 1486 475 1435 437 1427 419 1377 376 1312 405 1270 438 1251 225 1486 206 1486 206 1431 434 1444 401 1446 409 1414</string>
+            </dict>
+            <key>pkr_landing_fire_02.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-23,-68.5}</string>
+                <key>spriteSize</key>
+                <string>{298,251}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{204,1508},{298,251}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3 5 6 7 4 5 7 9 10 11 8 9 11 18 19 20 12 17 18 15 16 17 14 15 17 12 14 17 12 13 14 12 18 20</string>
+                <key>vertices</key>
+                <string>298 388 291 388 291 356 298 356 29 388 23 388 23 325 29 325 230 329 242 346 110 340 181 311 321 159 305 314 275 290 250 313 229 282 261 279 189 220 187 168 218 137</string>
+                <key>verticesUV</key>
+                <string>479 1759 472 1759 472 1727 479 1727 210 1759 204 1759 204 1696 210 1696 411 1700 423 1717 291 1711 362 1682 502 1530 486 1685 456 1661 431 1684 410 1653 442 1650 370 1591 368 1539 399 1508</string>
+            </dict>
+            <key>pkr_landing_fire_03.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-22,-55.5}</string>
+                <key>spriteSize</key>
+                <string>{302,277}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{186,639},{302,277}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 5 6 3 4 5 0 3 6 2 3 0 2 0 1 8 9 10 7 8 10 11 12 13 11 13 14 15 16 17 18 19 20 23 24 25 23 25 26 21 22 23 21 23 26</string>
+                <key>vertices</key>
+                <string>297 380 295 388 291 388 286 338 265 336 253 316 307 281 29 388 22 388 22 301 29 301 224 302 265 352 162 336 164 288 252 301 243 301 243 292 62 273 31 274 47 238 324 140 309 255 259 217 221 226 172 183 189 111</string>
+                <key>verticesUV</key>
+                <string>461 908 459 916 455 916 450 866 429 864 417 844 471 809 193 916 186 916 186 829 193 829 388 830 429 880 326 864 328 816 416 829 407 829 407 820 226 801 195 802 211 766 488 668 473 783 423 745 385 754 336 711 353 639</string>
+            </dict>
+            <key>pkr_landing_fire_04.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-9,-34}</string>
+                <key>spriteSize</key>
+                <string>{330,320}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{159,906},{330,320}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>9 13 14 10 12 13 10 11 12 9 10 13 8 9 14 0 8 14 5 6 7 7 8 0 4 5 7 7 1 4 2 3 4 1 2 4 7 0 1 15 16 17 18 19 20 18 20 21 22 23 24 25 26 27 29 30 31 28 29 31</string>
+                <key>vertices</key>
+                <string>318 239 312 246 296 388 291 388 283 336 262 335 196 261 256 238 275 160 263 141 213 159 149 164 175 117 229 96 318 96 27 323 27 359 22 322 71 267 71 282 21 266 41 245 214 201 207 194 214 194 351 132 351 157 328 109 233 81 199 81 199 68 233 68</string>
+                <key>verticesUV</key>
+                <string>456 1077 450 1084 434 1226 429 1226 421 1174 400 1173 334 1099 394 1076 413 998 401 979 351 997 287 1002 313 955 367 934 456 934 165 1161 165 1197 160 1160 209 1105 209 1120 159 1104 179 1083 352 1039 345 1032 352 1032 489 970 489 995 466 947 371 919 337 919 337 906 371 906</string>
+            </dict>
+            <key>pkr_landing_fire_05.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{65,-40}</string>
+                <key>spriteSize</key>
+                <string>{220,308}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{332,342},{220,308}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 6 7 8 8 0 1 5 6 8 2 3 4 2 4 5 8 1 5 5 1 2 0 8 9 11 12 13 14 17 18 15 16 17 14 15 17 19 20 21 23 24 25 22 23 25</string>
+                <key>vertices</key>
+                <string>283 127 325 142 297 374 295 388 291 388 285 336 267 337 187 250 250 186 241 121 268 96 370 128 347 151 335 127 191 103 161 129 150 117 168 95 204 80 331 126 331 106 349 106 290 118 285 118 285 93 290 93</string>
+                <key>verticesUV</key>
+                <string>465 389 507 404 479 636 477 650 473 650 467 598 449 599 369 512 432 448 423 383 450 358 552 390 529 413 517 389 373 365 343 391 332 379 350 357 386 342 513 388 513 368 531 368 472 380 467 380 467 355 472 355</string>
+            </dict>
+            <key>pkr_landing_fire_06.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{78.5,-16}</string>
+                <key>spriteSize</key>
+                <string>{161,214}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{2,717},{161,214}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 5 6 3 4 5 0 1 3 1 2 3 0 3 6 7 8 9</string>
+                <key>vertices</key>
+                <string>324 118 305 317 259 308 258 258 202 244 193 189 282 103 354 111 354 171 326 107</string>
+                <key>verticesUV</key>
+                <string>133 732 114 931 68 922 67 872 11 858 2 803 91 717 163 725 163 785 135 721</string>
+            </dict>
+            <key>pkr_landing_fire_07.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{67.5,-34}</string>
+                <key>spriteSize</key>
+                <string>{183,320}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{437,1110},{183,320}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3 5 13 14 12 5 9 11 9 10 11 12 9 12 13 5 6 7 8 5 6 8 5 8 9 4 5 14</string>
+                <key>vertices</key>
+                <string>298 388 291 388 291 356 298 356 354 154 325 133 305 308 276 278 283 220 254 191 171 206 171 183 227 113 267 76 354 68</string>
+                <key>verticesUV</key>
+                <string>564 1430 557 1430 557 1398 564 1398 620 1196 591 1175 571 1350 542 1320 549 1262 520 1233 437 1248 437 1225 493 1155 533 1118 620 1110</string>
+            </dict>
+            <key>pkr_landing_fire_08.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{91,-20.5}</string>
+                <key>spriteSize</key>
+                <string>{138,347}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{472,767},{138,347}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 2 3 0 1 2 11 13 14 11 12 13 7 10 11 7 8 9 7 9 10 7 11 14 5 6 7 4 5 7 4 7 14</string>
+                <key>vertices</key>
+                <string>295 388 290 388 296 324 307 324 335 43 355 63 355 172 329 124 307 276 272 222 274 160 246 138 217 135 219 61 272 41</string>
+                <key>verticesUV</key>
+                <string>550 1114 545 1114 551 1050 562 1050 590 769 610 789 610 898 584 850 562 1002 527 948 529 886 501 864 472 861 474 787 527 767</string>
+            </dict>
+            <key>pkr_landing_fire_09.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{88.5,0}</string>
+                <key>spriteSize</key>
+                <string>{145,388}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{326,2},{145,388}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 2 3 0 1 2 4 5 6 8 9 10 7 8 10 11 12 13 19 24 25 20 23 24 20 21 22 20 22 23 19 20 24 16 19 25 16 17 18 16 18 19 14 16 25 14 15 16</string>
+                <key>vertices</key>
+                <string>295 388 290 388 296 318 310 308 239 347 211 344 239 308 253 341 250 341 250 338 253 338 308 297 291 263 308 237 356 150 340 147 323 106 318 167 294 134 302 47 284 19 228 51 226 31 272 1 300 0 350 0</string>
+                <key>verticesUV</key>
+                <string>410 390 405 390 411 320 425 310 354 349 326 346 354 310 368 343 365 343 365 340 368 340 423 299 406 265 423 239 471 152 455 149 438 108 433 169 409 136 417 49 399 21 343 53 341 33 387 3 415 2 465 2</string>
+            </dict>
+            <key>pkr_landing_fire_10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-4.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{333,387}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{46,507},{333,387}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 4 6 7 0 3 4 1 2 3 0 1 3 0 4 7 9 10 11 8 9 11 12 13 14 15 18 19 16 17 18 15 16 18 15 19 20 21 22 23</string>
+                <key>vertices</key>
+                <string>305 298 296 388 291 388 280 348 232 311 254 362 202 307 214 281 28 388 24 388 24 365 28 365 310 256 265 228 315 216 335 32 357 105 351 134 306 101 287 56 295 29 345 13 339 1 345 1</string>
+                <key>verticesUV</key>
+                <string>327 804 318 894 313 894 302 854 254 817 276 868 224 813 236 787 50 894 46 894 46 871 50 871 332 762 287 734 337 722 357 538 379 611 373 640 328 607 309 562 317 535 367 519 361 507 367 507</string>
+            </dict>
+            <key>pkr_landing_fire_11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-22.5,-85.5}</string>
+                <key>spriteSize</key>
+                <string>{299,217}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{207,1809},{299,217}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 7 8 5 6 7 0 4 5 0 3 4 1 2 3 0 1 3 0 5 8 9 10 11 12 13 14 16 17 18 15 16 18</string>
+                <key>vertices</key>
+                <string>308 255 302 388 291 388 285 332 265 332 211 282 201 281 199 249 229 226 35 388 23 388 23 293 208 329 137 348 95 304 322 174 297 199 275 193 275 171</string>
+                <key>verticesUV</key>
+                <string>492 1893 486 2026 475 2026 469 1970 449 1970 395 1920 385 1919 383 1887 413 1864 219 2026 207 2026 207 1931 392 1967 321 1986 279 1942 506 1812 481 1837 459 1831 459 1809</string>
+            </dict>
+            <key>pkr_landing_fire_12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-30.5,-91}</string>
+                <key>spriteSize</key>
+                <string>{299,206}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{321,86},{299,206}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 5 6 1 6 7 3 4 5 2 3 5 1 2 5 0 1 7 0 7 8 11 12 13 9 11 13 9 10 11 15 16 17 14 15 17 20 21 22 18 19 20 18 20 22</string>
+                <key>vertices</key>
+                <string>267 199 295 228 314 232 296 388 291 388 285 316 251 316 210 213 234 182 29 388 22 388 22 295 15 288 29 288 239 346 235 346 235 342 239 342 209 292 195 337 140 344 64 284 101 265</string>
+                <key>verticesUV</key>
+                <string>573 103 601 132 620 136 602 292 597 292 591 220 557 220 516 117 540 86 335 292 328 292 328 199 321 192 335 192 545 250 541 250 541 246 545 246 515 196 501 241 446 248 370 188 407 169</string>
+            </dict>
+            <key>pkr_landing_fire_13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-28.5,-77}</string>
+                <key>spriteSize</key>
+                <string>{307,234}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{89,1725},{307,234}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>7 9 10 7 8 9 0 6 7 4 5 6 2 3 4 2 4 6 1 2 6 0 1 6 0 7 10 11 12 13 11 13 14 19 20 21 19 16 18 16 17 18 19 15 16 15 19 21</string>
+                <key>vertices</key>
+                <string>299 175 320 166 297 388 290 388 273 335 243 312 276 264 256 240 213 229 209 196 251 154 28 289 28 388 24 388 13 191 224 258 220 303 247 356 180 343 131 341 51 270 87 224</string>
+                <key>verticesUV</key>
+                <string>375 1746 396 1737 373 1959 366 1959 349 1906 319 1883 352 1835 332 1811 289 1800 285 1767 327 1725 104 1860 104 1959 100 1959 89 1762 300 1829 296 1874 323 1927 256 1914 207 1912 127 1841 163 1795</string>
+            </dict>
+            <key>pkr_landing_fire_14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-6.5,-31.5}</string>
+                <key>spriteSize</key>
+                <string>{333,325}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{2,1494},{333,325}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>8 10 11 2 11 12 8 9 10 8 2 7 8 11 2 5 6 7 2 5 7 3 4 5 2 3 5 0 1 2 0 2 12 13 14 15 22 23 24 20 21 22 19 20 22 17 18 19 17 19 22 17 22 24 16 17 24</string>
+                <key>vertices</key>
+                <string>355 64 355 181 324 123 297 388 291 388 283 336 249 337 265 207 254 182 197 203 197 168 271 119 323 63 33 388 22 388 22 251 256 229 219 267 208 342 133 341 59 276 63 254 110 253 71 181 105 178</string>
+                <key>verticesUV</key>
+                <string>335 1495 335 1612 304 1554 277 1819 271 1819 263 1767 229 1768 245 1638 234 1613 177 1634 177 1599 251 1550 303 1494 13 1819 2 1819 2 1682 236 1660 199 1698 188 1773 113 1772 39 1707 43 1685 90 1684 51 1612 85 1609</string>
+            </dict>
+            <key>pkr_landing_fire_15.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-7,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{338,387}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{3,379},{338,387}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 24 25 22 2 9 10 20 21 18 19 20 14 15 16 14 16 17 14 17 18 18 11 13 13 14 18 21 9 10 0 23 24 11 12 13 18 10 11 18 20 10 9 21 22 9 2 8 7 5 6 7 8 5 8 2 5 3 4 5 2 3 5 22 23 2 0 1 2 0 2 23</string>
+                <key>vertices</key>
+                <string>357 14 354 154 324 133 297 388 291 388 285 338 266 336 228 289 244 234 232 219 202 245 197 289 205 341 141 341 31 265 28 388 22 388 19 249 63 243 71 199 143 178 179 177 200 127 288 76 286 17 344 1</string>
+                <key>verticesUV</key>
+                <string>341 392 338 532 308 511 281 766 275 766 269 716 250 714 212 667 228 612 216 597 186 623 181 667 189 719 125 719 15 643 12 766 6 766 3 627 47 621 55 577 127 556 163 555 184 505 272 454 270 395 328 379</string>
+            </dict>
+            <key>pkr_landing_fire_16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-8.5,0}</string>
+                <key>spriteSize</key>
+                <string>{337,388}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{337,388}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 14 15 0 13 14 10 12 13 10 11 12 2 13 0 7 8 9 2 9 10 2 7 9 5 6 7 3 4 5 2 3 5 2 5 7 0 1 2 2 10 13 26 27 28 25 28 29 25 26 28 24 25 29 21 23 24 21 22 23 24 17 20 17 24 29 18 19 20 17 18 20 24 20 21 16 17 29 16 29 30 31 32 33</string>
+                <key>vertices</key>
+                <string>355 36 355 157 325 132 296 388 291 388 283 336 261 336 237 260 189 233 235 185 232 97 191 97 215 59 276 29 295 1 346 0 103 117 132 146 192 123 226 140 189 182 163 310 161 359 98 312 106 266 54 253 20 231 18 190 47 189 73 172 58 98 205 334 182 346 185 327</string>
+                <key>verticesUV</key>
+                <string>339 38 339 159 309 134 280 390 275 390 267 338 245 338 221 262 173 235 219 187 216 99 175 99 199 61 260 31 279 3 330 2 87 119 116 148 176 125 210 142 173 184 147 312 145 361 82 314 90 268 38 255 4 233 2 192 31 191 57 174 42 100 189 336 166 348 169 329</string>
+            </dict>
+            <key>pkr_landing_fire_17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-27.5,19.5}</string>
+                <key>spriteSize</key>
+                <string>{313,347}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{69,1167},{313,347}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>11 12 13 9 10 11 0 3 9 4 5 6 4 6 7 4 7 8 3 4 8 3 8 9 0 9 11 1 2 3 0 1 3 0 11 13 14 27 28 26 14 25 23 18 22 26 27 14 23 24 18 19 20 21 19 21 22 18 19 22 16 17 18 24 16 18 25 14 15 25 15 16 24 25 16 29 30 31 29 31 32 34 35 36 33 34 36</string>
+                <key>vertices</key>
+                <string>161 108 214 95 229 108 168 146 135 319 165 329 147 348 90 303 127 241 120 174 94 175 75 127 26 78 48 62 309 41 324 91 308 147 322 161 299 197 317 228 301 330 277 326 232 225 196 170 221 124 245 102 224 23 272 1 319 1 56 175 91 228 20 191 11 148 222 75 188 75 188 59 222 59</string>
+                <key>verticesUV</key>
+                <string>219 1274 272 1261 287 1274 226 1312 193 1485 223 1495 205 1514 148 1469 185 1407 178 1340 152 1341 133 1293 84 1244 106 1228 367 1207 382 1257 366 1313 380 1327 357 1363 375 1394 359 1496 335 1492 290 1391 254 1336 279 1290 303 1268 282 1189 330 1167 377 1167 114 1341 149 1394 78 1357 69 1314 280 1241 246 1241 246 1225 280 1225</string>
+            </dict>
+            <key>pkr_landing_fire_18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-31,19.5}</string>
+                <key>spriteSize</key>
+                <string>{328,347}</string>
+                <key>spriteSourceSize</key>
+                <string>{390,388}</string>
+                <key>textureRect</key>
+                <string>{{2,896},{328,347}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 0 2 3 0 3 4 5 6 7 8 9 10 19 21 22 19 20 21 13 17 18 15 16 17 14 15 17 13 14 17 13 18 19 12 13 19 12 19 22 11 12 22 24 25 26 23 24 26 27 31 32 31 27 28 28 29 30 31 28 30 27 32 33</string>
+                <key>vertices</key>
+                <string>149 306 164 330 147 348 105 318 107 297 241 346 223 348 224 308 312 218 297 203 312 203 318 54 278 39 270 93 302 132 328 184 302 187 302 156 167 145 236 28 213 25 213 1 318 1 22 148 0 148 0 124 22 124 93 52 121 46 156 61 149 85 88 89 5 70 15 34</string>
+                <key>verticesUV</key>
+                <string>151 1201 166 1225 149 1243 107 1213 109 1192 243 1241 225 1243 226 1203 314 1113 299 1098 314 1098 320 949 280 934 272 988 304 1027 330 1079 304 1082 304 1051 169 1040 238 923 215 920 215 896 320 896 24 1043 2 1043 2 1019 24 1019 95 947 123 941 158 956 151 980 90 984 7 965 17 929</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA4444</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>pkr_landing_fire.png</string>
+            <key>size</key>
+            <string>{622,2028}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:17a57f659003fb3a5e7b227c925131f2:afb71f96f9217026c838cf50f22e37b8:26fb4b8277bc96bd88d61627ff919e6a$</string>
+            <key>textureFileName</key>
+            <string>pkr_landing_fire.png</string>
+        </dict>
+    </dict>
+</plist>

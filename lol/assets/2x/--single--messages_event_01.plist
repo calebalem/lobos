@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>__messages_event_01.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{576,170}</string>
+                <key>spriteSourceSize</key>
+                <string>{576,170}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{576,170}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>--single--messages_event_01.png</string>
+            <key>size</key>
+            <string>{580,174}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:c58f74bb68602cf02b00fbdbb8462880:d911bb57bcf8c5ce0ef0b0d9fafe5eb6:ca700c68c56e4d3cc7f38c4a55619245$</string>
+            <key>textureFileName</key>
+            <string>--single--messages_event_01.png</string>
+        </dict>
+    </dict>
+</plist>

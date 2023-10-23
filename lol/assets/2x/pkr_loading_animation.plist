@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>pkr_loading_animation_01.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-13,-15.5}</string>
+                <key>spriteSize</key>
+                <string>{140,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1039,623},{140,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 2 3 4 5 2 1 2 5 0 1 5 0 5 6</string>
+                <key>vertices</key>
+                <string>114 45 147 104 113 165 54 177 13 143 7 96 44 34</string>
+                <key>verticesUV</key>
+                <string>1146 634 1179 693 1145 754 1086 766 1045 732 1039 685 1076 623</string>
+            </dict>
+            <key>pkr_loading_animation_02.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-14.5,-13}</string>
+                <key>spriteSize</key>
+                <string>{145,148}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{598,905},{145,148}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 2 3 4 5 6 4 6 2 0 1 2 0 2 6 0 6 7</string>
+                <key>vertices</key>
+                <string>113 45 148 93 124 151 80 177 28 159 3 101 34 49 78 29</string>
+                <key>verticesUV</key>
+                <string>708 921 743 969 719 1027 675 1053 623 1035 598 977 629 925 673 905</string>
+            </dict>
+            <key>pkr_loading_animation_03.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-12,-12.5}</string>
+                <key>spriteSize</key>
+                <string>{130,151}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1083,1142},{130,151}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 1 2 5 1 4 5 6 1 4 2 3 1 6 7 0 1 7</string>
+                <key>vertices</key>
+                <string>132 40 143 99 122 160 63 178 18 145 13 74 49 40 87 27</string>
+                <key>verticesUV</key>
+                <string>1202 1155 1213 1214 1192 1275 1133 1293 1088 1260 1083 1189 1119 1155 1157 1142</string>
+            </dict>
+            <key>pkr_loading_animation_04.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-7.5,-9}</string>
+                <key>spriteSize</key>
+                <string>{141,156}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{763,777},{141,156}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 5 3 4 5 2 3 5 1 5 6 0 1 6</string>
+                <key>vertices</key>
+                <string>131 31 153 71 122 161 67 177 12 148 21 56 69 21</string>
+                <key>verticesUV</key>
+                <string>882 787 904 827 873 917 818 933 763 904 772 812 820 777</string>
+            </dict>
+            <key>pkr_loading_animation_05.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-8.5,-7}</string>
+                <key>spriteSize</key>
+                <string>{151,156}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{683,420},{151,156}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 6 7 1 2 5 4 5 2 4 2 3 1 5 6 0 1 7</string>
+                <key>vertices</key>
+                <string>157 44 140 125 108 163 76 175 35 163 6 117 35 33 104 19</string>
+                <key>verticesUV</key>
+                <string>834 445 817 526 785 564 753 576 712 564 683 518 712 434 781 420</string>
+            </dict>
+            <key>pkr_loading_animation_06.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,-10.5}</string>
+                <key>spriteSize</key>
+                <string>{152,159}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{2,983},{152,159}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 2 4 6 2 3 4 1 2 6 0 1 6</string>
+                <key>vertices</key>
+                <string>137 30 163 67 118 160 61 180 11 138 29 29 81 21</string>
+                <key>verticesUV</key>
+                <string>128 992 154 1029 109 1122 52 1142 2 1100 20 991 72 983</string>
+            </dict>
+            <key>pkr_loading_animation_07.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5,-5}</string>
+                <key>spriteSize</key>
+                <string>{142,168}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{653,597},{142,168}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 2 3 4 5 2 1 2 5 0 1 5 0 5 6</string>
+                <key>vertices</key>
+                <string>152 44 156 75 119 160 63 179 14 143 18 70 47 11</string>
+                <key>verticesUV</key>
+                <string>791 630 795 661 758 746 702 765 653 729 657 656 686 597</string>
+            </dict>
+            <key>pkr_loading_animation_08.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,-3.5}</string>
+                <key>spriteSize</key>
+                <string>{154,171}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{394,616},{154,171}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 1 2 3 4 1 0 1 4 0 4 5</string>
+                <key>vertices</key>
+                <string>164 60 118 161 63 179 23 150 10 114 45 8</string>
+                <key>verticesUV</key>
+                <string>548 668 502 769 447 787 407 758 394 722 429 616</string>
+            </dict>
+            <key>pkr_loading_animation_09.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-9.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{155,171}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{410,462},{155,171}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 5 3 4 5 7 3 2 3 7 0 1 2 0 2 7 0 7 8</string>
+                <key>vertices</key>
+                <string>129 35 158 74 141 123 112 159 80 176 36 162 3 115 20 95 51 5</string>
+                <key>verticesUV</key>
+                <string>536 492 565 531 548 580 519 616 487 633 443 619 410 572 427 552 458 462</string>
+            </dict>
+            <key>pkr_loading_animation_10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,0}</string>
+                <key>spriteSize</key>
+                <string>{153,180}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{594,2},{153,180}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 0 2 5 0 1 2 0 5 6</string>
+                <key>vertices</key>
+                <string>111 17 163 67 144 125 88 180 28 160 10 106 64 0</string>
+                <key>verticesUV</key>
+                <string>695 19 747 69 728 127 672 182 612 162 594 108 648 2</string>
+            </dict>
+            <key>pkr_loading_animation_11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{5,0}</string>
+                <key>spriteSize</key>
+                <string>{162,172}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{189,324},{162,172}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 3 4 5 2 3 5 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>129 12 176 79 109 165 63 176 18 147 14 96 78 4</string>
+                <key>verticesUV</key>
+                <string>304 332 351 399 284 485 238 496 193 467 189 416 253 324</string>
+            </dict>
+            <key>pkr_loading_animation_12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,2}</string>
+                <key>spriteSize</key>
+                <string>{155,172}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{2,499},{155,172}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 7 5 6 7 5 7 3 5 3 4 2 7 8 0 1 2 0 2 8</string>
+                <key>vertices</key>
+                <string>144 18 168 60 160 103 119 156 82 174 48 168 18 147 13 91 93 2</string>
+                <key>verticesUV</key>
+                <string>133 515 157 557 149 600 108 653 71 671 37 665 7 644 2 588 82 499</string>
+            </dict>
+            <key>pkr_loading_animation_13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{4,-6}</string>
+                <key>spriteSize</key>
+                <string>{158,164}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{2,668},{158,164}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 6 5 3 4 3 5 1 5 6 1 3 1 2 0 6 7</string>
+                <key>vertices</key>
+                <string>173 64 164 101 99 178 48 167 16 145 15 84 95 14 152 14</string>
+                <key>verticesUV</key>
+                <string>160 718 151 755 86 832 35 821 3 799 2 738 82 668 139 668</string>
+            </dict>
+            <key>pkr_loading_animation_14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{2.5,-1}</string>
+                <key>spriteSize</key>
+                <string>{175,162}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{56,282},{175,162}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 6 7 4 5 6 3 4 6 2 3 6 1 2 7 0 1 7</string>
+                <key>vertices</key>
+                <string>158 23 180 79 129 147 93 170 41 172 5 115 23 76 105 10</string>
+                <key>verticesUV</key>
+                <string>209 295 231 351 180 419 144 442 92 444 56 387 74 348 156 282</string>
+            </dict>
+            <key>pkr_loading_animation_15.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,-4.5}</string>
+                <key>spriteSize</key>
+                <string>{173,167}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{294,2},{173,167}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 6 5 2 3 3 4 5 5 6 1 5 1 2 0 6 7</string>
+                <key>vertices</key>
+                <string>177 62 162 104 105 165 60 178 4 133 30 66 92 22 143 11</string>
+                <key>verticesUV</key>
+                <string>467 53 452 95 395 156 350 169 294 124 320 57 382 13 433 2</string>
+            </dict>
+            <key>pkr_loading_animation_16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,-10.5}</string>
+                <key>spriteSize</key>
+                <string>{174,159}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{304,229},{174,159}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 6 2 5 6 3 4 5 2 3 5 1 2 6 0 6 7</string>
+                <key>vertices</key>
+                <string>157 45 178 91 89 180 34 163 4 114 36 64 89 29 130 21</string>
+                <key>verticesUV</key>
+                <string>457 253 478 299 389 388 334 371 304 322 336 272 389 237 430 229</string>
+            </dict>
+            <key>pkr_loading_animation_17.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5.5,-14}</string>
+                <key>spriteSize</key>
+                <string>{163,136}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{474,846},{163,136}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 6 7 5 3 4 5 6 3 2 3 6 1 2 7 0 1 7</string>
+                <key>vertices</key>
+                <string>140 40 166 89 141 138 90 172 41 172 3 112 43 52 103 36</string>
+                <key>verticesUV</key>
+                <string>611 850 637 899 612 948 561 982 512 982 474 922 514 862 574 846</string>
+            </dict>
+            <key>pkr_loading_animation_18.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5,-18.5}</string>
+                <key>spriteSize</key>
+                <string>{144,137}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{878,1166},{144,137}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 4 5 6 7 4 3 4 7 0 3 7 0 2 3 0 1 2 0 7 8</string>
+                <key>vertices</key>
+                <string>127 51 157 87 145 133 114 164 82 172 64 177 19 147 13 99 53 40</string>
+                <key>verticesUV</key>
+                <string>992 1177 1022 1213 1010 1259 979 1290 947 1298 929 1303 884 1273 878 1225 918 1166</string>
+            </dict>
+            <key>pkr_loading_animation_19.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-13,-20.5}</string>
+                <key>spriteSize</key>
+                <string>{134,135}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1299,2},{134,135}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 6 7 4 5 6 1 2 3 1 3 4 1 4 7 0 1 7</string>
+                <key>vertices</key>
+                <string>114 51 144 89 144 140 108 174 73 178 10 148 20 69 73 43</string>
+                <key>verticesUV</key>
+                <string>1403 10 1433 48 1433 99 1397 133 1362 137 1299 107 1309 28 1362 2</string>
+            </dict>
+            <key>pkr_loading_animation_20.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-14,-19.5}</string>
+                <key>spriteSize</key>
+                <string>{152,133}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{958,1054},{152,133}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 3 4 5 0 1 2 0 2 3 0 3 5</string>
+                <key>vertices</key>
+                <string>131 69 152 106 123 176 45 176 0 110 49 49 92 43</string>
+                <key>verticesUV</key>
+                <string>1089 1080 1110 1117 1081 1187 1003 1187 958 1121 1007 1060 1050 1054</string>
+            </dict>
+            <key>pkr_loading_animation_21.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-8,-17.5}</string>
+                <key>spriteSize</key>
+                <string>{142,135}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1149,549},{142,135}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 0 5 7 3 4 5 1 2 3 0 1 3 0 3 5</string>
+                <key>vertices</key>
+                <string>118 53 153 103 119 174 65 175 26 152 11 119 24 66 71 40</string>
+                <key>verticesUV</key>
+                <string>1256 562 1291 612 1257 683 1203 684 1164 661 1149 628 1162 575 1209 549</string>
+            </dict>
+            <key>pkr_loading_animation_22.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-13,-19.5}</string>
+                <key>spriteSize</key>
+                <string>{148,139}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{730,931},{148,139}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 2 5 7 2 3 4 2 4 5 0 1 2 0 2 7</string>
+                <key>vertices</key>
+                <string>112 52 151 95 132 140 105 179 35 168 3 115 29 54 77 40</string>
+                <key>verticesUV</key>
+                <string>839 943 878 986 859 1031 832 1070 762 1059 730 1006 756 945 804 931</string>
+            </dict>
+            <key>pkr_loading_animation_23.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-15,-17.5}</string>
+                <key>spriteSize</key>
+                <string>{146,137}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1029,482},{146,137}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 6 7 4 5 6 0 4 7 0 2 3 0 1 2 0 3 4</string>
+                <key>vertices</key>
+                <string>114 50 148 100 116 166 62 176 20 148 2 104 38 48 75 39</string>
+                <key>verticesUV</key>
+                <string>1141 493 1175 543 1143 609 1089 619 1047 591 1029 547 1065 491 1102 482</string>
+            </dict>
+            <key>pkr_loading_animation_24.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-11,-16}</string>
+                <key>spriteSize</key>
+                <string>{138,144}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{249,1117},{138,144}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 0 1 2 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>113 48 148 101 117 162 63 178 10 143 11 83 54 34</string>
+                <key>verticesUV</key>
+                <string>352 1131 387 1184 356 1245 302 1261 249 1226 250 1166 293 1117</string>
+            </dict>
+            <key>pkr_loading_animation_25.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-10.5,-17}</string>
+                <key>spriteSize</key>
+                <string>{137,146}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1013,762},{137,146}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 2 3 4 5 2 0 1 2 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>113 48 148 101 117 162 56 180 11 135 11 83 54 34</string>
+                <key>verticesUV</key>
+                <string>1115 776 1150 829 1119 890 1058 908 1013 863 1013 811 1056 762</string>
+            </dict>
+            <key>pkr_loading_animation_26.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-11.5,-15}</string>
+                <key>spriteSize</key>
+                <string>{137,144}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{572,1146},{137,144}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 0 1 2 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>113 49 147 101 116 162 64 177 10 143 11 83 55 33</string>
+                <key>verticesUV</key>
+                <string>675 1162 709 1214 678 1275 626 1290 572 1256 573 1196 617 1146</string>
+            </dict>
+            <key>pkr_loading_animation_27.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-11,-16}</string>
+                <key>spriteSize</key>
+                <string>{138,144}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{770,1094},{138,144}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 0 1 2 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>113 49 148 101 117 162 63 178 10 143 11 83 54 34</string>
+                <key>verticesUV</key>
+                <string>873 1109 908 1161 877 1222 823 1238 770 1203 771 1143 814 1094</string>
+            </dict>
+            <key>pkr_loading_animation_28.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-11,-15.5}</string>
+                <key>spriteSize</key>
+                <string>{138,145}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1001,908},{138,145}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 0 1 2 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>113 49 148 101 117 162 63 178 10 143 11 83 55 33</string>
+                <key>verticesUV</key>
+                <string>1104 924 1139 976 1108 1037 1054 1053 1001 1018 1002 958 1046 908</string>
+            </dict>
+            <key>pkr_loading_animation_29.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-16,-17}</string>
+                <key>spriteSize</key>
+                <string>{148,138}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{846,989},{148,138}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6</string>
+                <key>vertices</key>
+                <string>117 48 148 109 110 168 46 176 0 124 27 53 67 38</string>
+                <key>verticesUV</key>
+                <string>963 999 994 1060 956 1119 892 1127 846 1075 873 1004 913 989</string>
+            </dict>
+            <key>pkr_loading_animation_30.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-16,-11.5}</string>
+                <key>spriteSize</key>
+                <string>{138,139}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1146,407},{138,139}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 2 3 5 3 4 5 1 2 5 0 1 5 0 5 7</string>
+                <key>vertices</key>
+                <string>111 41 143 87 130 146 93 171 49 170 17 138 5 81 61 32</string>
+                <key>verticesUV</key>
+                <string>1252 416 1284 462 1271 521 1234 546 1190 545 1158 513 1146 456 1202 407</string>
+            </dict>
+            <key>pkr_loading_animation_31.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-9,-14}</string>
+                <key>spriteSize</key>
+                <string>{132,152}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{999,83},{132,152}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 6 7 1 2 5 4 5 2 4 2 3 1 5 6 0 1 7</string>
+                <key>vertices</key>
+                <string>126 35 147 92 123 156 69 180 15 147 17 78 36 48 78 28</string>
+                <key>verticesUV</key>
+                <string>1110 90 1131 147 1107 211 1053 235 999 202 1001 133 1020 103 1062 83</string>
+            </dict>
+            <key>pkr_loading_animation_32.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5.5,-11}</string>
+                <key>spriteSize</key>
+                <string>{133,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{348,843},{133,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 5 6 2 4 5 2 3 4 1 2 6 0 1 6</string>
+                <key>vertices</key>
+                <string>127 31 151 60 130 146 79 180 18 150 18 51 81 22</string>
+                <key>verticesUV</key>
+                <string>457 852 481 881 460 967 409 1001 348 971 348 872 411 843</string>
+            </dict>
+            <key>pkr_loading_animation_33.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2,-7.5}</string>
+                <key>spriteSize</key>
+                <string>{142,165}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{152,1012},{142,165}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 1 3 4 1 2 3 0 1 5</string>
+                <key>vertices</key>
+                <string>159 46 131 147 78 180 17 150 17 42 97 15</string>
+                <key>verticesUV</key>
+                <string>294 1043 266 1144 213 1177 152 1147 152 1039 232 1012</string>
+            </dict>
+            <key>pkr_loading_animation_34.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,-7.5}</string>
+                <key>spriteSize</key>
+                <string>{147,155}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{810,470},{147,155}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 2 3 4 1 2 4 0 1 6</string>
+                <key>vertices</key>
+                <string>160 58 123 156 79 175 33 165 13 120 34 26 122 20</string>
+                <key>verticesUV</key>
+                <string>957 508 920 606 876 625 830 615 810 570 831 476 919 470</string>
+            </dict>
+            <key>pkr_loading_animation_35.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,-9}</string>
+                <key>spriteSize</key>
+                <string>{148,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{823,160},{148,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 2 3 5 3 4 5 2 5 7 0 1 2 0 2 7</string>
+                <key>vertices</key>
+                <string>128 33 161 53 136 139 87 178 32 162 13 120 36 24 78 20</string>
+                <key>verticesUV</key>
+                <string>938 173 971 193 946 279 897 318 842 302 823 260 846 164 888 160</string>
+            </dict>
+            <key>pkr_loading_animation_36.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-7}</string>
+                <key>spriteSize</key>
+                <string>{154,160}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{538,536},{154,160}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 4 6 3 4 1 3 1 2 0 1 6</string>
+                <key>vertices</key>
+                <string>167 61 116 162 65 177 28 152 13 122 38 24 66 17</string>
+                <key>verticesUV</key>
+                <string>692 580 641 681 590 696 553 671 538 641 563 543 591 536</string>
+            </dict>
+            <key>pkr_loading_animation_37.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2,1.5}</string>
+                <key>spriteSize</key>
+                <string>{150,177}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{273,553},{150,177}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 2 3 5 2 4 5 6 2 0 1 2 0 2 6 0 6 7</string>
+                <key>vertices</key>
+                <string>130 43 163 73 116 162 65 177 28 152 13 122 29 58 58 0</string>
+                <key>verticesUV</key>
+                <string>390 596 423 626 376 715 325 730 288 705 273 675 289 611 318 553</string>
+            </dict>
+            <key>pkr_loading_animation_38.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,1}</string>
+                <key>spriteSize</key>
+                <string>{155,176}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{734,2},{155,176}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 5 3 4 5 2 3 5 0 1 5 0 5 6</string>
+                <key>vertices</key>
+                <string>120 20 165 75 121 161 65 177 10 141 22 80 67 1</string>
+                <key>verticesUV</key>
+                <string>844 21 889 76 845 162 789 178 734 142 746 81 791 2</string>
+            </dict>
+            <key>pkr_loading_animation_39.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2,-1.5}</string>
+                <key>spriteSize</key>
+                <string>{160,175}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{447,2},{160,175}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 4 5 2 5 6 2 4 2 3 0 2 6 0 6 7</string>
+                <key>vertices</key>
+                <string>141 27 168 79 140 135 86 179 31 161 8 111 65 15 109 4</string>
+                <key>verticesUV</key>
+                <string>580 25 607 77 579 133 525 177 470 159 447 109 504 13 548 2</string>
+            </dict>
+            <key>pkr_loading_animation_40.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,1}</string>
+                <key>spriteSize</key>
+                <string>{159,164}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{685,256},{159,164}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>7 2 3 7 4 5 5 6 7 7 8 2 7 3 4 1 2 8 0 1 8 0 8 9</string>
+                <key>vertices</key>
+                <string>150 26 167 62 162 99 131 145 93 171 49 170 8 130 26 74 86 13 121 7</string>
+                <key>verticesUV</key>
+                <string>827 275 844 311 839 348 808 394 770 420 726 419 685 379 703 323 763 262 798 256</string>
+            </dict>
+            <key>pkr_loading_animation_41.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,-1}</string>
+                <key>spriteSize</key>
+                <string>{161,162}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{545,372},{161,162}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 7 2 6 7 5 6 3 5 3 4 2 3 6 0 1 7 0 7 8</string>
+                <key>vertices</key>
+                <string>159 30 171 66 163 104 104 170 35 172 10 114 30 72 92 15 127 10</string>
+                <key>verticesUV</key>
+                <string>694 392 706 428 698 466 639 532 570 534 545 476 565 434 627 377 662 372</string>
+            </dict>
+            <key>pkr_loading_animation_42.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3,-1.5}</string>
+                <key>spriteSize</key>
+                <string>{168,177}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{168,177}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 5 3 4 5 2 3 5 1 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>167 38 177 92 89 180 31 161 9 114 36 59 122 3</string>
+                <key>verticesUV</key>
+                <string>160 37 170 91 82 179 24 160 2 113 29 58 115 2</string>
+            </dict>
+            <key>pkr_loading_animation_43.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{6,-6.5}</string>
+                <key>spriteSize</key>
+                <string>{166,163}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{152,495},{166,163}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 7 8 5 3 4 5 6 3 6 7 2 6 2 3 0 1 2 0 2 8</string>
+                <key>vertices</key>
+                <string>153 23 179 68 159 108 95 178 32 164 13 120 23 79 73 31 114 15</string>
+                <key>verticesUV</key>
+                <string>292 503 318 548 298 588 234 658 171 644 152 600 162 559 212 511 253 495</string>
+            </dict>
+            <key>pkr_loading_animation_44.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0.5,-11.5}</string>
+                <key>spriteSize</key>
+                <string>{169,157}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{433,321},{169,157}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 6 5 6 1 3 4 5 2 3 5 5 1 2 0 6 7</string>
+                <key>vertices</key>
+                <string>158 43 175 97 89 180 31 161 6 107 37 65 85 30 128 23</string>
+                <key>verticesUV</key>
+                <string>585 341 602 395 516 478 458 459 433 405 464 363 512 328 555 321</string>
+            </dict>
+            <key>pkr_loading_animation_45.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-8,-14}</string>
+                <key>spriteSize</key>
+                <string>{152,150}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{613,759},{152,150}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 5 3 4 5 2 3 5 1 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>158 69 158 123 85 179 30 161 6 106 44 53 127 29</string>
+                <key>verticesUV</key>
+                <string>765 799 765 853 692 909 637 891 613 836 651 783 734 759</string>
+            </dict>
+            <key>pkr_loading_animation_46.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5,-20}</string>
+                <key>spriteSize</key>
+                <string>{152,130}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{380,1097},{152,130}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 2 3 4 0 2 4 0 1 2 0 4 6</string>
+                <key>vertices</key>
+                <string>126 47 161 97 128 165 57 175 28 153 9 112 45 45</string>
+                <key>verticesUV</key>
+                <string>497 1099 532 1149 499 1217 428 1227 399 1205 380 1164 416 1097</string>
+            </dict>
+            <key>pkr_loading_animation_47.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-7.5,-20.5}</string>
+                <key>spriteSize</key>
+                <string>{143,137}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1089,184},{143,137}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 0 3 6 5 6 3 5 3 4 0 1 2 0 2 3 0 6 7</string>
+                <key>vertices</key>
+                <string>123 62 154 101 129 165 89 179 30 170 11 115 26 75 54 49 89 42</string>
+                <key>verticesUV</key>
+                <string>1201 204 1232 243 1207 307 1167 321 1108 312 1089 257 1104 217 1132 191 1167 184</string>
+            </dict>
+            <key>pkr_loading_animation_48.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-10.5,-14}</string>
+                <key>spriteSize</key>
+                <string>{143,142}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{947,215},{143,142}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 5 6 7 4 5 7 3 4 7 0 2 3 0 3 7 0 7 8</string>
+                <key>vertices</key>
+                <string>125 63 151 100 131 160 97 175 55 175 20 147 8 100 38 62 74 33</string>
+                <key>verticesUV</key>
+                <string>1064 245 1090 282 1070 342 1036 357 994 357 959 329 947 282 977 244 1013 215</string>
+            </dict>
+            <key>pkr_loading_animation_49.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-10,-17.5}</string>
+                <key>spriteSize</key>
+                <string>{136,141}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1154,703},{136,141}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 6 4 6 3 4 5 6 2 3 6 0 1 6 0 6 7</string>
+                <key>vertices</key>
+                <string>148 92 137 140 106 170 69 178 12 145 14 74 56 47 100 37</string>
+                <key>verticesUV</key>
+                <string>1290 758 1279 806 1248 836 1211 844 1154 811 1156 740 1198 713 1242 703</string>
+            </dict>
+            <key>pkr_loading_animation_50.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-15,-18.5}</string>
+                <key>spriteSize</key>
+                <string>{142,133}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1253,628},{142,133}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 6 4 5 6 0 1 2 0 2 3 0 3 6 0 6 7</string>
+                <key>vertices</key>
+                <string>96 43 146 85 133 152 88 175 43 170 4 126 18 81 43 42</string>
+                <key>verticesUV</key>
+                <string>1345 629 1395 671 1382 738 1337 761 1292 756 1253 712 1267 667 1292 628</string>
+            </dict>
+            <key>pkr_loading_animation_51.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-12,-20}</string>
+                <key>spriteSize</key>
+                <string>{134,140}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1267,780},{134,140}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 0 1 2 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>98 42 145 87 129 154 70 180 11 146 11 87 45 40</string>
+                <key>verticesUV</key>
+                <string>1354 782 1401 827 1385 894 1326 920 1267 886 1267 827 1301 780</string>
+            </dict>
+            <key>pkr_loading_animation_52.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-16,-17}</string>
+                <key>spriteSize</key>
+                <string>{148,134}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1048,317},{148,134}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 6 7 5 6 3 5 3 4 2 3 7 0 1 2 0 2 7</string>
+                <key>vertices</key>
+                <string>113 46 148 101 119 157 83 174 32 167 0 113 32 51 68 40</string>
+                <key>verticesUV</key>
+                <string>1161 323 1196 378 1167 434 1131 451 1080 444 1048 390 1080 328 1116 317</string>
+            </dict>
+            <key>pkr_loading_animation_53.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-14.5,-17}</string>
+                <key>spriteSize</key>
+                <string>{139,136}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1224,941},{139,136}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 4 5 7 3 1 2 3 4 1 1 4 7 0 1 7</string>
+                <key>vertices</key>
+                <string>117 47 145 103 117 167 55 175 17 143 6 109 29 50 68 39</string>
+                <key>verticesUV</key>
+                <string>1335 949 1363 1005 1335 1069 1273 1077 1235 1045 1224 1011 1247 952 1286 941</string>
+            </dict>
+            <key>pkr_loading_animation_54.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-14,-14.5}</string>
+                <key>spriteSize</key>
+                <string>{148,149}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{935,380},{148,149}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 0 2 4 5 6 4 6 0 2 3 4 0 1 2 0 6 7</string>
+                <key>vertices</key>
+                <string>123 63 150 103 119 157 73 179 21 150 2 107 27 52 78 30</string>
+                <key>verticesUV</key>
+                <string>1056 413 1083 453 1052 507 1006 529 954 500 935 457 960 402 1011 380</string>
+            </dict>
+            <key>pkr_loading_animation_55.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-12.5,-14.5}</string>
+                <key>spriteSize</key>
+                <string>{139,139}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1102,997},{139,139}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 4 2 3 4 5 6 4 6 2 0 2 6 0 1 2 0 6 7</string>
+                <key>vertices</key>
+                <string>117 58 147 94 128 141 100 169 63 174 14 146 8 104 27 54 82 35</string>
+                <key>verticesUV</key>
+                <string>1211 1020 1241 1056 1222 1103 1194 1131 1157 1136 1108 1108 1102 1066 1121 1016 1176 997</string>
+            </dict>
+            <key>pkr_loading_animation_56.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-15,-12.5}</string>
+                <key>spriteSize</key>
+                <string>{146,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{921,556},{146,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 2 3 5 6 7 4 5 7 0 2 4 0 1 2 0 4 7 0 7 8</string>
+                <key>vertices</key>
+                <string>125 66 148 102 119 157 83 174 51 169 18 145 2 101 35 51 79 31</string>
+                <key>verticesUV</key>
+                <string>1044 591 1067 627 1038 682 1002 699 970 694 937 670 921 626 954 576 998 556</string>
+            </dict>
+            <key>pkr_loading_animation_57.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-14,-16.5}</string>
+                <key>spriteSize</key>
+                <string>{150,147}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{274,724},{150,147}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 5 6 3 4 5 1 3 5 1 2 3 0 1 6</string>
+                <key>vertices</key>
+                <string>151 97 118 159 71 180 25 153 1 101 42 43 98 33</string>
+                <key>verticesUV</key>
+                <string>424 788 391 850 344 871 298 844 274 792 315 734 371 724</string>
+            </dict>
+            <key>pkr_loading_animation_58.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-18,-14.5}</string>
+                <key>spriteSize</key>
+                <string>{142,145}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{872,850},{142,145}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 5 6 3 4 5 1 2 3 1 3 5 0 1 6</string>
+                <key>vertices</key>
+                <string>132 40 143 118 103 177 38 168 1 106 36 46 76 32</string>
+                <key>verticesUV</key>
+                <string>1003 858 1014 936 974 995 909 986 872 924 907 864 947 850</string>
+            </dict>
+            <key>pkr_loading_animation_59.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-6,-7.5}</string>
+                <key>spriteSize</key>
+                <string>{142,159}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{154,672},{142,159}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 0 1 4 2 3 4 1 2 4 0 4 5</string>
+                <key>vertices</key>
+                <string>155 65 122 164 59 177 24 151 13 112 27 37 117 18</string>
+                <key>verticesUV</key>
+                <string>296 719 263 818 200 831 165 805 154 766 168 691 258 672</string>
+            </dict>
+            <key>pkr_loading_animation_60.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3,-9.5}</string>
+                <key>spriteSize</key>
+                <string>{138,155}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{897,697},{138,155}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 2 6 8 4 2 3 4 5 2 2 5 6 1 2 8 0 1 8</string>
+                <key>vertices</key>
+                <string>133 28 156 57 138 125 103 177 38 168 18 134 18 76 39 32 88 22</string>
+                <key>verticesUV</key>
+                <string>1012 703 1035 732 1017 800 982 852 917 843 897 809 897 751 918 707 967 697</string>
+            </dict>
+            <key>pkr_loading_animation_61.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-9.5,-5}</string>
+                <key>spriteSize</key>
+                <string>{145,156}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{778,620},{145,156}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 6 2 3 5 3 4 5 2 5 6 1 6 7 0 1 7</string>
+                <key>vertices</key>
+                <string>153 35 153 85 123 151 90 173 41 171 8 119 35 33 73 17</string>
+                <key>verticesUV</key>
+                <string>923 638 923 688 893 754 860 776 811 774 778 722 805 636 843 620</string>
+            </dict>
+            <key>pkr_loading_animation_62.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-8}</string>
+                <key>spriteSize</key>
+                <string>{152,152}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{827,319},{152,152}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 6 4 5 6 2 3 6 0 2 6 0 1 2 0 6 7</string>
+                <key>vertices</key>
+                <string>105 24 166 52 127 144 99 170 59 174 25 151 14 118 36 22</string>
+                <key>verticesUV</key>
+                <string>918 321 979 349 940 441 912 467 872 471 838 448 827 415 849 319</string>
+            </dict>
+            <key>pkr_loading_animation_63.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,-3.5}</string>
+                <key>spriteSize</key>
+                <string>{154,161}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{2,822},{154,161}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 0 1 2 0 2 5 0 5 6</string>
+                <key>vertices</key>
+                <string>103 29 168 58 115 168 59 174 25 151 14 118 39 13</string>
+                <key>verticesUV</key>
+                <string>91 838 156 867 103 977 47 983 13 960 2 927 27 822</string>
+            </dict>
+            <key>pkr_loading_animation_64.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-8,2}</string>
+                <key>spriteSize</key>
+                <string>{144,168}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{508,676},{144,168}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 2 3 6 3 4 6 1 2 6 0 1 6 0 6 7</string>
+                <key>vertices</key>
+                <string>154 59 154 100 107 172 55 171 26 151 10 110 21 94 49 4</string>
+                <key>verticesUV</key>
+                <string>652 731 652 772 605 844 553 843 524 823 508 782 519 766 547 676</string>
+            </dict>
+            <key>pkr_loading_animation_65.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2.5,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{155,167}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{879,2},{155,167}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 5 3 4 5 1 2 5 0 1 5 0 5 6</string>
+                <key>vertices</key>
+                <string>118 12 165 81 117 158 83 174 31 165 10 110 54 7</string>
+                <key>verticesUV</key>
+                <string>987 7 1034 76 986 153 952 169 900 160 879 105 923 2</string>
+            </dict>
+            <key>pkr_loading_animation_66.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1.5,2.5}</string>
+                <key>spriteSize</key>
+                <string>{165,167}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{291,386},{165,167}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 6 5 6 3 5 3 4 1 2 6 0 1 6 0 6 7</string>
+                <key>vertices</key>
+                <string>135 15 171 78 133 143 95 171 39 171 6 112 33 63 82 4</string>
+                <key>verticesUV</key>
+                <string>420 397 456 460 418 525 380 553 324 553 291 494 318 445 367 386</string>
+            </dict>
+            <key>pkr_loading_animation_67.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-2,-0.5}</string>
+                <key>spriteSize</key>
+                <string>{164,175}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{195,151},{164,175}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 5 4 2 3 4 5 1 4 1 2 0 5 6</string>
+                <key>vertices</key>
+                <string>170 60 160 107 94 178 29 163 6 99 83 15 134 3</string>
+                <key>verticesUV</key>
+                <string>359 208 349 255 283 326 218 311 195 247 272 163 323 151</string>
+            </dict>
+            <key>pkr_loading_animation_68.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,1}</string>
+                <key>spriteSize</key>
+                <string>{166,174}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{131,40},{166,174}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 6 7 4 5 6 3 4 6 2 3 6 0 1 2 0 2 7</string>
+                <key>vertices</key>
+                <string>153 25 172 60 163 104 96 176 37 167 6 113 25 76 106 2</string>
+                <key>verticesUV</key>
+                <string>278 63 297 98 288 142 221 214 162 205 131 151 150 114 231 40</string>
+            </dict>
+            <key>pkr_loading_animation_69.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{5,-2.5}</string>
+                <key>spriteSize</key>
+                <string>{170,171}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{2,167},{170,171}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 2 7 6 3 4 4 5 6 6 7 3 2 3 7 0 1 2 0 7 8</string>
+                <key>vertices</key>
+                <string>154 25 180 65 157 113 91 178 44 166 10 131 22 85 50 50 112 7</string>
+                <key>verticesUV</key>
+                <string>146 185 172 225 149 273 83 338 36 326 2 291 14 245 42 210 104 167</string>
+            </dict>
+            <key>pkr_loading_animation_70.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{3.5,-5.5}</string>
+                <key>spriteSize</key>
+                <string>{167,163}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{464,157},{167,163}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 5 6 4 5 2 4 2 3 1 2 5 0 1 6</string>
+                <key>vertices</key>
+                <string>166 24 177 95 92 177 30 164 10 110 30 68 104 14</string>
+                <key>verticesUV</key>
+                <string>620 167 631 238 546 320 484 307 464 253 484 211 558 157</string>
+            </dict>
+            <key>pkr_loading_animation_71.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{5,-9}</string>
+                <key>spriteSize</key>
+                <string>{170,158}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{627,154},{170,158}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 6 7 4 5 6 4 6 2 4 2 3 0 1 2 0 2 7</string>
+                <key>vertices</key>
+                <string>148 32 180 79 151 120 91 178 46 166 10 130 24 72 103 20</string>
+                <key>verticesUV</key>
+                <string>765 166 797 213 768 254 708 312 663 300 627 264 641 206 720 154</string>
+            </dict>
+            <key>pkr_loading_animation_72.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1.5,-13.5}</string>
+                <key>spriteSize</key>
+                <string>{157,151}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{120,877},{157,151}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 5 6 4 5 2 4 2 3 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>151 55 167 107 109 165 57 179 10 131 26 65 111 28</string>
+                <key>verticesUV</key>
+                <string>261 904 277 956 219 1014 167 1028 120 980 136 914 221 877</string>
+            </dict>
+            <key>pkr_loading_animation_73.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-3.5,-21}</string>
+                <key>spriteSize</key>
+                <string>{145,132}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1121,843},{145,132}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 3 5 7 3 4 5 2 3 7 0 1 2 0 2 7</string>
+                <key>vertices</key>
+                <string>130 52 159 91 138 153 76 177 23 160 14 104 33 57 78 45</string>
+                <key>verticesUV</key>
+                <string>1237 850 1266 889 1245 951 1183 975 1130 958 1121 902 1140 855 1185 843</string>
+            </dict>
+            <key>pkr_loading_animation_74.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-7,-21}</string>
+                <key>spriteSize</key>
+                <string>{142,134}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1203,1083},{142,134}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 0 6 8 4 5 6 0 3 4 0 2 3 0 1 2 0 4 6</string>
+                <key>vertices</key>
+                <string>123 60 154 98 134 157 93 178 52 172 24 151 12 107 42 49 89 44</string>
+                <key>verticesUV</key>
+                <string>1314 1099 1345 1137 1325 1196 1284 1217 1243 1211 1215 1190 1203 1146 1233 1088 1280 1083</string>
+            </dict>
+            <key>pkr_loading_animation_75.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-5,-21}</string>
+                <key>spriteSize</key>
+                <string>{134,130}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1311,344},{134,130}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 3 4 5 6 3 0 3 6 1 2 3 0 1 3 0 6 7</string>
+                <key>vertices</key>
+                <string>110 47 152 97 136 160 97 176 55 175 18 138 18 87 49 46</string>
+                <key>verticesUV</key>
+                <string>1403 345 1445 395 1429 458 1390 474 1348 473 1311 436 1311 385 1342 344</string>
+            </dict>
+            <key>pkr_loading_animation_76.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-9,-15.5}</string>
+                <key>spriteSize</key>
+                <string>{146,141}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{290,977},{146,141}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 3 4 5 0 2 3 0 3 5 0 5 6</string>
+                <key>vertices</key>
+                <string>108 52 154 95 121 174 52 176 8 131 21 73 72 35</string>
+                <key>verticesUV</key>
+                <string>390 994 436 1037 403 1116 334 1118 290 1073 303 1015 354 977</string>
+            </dict>
+            <key>pkr_loading_animation_77.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-11,-18.5}</string>
+                <key>spriteSize</key>
+                <string>{134,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1120,2},{134,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 3 4 5 0 2 3 0 3 5 0 5 6</string>
+                <key>vertices</key>
+                <string>109 47 146 91 131 156 75 180 13 148 12 84 57 37</string>
+                <key>verticesUV</key>
+                <string>1217 12 1254 56 1239 121 1183 145 1121 113 1120 49 1165 2</string>
+            </dict>
+            <key>pkr_loading_animation_78.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-18,-14.5}</string>
+                <key>spriteSize</key>
+                <string>{140,145}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{511,1013},{140,145}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 4 5 6 3 4 6 0 1 3 0 3 6 0 6 7</string>
+                <key>vertices</key>
+                <string>106 50 142 86 135 145 98 169 57 177 2 132 18 69 68 32</string>
+                <key>verticesUV</key>
+                <string>615 1031 651 1067 644 1126 607 1150 566 1158 511 1113 527 1050 577 1013</string>
+            </dict>
+            <key>pkr_loading_animation_79.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-13.5,-10}</string>
+                <key>spriteSize</key>
+                <string>{145,140}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{646,1032},{145,140}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 2 3 4 5 3 5 0 3 0 2 0 5 6</string>
+                <key>vertices</key>
+                <string>124 63 149 108 106 170 46 170 4 128 16 65 74 30</string>
+                <key>verticesUV</key>
+                <string>766 1065 791 1110 748 1172 688 1172 646 1130 658 1067 716 1032</string>
+            </dict>
+            <key>pkr_loading_animation_80.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-16,-18}</string>
+                <key>spriteSize</key>
+                <string>{132,144}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1198,269},{132,144}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 2 3 6 7 2 4 5 6 6 3 4 1 2 7 0 1 7 0 7 8</string>
+                <key>vertices</key>
+                <string>117 51 140 93 135 129 111 162 62 180 8 140 10 90 31 57 67 36</string>
+                <key>verticesUV</key>
+                <string>1307 284 1330 326 1325 362 1301 395 1252 413 1198 373 1200 323 1221 290 1257 269</string>
+            </dict>
+            <key>pkr_loading_animation_81.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-14,-17.5}</string>
+                <key>spriteSize</key>
+                <string>{134,139}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1270,475},{134,139}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 1 2 5 3 4 5 2 3 5 1 5 7 0 1 7</string>
+                <key>vertices</key>
+                <string>143 75 135 129 111 163 65 177 10 141 9 91 36 44 86 38</string>
+                <key>verticesUV</key>
+                <string>1404 512 1396 566 1372 600 1326 614 1271 578 1270 528 1297 481 1347 475</string>
+            </dict>
+            <key>pkr_loading_animation_82.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-11.5,-15}</string>
+                <key>spriteSize</key>
+                <string>{139,136}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{1210,108},{139,136}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 7 5 6 7 3 5 7 3 4 5 1 2 3 0 1 3 0 7 8</string>
+                <key>vertices</key>
+                <string>117 48 148 109 111 167 71 173 28 165 10 126 9 91 31 57 64 37</string>
+                <key>verticesUV</key>
+                <string>1318 119 1349 180 1312 238 1272 244 1229 236 1211 197 1210 162 1232 128 1265 108</string>
+            </dict>
+            <key>pkr_loading_animation_83.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-14.5,-17}</string>
+                <key>spriteSize</key>
+                <string>{135,146}</string>
+                <key>spriteSourceSize</key>
+                <string>{180,180}</string>
+                <key>textureRect</key>
+                <string>{{43,1126},{135,146}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>5 6 7 1 2 5 3 4 5 2 3 5 1 5 7 0 1 7</string>
+                <key>vertices</key>
+                <string>143 75 135 129 111 162 62 180 8 140 10 90 37 46 81 34</string>
+                <key>verticesUV</key>
+                <string>178 1167 170 1221 146 1254 97 1272 43 1232 45 1182 72 1138 116 1126</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA4444</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>pkr_loading_animation.png</string>
+            <key>size</key>
+            <string>{1448,1305}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:2dafbb0be769af43925b7b6bf7e49ef3:182823e322f05014c98bfbb2695ce7c6:758eef0cfe86e77d0293c507148a2348$</string>
+            <key>textureFileName</key>
+            <string>pkr_loading_animation.png</string>
+        </dict>
+    </dict>
+</plist>

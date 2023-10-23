@@ -16,7 +16,7 @@ export class ServerWs {
         if (this.#socket) {
             this.#socket.emit(event, { type: message.type, text: `[${date}] ${message.text}` })
         }
-        if (message.type != "alert" || message.type != "error") {
+        if (message.type != "error") {
             fs.appendFileSync("events.log", `[${date}] ${message.text}\n`)
         }
     }

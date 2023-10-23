@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>sng_seat_arranging_01.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{198,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{1202,2},{198,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 21 22 21 0 1 15 16 17 14 15 17 13 17 18 13 14 17 12 18 19 12 13 18 11 12 19 10 19 20 10 11 19 1 2 10 8 2 3 3 6 7 4 5 6 4 6 3 8 3 7 2 8 9 2 9 10 1 10 20 21 1 20</string>
+                <key>vertices</key>
+                <string>127 6 147 37 139 120 163 94 144 10 172 2 198 41 198 112 165 143 106 126 105 96 46 142 12 137 0 95 0 35 32 3 62 16 30 50 30 92 50 100 69 64 70 23 114 0</string>
+                <key>verticesUV</key>
+                <string>1329 8 1349 39 1341 122 1365 96 1346 12 1374 4 1400 43 1400 114 1367 145 1308 128 1307 98 1248 144 1214 139 1202 97 1202 37 1234 5 1264 18 1232 52 1232 94 1252 102 1271 66 1272 25 1316 2</string>
+            </dict>
+            <key>sng_seat_arranging_02.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{198,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{1002,2},{198,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>18 0 9 20 15 16 23 16 17 22 17 18 10 11 12 13 21 10 1 7 8 2 5 6 3 4 5 2 3 5 1 2 6 1 6 7 0 1 8 0 8 9 18 19 0 22 9 10 21 22 10 10 12 13 20 21 13 20 13 14 16 23 20 20 14 15 22 23 17 9 22 18</string>
+                <key>vertices</key>
+                <string>139 92 152 113 170 90 144 10 172 2 198 41 198 112 165 143 130 131 95 87 51 117 51 139 21 141 0 103 0 35 32 3 42 7 78 10 107 0 139 0 30 50 31 87 73 64 58 21</string>
+                <key>verticesUV</key>
+                <string>1141 94 1154 115 1172 92 1146 12 1174 4 1200 43 1200 114 1167 145 1132 133 1097 89 1053 119 1053 141 1023 143 1002 105 1002 37 1034 5 1044 9 1080 12 1109 2 1141 2 1032 52 1033 89 1075 66 1060 23</string>
+            </dict>
+            <key>sng_seat_arranging_03.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{198,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{802,2},{198,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>22 16 17 15 16 22 11 12 13 10 11 13 9 13 14 9 10 13 6 9 14 14 5 6 6 7 8 6 8 9 14 15 5 4 19 20 20 2 3 17 0 22 22 0 1 21 22 1 21 1 2 20 21 2 4 20 3 19 4 5 18 19 5 18 5 15 15 22 18</string>
+                <key>vertices</key>
+                <string>144 10 172 2 198 41 198 112 165 143 86 108 42 109 63 138 12 142 0 95 0 35 32 1 62 16 30 50 39 89 75 22 110 0 122 0 120 78 146 107 165 100 167 47 144 33</string>
+                <key>verticesUV</key>
+                <string>946 12 974 4 1000 43 1000 114 967 145 888 110 844 111 865 140 814 144 802 97 802 37 834 3 864 18 832 52 841 91 877 24 912 2 924 2 922 80 948 109 967 102 969 49 946 35</string>
+            </dict>
+            <key>sng_seat_arranging_04.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-1}</string>
+                <key>spriteSize</key>
+                <string>{198,142}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{551,132},{198,142}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 22 23 15 18 19 16 17 18 3 19 20 15 16 18 10 11 12 9 10 12 8 12 13 8 9 12 5 13 14 5 8 13 5 6 7 5 7 8 4 14 15 4 5 14 4 15 19 3 4 19 2 3 20 2 20 21 1 2 21 0 1 21 0 21 22</string>
+                <key>vertices</key>
+                <string>198 41 198 112 164 144 114 144 75 108 42 108 63 138 12 142 0 95 0 35 31 4 62 16 30 49 29 90 43 105 79 53 80 39 116 3 129 13 124 98 135 131 170 91 144 10 172 2</string>
+                <key>verticesUV</key>
+                <string>749 171 749 242 715 274 665 274 626 238 593 238 614 268 563 272 551 225 551 165 582 134 613 146 581 179 580 220 594 235 630 183 631 169 667 133 680 143 675 228 686 261 721 221 695 140 723 132</string>
+            </dict>
+            <key>sng_seat_arranging_05.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-1}</string>
+                <key>spriteSize</key>
+                <string>{198,142}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{954,129},{198,142}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 6 5 6 1 2 3 4 2 4 5 5 1 2 0 6 7 8 13 14 10 11 12 9 10 12 8 9 12 8 12 13 16 21 22 16 20 21 17 18 19 17 19 20 16 17 20 15 16 22</string>
+                <key>vertices</key>
+                <string>137 20 137 69 109 142 106 144 87 144 69 131 71 49 113 6 198 41 198 112 165 143 134 132 170 91 144 10 172 2 62 16 30 49 29 90 63 138 12 142 0 95 0 35 31 4</string>
+                <key>verticesUV</key>
+                <string>1091 147 1091 196 1063 269 1060 271 1041 271 1023 258 1025 176 1067 133 1152 168 1152 239 1119 270 1088 259 1124 218 1098 137 1126 129 1016 143 984 176 983 217 1017 265 966 269 954 222 954 162 985 131</string>
+            </dict>
+            <key>sng_seat_arranging_06.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-1}</string>
+                <key>spriteSize</key>
+                <string>{198,142}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{1802,2},{198,142}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 12 13 1 11 12 3 7 8 3 8 9 4 6 7 4 5 6 3 4 7 3 9 10 2 3 10 2 10 11 1 2 11 0 1 13 14 19 20 16 17 18 15 16 18 14 15 18 14 18 19</string>
+                <key>vertices</key>
+                <string>62 16 30 50 29 90 60 121 69 38 117 4 142 29 142 88 81 144 72 144 12 142 0 95 0 35 31 3 198 41 198 112 165 143 134 132 168 90 144 10 172 2</string>
+                <key>verticesUV</key>
+                <string>1864 16 1832 50 1831 90 1862 121 1871 38 1919 4 1944 29 1944 88 1883 144 1874 144 1814 142 1802 95 1802 35 1833 3 2000 41 2000 112 1967 143 1936 132 1970 90 1946 10 1974 2</string>
+            </dict>
+            <key>sng_seat_arranging_07.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{198,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{602,2},{198,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>21 17 18 11 12 13 10 11 13 9 13 14 9 10 13 8 14 15 8 9 14 6 15 16 7 8 15 16 17 21 6 7 15 6 21 19 20 2 3 21 1 2 18 0 21 21 0 1 20 21 2 20 3 4 19 20 4 19 4 5 19 5 6 16 21 6</string>
+                <key>vertices</key>
+                <string>144 11 172 2 198 41 198 112 165 143 111 124 97 100 50 139 21 141 0 103 0 35 32 3 62 16 30 50 29 91 51 101 67 82 67 18 117 0 141 124 170 90 145 50</string>
+                <key>verticesUV</key>
+                <string>746 13 774 4 800 43 800 114 767 145 713 126 699 102 652 141 623 143 602 105 602 37 634 5 664 18 632 52 631 93 653 103 669 84 669 20 719 2 743 126 772 92 747 52</string>
+            </dict>
+            <key>sng_seat_arranging_08.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{198,144}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{198,144}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>21 16 17 15 21 14 10 11 12 9 10 12 8 12 13 8 9 12 5 13 14 7 8 13 15 16 21 5 6 7 5 7 13 18 2 3 20 0 1 19 1 2 18 19 2 18 3 4 21 18 4 14 21 4 14 4 5 20 21 17 20 1 19 17 0 20</string>
+                <key>vertices</key>
+                <string>198 27 198 112 164 144 125 123 114 95 51 111 51 139 21 141 0 103 0 35 32 3 62 16 30 50 30 89 70 80 70 18 94 0 157 0 150 107 168 95 168 50 135 45</string>
+                <key>verticesUV</key>
+                <string>200 29 200 114 166 146 127 125 116 97 53 113 53 141 23 143 2 105 2 37 34 5 64 18 32 52 32 91 72 82 72 20 96 2 159 2 152 109 170 97 170 52 137 47</string>
+            </dict>
+            <key>sng_seat_arranging_09.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{198,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{402,2},{198,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>14 9 10 11 8 9 6 7 8 12 4 5 13 2 3 14 1 2 10 0 14 14 0 1 13 14 2 13 3 4 12 13 4 12 5 6 11 12 6 11 6 8 14 11 9 16 21 22 16 20 21 17 18 19 17 19 20 16 17 20 15 16 22</string>
+                <key>vertices</key>
+                <string>144 10 172 2 198 41 198 112 165 143 127 132 82 99 37 90 73 21 110 0 123 0 114 68 145 112 169 93 147 29 62 16 30 49 29 90 63 138 12 142 0 95 0 35 31 4</string>
+                <key>verticesUV</key>
+                <string>546 12 574 4 600 43 600 114 567 145 529 134 484 101 439 92 475 23 512 2 525 2 516 70 547 114 571 95 549 31 464 18 432 51 431 92 465 140 414 144 402 97 402 37 433 6</string>
+            </dict>
+            <key>sng_seat_arranging_10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0.5}</string>
+                <key>spriteSize</key>
+                <string>{198,143}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{202,2},{198,143}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 14 15 0 13 14 11 12 13 2 13 0 9 3 4 4 7 8 5 6 7 5 7 4 9 4 8 3 9 10 2 3 10 2 10 11 0 1 2 2 11 13 17 22 23 17 21 22 18 19 20 18 20 21 17 18 21 16 17 23</string>
+                <key>vertices</key>
+                <string>130 43 145 53 124 86 139 127 170 90 144 10 172 2 198 41 198 112 165 143 106 136 83 95 58 82 76 34 110 0 128 0 62 16 30 50 29 90 63 138 12 142 0 95 0 35 31 3</string>
+                <key>verticesUV</key>
+                <string>332 45 347 55 326 88 341 129 372 92 346 12 374 4 400 43 400 114 367 145 308 138 285 97 260 84 278 36 312 2 330 2 264 18 232 52 231 92 265 140 214 144 202 97 202 37 233 5</string>
+            </dict>
+            <key>sng_seat_arranging_11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-1}</string>
+                <key>spriteSize</key>
+                <string>{198,142}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{1602,2},{198,142}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 6 5 3 4 5 6 1 5 2 3 5 1 2 0 6 7 8 13 14 10 11 12 9 10 12 8 9 12 8 12 13 16 21 22 16 20 21 17 18 19 17 19 20 16 17 20 15 16 22</string>
+                <key>vertices</key>
+                <string>128 18 130 85 107 144 89 144 80 142 65 107 84 43 113 11 198 41 198 112 165 143 134 132 170 91 144 10 172 2 62 16 30 49 29 90 63 138 12 142 0 95 0 35 31 4</string>
+                <key>verticesUV</key>
+                <string>1730 18 1732 85 1709 144 1691 144 1682 142 1667 107 1686 43 1715 11 1800 41 1800 112 1767 143 1736 132 1772 91 1746 10 1774 2 1664 16 1632 49 1631 90 1665 138 1614 142 1602 95 1602 35 1633 4</string>
+            </dict>
+            <key>sng_seat_arranging_12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,-1}</string>
+                <key>spriteSize</key>
+                <string>{198,142}</string>
+                <key>spriteSourceSize</key>
+                <string>{198,144}</string>
+                <key>textureRect</key>
+                <string>{{1402,2},{198,142}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 12 13 3 9 10 8 4 5 5 6 7 4 8 9 8 5 7 3 4 9 2 3 10 2 10 11 2 11 12 1 2 12 0 1 13 14 19 20 16 17 18 15 16 18 14 15 18 14 18 19</string>
+                <key>vertices</key>
+                <string>62 16 30 49 29 92 56 115 69 94 69 34 116 6 140 30 128 94 73 144 34 144 0 110 0 35 31 4 198 41 198 112 165 143 134 132 170 91 144 10 172 2</string>
+                <key>verticesUV</key>
+                <string>1464 16 1432 49 1431 92 1458 115 1471 94 1471 34 1518 6 1542 30 1530 94 1475 144 1436 144 1402 110 1402 35 1433 4 1600 41 1600 112 1567 143 1536 132 1572 91 1546 10 1574 2</string>
+            </dict>
+            <key>sng_waiting_a01.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{1561,261},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 4 5 6 1 2 4 2 3 4 0 1 4 0 4 6</string>
+                <key>vertices</key>
+                <string>134 47 134 102 102 166 31 166 0 102 0 36 62 0 87 0</string>
+                <key>verticesUV</key>
+                <string>1695 308 1695 363 1663 427 1592 427 1561 363 1561 297 1623 261 1648 261</string>
+            </dict>
+            <key>sng_waiting_a02.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{309,252},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 9 10 0 8 9 6 7 8 6 1 5 1 2 5 4 5 2 4 2 3 8 0 1 6 8 1</string>
+                <key>vertices</key>
+                <string>134 47 134 107 96 158 83 166 55 166 13 128 0 102 0 49 19 26 61 0 87 0</string>
+                <key>verticesUV</key>
+                <string>443 299 443 359 405 410 392 418 364 418 322 380 309 354 309 301 328 278 370 252 396 252</string>
+            </dict>
+            <key>sng_waiting_a03.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{129,250},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 0 6 7 4 5 6 1 2 4 2 3 4 6 0 1 6 1 4</string>
+                <key>vertices</key>
+                <string>134 47 134 107 90 166 44 166 0 107 0 49 19 26 61 0 87 0</string>
+                <key>verticesUV</key>
+                <string>263 297 263 357 219 416 173 416 129 357 129 299 148 276 190 250 216 250</string>
+            </dict>
+            <key>sng_waiting_a04.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{1339,249},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 7 8 1 2 3 4 5 6 4 6 1 4 1 3 0 1 6 0 6 8</string>
+                <key>vertices</key>
+                <string>134 47 134 101 109 164 104 166 41 166 16 151 0 100 0 35 63 0 87 0</string>
+                <key>verticesUV</key>
+                <string>1473 296 1473 350 1448 413 1443 415 1380 415 1355 400 1339 349 1339 284 1402 249 1426 249</string>
+            </dict>
+            <key>sng_waiting_a05.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{1104,244},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 0 1 6 4 5 6 3 1 2 3 4 1 1 4 6 0 6 8</string>
+                <key>vertices</key>
+                <string>134 42 134 100 115 166 20 166 0 100 0 49 21 24 64 0 80 0</string>
+                <key>verticesUV</key>
+                <string>1238 286 1238 344 1219 410 1124 410 1104 344 1104 293 1125 268 1168 244 1184 244</string>
+            </dict>
+            <key>sng_waiting_a06.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{709,239},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>10 11 12 0 1 10 8 9 10 8 10 1 7 8 4 4 5 6 4 6 7 1 2 3 1 3 4 8 1 4 0 10 12</string>
+                <key>vertices</key>
+                <string>134 42 134 101 112 166 86 166 58 154 52 166 34 166 22 157 0 101 0 49 21 24 64 0 80 0</string>
+                <key>verticesUV</key>
+                <string>843 281 843 340 821 405 795 405 767 393 761 405 743 405 731 396 709 340 709 288 730 263 773 239 789 239</string>
+            </dict>
+            <key>sng_waiting_a07.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{1664,140},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 5 6 7 4 1 2 4 5 1 4 2 3 0 1 5 0 5 7</string>
+                <key>vertices</key>
+                <string>134 47 134 102 105 166 32 166 14 145 0 100 0 35 63 0 87 0</string>
+                <key>verticesUV</key>
+                <string>1798 187 1798 242 1769 306 1696 306 1678 285 1664 240 1664 175 1727 140 1751 140</string>
+            </dict>
+            <key>sng_waiting_a08.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{415,137},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 7 8 0 6 8 3 1 2 3 4 5 3 5 1 6 0 1 6 1 5</string>
+                <key>vertices</key>
+                <string>134 47 134 107 93 166 66 166 33 165 2 107 0 100 0 35 63 0 87 0</string>
+                <key>verticesUV</key>
+                <string>549 184 549 244 508 303 481 303 448 302 417 244 415 237 415 172 478 137 502 137</string>
+            </dict>
+            <key>sng_waiting_a09.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{216,136},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 0 7 8 5 6 7 1 2 5 4 5 2 4 2 3 7 0 1 7 1 5</string>
+                <key>vertices</key>
+                <string>134 47 134 107 96 158 83 166 55 166 0 111 0 49 19 26 61 0 87 0</string>
+                <key>verticesUV</key>
+                <string>350 183 350 243 312 294 299 302 271 302 216 247 216 185 235 162 277 136 303 136</string>
+            </dict>
+            <key>sng_waiting_a10.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{818,135},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 2 4 5 5 6 7 1 2 5 2 3 4 1 5 7 0 1 7 0 7 8</string>
+                <key>vertices</key>
+                <string>134 47 134 107 94 160 88 166 49 166 0 117 0 49 19 26 61 0 87 0</string>
+                <key>verticesUV</key>
+                <string>952 182 952 242 912 295 906 301 867 301 818 252 818 184 837 161 879 135 905 135</string>
+            </dict>
+            <key>sng_waiting_a11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{1845,133},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 4 5 6 3 1 2 3 4 1 0 1 4 0 4 6</string>
+                <key>vertices</key>
+                <string>134 47 134 102 108 166 32 166 0 102 0 35 63 0 87 0</string>
+                <key>verticesUV</key>
+                <string>1979 180 1979 235 1953 299 1877 299 1845 235 1845 168 1908 133 1932 133</string>
+            </dict>
+            <key>sng_waiting_a12.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{1445,128},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 0 1 6 4 5 6 3 1 2 3 4 1 1 4 6 0 6 8</string>
+                <key>vertices</key>
+                <string>134 42 134 100 115 166 30 166 0 102 0 49 21 24 64 0 80 0</string>
+                <key>verticesUV</key>
+                <string>1579 170 1579 228 1560 294 1475 294 1445 230 1445 177 1466 152 1509 128 1525 128</string>
+            </dict>
+            <key>sng_waiting_a13.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{1221,126},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 0 1 6 4 5 6 3 1 2 3 4 1 1 4 6 0 6 8</string>
+                <key>vertices</key>
+                <string>134 42 134 100 113 166 22 166 0 100 0 49 21 24 64 0 80 0</string>
+                <key>verticesUV</key>
+                <string>1355 168 1355 226 1334 292 1243 292 1221 226 1221 175 1242 150 1285 126 1301 126</string>
+            </dict>
+            <key>sng_waiting_a14.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{134,166}</string>
+                <key>spriteSourceSize</key>
+                <string>{134,166}</string>
+                <key>textureRect</key>
+                <string>{{31,121},{134,166}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 7 8 5 6 7 4 2 3 4 5 2 1 2 5 0 1 5 0 5 7</string>
+                <key>vertices</key>
+                <string>134 47 134 102 107 162 103 166 26 166 0 101 0 35 63 0 87 0</string>
+                <key>verticesUV</key>
+                <string>165 168 165 223 138 283 134 287 57 287 31 222 31 156 94 121 118 121</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA4444</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>pkr_loading.png</string>
+            <key>size</key>
+            <string>{2002,429}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:1ac656073d1314ba45bc96e69a9c3e7b:faad2365f596e491fbd1fbde929ea4f6:38b8e50288f18cf1d25e891280cff037$</string>
+            <key>textureFileName</key>
+            <string>pkr_loading.png</string>
+        </dict>
+    </dict>
+</plist>

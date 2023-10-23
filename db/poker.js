@@ -86,7 +86,15 @@ export async function getClubs() {
 export async function createClubs(data) {
     for (let club of data) {
         club["type"] = "club"
-        await db.club.insert(club)
+        let exsists = await new Promise((res, rej) => {
+            db.club.findOne({ type: "club", clubId: data.clubId }, (err, docs) => {
+                if (err) rej(err)
+                else res(docs)
+            })
+        })
+        if (!exsists) {
+            await db.club.insert(club)
+        }
     }
 }
 
@@ -106,7 +114,7 @@ export async function createMember(data) {
 
 
 export async function updateMember(data) {
-    await db.member.update({ type: "member", playerId: data.playerId }, { $set: { "point": data.point, "total_games":data.total_games } })
+    await db.member.update({ type: "member", playerId: data.playerId }, { $set: { "point": data.point, "total_games": data.total_games } })
 }
 
 export async function addOngoingGame(roomId, playerId) {

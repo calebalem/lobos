@@ -46,6 +46,7 @@ gameEvent.on("gameEnded", async ({ data, roomId }) => {
                 await updateMember(player)
                 await updateDiff(roomId, rank.playerId, rank.diff)
                 socket.emit("pointUpdated", player)
+                ServerWs.emit({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
             }
         }
     } catch (e) {
@@ -74,7 +75,7 @@ gameEvent.on("chatMessage", async (data) => {
         if (config.chatFilters.includes(data.text)) {
             await saveChat(data.senderId, data.roomId, data.text, data.sentTs)
             let member = await getMemeber(data.senderId)
-            await ServerWs.emit({ "type": "info", "text": `${member.displayName}|${member.playerCode} notifyed ${data.text}.` })
+            ServerWs.emit({ "type": "info", "text": `${member.displayName} | ${member.playerCode} notifyed ${data.text}.` })
         }
 
     } catch (e) {
@@ -98,7 +99,7 @@ gameEvent.on("playerLeft", async ({ data, roomId }) => {
                     console.log(`Player Stayed for ${timeDiffInMin}`)
                     if (timeDiffInMin < 60 && player.stack > player.chips) {
                         notify(`${member.displayName} | ${member.playerCode} left while profited. Stay time: ${timeDiffInMin} mins.`)
-                        play()
+                        play(`${member.displayName} | ${member.playerCode} left while profited. Stay time: ${timeDiffInMin} mins.`)
                     }
                 }
             }
@@ -112,21 +113,22 @@ async function checkPlayerLeave(player, roomId) {
     let chat = await getChat(player.playerId, roomId)
     if (chat == null) {
         notify(`${player.displayName} | ${player.playerCode} left game without notifying`)
-        play()
+        play(`${player.displayName} | ${player.playerCode} left game without notifying`)
         return
     }
     let now = Date.now()
     let timeDiffInMin = parseFloat((Math.abs(now - chat.time) / 60000).toFixed(1));
     if (timeDiffInMin < 15) {
         notify(`${player.displayName} | ${player.playerCode} left game without waiting 15 min.`)
-        play()
+        play(`${player.displayName} | ${player.playerCode} left game without waiting 15 min.`)
     }
 }
 
 async function notify(content) {
     console.log(content)
 
-    await ServerWs.emit({ "type": "alert", "text": content })
+    setTimeout(() => { ServerWs.emit({ "type": "alert", "text": content }) }, 4000)
+
     //implement telegram notification
     return null
 }
@@ -150,11 +152,11 @@ async function acceptDeclineMember(player) {
             let req
             if (member.point < buyInChips) {
                 req = { ...player, accepted: 0 }
-                await ServerWs.emit({ "type": "declined", "text": `Declined game request from ${member.displayName}| ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
+                 ServerWs.emit({ "type": "declined", "text": `Declined game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
             } else if (member.point >= buyInChips) {
                 req = { ...player, accepted: 1 }
                 //await recordPlayerTime(player.playerId, player.roomId)
-                await ServerWs.emit({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
+                 ServerWs.emit({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
                 member.total_games++
                 updateMember(member)
             }

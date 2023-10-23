@@ -1,0 +1,117 @@
+
+//CollectionEventMission
+"_HostFriendGameDesc" = "Host a private game and invite friends to join! Customize the game settings as desired.\n\nSimple steps:\n- Choose a game type and hit “confirm”.\n- Setup and adjust the game settings.\n- Tap “Host” and copy the game code to share with friends.\n- Sit back, relax, and enjoy the game!";
+
+//DLGSConnector
+"_level_name_1" = "Private";
+"_level_name_2" = "Lieutenant";
+"_level_name_3" = "Captain";
+"_level_name_4" = "Major";
+"_level_name_5" = "Lieutenant Colonel";
+"_level_name_6" = "Colonel";
+"_level_name_7" = "Brigadier";
+"_level_name_8" = "Major General";
+"_level_name_9" = "Lieutenant General";
+"_level_name_10" = "General";
+
+//DLTableLayer
+"_Host_Noun" = "Host";
+
+//GameTableTopBoardNode
+
+//HostedGameListLayer
+"_Host_Verb" = "Host";
+
+//HostingLayer
+
+//LiveGameLayer
+
+//GamePanelLayer
+"_OFCGameTypeExplain" = "Regular:\nIn regular Open Face Chinese, each player is dealt 14 cards in Fantasyland.\n\nProgressive:\nThe progressive OFC follows most of the same rules as the regular OFC. Unlike Regular OFC where a player is always dealt 14 cards, players can get up to 15, 16 or 17 cards when they’re in Fantasyland in Progressive OFC.\n\nJoker:\nThe joker OFC follows most of the same rules as the progressive OFC, but there are 1 or 2 joker cards(set by host) added into the card deck. The joker card can be used as any card to compose the best qualified hand in each row.";
+
+//RecordHistoryHandLayer
+"_PAS_Explain" = "Due to some players are in lack of chips to pay the full amount of losing chips, the adjusted system will calculate the number based on winning/loss counts between each players to achieve a fair game result.";
+
+//RoyaltiesLayer
+"_ofc_scoring_text_0" = "The most common OFC scoring bonus is the “scoop.” If you beat an opponent’s top, middle, and bottom, you win an additional three points(+3). If your hand has failed to qualify, then the top, middle, and bottom are all marked as zero.";
+"_ofc_scoring_text_1" = "Bonuses for the bottom range from +2 for a straight to +25 for a royal flush. The middle bonuses start with +2 for three-of-a-kind, going up to +50 for a royal flush. Bonuses for the top start with +1 for a pair of sixes and increase from there.";
+"_ofc_how_to_play_text_0" = "Open Face Chinese Poker (OFC) is a variant of regular Chinese poker.\n\nTwo or Three players can play OFC poker in a table. Each player must use 13 cards into 3 hands ‘Top’, ‘Middle’, Bottom’. There are no betting rounds during the play. Instead, the game is scored in points.";
+"_ofc_how_to_play_text_1" = "The player get 5 cards in the first turn and use all 5 cards on the board. After the first turn, there continues 4 more rounds. Players get 3 cards and must only use 2 cards, and discard 1 card. Once you place cards and complete your turn, you can’t move them to a different row later.";
+"_ofc_how_to_play_text_2" = "The first objective of OFC is to make a “qualified“ hand. The bottom hand should be a higher ranking hand than middle hand, and that the middle hand should be a higher ranking than the top hand.";
+"_ofc_how_to_play_text_2_1" = "If a qualified hand is not successfully made by the end, your hand will be fouled and forfeited.";
+"_ofc_how_to_play_text_3_new" = "The player to the left of the button (Dealer) acts first, and the action moves clockwise. Once a player completes their turn, the other player can see the previous arrangements, and the next player starts their own arrangement.";
+"_ofc_how_to_play_text_4_new" = "OFC Joker follows most of the same rules as OFC Progressive. The only difference is that there are 2 joker cards added into the card deck. The joker card can be used as any card to compose the best qualified hand.";
+"_ofc_fantasyland_text_0" = "Fantasyland is a special bonus awarded to players who completed high hands.";
+"_ofc_fantasyland_text_1" = "Players can enter Fantasyland by making a qualifying hand with QQ or better on the top.";
+"_ofc_fantasyland_text_2" = "Depending on the hand ranking of the top in previous hand, players can get up to 17 cards. Players in Fantasyland sets their card face down until other players complete all the rounds.\n\nHowever, when you make consecutive Fantasyland(re-fantasy), you will only get 14 cards.";
+"_ofc_fantasyland_text_3" = "Staying in Fantasyland (re-fantasy)\nA player in Fantasyland gets to “stay in Fantasyland” if he makes quads or better on the bottom, or three-of-a-kind on top.";
+"_ofc_fantasyland_text_4" = "When one or more player(s) enter Fantasyland, the following rules will apply\n● Dealer position will freeze.\n● The player who is not in Fantasyland cannot leave the table until there is no player in Fantasyland.";
+
+//TutorialLayer
+"_poker_rule_NLH_pre_flop" = "In a game of Texas hold'em, every player is dealt two cards face down - called the “hole cards“. Then there is a round of betting where you can Check, Bet or Fold. This stage of the game is known as “pre-flop“.";
+"_poker_rule_NLH_pre_flop_2" = "Checking lets the player pass on the action to the next player while allowing them to keep their cards even if no bet is placed. However, checking is only allowed when there is no bet currently on the table.";
+"_poker_rule_NLH_pre_flop_3" = "When a player decides to place a bet, they are given two options:\n1. Call: Calling means you will bet the same amount as the previous player who placed a bet\n2. Raise: To raise means to increase and place a higher bet than the amount placed by another player";
+"_poker_rule_PLO_pre_flop" = "Pot Limit Omaha(PLO) is a game that plays similar No limit Hold'em. When playing PLO, every player is dealt four cards face down - called “hole cards“. Then there is a round of betting where you can Check, Bet or Fold. This stage of the game is known as “pre-flop“.";
+"_poker_rule_NLH_flop" = "When all the pre-flop betting has finished, three community cards are dealt face-up on the board. These three cards are known as the “flop“.";
+"_poker_rule_PLO_flop" = "When all the pre-flop betting has finished and three community cards are dealt face up on the board. These three cards are known as the “flop“.";
+"_poker_rule_NLH_turn" = "After pre-flop there is another round of betting, then a fourth community card is dealt on the board - this card is known as the “turn“.";
+"_poker_rule_PLO_turn" = "After pre-flop there is another round of betting, then a fourth community card is dealt on the board - this card is known as the “turn“.";
+"_poker_rule_NLH_river" = "The final round of betting comes and the fifth community card is dealt on the board – this card is known as the “river“.";
+"_poker_rule_PLO_river" = "The final round of betting comes and the fifth community card is dealt on the board – this card is known as the “river“.";
+"_poker_rule_NLH_compare" = "You would need to construct a five-card poker hands using best available 5 cards out of the 2 hole cards and 5 community cards.";
+"_poker_rule_PLO_compare_new" = "There are two main differences of PLO:\n1. Each player must use exactly 2 hole cards and 3 community cards in making a 5 card hand. For example, if you have 7s-7d-9h-Kd and the community cards are 7h-9c-As-Ad-2c you have full house (7s-7d-7h-As-Ad). If the community cards were 9s-Qd-Qc-Qh-Qs you would only have full house (7s-7d-Qd-Qc-Qh), but not quads.";
+"_poker_rule_bomb_pot" = "A bomb pot is an agreement by all players to ante some amount and skip the betting round of preflop. In the games with %1$s within %2$s, bomb pots have a certain chance of occurring.";
+"_poker_rule_NLH_end_game" = "If you have 7-7 and the community cards are 7-9-A-A-2 you have full house (7-7-7-A-A). If the community cards were J-7-5-6-2 you would only have trips.\nSometimes the best hand is made by the five community cards on their own. If there were 3-4-5-6-7 on the board and you had 9-9, your hole cards would not play as there is a straight of higher value already showing.\n\nThere are two ways a hand can end. One is when the players in a hand turn over their hole cards and the player with the best hand wins. This is known as a “showdown“. The other is that someone will bet enough that everyone else folds. This is how most hands end in No limit Hold'em and that's the magic of the game - you don't always need the best hand to win.";
+"_poker_rule_PLO_end_game_new" = "2. The maximum bet allowed is the size of the pot.\n\nThere are two ways a hand can end.\nOne is when the players in a hand turn over their hole cards and the player with the best hand wins. This is known as the “showdown“. The other is that someone will bet enough that everyone else folds. This is how most hands end in PLO and that's the magic of the game - you don't always need the best hand to win.";
+
+//ClubMessageLayer
+
+//HostedGameListLayer
+
+//HostingLayer
+
+//RoomRequestListLayer
+
+//ChallengeScoreBJRExplainDialog
+"_BJRScoreExplain" = "“BJR“ rating is a system computed by advanced rating system. The rating is based on :\n- Win Rate\n- Blind / Buy-in Factor\n- Aging Factor\n\nEach global challenge season is %d days and player's rating over %s will be adjusted based on the previous score and aging factor at the beginning of next season.\n\n*Pokerrrr Global Challenge will keep on optimizing the rating algorithm and game rules anytime.";
+
+//ChallengeScoreBSRExplainDialog
+"_BSRScoreExplain" = "“BSR” rating is a tournament rating system computed by an advanced ranking system. The rating system is based on :\n- Finish Position\n- Buy-in Factor\n- Opponents’ Strength\n- Aging Factor\n\nEach global challenge season is %d days and player’s rating may be adjusted based on previous score and aging factor at the beginning of next season.\n\n*Pokerrrr Global Challenge will keep on optimizing the rating algorithm and game rules anytime.";
+
+//ChallengeScoreExplainDialog
+"_PRRScoreExplain" = "“PRR“ rating is a system computed by advanced rating system. The rating is based on :\n- Win Rate / Finish Position\n- Blind / Buy-in Factor\n- Opponents' Strength\n- Aging Factor\n\nEach global challenge season is %d days and player's rating over %s will be adjusted based on the previous score and aging factor at the beginning of next season.\n\n*Pokerrrr Global Challenge will keep on optimizing the rating algorithm and game rules anytime.";
+
+//ChallengeScoreExplainDialogGSOP
+"_GSOPPrizeExplain" = "The rank and prize of Global Series of Pokerrrr are recalculated every season.\n\nWinter: January 1 - March 31\nSpring: April 1 - June 30\nSummer: July 1 - September 30\nFall: October 1 - December 31";
+
+//ChallengeScoreExplainDialogPRR
+
+//ChallengeScoreExplainDialogPSR
+"_PSRScoreExplain" = "“PSR” rating is a tournament rating system computed by an advanced ranking system. The rating system is based on :\n- Finish Position\n- Buy-in Factor\n- Opponents’ Strength\n- Aging Factor\n\nEach global challenge season is %d days and player’s rating may be adjusted based on previous score and aging factor at the beginning of next season.\n\n*Pokerrrr Global Challenge will keep on optimizing the rating algorithm and game rules anytime.";
+
+//ChallengeScoreExplainDialog
+"_RMRScoreExplain" = "“RMR“ rating is a system computed by advanced rating system. The rating is based on :\n- Win Rate / Finish Position\n- Entry Factor\n- Opponents' Strength\n- Aging Factor\n\nEach global challenge season is %d days and player's rating over %s will be adjusted based on the previous score and aging factor at the beginning of next season.\n\n*Pokerrrr Global Challenge will keep on optimizing the rating algorithm and game rules anytime.";
+
+//ChallengeScoreExplainDialog
+
+//TutorialLayer
+"_stud_tutorial_desc_intro_new" = "7 Card Stud is a classic poker game. In this game, every player is dealt 7 cards throughout the course of the hand. The player who makes the best 5 card poker hand they can out of the 7 cards they were dealt is the winner of the hand.";
+"_stud_tutorial_desc_3rd_street" = "The game starts with everyone receiving two cards face down (in the hole) and one card face up (the door card). Everyone puts in the same ante, and the action starts with the person who has the lowest door card and the action moves from that player clockwise around the table. In the case of a tie, we sort by suit: clubs is lowest, then diamonds, hearts, and finally spades. Whoever starts also has to make a blind bet called “the bring in” to start the game, and it can be anywhere from preset bring in or up to the whole small bet. Rather than pre-flop, this is called “3rd street”.";
+"_stud_tutorial_desc_4th_street" = "Once the pot is right, the players get a second door card on “4th street”. Another round of betting starts.";
+"_stud_tutorial_desc_5th_street" = "then another door card on 5th street, followed by round of betting.";
+"_stud_tutorial_desc_6th_street" = "and another door card on 6th street, followed by round of betting";
+"_stud_tutorial_desc_7th_street" = "Finally, the river is face down, followed by the final round of betting. ";
+"_stud_tutorial_desc_result" = "whoever has the best 5 card poker hand wins the pot.";
+"_stud_tutorial_desc_end_new" = "Keep in mind that position changes throughout the hand. Other than 3rd street, whoever has the strongest hand showing gets to act first. Another key difference compare to NLH is that 7 card stud has bet limits. Each game has a “small bet” and “big bet”. The small bet will be used on the 3rd and 4th streets while the big bet will be used on the 5th, 6th, and 7th streets. All betting or raising is done in increments of small bet or big bet. So, if the game starts at 10/20, for instance, then we can bet 10 chips and raise 10 chips on 3rd and 4th street. Once we hit fifth street, then those numbers go up to 20. Similar to Texas hold'em, each player has the option to check, bet, call/raise, or fold in every round of betting.";
+
+
+//--------------------
+
+"Chips %s will be reloaded next hand." = "%s chips will be reloaded next hand.";
+"_facebook_account_link_explain" = "First time login through Facebook will give you 10 bonus gold!\nIt’s highly recommended to bind your Pokerrrr account to your Facebook for data safety.\nLogging in through Facebook also keeps your Pokerrrr account synchronised across multiple devices.";
+"_ofc_how_to_play_text_3" = "The player to the left of the button (Dealer) acts first, and the action moves clockwise. Once a player completes his/her turn, the other player can see the previous arrangements, and the next player starts his own arrangement.";
+"_ofc_how_to_play_text_4" = "The joker OFC follows most of the same rules as the progressive OFC, but there are 2 joker cards added into the card deck. The joker card can be used as any card to compose the best qualified hand in each row.";
+"_poker_rule_PLO_compare" = "Two of the main differences of PLO are :\n1. Each player must use exactly 2 hole cards and 3 community cards in making a 5 card hand.\n2. The maximum bet allowed is the size of the pot.";
+"_poker_rule_PLO_end_game" = "If you have 7s-7d-9h-Kd and the community cards are 7h-9c-As-Ad-2c you have full house (7s-7d-7h-As-Ad). If the community cards were 9s-Qd-Qc-Qh-Qs you would only have full house (7s-7d-Qd-Qc-Qh), but not quads.\n\nThere are two ways a hand can end.\nOne is when the players in a hand turn over their hole cards and the player with the best hand wins. This is known as the “showdown“. The other is that someone will bet enough that everyone else folds. This is how most hands end in PLO and that's the magic of the game - you don't always need the best hand to win.";
+"_stud_tutorial_desc_end" = "Keep in mind that position changes throughout the hand. Other than 3rd street, whoever has the strongest hand showing gets to act first. Another key difference compare to NLH is that 7 card stud has bet limits. Each game has a “small bet” and “big bet”. Small bet will be used on 3rd and 4th street while the big bet will be used on the 5th, 6th, 7th street. All betting or raising is done in increments of small bet or big bet. So, if the game starts at 10/20, for instance, then we can bet 10 chips and raise 10 chips on 3rd and 4th street. Once we hit fifth street, then those numbers go up to 20. Similar to Texas hold'em, each player has the option to check, bet, call/raise, or fold in every round of betting.";
+"_stud_tutorial_desc_intro" = "7 Card Stud is a classic poker game. In this game, every players are dealt 7 cards throughout the course of the hand and the player who make the best 5 card poker hand they can out of the 7 cards they were dealt is winner of the hand.";

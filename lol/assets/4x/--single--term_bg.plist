@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>__term_bg.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{994,1556}</string>
+                <key>spriteSourceSize</key>
+                <string>{996,1556}</string>
+                <key>textureRect</key>
+                <string>{{2,2},{994,1556}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>premultiplyAlpha</key>
+            <true/>
+            <key>realTextureFileName</key>
+            <string>--single--term_bg.astc</string>
+            <key>size</key>
+            <string>{998,1560}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:216699feb42b150cc359b604f58dbf67:7dceff716b5b3bf77d29a58a3ae401cb:9f241af97d1c261b2b950a6d0420a153$</string>
+            <key>textureFileName</key>
+            <string>--single--term_bg.astc</string>
+        </dict>
+    </dict>
+</plist>

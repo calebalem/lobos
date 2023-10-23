@@ -1,0 +1,3418 @@
+
+//AdvertisementEventListener
+"Oops!" = "哎呀!";
+"Oops! Something went wrong." = "哎呀! 好像有什么坏了";
+
+//AnniversaryEventPopup
+"Starts in %s" = "开始于 %s";
+"Ends in %s" = "结束于 %s";
+"You have reached the cap of exclusive Diamond VIP privileges!" = "你已达到独家钻石VIP特别优惠的上限！";
+"Great job! You've earned the exclusive Diamond VIP for %d days! Keep it up and earn more!" = "做得好，你已获得%d天独家钻石VIP！继续保持并赚取更多吧！";
+
+//AnnouncementListLayer
+"Delete Announcement" = "删除公告";
+"Are you sure to delete this announcement?" = "您确定要删除这则公告？";
+"Cancel" = "取消";
+"Confirm" = "确认";
+"Owner" = "板主";
+"Manager" = "管理者";
+
+//AppRate
+"Enjoying Pokerrrr 2?" = "喜欢Pokerrrr 2吗？";
+"Not really" = "还好";
+"Yes!" = "喜欢!";
+"How about a rating on the Google play?" = "愿意帮我们在Google play写个评价吗？";
+"How about a rating on the AppStore?" = "愿意帮我们在AppStore写个评价吗？";
+"No, thanks" = "不了";
+"Ok, sure!" = "Ok,当然好!";
+"Would you mind giving us some feedback?" = "愿意给我们一些意见吗？谢谢";
+
+//AutoExportLayer
+"days" = "天";
+"(%s left)" = "(%s 到期)";
+"Confirmation" = "确认";
+"Are you sure about buying %s?" = "你确定要购买%s？";
+"Auto Export" = "自动汇出";
+"OK" = "好";
+
+//AvatarPickLayer
+"Error" = "错误";
+
+//BattleLayer
+"Chips" = "筹码";
+"This event has ended" = "活动已结束";
+
+//BigChipSensitivityLayer
+"Swiping Sensitivity Adjustment" = "滑动灵敏度调整";
+"\nThe current swiping sensitivity level isn’t suitable for you. Click “Adjust” to test and adjust now with less than a minute!\n" = "\n现在的滑动灵敏度等级不适合你。点 “调整” 按钮，在少于一分钟的时间内完成测试和调整!\n";
+"Adjust" = "调整";
+"Don't show again" = "不再显示";
+"Chip-Con Swiping Sensitivity Test" = "Chip-Con 滑动灵敏度测试";
+"Bet" = "下注";
+"All in" = "全押";
+"Invalid" = "无效";
+"Sensitivity Test Result" = "灵敏度测试结果";
+"Well done! Your perfect sensitivity level has been identified!" = "太棒了! 我们已确定你的最佳灵敏度等级。";
+"Click “Apply” below to update the settings now." = "点选 “套用” 按钮来更新设定。";
+"Apply" = "套用";
+"Done" = "完成";
+"Swipe the chip-con three times" = "滑动 chip-con 三次";
+
+//ChipConLayer
+
+//RoomManagerGameImp
+"Blackjack" = " 21点";
+
+//TableLayer
+"No Limit" = "无限注";
+
+//BlindStructureLayer
+"Select Default Structure" = "选择预设结构";
+"Select Custom Structure" = "选择自订结构";
+"Edit" = "编辑";
+"Your changes will be discarded.\n Leave without saving?" = "您的变更将会遗失。\n 您确定要不储存离开吗？";
+"Default Blind Structure" = "预设盲注结构";
+"Custom Blind Structure" = "自订盲注结构";
+
+//BuyVIPDialog
+
+//CashGamePanelLayer
+"Warning" = "注意";
+"You have to set up your blind structure before enable the feature." = "您必须先设定盲注结构才能开启此功能。";
+"Edit Now" = "立即编辑";
+"Queue is not available and will be turned off with the Progressive Blind setting." = "进阶盲注设定不支援排队。排队开关将会被关上。";
+"Progressive Blind" = "进阶盲注";
+"A progressive blind is when the amount of money that players have to bet increases during preflop. This happens after a set amount of time has passed (controlled through “Interval” below), and the increased amount is based on the Blind Structure (controlled through “Edit Blind Structure”)" = "进阶盲注是指在翻牌前玩家必须下注的金额逐渐增加。这是在经过一定时间后发生的（通过下方的「间隔」进行控制），增加的金额是基于盲注结构（通过「编辑盲注结构」进行控制）";
+"min" = "分钟";
+"mins" = "分钟";
+"secs" = "秒";
+"*Blinds start on" = "*盲注起始于";
+"You have to input the ante in your custom structure before enable the feature." = "您必须在自订盲注结构中编辑输入底注才能开启此功能。";
+"Please select at least 2 games to host" = "请选择至少 2 种游戏来开局";
+"A Hi-Lo PLO game does not support run it twice, the switch will remain off." = "高低限注奥马哈不支援双重公用牌。双重公用牌的开关将会被关上。";
+"Run it twice feature is not available in the 9-player PLO5 table, the feature will be turned off." = "双重公用牌功能不适用于9人桌的PLO5，此功能将会被关上。";
+
+//CashGamePanelLayer
+"4-Card" = "4张牌";
+"Hi-Lo" = "高低";
+"5-Card" = "5张牌";
+"6-Card" = "6张牌";
+
+//CashHostingResultView
+"Big Bet" = "大注";
+"BB" = "大盲";
+"Small Bet" = "小注";
+"SB" = "小盲";
+"No limit" = "无限制";
+"Always" = "总是";
+"Optional on every hand" = "每手可选择";
+"Straddle (UTG only)" = "Straddle (仅限 UTG )";
+"3rd Blind (Mandatory)" = "3rd Blind (强制)";
+"Cap" = "上限";
+"Every %d hands" = "每%d手";
+"Every hands" = "每手";
+"players" = "玩家";
+"sec" = "秒";
+"card" = "张";
+"cards" = "张";
+"Every %d mins" = "每 %d 分钟";
+"Max" = "上限";
+"on" = "开";
+"off" = "关";
+
+//ChallengeRecordPage
+"Chip Magnet" = "筹码磁铁";
+"Shield" = "盾牌";
+"%s left" = "%s 到期";
+
+//ChatLayer
+"Type here..." = "请在此输入留言...";
+"Microphone Permission" = "麦克风权限";
+"Pokerrrr requires access to the microphone so you can use your voice to chat with your friends during the game." = "Pokerrrr 需要取得麦克风权限，使你能在游戏中使用语音讯息与朋友进行聊天。";
+"Don’t allow" = "不允许";
+
+//ChatPresetSentenceLayer
+"Nice hand!" = "打得好！";
+"Good fold!" = "盖得好！";
+"Good call!" = "跟得好！";
+"So sick!" = "太猛了！";
+"Got lucky~" = "运气好～";
+"Sorry." = "抱歉了。";
+"I am bluffing." = "我在吹牛。";
+"Please fold~" = "拜托盖牌～";
+"No way!" = "怎么可能！";
+"Boom!" = "砰！";
+"Royal Flush~" = "皇家同花顺～";
+"Whaaaa?" = "蛤？";
+"Thanks" = "谢谢";
+"No way..." = "怎么可能...";
+"Well played!" = "玩得好！";
+"Bluffing?" = "听你在吹牛？";
+"Of course!" = "那还用说！";
+"Unreal!" = "怎么会！";
+
+//ChatViewLayer
+
+//ChipPreviewLayer
+
+//ClickSettingsLayer
+"Tap and locate “How to Play”." = "点击并查看如何找到「怎么玩」";
+"How to Play" = "怎么玩";
+"You can access “How to Play” and “Gesture Tutorial” here" = "您可以在此查看「怎么玩」以及 「手势教学」";
+"You’re all set! It’s time to start your new chapter as a Pokerrrr agent." = "您已准备好了！是时候开始你全新的 Pokerrrrr 特务人生。";
+
+//ClubCreateLayer
+"Loading..." = "载入中...";
+"Joined" = "已加入";
+"Requesting" = "请求中";
+"Join" = "加入";
+"You can only create %d clubs." = "你只能建立%d个俱乐部。";
+"You sent this club a join request." = "你已送出加入请求。";
+"You are now part of this club!" = "你加入了这个俱乐部。";
+
+//ClubDetailLayer
+"On" = "开";
+"Off" = "关";
+"Member" = "成员";
+"Leave Club" = "离开俱乐部";
+"Cancel Request" = "取消请求";
+"Sure to cancel your request?" = "确定要取消俱乐部的请求吗？";
+"No" = "否";
+" Leave " = "退出";
+"Sure to leave this club?" = "确定要离开这个俱乐部吗？";
+"Delete" = "删除";
+"Sure to delete this club?" = "确定要删除这个俱乐部吗？";
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join my club! My club code : #%s. Receive extra 10 free gold coins by downloading here : " = "Hello, 我都用 Pokerrrr2 app 和朋友们一起玩德州扑克，快来加入我的俱乐部！ 我的俱乐部代码： #%s。 用下面的连结下载App来获得10个免费金币奖励：";
+
+//ClubEditLayer
+
+//ClubMainLayer
+"Create a private club to play poker with friends anytime.\nGet %d bonus gold after creating/joining your first poker club. :)" = "创建一个私人俱乐部随时与朋友来场牌局吧。\n在你创建或加入你的第一个俱乐部后，你将获得 %d 金币奖励。:)";
+
+//ClubMemberLayer
+"(Owner)" = "(板主)";
+"(Manager)" = "(管理者)";
+"Promote to owner?" = "晋升此管理员为板主？";
+"Promote to manager?" = "晋升成员为管理员？";
+"You will be demoted to manager; the new owner will take all of your owner privileges. Are you sure you want to promote %s? \n" = "你将失去板主的资格并降阶为管理员，板主的所有权利会由新任板主接手。你确定要晋升%s吗？";
+"Managers are allowed to accept or reject requesting members, and kick or promote current members. Are you sure you want to promote %s?" = "管理员可「接受或拒绝加入申请 / 踢出或晋升成员」。你确定要晋升%s吗？";
+"Demoting a manager will remove their privileges to accept or reject requesting members, and kick or promote current members. Are you sure you want to demote %s to a member?" = "管理员被降级后将不再拥有管理员的权利（接受或拒绝加入申请 / 踢出或晋升成员）。你确定要降级%s？";
+"Demote to member?" = "降级管理员为成员？";
+"This member will no longer see the club messages or receive club notifications once kicked. Are you sure you want to kick %s out?" = "一旦被踢出，成员将无法看到俱乐部内的讯息，也将不再收到俱乐部的任何通知。你确定要踢出%s？";
+"Kick the member?" = "踢出成员？";
+
+//ClubMessageLayer
+"Kicked" = "踢出";
+"You have been kicked from the club" = "你已经被踢出俱乐部";
+"new messages" = "新讯息";
+"shared a hand." = "分享了一手牌。";
+"is requesting to join the club." = "正在要求加入俱乐部。";
+"%1$s is hosting %2$s." = "%1$s正在开%2$s.";
+"joined the club." = "加入了俱乐部。";
+"has left the club." = "离开了俱乐部。";
+"has been kicked by owner." = "被板主踢出了。";
+"has been kicked by %s." = "被%s踢出了。";
+"has been rejected by owner." = "被板主拒绝了。";
+"has been rejected by %s." = "被%s拒绝了。";
+"This club has been closed by owner." = "这个俱乐部已经被板主关闭了。";
+"was promoted by %s." = "被%s晋升了。";
+"was demoted by %s." = "被%s降级了。";
+"Announcement" = "公告";
+"You can only post up to 3 announcements at the time. To delete old announcement, press and hold the text then click on the delete icon." = "您只能发布最多三则公告。欲删除旧公告，长按文字后点击删除图示。";
+"Delete Message" = "删除讯息";
+"Are you sure to delete this message?" = "你确定要删除这则讯息吗？";
+"Sorry" = "抱歉";
+"You are not allowed to host in this club." = "你不能在这个俱乐部里开局。";
+
+//ClubRecordMainLayer
+"Record Deletion" = "记录删除";
+"Members cannot access the results of deleted records, except for their own results." = "牌局记录删除后，玩家将无法查阅除了自己之外的牌局胜负纪录。";
+"Manage" = "管理";
+
+//ClubReommendLayer
+"%d of your friends in this club" = "你有 %d 个朋友在这个俱乐部里。";
+
+//ClubSelectionLayer
+"Add something..." = "新增说明...";
+" winners" = "名赢家";
+"You can start to share hand records after you join/create clubs." = "加入/拥有俱乐部后，您就可以分享牌局到俱乐部了。";
+
+//ClubShareHandCommentLayer
+
+//ClubShareHandCommentListView
+"ago" = "前";
+
+//ClubShareHandNotificationLayer
+
+//CollectionEventMission
+"Host Now" = "马上开局";
+"Join Now" = "立即加入";
+"Shop Now" = "马上购买";
+"Play Now" = "挑战赛";
+"Hands" = "手数";
+"Host Game" = "开局";
+"Mission" = "任务";
+"Play %s %d hands in Global Pokerrrr Challenge to get free nameplate." = "在 Global Pokerrrr Challenge 玩%d手 %s 以获得免费名牌。";
+"_HostFriendGameDesc" = "邀请朋友一同游玩吧！朋友局可依照个人喜好设定开局。\n\n只需几个步骤：\n- 选择一个欲开局的游戏类型并点选“确认”。\n- 依个人偏好调整游戏设定。\n- 点击“开局“并复制游戏代码与朋友分享。\n- 准备好与朋友同乐吧！";
+"Daily login mission (%1$s / %2$s), keep it up!" = "每日登入任务(%1$s / %2$s)，继续保持！";
+"Win any %1$s NL Hold’em hands (%2$s / %3$s) mission, almost there!" = "于NL Hold'em游戏内赢%1$s手（%2$s / %3$s），就快完成了！";
+"Win any %1$s PLO hands (%2$s / %3$s) mission, play more for the reward!" = "在PLO游戏内赢%1$s手（%2$s / %3$s），再多玩几手吧！";
+"Claim %1$s daily bonus mission (%2$s / %3$s), bonuses are the best!" = "领取%1$s次每日奖励（%2$s / %3$s），更多免费奖励等著你！";
+"Win any %1$s SNG games (%2$s / %3$s), power through for the reward!" = "在SNG游戏内获取第一名%1$s次（%2$s / %3$s），一鼓作气赢得奖励吧！";
+"Win any %1$s Stud games (%2$s / %3$s), power through for the reward!" = "在Stud游戏内获取第一名%1$s次（%2$s / %3$s），一鼓作气赢得奖励吧！";
+"Reach Level %s or above in any Exp. ratings* (Lv.%d+)" = "任一经验积分*中达到%s等级或以上 (Lv.%d+)";
+"Reach Level %s in any Exp. ratings* (Lv.%d)" = "任一经验积分*中达到%s等级 (Lv.%d)";
+"Exp. ratings: PRR, SDR, PAR, BJR and RMR" = "经验积分: PRR、SDR、PAR、BJR 和 RMR";
+"Login %d days in the row" = "连续登入 %d 天";
+"Claim daily bonus %d times" = "领取 %d 次每日奖励";
+"Spend %d gold in the Store" = "在商店中花费 %d 金币";
+"Host %1$s Friendly/Club games (4 people+, %2$s mins+)" = "开 %1$s 场朋友/俱乐部局 (4人以上，%2$s分钟以上)";
+"Host %1$s Friendly/Club game (4 people+, %2$s mins+)" = "开 %1$s 场朋友/俱乐部局 (4人以上，%2$s分钟以上)";
+"Win %d million pot" = "赢得%d个一百万彩池";
+"Won 1st place in the Daily Battle" = "在每日挑战中获取第一名";
+"Be the top %d players in the Daily Battle, except SNG" = "成为 Daily Battle 前%d名玩家，SNG除外";
+"Won a %s pot in any public cash game" = "在任何公开现金赛赢得 %s 奖池";
+"Tap other players' nameplates to send gift %d times" = "点击其他玩家名牌并赠送礼物%d次";
+"Send gifts in Friendly/Club games %d times" = "于朋友/俱乐部局赠送礼物 %d 次";
+"Clown: Send a gift to the opponent after winning a hand" = "小丑：赢得任一手后送对手礼物";
+"Gentleman: Send a gift to the winner from the previous hand" = "绅士：送礼物给前一手的赢家";
+"Play %d Friendly/Club games" = "游玩 %d 场朋友/俱乐部局";
+"Equip %1$s and %2$s play %d hands" = "装备 %1$s 并%2$s玩 %d 手";
+"Play %d %s hands" = "玩 %d 手%s";
+"NL Hold'em" = "无限注德扑";
+"Win %d %s hands" = "赢 %d 手%s";
+"PLO" = "限注奥马哈";
+"Ultrasonic" = "超音速";
+"Win %s %d hands" = "赢 %d 手 %s";
+"Play %s %d games" = "玩 %d 场 %s";
+"Be the Champ of %s" = "成为%s冠军";
+"Ranked one of the top 9 players in any GSOP events" = "在任一锦标赛中，获取前9名";
+"Play %d Tournament Games" = "玩 %d 场锦标赛";
+"Play %d Tournament Game" = "玩 %d 场锦标赛";
+"Play the OFC game and get to Fantasyland %d times" = "于 OFC 桌子达成 Fantasyland %d 次";
+"Use the “Hit” feature to get 21 points for %d hands." = "使用“加牌”功能，使手牌点数达成21点，并完成 %d 手。";
+"Use the “Hit” feature when the hand card value is equal to or less than 16 for %d hands." = "当手上牌点数等于或小于16时，使用“加牌”功能并完成 %d 手。";
+"Use the “Stand” feature when the hand card value is equal to or more than 17 for %d hands." = "当手牌点数大于或等于17时，使用“停牌”功能并完成 %d 手。";
+"Use the “Double” feature when the hand card value is equal to 10 or 11 for %d hands." = "当手牌点数为10或11点时，使用“加倍”功能下注，并完成 %d 手。";
+"When the dealer’s first show card is an Ace, use the “Buy Insurance” feature for %d hands." = "当庄家第一张牌面是A时，使用“买保险”功能，并完成 %d 手。";
+"When hand cards are Aces or 8s, use the “Split” feature for %d hands." = "当手牌为 Aces or 8s 时，使用“分牌”功能，并完成 %d 手。";
+"When both hand cards are 10 points, use the “Stand” feature for %d hands." = "当手牌两张皆为10点时，使用“停牌“功能，并完成 %d 手。";
+"Play %d %s games" = "玩 %d 场 %s";
+"Win %d %s games" = "赢 %d 场 %s";
+"Complete Poker Gesture tutorial" = "完成 Poker Gesture 教学";
+"Complete Blackjack Gesture tutorial " = "完成 BJ  Gesture 教学";
+"Play $5%d more hands to finish $1%s Mission [$2%d]!" = "再玩 $5%d 手即可完成 $1%s 任务 [$2%d] ！";
+"Win $5%d more hands to finish $1%s Mission [$2%d]!" = "再赢 $5%d 手即可完成 $1%s 任务 [$2%d] ！";
+
+//CollectionLayerLogic
+"chips" = "筹码";
+"Gold" = "金币";
+"Send gifts to your opponents in Global Pokerrrr Challenge by tapping on their nameplates!" = "透过点击对手名牌即可在牌桌上赠送礼物！";
+"Gifting Prime Time" = "礼物黄金时刻";
+"Get %d% off on all in-game gifting for %d mins" = "所有游戏中送礼可享%d%优惠%d分钟";
+"Gifting Coupon" = "礼物优惠券";
+"Get %d% off on Gifting items in Store (Valid for %d days)" = "Store 页面中礼物商品享%d%优惠 (效期%d天) ";
+"Gifting Bundle" = "礼物大礼包";
+"Pokerrrr Store Coupon Code" = "Pokerrrr Store折扣码";
+"Get the %1$s by collecting %d pieces of %2$s from spinning the wheel!" = "透过抽奖搜集%d片%2$s即可获得%1$s!";
+"Collect all %d %2$s to win %1$s!" = "累积%d个%2$s即可获得%1$s!";
+"random nameplate" = "随机名牌";
+"Get a %1$s by collecting %d pieces of %2$s from spinning the wheel!" = "透过抽奖搜集%d片%2$s即可获得%1$s!";
+"Special Deal" = "优惠券";
+"%s for %d gold" = "%s特价%d金币";
+"Valid for %d days" = "效期%d天";
+
+//CollectionLinePopup
+"Claim" = "领取";
+"Sure to unlock the mission with gold coins?" = "确定要使用金币解锁此任务吗？";
+
+//ContentPreviewLayer
+"Challenge" = "挑战";
+
+//ControlLayerBase
+"You can Check!!" = "您可以过牌!!";
+"Are you sure you wanna fold?" = "请问您确定要盖牌吗？";
+"Show Card" = "开牌";
+"Undo pre-fold" = "取消预先盖牌";
+"Undo pre-check" = "取消预先过牌";
+
+//CurrencyBar
+"Bonus" = "红利";
+
+//DLCContent
+"Downloading..." = "下载中...";
+
+//DLControlLayer
+"Call" = "跟注";
+"Raise to" = "加注到";
+"Raise" = "加注";
+"You cannot check!!" = "你不能过牌!!";
+"You can only choose between “All-In” or “Fold” your hand cards in this game mode." = "在此游戏模式中，您仅能选择 “全押” 或是 “弃牌”。";
+"Other player betted, you cannot check now." = "其他玩家已下注，你不能过牌。";
+
+//DLDataModelCPP
+"Live Clock" = "锦标赛时钟";
+"Blackjack SNG" = "21点SNG";
+"MTT" = "多桌锦标赛";
+"Ultrasonic SNG" = "超音速SNG";
+"Free Host" = "免费开局";
+"hr" = "小时";
+" / game" = " / 比赛";
+"Clubs ownership : %1$s → %2$s" = "建立俱乐部数量 : %1$s → %2$s";
+"Increase club managers : %1$s → %2$s" = "增加俱乐部管理员人数 : %1$s → %2$s";
+"Host game : %1$s → %2$s" = "开局数上限 : %1$s → %2$s";
+"Increase game records : %1$s → %2$s" = "增加牌局纪录 : %1$s → %2$s";
+"Increase game records to %2$s for %3$s days (%1$s → %2$s）" = "%3$s天内增加牌局纪录至%2$s笔（%1$s → %2$s）";
+"Nameplate" = "名牌";
+"Deck" = "扑克牌";
+"%1$s will be replaced by %2$s gold in case you already have them all." = "当你拥有所有 %1$s 时，将被替换为 %2$s 金币。";
+"You’ve reached the purchase limits as you have an ongoing %s for %d+ days at the moment." = "您已达到购买上限，因您目前持有之%s为期累计超过%d天。";
+
+//DLDialog
+"Sorry, chat function in public games is only available for payers with Level %d and above. Try using the suggested chat messages instead!" = "抱歉，公开局的聊天功能仅开放给等级%d或以上的玩家使用，但您仍可选择系统内建讯息或表情来发送！";
+"Are you sure you want to fold now?" = "确定现在要弃牌吗？";
+"Fold" = "弃牌";
+"Complete" = "成功";
+"Your purchase is complete." = "已完成您的购买作业。";
+
+//DLGSConnector
+"Claim the bonus gold in your inbox now." = "快去收件箱领取你的金币奖励。";
+"Please wait a few minutes and relaunch Pokerrrr 2." = "请稍待片刻并重启 Pokerrrr 2";
+"Relaunch" = "重启";
+"GTD" = "保证奖池";
+"Prize Pool : " = "奖金池 : ";
+"It's about time !" = "是时候了 !";
+"The registered tournament has started! Hurry and grab a seat!" = "你注册的锦标赛已经开始了！快来抢位子吧！";
+"Game" = "游戏";
+"%1$s (%2$s: %3$s) will start in %s." = "%1$s (%2$s: %3$s) 即将开始于 %s。";
+"Logout" = "登出";
+"Your account has been logged-in on another device." = "你的帐号已在另一台装置登入！";
+"Update!" = "更新！";
+"Please update to the latest version." = "请更新至最新版本。";
+"Sorry! Please try again few seconds later." = "抱歉！请过一会儿再重试。";
+"There was an error with your purchase. Please wait a second for us to fix the issue and check later. If you still have questions about your purchase, please contact “%s“" = "您刚刚的购买出现错误。 请等待我们解决此问题并于稍后检查。 如果您对此次购买仍有疑问，请联系 “%s“";
+"Action Required" = "请至设定操作";
+"Please enable the “In-App Purchases” feature in device settings." = "请在装置设定中启用「应用程式内购买」功能。";
+"_level_name_1" = "一等兵";
+"_level_name_2" = "少尉";
+"_level_name_3" = "上尉";
+"_level_name_4" = "少校";
+"_level_name_5" = "中校";
+"_level_name_6" = "上校";
+"_level_name_7" = "准将";
+"_level_name_8" = "少将";
+"_level_name_9" = "中将";
+"_level_name_10" = "上将";
+"Your Turn" = "轮到你了";
+"It's your turn to join %3$s #%1$s hosted by %2$s." = "轮到你加入%2$s开的%3$s #%1$s。";
+"It's your turn to join Game #%1$s hosted by %2$s." = "轮到你加入%2$s开的牌局 #%1$s。";
+"Prize Won" = "赢得奖金";
+"Rank" = "排名";
+"Game On" = "游戏开始";
+"%1$s #%2$s hosted by %3$s will start in %s." = "%3$s开的牌局%1$s #%2$s 即将开始于 %s。";
+"You" = "您";
+"View" = "显示";
+"Unregister" = "取消注册";
+"The Game is On" = "游戏开始了";
+"%1$s #%2$s hosted by %3$s is started." = "%3$s开的局%1$s #%2$s 已经开始。";
+"Kicked out" = "踢出";
+"You have been kicked out from %1$s #%2$s hosted by %3$s." = "你已被踢出由%3$s开的局%1$s #%2$s。";
+"%1$s #%2$s hosted by %3$s is terminated." = "%3$s开的牌局%1$s #%2$s 已被终止。";
+"Your action time +%d secs." = "你的动作时间 +%d 秒。";
+"GPS Location Check" = "GPS位置检查";
+"The game requests GPS location check for players. Please turn on the “Location” permission of pokerrrr app in the setting before joining this game." = "此局需要检查GPS位置。请先在系统设定里开启Pokerrrr位置的权限，再尝试加入此局。";
+"You cannot join the table because your GPS location can not be verified." = "由于GPS位置无法确认，你无法加入这个游戏。";
+"There is no empty seat available now. Please try again later." = "暂时没有空位，请稍候再试一次。";
+"Please enter your club’s name and description." = "请填名字与叙述。";
+"Please fill in the search bar" = "请填入搜寻框。";
+"Upgrade" = "升  级";
+"Do you want to upgrade to %s?" = "你想要升级至 %s？";
+"Are you sure about buying %1$s for %2$s / %3$s days? (Only apply to game records generated within %4$s days)" = "你确定要使用 %2$s / %3$s天 购买%1$s 吗？（仅能显示近 %4$s 天内的牌局纪录）";
+"Thanks for your feedback" = "感谢您的意见回馈。";
+"%s will expire in %d mins" = "%s 将在 %d 分钟后失效";
+"Renew Now" = "立即续约";
+
+//DLGameEndControlLayer
+"Leave" = "离开";
+
+//DLGamePhoneScene
+"Viewers are not allowed to chat in this game." = "此牌局观战者不能参与聊天。";
+"Your game will keep running." = "你的游戏将会持续进行。";
+"You will stand up after leaving." = "你将会在离开游戏后离桌。";
+"Leave Game" = "离开游戏？";
+"Sure to leave this Game?" = "确定要离开游戏吗？";
+"The game has not ended so your hand will be auto-played after leaving the table.\n\nAre you sure to leave the game?" = "游戏尚未结束，您的手牌将会在离开游戏后自动进行。\n\n您确定要离开游戏吗？";
+"Your registration of %1$s #%2$s won't be canceled" = "你的注册 %1$s #%2$s 将不会被取消";
+"Are you sure to leave the game?" = "你确定要离开游戏吗？";
+"Reload" = "补充筹码";
+"Your chips exceed the maximum buy-in, you cannot reload chips!" = "你的筹码已超过买入范围，不能再补充筹码了。";
+"Bankroll" = "资金";
+"Reload Range" = "加注范围";
+"Successfully reloaded" = "加买成功。";
+"Oops! Insufficient chips" = "筹码不足";
+"Buy more chips?" = "增加一点筹码吗？";
+"Next time" = "下次再说";
+"Let’s go!" = "好啊";
+"Host Again" = "再开一局";
+"You will host a new game with the same settings." = "你将会再创建一个相同设定的牌局。";
+"You haven't sat in, do you wanna start the game directly?" = "你尚未入座，要直接发牌吗？";
+"Sit Out" = "离座";
+"Sure to sit out?" = "确定要离座吗？";
+"You will sit out after this hand." = "你将在下一手离座。";
+"Stand Up" = "离桌观战";
+"Sure to stand up?" = "确定要离桌观战吗？";
+"You will stand up after this hand." = "你将在下一手离桌观战。";
+"Terminate Game" = "终止游戏";
+"Sure to end this game?" = "确定结束这个游戏吗？";
+"Pause" = "暂停";
+"How long would you like to pause?" = "您想要暂停多久？";
+"hour" = "小时";
+"hours" = "小时";
+"Game will be paused after this hand." = "游戏将在这一手结束后暂停。";
+"This feature is only available for games in clubs." = "俱乐部的牌局才能启用此功能。";
+"The add-on price is %1$s for %2$s chips?\n(The price is only used for record and does not consume gold.)" = "确认最后加买门票 %1$s 来获得 %2$s 筹码？\n（此门票仅用于牌局记录，不会消耗金币。）";
+"Add-on" = "最后加买";
+"Register" = "注册";
+"You cannot rebuy after being kicked." = "你已被踢出不得重买。";
+"Register with an Entry of %s?\n(The Entry is only used for record and does not consume gold.) \n" = "以 %s 注册入场？\n（此注册入场仅用于牌局记录，不会消耗金币。）";
+"Register with buy-in ticket of %s?\n(The buy-in or ticket is only used for record and does not consume gold.) \n" = "确认买入门票 %s ？\n（此买入或门票仅用于牌局记录，不会消耗金币。）";
+"Rebuy twice" = "重买两次";
+"Sit" = "入座";
+"Sit in Restriction" = "入座限制";
+"You cannot join the table because one of current players in the table is close to your location." = "由于你附近有同桌的玩家，所以你无法加入游戏。";
+"Reconnecting..." = "重新连线中...";
+"sent a voice message." = "传送了一则语音留言。";
+"Cancel Reload" = "取消补充筹码";
+"Are you sure to cancel reload ?\n(chips %s)" = "你确定要取消补充筹码 ？\n(筹码 %s)";
+"Chips %s will be reloaded next hand." = "补充的 %s 筹码将会在下一手开始前加入。";
+"Your request has been sent." = "您的请求已送出。";
+"Waiting for the host's confirmation (%s)." = "等待开局者确认中(%s)";
+"Notify" = "通知";
+"Final Table" = "决胜桌";
+"Table %d" = "第%d桌";
+"The game is terminated. It will end after this hand." = "游戏被终止，即将在这一手后结束。";
+"The game is terminated." = "游戏已终止。";
+"The game has ended." = "牌局已结束。";
+"The game is closing.\n Waiting for other tables" = "游戏即将被关闭\n等待其他桌子";
+"Hand-for-hand play.\n Waiting for the other table" = "同步发牌模式\n等待其他桌子";
+"Waiting" = "等待中";
+"Game Break" = "中场休息";
+"Resume" = "继续牌局";
+"Game Paused" = "牌局暂停";
+"Waiting for players" = "等待玩家";
+"The break starts after this hand." = "这手结束后将进入中场休息。";
+"You will sit back after this round." = "你将会在下一轮回来";
+"You will sit back after this hand." = "你将在下一手回到座位上。";
+"Join Game?" = "加入牌局？";
+"%s just hosted a new game." = "%s刚开了一个新局。";
+
+//DLInitScene
+"Please check your network status...." = "请确认你的网路状态....";
+"Sign in to get %s chips" = "登入获得 %s 筹码！";
+"Sign in for %s free gold" = "登入获得%s免费金币";
+"Enter your name" = "请输入名字";
+"Don't worry. You can change it later." = "别担心，您稍后还能再作修改。";
+"Display Name" = "显示名称";
+"Too Long!" = "太长了喔!";
+"Too short!" = "太短了喔！";
+"Personalizing your gears... almost ready!" = "装备客制化中... 马上开始！";
+"Getting your gears ready!" = "装备准备中！";
+"Looking fresh agent! Ready to roll?" = "准备好大显身手了吗？";
+"Entering the Bureau Lobby..." = "进入大厅中...";
+"Reminder" = "提醒";
+"Please be reminded that as you have a pending account deletion request, you will not be able to log in to the app by using the same login method. Thank you." = "提醒您，由于您已提出帐号删除的申请，您将无法使用相同登入方式进入app，谢谢！";
+
+//DLTableLayer
+"_Host_Noun" = "开局";
+"Live Game" = "现场赛事";
+"OFC" = " OFC ";
+"Select your seat" = "请选择你的座位";
+"Preparing" = "准备中";
+"Manager broadcasting" = "管理者广播";
+"Host broadcasting" = "创建者广播";
+"(Stand up in %s)" = "(再 %s 离桌观战)";
+"Rebuy" = "重买";
+
+//DailyRewardLayer
+"Extra %d% Bonus" = "增量%d%筹码";
+
+//DataMTTTicket
+"Each %1$s can deduct %2$s for MTT entry." = "每张%1$s可以用来折抵 %2$s MTT 入场费。";
+
+//DataMagicItem
+"Protect all Exp. ratings from dropping, except PSR, BSR" = "将防止任一经验积分下滑，PSR、BSR除外";
+"+%1$s% chips for wins within the next %2$s hours" = "%2$s 小时内获胜，奖励筹码 + %1$s% ";
+
+//DeleteAccountDialog
+"Account Deletion Confirmation" = "帐号删除申请确认";
+"Your account deletion request is initiated. The process will take 7-14 working days to be completed." = "您的帐号删除申请已生效，删除程序将在7-14个工作天内完成。";
+"The app will close automatically after clicking the “Confirm” button below." = "点选下方确认按钮后，App 将自动关闭。";
+
+//EquipCongratsPopup
+
+//EspionageRoomLayer
+"Mission Locked" = "任务尚未解锁";
+"Location" = "地点";
+"Click the button below to accept %s Mission!" = "点击下方按钮来接受%s任务！";
+"Accept Mission" = "接受任务";
+"To unlock Agent %s missions, you will need to accomplish Agent %s." = "欲解锁 特务 %s 任务，你必须完成 特务 %s。";
+"Well done, agent! Click the button below to claim your reward!" = "做得好，特务！点击下方按钮来领取你的奖励！";
+"Claim Reward" = "领取奖励";
+"Mission Complete. Congratulations!" = "任务完成。恭喜！";
+"%d/%d of mission is accomplished. Keep it up!" = "%d/%d 的任务已完成。继续加油！";
+"View Progress" = "查看进度";
+"You have unclaimed rewards. Click to check now!" = "你有未领取的奖励。现在就点选查看！";
+"Mission completed on %s" = "任务完成于%s";
+"Mission Review" = "任务回顾";
+
+//FirstTimeLoginLayer
+"Agent ID: %s, will compete with real poker pros worldwide on the table at any time and advance the agent level by your own ability." = "特务编号：%s，你能够随时与全球顶尖的 Pokerrrr 特务同桌竞技，依靠实力提高特务等级。";
+
+//ChipConLayer
+" X" = "倍";
+"Swipe faster" = "滑快一点";
+
+//GameBanChatCalculator
+"You have been banned from using the chat function temporarily. Please try again later." = "你被暂时禁止使用聊天功能。请稍后再试。";
+
+//GameBigCardModel
+"You cannot fold!!" = "你不能盖牌！";
+
+//GameChipAction
+"Bring in" = "前注";
+"Check" = "过牌";
+"Insurance" = "保险";
+"Double" = "加倍";
+"Split" = "分牌";
+
+//GameControlModel
+
+//GameGiftSelectLayer
+"FREE" = "免费";
+"Free" = "免费";
+
+//GameSceneModel
+
+//GameSceneView
+"Wow! Looks like you are going on a rush. Take it to the next level? (%s)" = "Wow 看来你手气正旺，要接著挑战更高买入的局吗？ (%s)";
+
+//GameUIModel
+
+//LeaderboardLayer
+"Yesterday" = "昨天";
+"Last week" = "上星期";
+"Last season" = "上一季";
+"Last year" = "去年";
+"View Current" = "看目前排行";
+"View Previous" = "看已结束排行";
+
+//MessageModel
+
+//RoomModel
+"Buy-in Amount" = "买入筹码";
+"You just sat out, hit and run rule requires you to buy-in with the same amount." = "你刚离开座位不久。依据规则，您的买入必须和离座前一致。";
+"Buy-in must be %s" = "买入必须是%s";
+"Buy-in Range : %s ~ %s ." = "买入范围：%s ~ %s。";
+"You will sit out on the next non-Fantasyland hand. Sure to sit out?" = "你将会在没有任何 Fantasyland 的牌局后离座。 确定要离座吗？";
+"You will stand up on the next non-Fantasyland hand. Sure to stand up?" = "你将会在没有任何 Fantasyland 的牌局后离桌观战。 确定要离桌观战吗？";
+"Your chips will be reloaded on the next non-Fantasyland hand." = "您的加买筹码将会在没有任何 Fantasyland 的牌局中被加入。";
+
+//GameHostingResultSegmentLayer
+"Queue" = "列队";
+"Structure" = "赛制";
+
+//GameInfoLayer
+
+//GameIntroductionLayer
+"Tap on game icons to switch between different game types. There are 5 game types in Global Pokerrrr Challenge, including %s1, %s2, %s3, %s4, and %s5." = "在此页面中，点击游戏标志来切换不同的游戏大厅，目前在Global Pokerrrr Challenge 中有五类游戏：%s1、%s2、%s3、%s4和%s5。";
+"Texas Hold’em" = "德州扑克";
+"7 Card Stud" = "七张梭哈";
+
+//GameLengthSettingLayer
+"hrs" = "小时";
+"Big Blind" = "大盲注";
+"Blinds" = "盲注";
+"Tips Box" = "小费箱";
+"System will calculate the designated % of pot to tips box with the upper limit (Cap)." = "每个底池将会计算指定比例至小费箱，并可设定上限。";
+
+//GamePlayScene
+"Always wait for big blind" = "永远等待大盲注";
+"STRAIGHT FLUSH" = "同 花 顺";
+"ROYAL FLUSH" = "皇 家 同 花 顺";
+"FOUR OF A KIND" = "铁 支";
+"FULL HOUSE" = "葫 芦";
+"FLUSH" = "同 花";
+"STRAIGHT" = "顺 子";
+"THREE OF A KIND" = "三 条";
+"TWO PAIRS" = "两 对";
+"PAIR" = "一 对";
+"HIGH CARD" = "高 牌";
+
+//GameTableTopBoardNode
+"Next Blinds" = "下个盲注";
+
+//GestureIntroductionLayer
+"Let’s learn some gestures to help you compete with worldwide poker pros more smoothly!" = "为了让你能够更加顺利地与全球的顶尖扑克好手竞技，先来了解手势吧！";
+"Let’s learn classic Blackjack gestures to help you compete with top Blackjack agents more smoothly!" = "为了让你能够更加顺利地与全球的顶尖特务同桌竞技，先来了解 21点的经典手势吧！";
+
+//GoldCollectionEventLayer
+
+//GoldCollectionRewardDetailPopup
+"Claim your chips within %s" = "快领取奖励，有效期限还剩%s";
+
+//Helper
+"day" = "天";
+"just now" = "刚刚";
+"Copied" = "已复制";
+
+//HostGamePanel
+"Auto Start" = "自动开始";
+"The game will start automatically when the number of players reach the set amount." = "当玩家人数达到设定数量时，游戏将自动开始。";
+
+//HostedGameListLayer
+"_Host_Verb" = "开局";
+"Host Game Limit : " = "开局上限 : ";
+
+//HostingLayer
+"Under Maintenance" = "维修中";
+"%s is currently under maintenance. Choose another game instead!" = "%s 正在维修中。请选择其他游戏！";
+
+//HostingPrizePlanResultView
+"Bounty : " = "赏金 : ";
+
+//HostingResultView
+"%d mins free" = "%d分钟免费";
+
+//HostingStructureResultView
+"Break" = "中场休息";
+"Lv.%d" = "等级%d";
+"Late Registration" = "延迟注册";
+"Rebuy End" = "重买结束";
+
+//IAPContentList
+"View in profile" = "在个人资料检视";
+"Locked" = "尚未解锁";
+"Check Now" = "立即查看";
+"Download" = "下载";
+
+//IAPLayer
+"Cash Game" = "现金赛";
+
+//IAPModule
+"Sapphire VIP" = "蓝宝石 VIP";
+"Emerald VIP" = "绿宝石 VIP";
+"Diamond VIP" = "钻石 VIP";
+
+//IAPPage
+"Stock : %d" = "库存 : %d";
+"(%s will expire in %s)" = "(%s 将于 %s 后到期)";
+"Countdown" = "结束倒数";
+
+//IAPPageChipCon
+"Valid for NLH, PLO, Stud, and Blackjack games" = "适用于NLH、PLO、Stud 以及 21点游戏";
+
+//IAPPageCurrency
+"Apprentice Shield" = "见习生盾牌";
+"Expert Shield" = "专家级盾牌";
+"Master Shield" = "大师级盾牌";
+"Expert Chip Magnet" = "专家级磁铁";
+"%d random nameplate" = "%d 随机名牌";
+"%d random deck or chip-con" = "%d 随机扑克牌 或 Chip-Con";
+"%s chips" = "%s 筹码";
+"*Nameplate will be replaced by 60 gold in case you own all nameplates we currently offer." = "*如果您已经拥有我们提供的所有名牌，随机名牌将会以60金币取代。";
+"Buy One Get One Free" = "买一送一优惠";
+"Expires in %s" = "%s 后失效";
+"Not eligible for purchase!" = "不符合购买条件！";
+"I see" = "了解";
+"Note" = "注意";
+"When hosting 2 or more concurrent games, free pass will only be applied to one ongoing game." = "当同时开两局或两局以上时，只有一局进行中的游戏会是免费的。";
+"It will start right after you make the purchase." = "购买后立即生效。";
+"Apprentice Chip Magnet" = "见习生磁铁";
+"Master Chip Magnet" = "大师级磁铁";
+"One will expire in %s" = "其一将于 %s 后到期";
+"Valid for NLH, PLO, Stud, and OFC games" = "适用于NLH、PLO、Stud 以及 OFC 游戏";
+"Your claim is complete." = "已完成您的兑换作业。";
+
+//IAPPageGifting
+"TREAT" = "款待";
+"TEASE" = "戏弄";
+"CLUB" = "俱乐部";
+"Are you sure about buying this gifting?" = "你确定要购买这个礼物？";
+
+//IAPPageShopEquip
+
+//InputTextDialog
+
+//InviteLayer
+"Get %s Gold and %s Chips for each friend referred and signed up!" = "每位推荐的朋友注册后，可获得 %s 金币和 %s 筹码！";
+"Get %s Gold for each friend referred and signed up!" = "每位推荐的朋友注册后，可获得 %s 金币！";
+"Get %s Chips for each friend referred and signed up!" = "每位推荐的朋友注册后，可获得 %s 筹码！";
+"Hey, I play poker with friends @ pokerrrr 2 app. Come and join us! Remember to enter my referral code( %s ). -  " = "Hello, 我都用 Pokerrrr2 app 和朋友们一起玩德州扑克，快来加入我们！ 记得输入我的邀请码( %s )。 - ";
+"Referral Code" = "邀请码";
+"Invalid Code" = "错误的邀请码";
+"Enter Referral Code" = "输入邀请码";
+"See your friends at the table!" = "在牌桌上和朋友同欢！";
+
+//LanguageSelectionLayer
+"Change to %s?" = "变更成%s吗？";
+
+//LinearCollectionDetailLayer
+
+//LinearCollectionEvent
+"Reward granted, claim it now!" = "奖励已发放，立即领取！";
+
+//LinesCollectionEvent
+"Mission [%d] Completed !" = "任务 [%d] 达成 !";
+
+//RoomManagerGameImp
+
+//LiveGameLayer
+"Paused" = "暂停中";
+"Ended" = "已结束";
+"Enter player's name" = "输入玩家名称";
+"Players" = "玩家";
+
+//LiveGamePrizePageLayer
+
+//LiveGameScene
+"Remove" = "移除";
+"Are you sure to remove the player %s?" = "你确定要移除玩家 %s 吗？";
+"Start Game" = "开始游戏";
+"Confirm to start the tournament clock?" = "确定要开始锦标赛时钟？";
+"Finish Game" = "结束牌局";
+"You cannot edit the game result after finishing the game.\nDo you want to finish now?" = "在牌局结束后，你将无法再编辑牌局结果。\n你确定要结束吗？";
+"Random Draw Seat" = "随机排位";
+"System will re-arrange seats with least changes.\nDo you want to proceed?" = "系统将以最小变动来重新排位。\n你确定要继续吗？";
+"System will arrange seats randomly.\nDo you want to proceed?" = "系统将随机排位。\n你确定要继续吗？";
+"Rebuy Period" = "重买时间";
+"Add-on Period" = "加买时间";
+
+//LiveGameSeatPageLayer
+
+//MainPageClub
+"Your friends can join the game by inputting the game code here." = "你的朋友可在此输入牌局代码来加入牌局。";
+"You can host a poker game with your friends. There will be a “game code” for every hosted game." = "你可以创建一个扑克牌局，每个牌局都会有一个「游戏代码」。";
+"Click to save as favorite, click again to cancel." = "按一下设定为最爱，再按一下即可取消！";
+"Every game has its own unique game code. Get this code from the host, or host a game by yourself." = "每一场牌局都有一个游戏代码。向你的朋友询问代码，或是你可以自已开启新局。";
+
+//MainPageClubGameList
+
+//MainPageTournament
+"Season Tournaments" = "锦标赛";
+
+//MainPageUnit
+"Buy-in" = "买入";
+"Speedy Mode" = "快速模式";
+"Bomb pots are coming!" = "炸弹彩池来了!";
+"Bomb Pots have a %d% chance of occurring in this game. Enjoy!" = "此游戏中炸弹彩池有 %d% 机率会出现。尽情享受！";
+"The chances of the bomb pots are random. The hand will start from the flop." = "炸弹彩池会随机出现，此手牌局将从翻牌圈开始。";
+"Fantasyland Handicap Guide" = "Fantasyland 让分介绍";
+"With the “Handicap System” in OFC games, you will be assigned a set score when sitting in while other player(s) enter Fantasyland." = "在其他对手进入 Fantasyland 时，透过 OFC 游戏中的 “让分机制”，入座时可获得既定分数！";
+"Changed too frequently! You can only change 2 times every 4 weeks." = "太常改名字了！4星期内只能改2次。";
+"You can only change 2 times every 4 weeks. (%d left)" = "4星期内只能改2次。(剩 %d 次)";
+
+//MainTabScene
+"End Game" = "结束游戏";
+"Are you sure you wish to quit Pokerrrr 2?" = "你确定要离开游戏吗？";
+
+//ManagerSelectionLayer
+"(Member)" = "(成员)";
+
+//ManualSwitchingTableLimitationManager
+"You can only switch up to %1$s tables within %2$s minutes. Please wait for the cooldown time to pass and try again." = "您只能在%2$s分钟内换桌最多%1$s次，请稍后重试！";
+"Unfortunately, as you‘ve violated the switching table policy %1$s times within the past %2$s minutes, you have been prevented from joining any public games for %3$s hours." = "由于您在过去的%2$s分钟内违反换桌次数限制规范%1$s次，您的帐帐号将在接下来的%3$s小时内无法加入任何公开局。";
+
+//NativeHelper-Android
+
+//CardKind
+
+//GameControlView
+"You are now below min stack: %s\nReload chips to continue." = "你现在的筹码低于最低筹码限制：%s\n补充筹码以继续游戏。";
+
+//GameModel
+"Sit in with other player(s) in Fantasyland" = "其他对手进入 Fantasyland 时依然入座";
+
+//GamePanelLayer
+"Game Type" = "牌局类型";
+"_OFCGameTypeExplain" = "标准:\n在标准的OFC游戏中，若玩家进入 Fantasyland 将被发14张手牌。\n\n进阶模式:\n在进阶 OFC 游戏中，游戏规则大致和标准 OFC 相同。不同于标准 OFC 中玩家获得 14 张手牌，如玩家进入 Fantasyland 时，进阶 OFC 游戏该玩家将可能获得 15、16 或 17 张手牌。\n\n鬼牌:\n在鬼牌的OFC游戏中，游戏规则基本和进阶OFC相同，但牌局将加入1或2张鬼牌（由局主设定），鬼牌可被视为任意牌与其他牌组成最大手牌。";
+"Min. Stack" = "最低筹码限制";
+"Min. Stack can not be higher than buy-in range." = "最低筹码限制不得高于买入范围。";
+"Game Length" = "牌局时间";
+"Game will end at the designated time." = "游戏将会在设定时间结束后关闭。";
+"Dealing Sequential and the Speedy Mode are not allowed at the same time.\n*Speedy Mode will be turned off." = "依序发牌动作顺序以及快速模式不允许同时开启。\n*快速模式开关将会被关上。";
+"Player(s) in Fantasyland can arrange their cards starting from the fourth round." = "在Fantasyland的玩家将能在第四轮开始排列他们的牌。";
+"Buy-in Confirmation" = "买入确认";
+"Every buy-in should be confirmed by host." = "每次玩家买入皆需由你确认后加入。";
+"Record Privacy" = "纪录隐私";
+"Players only have access to their own buy-in amount and profit info." = "玩家只能看到自己的买入与盈余资讯。";
+"Mute Viewer" = "禁言观战者";
+"Viewers cannot chat with players." = "观战者不能参与聊天。";
+"Players can queue for the table if it is full." = "当牌桌上座位已满，玩家可以加入列队。";
+"Players with close location cannot join in the same table." = "在附近的玩家不能加入同一桌。";
+"Service Charge :" = "服务费 :";
+"Auto Reload" = "自动加买";
+"Players will be allowed to set up auto reload." = "允许玩家设定自动加买。";
+"Auto reload is not available and will be turned off with the buy in confirmation setting." = "自动加买设定不支援买入确认，自动加买开关将会被关上。";
+
+//GameRoom
+"Join the next hand even when there are one or more players in Fantasyland. You may be in a disadvantaged position.\n\n*The system will sit you automatically when there is no player in Fantasyland." = "你确定要下一手加入？你的对手可能会进入Fantasyland，你可能会处于不利的状态。\n\n*无论对手是否进入Fantasyland，系统将会自动帮你入座。";
+
+//GameTableView
+
+//HostingResultViewLayer
+"Pineapple" = " Pineapple ";
+"Joker" = "鬼牌";
+"Progressive" = "进阶模式";
+"Concurrent" = "同时";
+"Sequential" = "依序";
+
+//PlayerNamePlate
+
+//RankingLayer
+"(Left)" = "(已离桌)";
+"(Kicked)" = "(踢出)";
+"(Rebuy x %d)" = "(重买 x %d)";
+"Profit" = "盈亏";
+"Stack" = "筹码数";
+"Total Buy-in" = "总买入";
+
+//RecordHistoryHandLayer
+"Pokerrrr adjusting system (PAS)" = "Pokerrrr分数调整系统";
+"_PAS_Explain" = "由于部分玩家筹码不足以支付应付筹码总额，分数调整系统将以各玩家相对输赢比例进行调整计算，以得出最公平的结果。";
+
+//RoomManagerGameImp
+"OFC Progressive" = "进阶OFC";
+"OFC Pineapple" = " OFC Pineapple ";
+
+//RoyaltiesLayer
+"_ofc_scoring_text_0" = "大菠萝最常见的奖励分数是“通杀奖励分”。如果你的对手三道都输给你，你将得到另外得到 3 分奖励分。假设你的手牌没有组合有效牌组。三道都会被视为0分。";
+"_ofc_scoring_text_1" = "尾道的奖励分是从顺子的+2分到皇家同花顺的+25分。中道的奖励分是从三条的+2分开始，最多可获得皇家同花顺+50分。头道的奖励分是从壹对6的+1开始，牌型越大，奖励分越高。";
+"_ofc_how_to_play_text_0" = "大菠萝 (OFC) 是中国传统扑克的另一种玩法。\n每桌可有二至三名玩家，每位玩家需使用十三张牌组成”头道”，”中道”，”尾道”。此游戏并没有下注的动作，只有比分数的总数。";
+"_ofc_how_to_play_text_1" = "第一回合每个玩家会拿到五张牌，玩家必须使用全部拿到的牌。在第一回合后，玩家在每回合会拿到三张牌，但只能使用两张且盖掉一张牌，以此重复4个回合构成十三张牌。回合结束后。牌一旦放了就不能再改变位置。";
+"_ofc_how_to_play_text_2" = "大菠萝的第一目标是组成有效的牌组组合。尾道必须比中道大且中道必须比头道大。";
+"_ofc_how_to_play_text_2_1" = "如果在结束时没有成功做出合格的手牌，你的手牌将被视为废牌并弃牌。";
+"_ofc_how_to_play_text_3_new" = "游戏中，位于按钮位（庄家）左侧的玩家先行动，行动顺序按顺时针方向进行。当一位玩家完成自己的回合后，其他玩家可以看到前一个玩家的牌局布置，然后下一位玩家开始他们自己的布置。";
+"_ofc_how_to_play_text_4_new" = "OFC Joker 遵循大部分进阶 OFC 的规则。唯一的不同是在牌组中增加了2张鬼牌。鬼牌可以当作任意牌并与其他牌组成最大手牌。";
+"_ofc_fantasyland_text_0" = "Fantasyland是一种对玩家的特别奖励。";
+"_ofc_fantasyland_text_1" = "只要在头道上建立Q一对或更强且有效的牌型。即可进入 Fantasyland。";
+"_ofc_fantasyland_text_2" = "根据头道的牌型大小，玩家最多可以拿到17张牌。直到其他玩家们结束所有回合，进入到 Fantasyland 玩家的牌不会被其他玩家看到。\n\n但是，当玩家连续进入Fantasyland 时, 只可拿到14张牌。";
+"_ofc_fantasyland_text_3" = "在Fantasyland 玩家可以连续进入 Fantasyland，假设组成头道三条 或 尾道铁支以上的有效牌组。";
+"_ofc_fantasyland_text_4" = "当牌桌上任一玩家进入Fantasyland时，将适用下列游戏规则：\n● 庄家位置不变\n● 若有玩家进入Fantasyland，所有玩家将需留在牌桌，直至所有玩家完成Fantasyland，方可离开或换桌；若玩家于Fantasyland时离开或换桌，手牌将由系统任意排列。";
+
+//ViewPlayerCards
+"I'm ready!" = "我准备好了！";
+
+//PlayerLevelMissionCollectionEvent
+"Agent %s" = "特务 %s";
+"%s %s Mission:" = "%s %s 任务：";
+"Mission Complete.\nGo claim the reward now!" = "任务完成。\n快去领取奖励吧！";
+"Mission Complete" = "任务完成";
+
+//PlayerLevelMissionsLayer
+"Congratz !" = "恭喜 !";
+"Much effort, much prosperity! Your reward has been credited!" = "你的努力是值得的！您已成功领奖！";
+"Great!" = "赞！";
+
+//PlayerListLayer
+"Kick" = "踢人";
+"Mute" = "禁言";
+"Unmute" = "解除禁言";
+"Are you sure you want to mute “%s”?" = "你确定要将 “%s” 禁言吗？";
+"Mute the player?" = "禁言玩家？";
+"Are you sure you want to kick “%s“ out?" = "你确定要将 “%s” 踢出吗？";
+"Kick the player?" = "踢出玩家？";
+
+//ChallengeData
+"Spring" = "春季";
+"Summer" = "夏季";
+"Fall" = "秋季";
+"Winter" = "冬季";
+
+//ChipConLayer
+
+//GameRoom
+
+//HandLogLayer
+"Receive" = "收取";
+"Bomb Pot" = "炸弹彩池";
+"Pot" = "底池";
+
+//RecordHistoryListView
+
+//RoomManagerGameImp
+"PL Hold'em" = "限注德扑";
+"Hold'em" = "德扑";
+
+//TableLayer
+"Sit out" = "离座";
+
+//TutorialGesturePage
+"Drag the cards from the bottom up to peek." = "从牌的下方往上掀起牌来瞇牌。";
+"Peek" = "瞇牌";
+"Double tap the cards." = "点两下牌。";
+"Slide the upper bar clockwise to adjust betting amount." = "顺时钟滑动上方圆形条用于调整下注数目。";
+"2. Press “+” or “-” to fine-tune the betting amount." = "2. 按压 “+” 或 “-” 按钮微调下注数目。";
+"2. Input numbers to customize your bet size." = "2. 输入数字来调整你的筹码。";
+"Adjust Betting" = "调整下注";
+"Flip chip up to bet." = "向上滑出筹码下注。";
+"Flip the cards up to fold." = "将牌往上滑出来弃牌。";
+"A balanced swiping sensitivity is essential for all our players. Take the test now to find your perfect match, or later in the game settings!" = "平衡的滑动灵敏度对于所有的玩家来说都很重要。 立即测试以找到最匹配的设定，或者稍后在游戏设置中进行！";
+"Swiping Sensitivity" = "滑动灵敏度";
+
+//TutorialLayer
+"No Limit Hold’em" = "无限注德州扑克";
+"_poker_rule_NLH_pre_flop" = "游戏开始时，每位玩家会有两张牌称为“底牌“。在游戏开始的第一回合，每个玩家可以选择过牌、下注、或者盖牌。第一回合也被称作翻牌前。";
+"_poker_rule_NLH_pre_flop_2" = "“过牌” 当桌上没有下注且玩家也没有下注时，允许将行动交给下一位玩家，玩家仍可以保留手上的牌。但是，只有当下牌桌上没有下注时才允许 “过牌”。";
+"_poker_rule_NLH_pre_flop_3" = "当玩家下注时有两个选择：\n1. 跟注：跟注表示你将下注与上一个下注玩家相同金额\n2. 加注：加注表示你将下更高的金额，超过其他玩家下注的金额。";
+"_poker_rule_PLO_pre_flop" = "限注奥玛哈是一款类似无限注德州扑克的游戏。差别在于，每位玩家将得到四张底牌才能开始翻牌前的回合。";
+"_poker_rule_NLH_flop" = "当翻牌前回合结束，第二回合开始时，桌面上会发出三张公用牌称为“翻牌“，第二回合也被称作翻牌圈。";
+"_poker_rule_PLO_flop" = "当翻牌前回合结束，第二回合开始时，桌面上会发出三张公用牌称为“翻牌“，第二回合也被称作翻牌圈。";
+"_poker_rule_NLH_turn" = "当翻牌圈回合结束，第三回合开始时，第四张公用牌会被发出，此回合也称作转牌圈。";
+"_poker_rule_PLO_turn" = "当翻牌圈回合结束，第三回合开始时，第四张公用牌会被发出，此回合也称作转牌圈。";
+"_poker_rule_NLH_river" = "最后一回合称作河牌圈，第五张公用牌称为河牌。";
+"_poker_rule_PLO_river" = "最后一回合称作河牌圈，第五张公用牌称为河牌。";
+"_poker_rule_NLH_compare" = "每位玩家手上的两张牌与台面上五张牌组合起来，牌力最强者获胜。";
+"_poker_rule_PLO_compare_new" = "限注奥马哈有两个主要的不同之处：\n1. 每位玩家仅能使用恰好 2 张底牌和 3 张公共牌组成一副 5 张手牌。例如，如果你有黑桃7、方块7、红心9、方块K，而公共牌是红心7、梅花9、红心A、方块A、梅花2，你将有葫芦（黑桃7、方块7、红心7、黑桃A、方块A）。如果公共牌是黑桃9、方块Q、梅花Q、红心Q、黑桃Q，你只有葫芦（黑桃7、方块7、方块Q、梅花Q、红心Q），但没有铁支（四条）。";
+"_poker_rule_bomb_pot" = "炸弹彩池是所有玩家皆下注一定金额的底注，并跳过翻牌前下注的协议。%2$s 中带有 %1$s 的游戏中，炸弹彩池有一定的机率会出现。";
+"_poker_rule_NLH_end_game" = "如果你手上有 7-7，而公用牌是 7-9-A-A-2，你的最强组合就是葫芦 (7-7-7-A-A)。假设公用牌是 J-7-5-6-2，你的最强组合则是 7 三条。\n某些情况下，最强组合有可能都是由公用牌组成的。例如台面有 3-4-5-6-7，而你手上拿著 9-9，这种情况下 9-9 并不会使用到，因为台面已经有比 9 一对还大的顺子了。\n\n此游戏有两个胜利的方式，一是玩家将底牌翻开，然后跟公用牌组合出比其他玩家还要强的牌。此开牌动作称为“摊牌“。二是当玩家下注，而其他人都选择盖牌的情况，该下注的玩家也能获得胜利。这是德州扑克有趣的地方 - 你不见得需要好牌才能赢";
+"_poker_rule_PLO_end_game_new" = "2. 可下注的最大额度是彩池大小。\n\n一手牌有两种结束方式。\n一种是当参与牌局的玩家亮出底牌，拥有最佳手牌的玩家获胜。这称为 “摊牌”。另一种是当某一玩家下注足够多，使其他所有人都弃牌。这是限注奥马哈中大多数牌局的结束方式，也是这个游戏的魔力之处 - 你并不总是需要最好的手牌才能赢得胜利。";
+
+//PokerGamePanelBase
+"An amount of extra time that can be given to a player for their action time." = "使用时间银行可增加动作时间。";
+"Time Bank" = "时间银行";
+"The system will refresh the Time Bank card based on the set blind level or time, adding 1 card at a time. The number of Time Bank cards will only refresh to the Max Time Bank Cards set by the host." = "系统将会根据设置的盲注等级或时间刷新时间银行卡，一次增加一张。 时间银行卡只能增加至房主设定之时间银行卡数上限。";
+"Time Bank Refresh Interval" = "时间银行更新间隔";
+"Every %d blind level" = "每 %d 次升盲";
+"Every %d blind levels" = "每 %d 次升盲";
+"Notice!" = "注意!";
+"Ante and straddle will be canceled when bomb pots occur." = "底注和 Straddle 在炸弹彩池出现时会被取消。";
+"A bomb pot is an agreement by all players to place the same amount of chips and skip the betting round including preset ante and straddle of preflop." = "炸弹彩池是所有玩家皆下注一定金额的底注，并跳过翻牌前下注及预设的底注和 Straddle。";
+"All-in or Fold" = "全押或弃牌";
+"Players can only choose between “All-in” or “Fold” when this feature is turned on." = "当此功能开启时，玩家仅能选择 ”全押” 或 ”盖牌”。";
+"Run It Twice" = "双重公用牌";
+"The host can choose if the game will “run it twice” - when a player decides to go all-in before all community cards are dealt, the remaining community cards will be dealt twice, and the pot is split evenly into two boards - by selecting “Always” in the settings. When “Optional” is selected, all participants must agree before proceeding." = "房主可以选择牌局是否要有“双重公用牌“功能。当玩家在所有公牌发完前决定全押时，剩余的公牌将会进行两次发牌。如在设定中选择 “总是”，奖金池将平分成两组；如在设定中选择 “每手可选择”，场上所有玩家皆需同意才能执行。";
+"Rabbit Hunting" = "完整开牌";
+"Allow players to rabbit hunt. Rabbit hunting occurs when all players have folded and player(s) would like to see the remaining sequence of community cards after the hand is over." = "允许玩家 “猎兔”。当所有玩家皆弃牌后，且有玩家希望在手牌结束后查看剩余的公牌序列，猎兔（完整开牌）功能即作用。";
+"Straddle (UTG only) : Player can make a straddle bet only at the UTG position.\n\n3rd blind (Mandatory) : The player at the UTG position must make a mandatory straddle bet (2BB) every hand." = "Straddle (仅限 UTG ) : 位于 UTG 位置的玩家才能下注 Straddle 注码。\n\n3rd Blind (强制) : 每手位于 UTG 位置的玩家必须下注 Straddle 注码 (2BB)";
+"Random Sit-in" = "随机入座";
+"All players will sit-in randomly." = "所有玩家入座将会被随机安排座位。";
+"The hand ranking of straight is higher than trips in the hosted game after turning on the switch." = "开启这个开关，游戏中的牌力规则将会是顺子大于三条。";
+"The “Muck Losing Hand” feature is turned off automatically in “All-in or Fold” game mode." = "在“全押或弃牌” 游戏模式中，“输牌自动埋牌” 功能将自动关闭。";
+"Muck Losing Hand" = "输牌自动埋牌";
+"After turning on this option, players will be allowed to muck (discard cards without showing them) their losing hand." = "开启此功能后，玩家将可以在输掉的当手盖牌（不展示手牌且直接弃牌）";
+
+//PortalPopupImp
+
+//PortalPopupLayer
+"Season Countdown" = "赛季倒数";
+
+//PrimaDetailLayer
+"%s gold" = "%s 金币";
+"%dhr magnet" = "%d小时磁铁";
+"%dhr shield" = "%d小时盾牌";
+"Scoring Rules" = "计分规则";
+"Finish any of the following tasks to earn %d points each:" = "完成下列任一任务即可获得点数，每项任务值%d点：";
+"Finish any of the following tasks to earn %d point each:" = "完成下列任一任务即可获得点数，每项任务值%d点：";
+"%d points will get you to a checkpoint, claim the reward that’s waiting for you!" = "获取%d分以到达领奖点，达成后可立即领取你的奖励！";
+"Sorry! We are unable to connect to your payment method, hence, the in-app purchase cannot be proceeded. Please check and try again later." = "很抱歉，我们无法连接您帐户的付款方式，因此将无法为您进行购买手续。请确认并稍后再试！";
+
+//PrizePlanLayer
+"Prize" = "奖金";
+"Select Default Distribution" = "选择预设奖金分配";
+"Select Custom Distribution" = "选择自订奖金分配";
+"Invalid input" = "无效的输入";
+"Please delete previous prize before entering a new one." = "请删除先前的奖励在输入新的奖励之前。";
+"The propotion is too large." = "这比例有点太大了。";
+"Edit Custom Distribution" = "编辑自订奖金分配";
+"Prize Distribution" = "奖金分配";
+"Remaining" = "剩下比例";
+
+//PublicGameBuyInLayer
+"Reload Chips" = "补充筹码";
+
+//PublicGameListItem
+"Entry" = "入场";
+
+//PublicGameListLayer
+"%d-max players" = "%d人桌";
+
+//PublicGameResultLayer
+"Bounty" = "赏金";
+"%dth" = "第%d名";
+"1st" = "第一名";
+"2nd" = "第二名";
+"3rd" = "第三名";
+
+//PublicGameSeasonRewardNotifyLayer
+
+//PublicGameWaitingLayer
+"Join Ultrasonic SNG" = "加入超音速SNG";
+"Sure to join the SNG with %s chips?" = "确定要用%s筹码进入SNG吗？";
+"Join %s" = "加入 %s";
+"Sure to join Rummy with %s chips?" = "确定要用 %s 筹码进入Rummy吗？";
+"Seat arranging..." = "座位寻找中...";
+"You need at least %s chips to join the table." = "你至少需要 %s 筹码来加入这张桌子。";
+"Get chips" = "获取筹码";
+
+//PublicLevelDetailLayer
+"Chip Purchases" = "筹码购买";
+"Free Chips!" = "免费筹码！";
+
+//PublicLevelListLayer
+"Season Reward" = "赛季奖励";
+"Free Chips" = "免费筹码";
+"PRR Season Reset" = "PRR每季重置";
+"All players with rating > %s will receive PRR Season Reward and be reset by PRR System at the end of season." = "在赛季末，所有玩家积分 > %s 将会获得PRR赛季奖励且将会被重置积分。";
+
+//PublicMTTContent
+"No show" = "未出席";
+"Level %d" = "阶段 %d";
+"Unlimited" = "无限";
+"time" = "次";
+"times" = "次";
+"%1$s for %2$s chips" = "门票%1$s 来获得 %2$s 筹码";
+"Elapsed" = "经过时间";
+
+//PublicMTTDetailLayer
+"Sure to unregister the %s?" = "确定要取消注册 %s？";
+
+//PublicMTTHistoryLayer
+"Current Rank" = "当前排名";
+
+//PublicMTTListLayer
+"Ongoing" = "进行中";
+
+//PublicMTTSeasonResultLayer
+
+//PublicProfileContentList
+"Equipped" = "已装备";
+
+//PublicProfileLayer
+"My Collection" = "我的收藏";
+"%s's Collection" = "%s的收藏";
+
+//PublicProfileToolkitList
+"PROPS" = "道具";
+"GIFTING" = "礼物";
+
+//PurchaseBonusTable
+
+//RankingListLayer
+
+//RecordDetailLayer
+"Auto Export On" = "自动汇出 开启";
+"Auto Export Off" = "自动汇出 关闭";
+"Export Records" = "汇出纪录";
+"Please check the application to where you exported the csv file, and make sure the file was sent successfully." = "请确认你的CSV档案已经汇出成功。";
+"Not yet" = "还没";
+"Finished" = "已完成了";
+"Tips" = "小费";
+"Scores" = "分数";
+"Result" = "结果";
+"Extra Prize" = "额外奖励";
+"You are not allowed to export this game because record privacy is enabled." = "由于纪录隐私设为开启，你没有权限汇出。";
+"The record's results will be exported to a .csv file.\nIt costs %d gold, are you sure you want to export?" = "计算结果将会汇出成一个CSV档案。\n这将会消费你的%d个金币，你确定要想要汇出吗？";
+"(Paid)" = "(已付)";
+
+//RecordMainLayer
+"Record Limit" = "纪录上限";
+"You will no longer access this record. Sure to delete?" = "您将无法查阅此纪录，确定要删除吗？";
+
+//ReplayTableLayer
+
+//RewardLayer
+"has signed up." = "已经注册了。";
+"invited me." = "邀请了我加入Pokerrrr。";
+"Extra FREE" = "免费获得";
+"Claimed" = "已领取";
+"Message" = "讯息";
+
+//RoeSelectGameTypeRow
+"Random Order" = "顺序随机";
+"By turning on “Random Order”, the selected games will rotate randomly." = "开启「顺序随机」时，所选游戏将会随机轮换。";
+
+//Room
+"System" = "系统";
+"%s has reloaded chips %s." = "%s 补充了 %s 个筹码。";
+
+//RoomQueue
+"Are you sure you want to leave queue?" = "请问你确定要离开列队吗？";
+"Are you sure you want to sit in?" = "请问你确定要入座吗？";
+"Are you sure you want to remove “%s” from the queue?" = "你确定要自排位列表中移除“%s”？";
+
+//RoomQueueListLayer
+
+//RoomRequest
+
+//RoomRequestDetailLayer
+"This player changed their name recently. Are you sure you want to accept this request?" = "这位玩家最近改了名字。你确定要接受他的请求吗？";
+
+//RouletteCollectionDetailLayer
+"You have spin(s) available and chances of getting great prizes! Sure to leave?" = "您目前可旋转轮盘并有机会获得大奖！确定要离开吗？";
+"Sure to jump out?" = "确定要跳出吗？";
+"Yes" = "是";
+"Spin now!" = "立即旋转";
+"Don’t show for today" = "今日不再显示";
+
+//RouletteCollectionEvent
+"Bonus Spin" = "红利抽奖";
+"Own %s and log in to earn one extra spin per day!" = "拥有 %s，每日登入即获得1次抽奖机会！";
+"You’ve earned spin chances!" = "你已获得抽奖机会！";
+
+//ControlLayer
+
+//GamePanelLayer
+"An extra 30 seconds will be given when applying a Time Bank in the round." = "任一轮使用乙次Time Bank，可增加30秒动作时间。";
+
+//GamePlay
+"Can’t rearrange or add hand cards to the sets on the table in the initial move!" = "破冰阶段无法重组或增加手牌到桌上的牌组！";
+
+//GameRoom
+"Final Round!" = "最后一轮!";
+"Abnormal move-attempts detected! Your cards will be drawn by the system." = "已侦测到异常移动次数操作！您的手牌将由系统自动抽牌。";
+"Note!" = "注意！";
+"Abnormal move-attempts detected! You only have %d moves left." = "已侦测到异常移动次数操作，您的移动次数仅剩 %d 次！";
+"Got it" = "了解";
+
+//GameScene
+
+//GameUIHelper
+
+//HostingResultViewLayer
+
+//IceBreakerHintLayer
+"Initial Move：    %s/%d  Points" = "破冰：    %s/%d 点数";
+
+//TableLayer
+"Action Time" = "动作时间";
+
+//SNGCustomSettingLayer
+
+//SNGGamePanelLayer
+"Name" = "名字";
+"Schedule" = "时间排程";
+"Schedule a %s in advance (up to %d days)" = "提前规划牌局 %s (至多 %d 天)";
+"The time you schedule is out of range. (%s - %s)" = "你设定的牌局时间超出范围。 (%s - %s)";
+"Current Time: %s" = "现在时间: %s";
+"Bounty is the prize for one player who knocks out the other player.\n*It cannot exceed 50% of Buy-in Ticket." = "赏金是当击败其他玩家时的奖金\n*不得超过50%的门票";
+"You may setup a guaranteed prize pool for participants, the basic prize distribution will be based on it before the total prize pool being accumulated more than guaranteed amount." = "在累积奖金未超过保证奖池前，奖金分配会以保证奖池计算。";
+"Registration Confirmation" = "注册确认";
+"Every registration should be confirmed by host." = "每位注册玩家皆需由开局玩家确认。";
+"Until Lv.%d" = "直到阶段%d";
+"Rebuy & late registration" = "重买与延迟注册";
+"“Rebuy & late registration” is only available for SNG when 3 or more players are still playing." = "「重买与延迟注册」适用于比赛中仍有3位以上玩家时。";
+"“Rebuy & late registration” will end for 36 and 90 player MTTs after the final table has been settled." = "36人与90人的多人锦标赛，在最终决赛桌产生后，「重买与延迟注册」将自动被停止。";
+"%1$s and the %2$s are not allowed at the same time." = "%1$s和%2$s不允许同时开启。";
+"Double Rebuy" = "双重买入";
+"%1$s will be turned off." = "%1$s将被关闭。";
+"Players can rebuy when not bankrupted. Busted player can purchase 2X amount buy-in amount." = "允许未破产玩家重买一次。破产的玩家可进行双重买入。";
+"The add-on period will become active when the rebuy period ends." = "最后加买期间将开始于加买期间结束后。";
+"Every %d Lv." = "每 %d 个阶段";
+
+//SNGHostingResultDescLayer
+"no description" = "无叙述";
+
+//SNGHostingResultView
+
+//SceneManager
+"Logging in is required before entering referral code." = "请先登入再输入推荐码。";
+"Sign in to play on multiple devices, and keep your Pokerrrr account safe." = "登入以在不同装置游玩，并保障 Pokerrrr 帐号的安全。";
+"Sign in" = "登入";
+"*First time login will give you %s bonus chips!" = "*第一次登入会赠送你%s免费筹码！";
+"*First time login will give you %s bonus gold!" = "*第一次登入会赠送你%s免费金币！";
+"No worry! We are searching for new table for you now!" = "别担心！我们在为你寻找新牌桌！";
+"Are you sure to switch to another table?" = "你确定要换到别桌吗？";
+"If an opponent is in FL, your hand will be auto-played by the system." = "如果任一玩家在FL，您的手牌将由系统自动出牌。";
+"You will sit-in with the starting chip after switching to new table." = "你将以起始筹码坐入新桌。";
+"Switch Table" = "换桌";
+
+//SettingsLayer
+"Version" = "版本";
+"Host Control" = "桌主设定";
+"Manager Control" = "管理者设定";
+"Ends in" = "结束倒数";
+"The system will auto reload your chips base on your setting." = "系统将会根据你的设定自动补充筹码。";
+"When a player’s current chips are less than the buy-in chips for the table, the system will automatically reload the chips to the player’s stack on the next hand, making their current chips equal to the buy-in chip amount. If the player’s buy-in chips are not a whole number of the BB, the decimal will be rounded down." = "当玩家现有筹码少于入桌的买入筹码时，系统会于下一手时自动加值玩家筹码，使其现有筹码等同买入筹码数量；若玩家买入筹码非整数大盲值时，将无条件舍去小数点。";
+
+//SettingsMainLayer
+
+//ShopCostDialog
+
+//ShopEquipment
+
+//ShopItemBundleAddOnPopup
+
+//SocialSignInNoticeDialog
+"Get %s Chips!" = "获得 %s 筹码！";
+"Get %s Gold!" = "获得 %s 金币！";
+
+//SpecialOfferDialogLayer
+"over %sExtra bonus" = "超过 %s额外红利";
+"%sExtra bonus" = "%s额外红利";
+
+//SpecialOffersDialogLayer
+
+//GameBigCardModel
+"You cannot check now. You must pay the bring in at a minimum." = "你不能过牌！你最少需要付前注。";
+"You cannot fold now. You must pay the bring in at a minimum." = "你不能盖牌！你最少需要付前注。";
+
+//HandLogLayer
+"Third Street" = "第三街";
+"Fourth Street" = "第四街";
+"Fifth Street" = "第五街";
+"Sixth Street" = "第六街";
+"Seventh Street" = "第七街";
+
+//RoomManagerGameImp
+
+//TutorialLayer
+
+//TableModeSelectDialog
+
+//TimeManager
+"Today" = "今天";
+
+//TournamentHostingResultView
+"Max : %s times, until Lv. %s" = "上限 : %s次, 直到阶段%s";
+
+//TutorialMiniLayer
+
+//UserNameBar
+"Countdown:" = "结束倒数 : ";
+
+//AnniversaryPopup_10thAnniversary-2023
+"Get Diamond VIP for every 199 gold spent in the Store! (Max 10 times)" = "在商店中，每花费 199 金币即可获得钻石VIP红利！（最多10次）";
+"Bonus x %d" = "红利 x %d";
+"for %d days" = "为期%d天";
+"Extra Bonus：%s" = "额外红利：%s";
+"own Sapphire and Diamond VIP at the same time" = "同时拥有蓝宝石及钻石 VIP";
+
+//AnnouncementListLayer
+
+//AreaPickerLayer
+"Area" = "地区";
+"Search" = "搜寻";
+"No matched data." = "没有搜寻到资料。";
+"Save" = "储存";
+
+//AutoExportLayer
+"System will automatically export every game result to the email after the game is completed." = "牌局结束后系统会自动汇纪录至指定的电子邮件。";
+"Export to" = "汇出至";
+"Please enter a valid email address." = "请输入电子邮件。";
+
+//AutoReloadConfirmLayer
+"The blinds have changed from %1$s to %2$s. Choose to change your auto-reload setting." = "盲注已经从 %1$s 改到 %2$s，请更改你的自动加买设定。";
+"Reload to" = "补充到";
+"When is under" = "当低于";
+
+//AvatarPickLayer
+"Profile Photo" = "个人头像";
+
+//BattleLayer
+
+//BigChipSensitivityLayer
+
+//BlindStructureLayer
+"Default" = "预设";
+"Custom" = "自订";
+"Level" = "阶段";
+"BB / SB" = "大盲 / 小盲";
+"Ante" = "底注";
+"Chip Unit" = "筹码单位";
+"/ SB" = "/ 小盲";
+
+//BuyVIPDialog_vip2
+"Purchase %s to increase the game hosting limits to %d games!" = "购买%s 即可增加开局上限至 %d 场！";
+"Ruby VIP" = "红宝石 VIP";
+
+//CashGamePanelLayer
+"Pot Limit" = "限注";
+"Table Type (Max. players)" = "牌桌类型（座位数）";
+"Rotation Frequency" = "轮换频率";
+"Regular" = "标准";
+"Interval" = "升盲时间";
+"Blind Structure" = "盲注结构";
+"Edit Blind Structure" = "编辑盲注结构";
+"Buy-in Range" = "买入范围";
+">10 hours" = ">10小时";
+"Frequency" = "频率";
+"Straight > Trips" = "顺子 > 三条";
+"Advanced Settings" = "进阶设定";
+"Time Bank Cards" = "时间银行卡数量";
+"Max Time Bank Cards" = "时间银行卡数上限";
+"Game Settings" = "牌局设定";
+
+//CashHostingResultView
+"Game Code" = "牌局代码";
+"Invite players to join with this code." = "邀请玩家使用此代码加入牌局";
+"Select Games" = "游戏选择";
+"Tips box" = "小费箱";
+"Refresh Interval" = "更新间隔";
+"Service charge (Host only)" = "服务费 (仅开局者支付)";
+
+//ChallengeRecordPage
+"Game History" = "挑战赛纪录";
+"Total Chips You've Won" = "赢得筹码总数";
+"No data yet..." = "尚无资料...";
+
+//ChatLayer
+"Send" = "送出";
+"You have been muted by the game host or table manager." = "您已被房主或管理员禁言。";
+
+//ClubCreateLayer
+"Description" = "叙述";
+"Game Hosting" = "创建牌局";
+"Create" = "创建";
+"Please enter the club’s code here" = "请输入俱乐部代码";
+
+//ClubDetailLayer
+"See more" = "更多";
+"Private Club" = "私人俱乐部";
+"Notification" = "通知";
+"Member Messages" = "成员讯息";
+"Manager Messages" = "管理者讯息";
+"New Games" = "开新局";
+"Share Hand" = "分享手牌";
+
+//ClubEditLayer
+
+//ClubMainLayer
+"CLUBS" = "俱乐部";
+"No club yet? Click the button at the TOP-RIGHT corner to a join friends club, or create your own poker club!" = "还没有俱乐部？在右上角加入朋友的或创建自己俱乐部吧！";
+"Invite friends to your clubs" = "邀请朋友加入俱乐部";
+"Tap to create / join a club now." = "快点击来创建 / 加入俱乐部。";
+
+//ClubMemberLayer
+"Search players" = "搜寻玩家";
+"Promote" = "晋升";
+"Demote" = "降级";
+
+//ClubMessageLayer
+"No messages. Chat with friends now!" = "尚无讯息，和朋友聊两句吧！";
+"New Message" = "新讯息";
+"Replay" = "重播";
+"Invite friends to join your club now! Chat and play poker here anytime." = "邀请你的朋友加入你的俱乐部吧！随时聊天玩扑克。";
+"Invite" = "邀请";
+"New messages" = "新讯息";
+"Messages" = "讯息";
+"Games" = "牌局";
+"Members" = "成员";
+
+//ClubReommendLayer
+
+//ClubSelectionLayer
+"Share" = "分享";
+"Shared" = "已分享";
+
+//ClubShareHandCommentLayer
+"View previous comments..." = "显示先前的留言...";
+"Reply" = "回复";
+"View replies..." = "查看回复...";
+"Posting..." = "传送中...";
+"Hand Log" = "手牌细节";
+"View Replay" = "重播";
+"Replying to" = "回复";
+
+//ClubShareHandNotificationLayer
+
+//ClubShareHandReplayLayer
+"This hand is unavailable" = "无法显示此手牌";
+
+//CollectionLinePopup_halloween-2023
+"Crack %1$s by winning 1, 3, 5, and 8 lines!" = "赢得1、3、5 和 8 条线来敲开 %1$s";
+"Mission %d" = "任务 %d";
+"%1$s in tables with %2$s icon" = "于有 %2$s 标志的桌子%1$s";
+"Halloween Gifting Set" = "万圣节礼物组合";
+"Non-expiring" = "无使用期限";
+"Congratulations!" = "恭喜您!";
+"You’ve got %s" = "您获得了%s";
+"Equip Now" = "立即装备";
+"Here's your reward." = "这是你的奖励。";
+
+//CollectionLinePopup_jaihind-2023
+"Unwrap the special gifts by winning 1, 4, and 8 lines!" = "赢得1，4，和8条线来拆开特别礼物！";
+"LINES" = "连线";
+
+//DailyRewardDayBig
+"Day %d" = "第%d天";
+
+//DailyRewardDaySmall
+
+//DailyRewardDaySmallExpire
+
+//DailyRewardLayer
+"Daily Login Reward" = "每日登入奖励";
+"Watch video to earn %d chips !" = "看短片领取 %d 筹码！";
+"Extra %d%\nLogin Reward" = "额外 %d%\n登入奖励";
+
+//DailyRewardReplacementPopup
+"Miss a day?" = "错过一天？";
+"Watch a short video to continue your daily logins!" = "看影片即可继续领取连续登入奖励！";
+"Sure!%s" = "当然！%s";
+"No thanks" = "不了，谢谢";
+
+//DeleteAccountDialog
+"Delete account and data?" = "要删除您的帐号和资料吗？";
+"Are you sure to delete your account? After deleting the account, all your account information and data will be destroyed and cannot be restored." = "确定要删除您的帐号吗？当您的帐号删除后，您的资讯以及保存在帐号内的资料都会一并销毁，且帐号将无法复原。";
+"If you want to permanently delete your Pokerrrr 2 account, please enter your 5-digit player ID in the below box and click “Delete“." = "若您想要永久删除您的 Pokerrrr 2 帐号，请在下方空格内提供您的玩家 ID ，并点击“删除“按钮进行下一步。";
+"Confirm by typing %s below." = "在下方输入 %s 来确认。";
+"Request confirmation" = "申请确认";
+"Please be advised that once the account deletion request is made you will not be able to access the account. Your pending request CAN NOT BE CANCELED either." = "请注意，当您提出帐号申请要求后，您将无法使用此帐号，且您的待处理申请也无法取消。";
+"Please re-enter your player ID (%s) below to complete your request." = "请再次输入您的玩家ID (%s) 以完成申请。";
+"Player ID" = "玩家 ID";
+"Incorrect player ID. Try again!" = "错误的玩家 ID。再试一次！";
+
+//Dialog
+"Total" = "总共";
+
+//EquipCongratsPopup
+"You win %s !" = "你获得 %s !";
+"%s is now in your collection." = "%s 已在你的收藏中。";
+
+//EspionageRoomMapLayer
+"LOCKED" = "尚未解锁";
+
+//EventCustomDialog_bj-espionage-2-2023
+
+//FeedbackDialog
+"Feedback" = "意见回馈";
+
+//GameControlLayer
+"I'm Back" = "我回来了";
+"Cancel Straddle" = "取消Straddle";
+"Once" = "一次";
+
+//GameEndControlLayer
+"Play Again" = "再玩一次";
+
+//GameGiftSelectLayer
+"Tease" = "戏弄";
+"Treat" = "款待";
+"Club" = "俱乐部";
+"Limited" = "限定";
+"Host or join club game to send exclusive gifts!" = "举办或参与俱乐部游戏来发送独家礼物！";
+
+//GameHistoryLayer
+"Hand#" = "手数";
+"Community Cards" = "公  牌";
+"Winner" = "赢家";
+"Player" = "玩家";
+"Only the hands you played within 30 days are shown here." = "仅显示您30天内参与的牌局。";
+
+//GameHostingResultSegmentLayer
+"Info" = "资讯";
+
+//GameInfoLayer
+"Register Here" = "注册";
+"Shuffle & Deal" = "人到齐了，发牌吧！";
+"Join Queue" = "加入列队";
+"Leave Queue" = "离开列队";
+
+//GameLengthSettingLayer
+
+//GamePanelAutoStartRow
+
+//GamePlayerMenuLayer
+"Profile" = "个人资料";
+
+//GameTableLayer
+"Check out the realtime status" = "查看即时战积";
+"Jackpot is on the way." = "Jackpot即将到来！";
+"hand(s)" = "手";
+"Tournament" = "锦标赛";
+"View Queue" = "显示列队";
+
+//GameTableLayer_Pad
+
+//GlobalAlertLayer
+
+//GoldCollectionEventLayer
+"Have a blessed Thanksgiving!" = "充满祝福的感恩节！";
+
+//GoldCollectionRewardDetailPopup
+"Every GOLD Matters!" = "每个金币都重要！";
+"Each gold you spend will be used to unlock CHEST OF CHIPS automatically." = "您花的每个金币将会自动被用在解锁筹码奖励上。";
+
+//HostedGameListLayer
+"Hosted Game" = "已开牌局";
+"Service Charge" = "服务费";
+"Terminate" = "终止游戏";
+" View " = "回到游戏";
+"Reached host limit! You have to terminate ongoing games before hosting a new one." = "到达开局上限！开新局前，您必须关闭正在进行中的游戏。";
+
+//HostingLayer
+
+//HostingPrizePlanResultView
+
+//HostingResultRoeGameTypesRow
+
+//HowToSendGift
+"How to send Gifts" = "如何送礼物";
+"Tap on your opponents' nameplates on the table to find all Gifting options, choose one and send it out!" = "在牌桌上点击对手名牌将跳出礼物列表，选取礼物即可送出";
+
+//IAPLayer
+"Goods" = "商品";
+"Gifting" = "礼物";
+"STORE" = "商店";
+
+//IAPPageChipCon
+"Limited time offer" = "期间限定";
+
+//IAPPageCurrency
+"BEST OFFER" = "超值组合";
+"One-time Only" = "仅限一次";
+"CHIPS" = "筹码";
+"GOLD" = "金币";
+
+//IAPPageCurrencyAdReward
+
+//IAPPageCurrencyEmerald
+"%s \nat purchase" = "购买就送\n%s";
+"Unlimited Gifts" = "礼物无限送";
+"(for %s)" = "(为期%s)";
+"own Emerald and Sapphire VIP at the same time" = "同时拥有绿宝石及蓝宝石 VIP";
+
+//IAPPageCurrencyGold
+"SALE" = "打折";
+
+//IAPPageCurrencyMagicItem
+
+//IAPPageCurrencyPass
+"Purchase Cooldown" = "下次购买等待时间";
+
+//IAPPageCurrencyRuby
+
+//IAPPageCurrencySapphire
+"Purchase limits reached" = "购买已达上限";
+"own Diamond and Sapphire VIP at the same time" = "同时拥有钻石及蓝宝石 VIP";
+
+//IAPPageCurrencyVIP
+
+//IAPPageDeck
+
+//IAPPageGifting
+
+//IAPPageGiftingItem
+"Max Stock" = "库存已满";
+
+//IAPPageNameTag
+
+//InitScene
+"Sign in with Google" = "使用 Google 登入";
+"Sign in with Facebook" = "用 Facebook 登入";
+"or play as a guest" = "或以访客身份游玩";
+
+//InputTextDialog
+
+//KeyboardLayer
+"Paste" = "贴上";
+
+//LanguageSelectionLayer
+"Language" = "语言";
+
+//LeaderboardLayerSNG
+"Daily Battle" = "每日挑战";
+
+//LeaderboardPageSNGDaily
+
+//LeaderboardPageSNGSeason
+"PSR Apex" = "PSR 层峰";
+"BSR Vertex" = "BSR 顶峰";
+
+//LimitOfferPopupPRRLevelUp
+"on your next chip purchase" = "可用于下次购买筹码";
+
+//LinearCollectionDetail_bj-espionage-content
+"Play Blackjack to collect %1$s and unlock the exclusive reward!" = "透过游玩21点游戏来收集 %1$s 并解锁独家好礼！";
+"Purchase %d %1$s for %s gold" = "使用 %s 金币购买 %d 个 %1$s";
+"Collecting %1$s by playing Blackjack game type. (Tips: win the hand in higher betting level tables to get more %1$s.)" = "游玩21点游戏来收集 %1$s ！(提示：在下注越高的桌子将获得越多 %1$s！)";
+"Well done!" = "做得好！";
+"You’ve collected all %1$s, here’s your reward!" = "你已收集所有的 %1$s，这是你的奖励！";
+
+//LiveGameInfoPageLayer
+"Copy" = "复制";
+"Live Clock URL" = "锦标赛时钟URL";
+"Participant Limit" = "参加人数上限";
+"Starting Chips" = "起始筹码";
+"Time Interval" = "升盲时间";
+"Buy-in Ticket" = "门票";
+
+//LiveGameLayer
+"Next" = "接下来";
+"Next break" = "下一次休息";
+"Seats" = "座位";
+"Start" = "开始";
+"Finish" = "结束";
+"Register A Player" = "注册玩家";
+
+//LiveGamePlayersPageLayer
+"Player\n(Seat)" = "玩家\n(座位)";
+"Rebuy/\nAdd-on" = "重买/\n加买";
+
+//LiveGamePrizePageLayer
+
+//LiveGameSeatPageLayer
+"You may assign seats for players by your staff or generate seat plan for players by clicking “Random Draw Seats.”" = "你可以自行安排玩家座位或是透过点击“随机排位“让系统帮你安排。";
+
+//LivePlayerUpdateDialog
+"Eliminate" = "淘汰";
+
+//LoadingLayer
+"Loading" = "读取中";
+
+//LogDialog
+
+//MainPageClub
+"All" = "全部";
+"Favorite" = "最爱";
+"Friendly Game" = "朋友局";
+"Host" = "开局";
+"Create / Join a club" = "创建 / 加入俱乐部";
+"Enter Club" = "进入俱乐部";
+"Create your own poker club and enjoy with your club mates! %d bonus gold will be rewarded after creating your first club!" = "创建你的扑克俱乐部，和朋友一起游玩！创立第一个社团将获得%d金币奖励！";
+"You haven’t set any club to Favorite yet." = "你尚未将俱乐部设定为最爱。";
+"Tap the button next to the club name to set the club as Favorite." = "按下俱乐部名称旁的按钮，即可设定为最爱。";
+"The icon is shown after being set as Favorite." = "已成功设定为最爱。";
+
+//MainPageClubGameList
+"Pending join request. Come back later to see if you're in!" = "等待加入审核中！晚点再来看看是否成功加入！";
+"There's no ongoing game in the club at the moment. Maybe try a different club or join from the lobby?" = "目前俱乐部内没有正在进行的牌桌！试试拜访其他俱乐部或从大厅加入公开局吧！";
+
+//MainPageTournament
+"Buy-in fee %d% off" = "买入服务费 %d% 折扣";
+"Select a Table" = "选择桌子";
+
+//MainScene
+"TOURNAMENT" = "锦标赛";
+"PLAY NOW" = "挑战赛";
+"MISSION" = "任务";
+"FRIENDLY" = "朋友";
+
+//ManagerSelectionLayer
+"Assign Manager" = "指定管理者";
+"(From club members)" = "(从俱乐部成员里)";
+
+//MyMedalListItem_medalI
+"Equip" = "装备";
+
+//MyMedalListItem_medalK
+
+//MyPlayerMedalList
+"Medal of Honor" = "荣誉徽章";
+
+//MyPlayerMedalListItem
+
+//OFCClubGameHistoryLayer
+
+//OFCGameHistoryLayer
+"Hand History" = "手牌纪录";
+"Ranking" = "排名";
+
+//OFCGamePanelLayer
+"Dealing" = "发牌动作顺序";
+
+//OFCRankingLayer
+"Rank#" = "排名";
+"Table#" = "桌号";
+
+//OFCRecordHistoryHandLayer
+"This hand result is calculated by Pokerrrr adjusting system(PAS)." = "此手牌结果由Pokerrrr分数调整系统计算。";
+
+//OFCRecordHistoryLayer
+
+//OFCRecordHistoryPlayerNode
+"Handicap" = "让分";
+"Scoop" = "全胜";
+
+//OmahaSelectGameTypeRow
+
+//OtherPlayerMedalList
+"%s’s Medals" = "%s的徽章";
+
+//PlayerLevelMissionDialog
+
+//PlayerLevelMissionUnlockDialog
+
+//PlayerLevelMissionsLayer_bj-2023-11
+"Play any %s games in Global Pokerrrr Challenge to get reward." = "在 Global Pokerrrr Challenge 玩 %s 以获得奖励。";
+"Accept" = "接受";
+"CLAIM NOW !!" = "马上领奖！";
+
+//PlayerLevelMissionsLayer_egypt-2021-07-LV6
+"To become an Agent %s, you will need to prove yourself by completing the following missions." = "想成为特务 %s，你需要完成以下任务以证明自己。";
+
+//PlayerLevelMissionsLayer_ofc-joker-2021-11
+
+//PlayerLevelMissionsLayer_show-name-2023
+"Play any Blackjack games in Global Pokerrrr Challenge to earn your reward!" = "在 Global Pokerrrr Challenge 玩 21 点系列游戏以获得你的奖励！";
+
+//PlayerLevelMissionsLayer_tokyo-2021-05-LV3
+
+//PlayerLevelMissionsLayer_us-2021-12-LV10
+
+//PlayerListLayer
+"No." = "编号";
+
+//PokerHandLogLayer
+"Summary" = "结算";
+
+//PopupAdPromote
+"Get more chips?" = "赢得更多筹码？";
+"Watch a short video to get extra %s chips right away!" = "看短片立刻领取 %s 筹码！";
+
+//PopupAdSpecialOffer
+"Run out of chips?" = "筹码用完了？";
+
+//PopupBonusMTT
+"Ready for the %s Tournament?" = "准备好参加 %s 锦标赛了吗？";
+"Sign me up!" = "马上报名！";
+
+//PopupEnhancedRoe
+"Host Now!" = "马上开局!";
+
+//PopupGsopSeason
+"%3$s Season has started !" = "%3$s赛季已开始！";
+
+//PopupInviteLayer
+"It pays to have friends!" = "邀请好友同乐！";
+"Bonus Received (%d/30)" = "已收到红利 (%d/30)";
+"Your Referral Code" = "你的邀请码";
+"Enter Referral Code in the below box and your friend will get rewarded!" = "在下方栏位输入推荐代码，你的朋友将获得奖励！";
+"Looks like you've helped your friends claim the reward! Why not host a game and play together?" = "看来你已帮助你的朋友领取奖励了！ 何不开场比赛一起游玩？";
+"Host and Play!" = "开局游玩！";
+"Redeem" = "兑换";
+
+//PopupMission_bj-2023-11
+
+//PopupMission_hawaii
+"Complete Agent Vili Mission to earn an exclusive medal and naming rights! " = "完成 Agent Vili 任务以获得专属徽章以及取名权！";
+
+//PopupNewComerBundle3
+"Check it out !" = "去看看 !";
+
+//PopupNotificationRefine
+"Turn on push notifications to earn %1$s% extra daily login reward!" = "开启推送通知以获得额外 %1$s% 的每日登录奖励！";
+"Turn On" = "开启";
+
+//PopupOFCJoker
+
+//PopupPlayerLevelMission1
+
+//PopupPlayerLevelMission2
+
+//PopupPlayerLevelMission3
+
+//PopupReturnUserBonus
+"Welcome Back!" = "欢迎回来 !";
+"Here are some FREE CHIPS for you" = "这里有免费的筹码要送你";
+
+//PopupReturnUserBonusChips
+"Return gift %s chips for you." = "回归礼%s筹码给您！";
+
+//PopupReturnUserBonusExtraOffer
+"Enjoy %d% more chips on your return chips purchase!" = "回归购买筹码即多赠送%d%筹码给您！";
+
+//PopupReturnUserBonusTicket
+"Get your %s return gift and sign up now!" = "带上礼物%s并立即注册！";
+"Bronze Ticket" = "铜级参赛券";
+
+//PopupSngBJ
+
+//PrimaDetailLayer
+"Play %d hands in public games" = "在任一公开赛事玩%d手";
+"Log in and claim your daily login reward" = "每日登入并领取登入奖励";
+"Watch %d ads in total" = "观看%d则广告";
+"Spend %d gold coins" = "使用%d金币";
+"Join %d public MTT" = "参加%d场公开锦标赛";
+
+//PrimaPurchaseDialog
+"More rewards await!" = "更多奖励等著你！";
+"Activate “Prima” pass now to get bonus gifts when achieving each checkpoints!" = "启用 ”Prima” 通行证来获得更多奖励！";
+
+//PrimaRewardName
+
+//PrivateToPublicLayer
+"Few more hands?" = "再多玩几手？";
+"Let's play %1$s in %2$s" = "让我们到 %2$s 玩%1$s";
+"Let's Go!" = "去玩看看！";
+"Not today" = "改天再玩";
+
+//PrizePlanLayer
+"Entrants" = "参加人数";
+"unit : %" = "单位 : %";
+"Remaining : " = "剩下比例 : ";
+"Prize / player" = "奖金 / 玩家";
+"for" = "给";
+"Edit Distribution" = "编辑奖金分配";
+
+//PublicGameBuyInLayer
+"Chip will be reloaded: %s" = "筹码将补充: %s";
+"Buy-in at max" = "买入最大值";
+"Handicapping" = "让分";
+
+//PublicGameListLayer
+
+//PublicGameSeasonRewardNotifyLayer
+"You have achieved" = "您已达到";
+"Season reward earned" = "赢得赛季奖励";
+
+//PublicGameWaitingLayer
+
+//PublicHighlightAndHintLayer
+"Hey there! In the Global Pokerrrr Challenge, you can compete with real players from the world's best poker clubs anytime, anywhere." = "Hey there! 在世界挑战赛，你将可以随时与来自全球顶尖俱乐部的玩家同桌竞技。";
+
+//PublicLevelDetailLayer
+
+//PublicLevelListLayer
+"Level Badges" = "勋章等级";
+
+//PublicMTTContent
+"Starting Blinds" = "起始盲注";
+"%d mins" = "%d 分钟";
+"Starting Ante" = "起始底注";
+"%s for each knockout" = "每击败一位玩家得%s";
+"Entries" = "参与人数";
+"*Tournament will be canceled if entries under %s." = "*若参与人数少于%s，锦标赛将会被取消。";
+"No show player will be removed after Level %d." = "未出席锦标赛的玩家会在阶段%d后被移除。";
+
+//PublicMTTDetailLayer
+
+//PublicMTTHistoryLayer
+"Game Info" = "牌局资讯";
+
+//PublicMTTListLayer
+
+//PublicMTTRegisterDialog
+"Sure to register the %1$s with %2$s chips?" = "确定要用 %2$s 筹码注册 %1$s？";
+"Ticket" = "票券";
+"None" = "无";
+"Silver Ticket" = "银级参赛券";
+"Rose-Gold Ticket" = "玫瑰金级参赛券";
+
+//PublicMTTSeasonResultLayer
+"GSOP Season Results" = "GSOP 赛季结果";
+"You won the %s place!" = "你赢得%s!";
+"Season" = "赛季";
+"Total Prize Won" = "总赢得奖金";
+
+//PublicProfileLayer
+"View Collection" = "查看收藏";
+"Toolkit" = "工具包";
+"Buy" = "购买";
+"No gear available!" = "没有可用装备！";
+
+//PublicSwitchLevelLayer
+"Try something different?" = "换个游戏种类？";
+"Check out %s and see if you like it!" = "尝试 %s 看看你喜不喜欢！";
+"Sure!" = "好！";
+"Nah" = "不了";
+
+//PurchaseBonusTable
+"Additional Bonus" = "附加红利";
+
+//RankingLayer
+"Table" = "桌子";
+
+//RecommendPublicMTTDialog
+"Having fun in MTT?" = "喜欢锦标赛吗？";
+"Register our public MTT and compete with worldwide poker lovers!" = "来参加我们的公开锦标赛，与世界各地的扑克好手切磋吧！";
+"Yeah!" = "好!";
+
+//RecordDetailLayer
+"*The game is terminated by %s" = "*游戏被%s终止";
+"Prize/Bounty" = "奖金/赏金";
+"Export" = "汇出";
+
+//RecordHistoryLayer
+
+//RecordMainLayer
+"GAME RECORD" = "牌局纪录";
+"More records?" = "更多纪录？";
+"No records available." = "没有可用的纪录。";
+"No data, host a game with friends now!" = "尚无资料，快和朋友来一局吧！";
+"Pay Off" = "牌局结算";
+"Calculate" = "计算";
+"Result Summary" = "牌局结算";
+"Secured records of other players (with record privacy) will not be calculated." = "被设定保密的玩家牌局记录（开启纪录隐私）将不会被计入结算统计中。";
+"CG Hands" = "现金赛手数";
+
+//ReplayLayer
+
+//RewardLayer
+"Earn extra rewards\nby inviting your friends!" = "邀请朋友\n来赚取更多奖励！";
+"Get extra %s gold\nwhen logging in with facebook" = "Facebook登入\n获得免费金币%s枚。";
+"Get extra %s chips\nwhen logging in with facebook" = "Facebook登入\n获得免费%s筹码。";
+"Like our Facebook fan page\nand claim %d gold reward" = "按赞我们的粉丝专页\n获得%d金币奖励";
+
+//RoeSelectGameTypeRow
+"Select Games (Choose at least 2)" = "游戏选择 (至少选择2种）";
+"Select All" = "全选";
+
+//RoomQueueListLayer
+"Your buy-in request is pending approval from host." = "你的买入请求正等待开局者审核。";
+"Currently no players in queue." = "目前没有玩家在列队中";
+
+//RoomRequestDetailLayer
+"Requests" = "请求";
+"Accepted" = "已同意";
+"Rejected" = "已拒绝";
+"Expired" = "已逾时";
+"Request History" = "请求纪录";
+"Currently no requests." = "目前没有请求。";
+"Buy-in confirmation is disabled." = "没有启用买入确认功能";
+
+//RoomRequestDetailQueueLayer
+"Queue is disabled." = "没有启用列队功能。";
+
+//RoomRequestListLayer
+"Game List" = "牌局列表";
+"Refresh" = "更新";
+
+//RumbleBundlePopup
+"Open up the Rumble Bundle, you will find the mysterious force of becoming a poker pro!" = "打开 Rumble Bundle，您将会获得成为扑克高手的神秘力量！";
+"Random Nameplate + Random Deck + %s chips" = "随机名牌 ＋ 随机扑克牌 ＋ %s筹码";
+
+//SNGCustomSettingLayer
+"Tournament Setting" = "锦标赛设定";
+
+//SNGGamePanelDescLayer
+
+//SNGGamePanelLayer
+"Tournament Name (Optional)" = "锦标赛名称 (选填)";
+"Edit Description" = "编辑叙述";
+"Tournament Structure" = "锦标赛赛制";
+"Deep" = "深";
+"(for record)" = "(记录用)";
+"Prize Plan" = "奖金分配";
+"Late Registration (Level)" = "延迟注册 (盲注阶段)";
+"Rebuy Period (Level)" = "重买期间 (盲注阶段)";
+"Rebuy Limit (times)" = "重买限制 (次数)";
+"Duration" = "时间长度";
+
+//SNGHostingResultDescLayer
+"Tournament Info" = "锦标赛资讯";
+
+//SNGHostingResultView
+"Tournament Name" = "锦标赛名称";
+
+//SettingLayer
+"Leave next hand" = "下一手离开";
+"Leave next blind" = "下个盲注离开";
+"Back to club\n(remain hosting)" = "回到俱乐部\n(维持游戏状态)";
+"Reset Time" = "重设时间";
+"Auto Peek" = "自动瞇牌";
+"(take effect next hand)" = "(下一手生效)";
+"Options" = "选项";
+"Never" = "永不";
+"Gesture Hints" = "手势提示";
+"General" = "一般";
+"Sound" = "声音";
+"Vibration" = "震动";
+"4-Color Deck" = "四色牌";
+"Chips in %s" = "以%s显示筹码";
+"Betting" = "下注";
+"Chip-Con Swiping Sensitivity" = "滑动灵敏度";
+"Easy" = "高";
+"Hard" = "低";
+"Test and Adjust" = "测试并调整";
+"Betting options" = "进阶下注选项";
+"Click the buttons to edit." = "点按钮来编辑。";
+"1. Pre-flop (BB)" = "1. 翻牌前 (盲注)";
+"2. Post-flop (Pot %)" = "2. 翻牌后 (底池%)";
+"3. Raise times (x)" = "3. 加注 倍数(倍)";
+"Bet (x)" = "下注 (倍）";
+"About" = "关于";
+"FAQ" = "问与答";
+"Contact Us" = "联系我们";
+"Terms" = "条款";
+"Promo Code" = "兑换码";
+
+//SettingsMainLayer
+"Settings" = "设定";
+"Free Gold" = "免费金币";
+"Public Game Challenge Result" = "公开局战绩";
+"Swiping Sensitivity Test" = "滑动灵敏度测试";
+"Table Mode" = "牌桌模式";
+"Sign out" = "登出";
+"Terms & Privacy" = "使用条款与隐私权政策";
+"Certificate" = "认证";
+"Delete Account" = "删除帐号";
+"Gesture" = "手势";
+"Game Rules" = "游戏规则";
+
+//ShopCostDialog_playPublicOFCJokerHands
+"Play %1$s %2$s hands in %4$s to get free %3$s." = "在 %4$s 玩 %1$s %2$s 手以获得免费%3$s。";
+
+//ShopItem_chipD
+
+//ShopItem_chipG
+
+//ShopItem_chipH
+
+//ShopItem_chipI
+
+//ShopItem_deckH
+
+//ShopItem_nameTagH
+
+//ShopItem_nameTagI
+
+//ShopItem_nameTagJ
+
+//ShopItem_nameTagP
+
+//ShopItem_nameTagR
+
+//ShopItem_nameTagT
+
+//ShopItem_nameTagU
+
+//ShopItem_nameTagV
+
+//ShopItem_nameTagW
+
+//ShopItem_nameTagX
+
+//ShopItem_nameTagY
+
+//ShopItem_nameTagZ
+
+//SocialSignInNoticeDialog
+"Keep your Pokerrrr account safe" = "保障 Pokerrrr 帐号安全";
+"Play on multiple devices" = "在多个设备游玩";
+"*Deleting the app/data/cache may wipe your guest account" = "*删除应用程式/数据/缓存可能导致访客帐号消失";
+"continue as guest" = "以访客身份继续";
+
+//SocialSignInReferralCodeDialog
+"Login" = "登入";
+
+//SpecialOfferDialogLayer
+"Get Back In The Game" = "回到游戏";
+"Your SPECIAL OFFER is here !" = "专属您的特别优惠 !";
+
+//SpecialOffersDialogLayer
+
+//StructureLayer
+
+//StudHandLogLayer
+
+//TableModeSelectDialog
+"Join as Table Mode" = "以牌桌模式观局";
+"Use iPad as a poker table only." = "使用 iPad 作为扑克牌桌。";
+"1. Host a game on another device.\n2. Enter the generated game code here." = "1. 在其他装置上开局。\n2. 在此输入其牌局代码。";
+
+//TermsAgreementDialog
+"Agree" = "同意";
+
+//TimePeriodBox
+"Select seat" = "选择座位";
+"Decline" = "放弃选位";
+
+//TimeSettingLayer
+"Set Time" = "设定时间";
+"Date" = "日期";
+"Hour" = "小时";
+"Minute" = "分钟";
+
+//TutorialButtonClickAnimLayer
+
+//TutorialLayer
+"Poker-hand rankings :\nfrom strongest to weakest" = "扑克牌牌力:\n从强到弱";
+"Hand Ranking" = "牌力";
+
+//TutorialMiniLayer
+"Hide the tutorial button." = "隐藏教学按钮。";
+
+//UserChipBar
+"Collect Bonus!" = "领取红利！";
+
+//UserGoldBar
+
+//ActionNoticeCheck
+
+//ActionNoticePreCheck
+"Pre-Check" = "预先过牌";
+
+//ActionNoticeSwipeFaster
+
+//CardSetSettle
+"Win" = "赢";
+"Lose" = "输";
+"Push" = "平手";
+"Bust" = "爆牌";
+
+//ChallengeLevelCircle
+
+//ChallengeProfilePageBJR
+"BJR Kepi" = "BJR 豪杰";
+"Best Monthly Rank" = "最佳月排名";
+"Best PRR" = "最佳 PRR";
+"Win Rate" = "胜率";
+"Bust Rate" = "失败率";
+
+//ChallengeProfilePageBSR
+"Best PSR" = "最佳 PSR";
+
+//ChallengeRecordListBJR
+"Time" = "时间";
+"Winnings" = "输赢";
+"PRR Monthly Reset" = "PRR每月重置";
+
+//ChallengeRecordListBSR
+"PSR Monthly Reset" = "PSR每月重置";
+
+//ChallengeScoreBJRExplainDialog
+"_BJRScoreExplain" = "BJR 积分是一个先进的评分系统，积分主要由下列因子所计算：\n- 牌局胜负\n- 注码/买入等级\n- 时间衰减因素\n\n每个世界挑战赛季为期%d天，赛季结束后积分超过%s的玩家积分将依照前一季绩分与时间衰减因素被调整。\n\n*Pokerrrr 将随时优化最佳的积分排名系统。";
+
+//ChallengeScoreBSRExplainDialog
+"_BSRScoreExplain" = "BSR 积分是一个锦标赛积分系统，经由先进的评分系统计算，主要根据下列因子：\n- 比赛结束排名\n- 注码/买入等级\n- 对手积分强弱\n- 时间衰减因素\n\n每个世界挑战赛季为期%d天，新赛季开始之际，玩家的积分将依照前一季积分与时间衰减因素进行调整。\n\n*Pokerrrr 将随时优化最佳的积分演算法以及游戏规则。";
+
+//ChallengeTypeList
+"Select Table" = "选择桌子";
+
+//DialogPaytable
+"Paytable" = "赔付比";
+"Payout" = "赔金";
+"%1$s to %2$s" = "%1$s : %2$s";
+"Player wins" = "玩家获胜";
+"Bet returned" = "赌注保留";
+"Dealer wins" = "庄家获胜";
+"Bet lost" = "输钱";
+
+//DialogSNGInfo
+"Rules" = "规则";
+"General Rules" = "基本规则";
+"There are at most %d hands in each game" = "每场游戏至多玩 %d 手";
+"Players will compare the card values with the dealer during the game" = "游戏期间玩家和庄家比较牌面点数大小";
+"The player with the most chips amount will be the winner at the end of the game" = "游戏结束时，拥有最多筹码的玩家获得胜利";
+"Betting Rules" = "下注规则";
+"Players must place a bet on each hand" = "玩家每手皆需下注筹码";
+"The betting limit in the first hand is %d" = "第一手下注上限为 %d";
+"The betting limit will increase by %d for each additional hand" = "下注上限将增加 %d/每手";
+"No betting limit in the final hand" = "最后一手无下注金额上限";
+"Elimination" = "淘汰";
+"Players who lose all chips during the game will be eliminated" = "玩家于比赛期间输光筹码则淘汰";
+"If no player is eliminated after the third hand, the system will automatically eliminate the player with the least chips amount" = "若第三手结束时，还没有玩家被淘汰，系统将自动淘汰筹码最少的玩家";
+"Game Result" = "比赛结果";
+"When the game ends, the player with the most chips wins. If the chips amount is the same, the prize is split and the player with more starting chips from the last hand gets a better rank. If it’s still the same, the player who bets first will get a better rank." = "比赛结束时，拥有最多筹码的玩家获胜。若筹码数相同，奖金平分，并由最后一手起始筹码较多的玩家获得较好名次；若仍相同，则由先下注的玩家获得较好名次。";
+
+//GameControlLayer
+"SURRENDER" = "投降";
+"Stand" = "停牌";
+"No Insurance" = "不买保险";
+"AUTO\nBET" = "自动\n下注";
+
+//GameTableLayer
+"MIN" = "最低";
+"MAX" = "最高";
+"Max Bet : %s" = "最大下注：%s";
+"Next : %s" = "下一级：%s";
+
+//LeaderboardLayer
+
+//LeaderboardListDaily
+"Wins" = "胜场";
+
+//LeaderboardListSeason
+
+//LeaderboardPageDaily
+"Boot Camp" = "新兵训练营";
+"Leadership Course" = "领袖储备班";
+"World Arena" = "世界竞技场";
+
+//LeaderboardPageSeason
+
+//PublicGameBJRResultLayer
+"Achievement" = "结算";
+"This game has not ended so the result may be different." = "由于牌局尚未结束，结果将可能变动。";
+"Sure to leave the game?" = "确定要离开吗？";
+
+//PublicGameBJRSeasonResultLayer
+"Season rating reset" = "赛季积分重置";
+"Last season\n%s" = "上一季分数:\n%s";
+"New season starts at" = "新赛季分数起始";
+
+//PublicGameBSRResultLayer
+"In ties, ranking is determined by comparing starting chips in the last round and then player positions." = "在平手的情况下，排名将先比较最后一轮的起始筹码，再比较玩家位置来决定。";
+
+//PublicGameBSRSeasonResultLayer
+
+//TutorialLayer
+"The object of the game is to beat the dealer by comparing your card values with those of the dealer. The player who has not busted and has a higher hand value wins. When a player (including the dealer) has more than 21 points, it is known as “busted”." = "游戏的目的是玩家与庄家利用自己手牌的牌面点数合相比，未爆牌且点数大的玩家获胜。当玩家（包括庄家）手牌牌面点数合超过 21 点时，即为 “爆牌”。";
+"Before the game starts, each player places a bet. After the bet is completed, each player receives two show cards, and the dealer gets a hole card and a show card." = "游戏开始前，每个玩家下注；下注后，每位玩家会收到两张亮牌，庄家则会有一张盖牌跟一张亮牌。";
+"Then, all players choose whether to hit or stand cards in order. Since the goal is to get as close to 21 as possible without busting, players can either take the chance to hit (to add another card so that the value of the hand increases). However, if you think your first two cards are acceptable, then you can choose to stand, meaning that no additional cards will be dealt to you. If the player has busted, they will immediately pay for the bet. If the cards are not busted, wait for the dealer to act and compare the values at the end." = "接著，所有玩家依序选择是否要跟牌或停牌。由于目标是尽量接近 21 点且不爆牌，玩家可以决定是否冒险再要牌（再拿一张手牌以增加手牌牌面点数）。然而，如果你认为手上的两张手牌点数已经足够好，你可以选择 “停牌”，意味著不会再有额外的牌发给你。如果玩家爆牌，他们会立即输掉下注的赌注；如果玩家没有爆牌，即等待与庄家动作后的比牌面点数大小。";
+"When all players have completed their round and at least one player has not busted, the dealer shows the hole card. The dealer must draw if their hand value is less than 16 (and continue until it reaches or passes 16) and stand on 17 or over. If the dealer does not bust, they will compare card values with the players who have not busted and settle the bet (see Paytable)." = "当所有玩家都完成了他们的回合，且至少有一名玩家未爆牌，庄家会展示暗牌。如果庄家的手牌点数小于16，则必须要牌（持续要牌至达到或超过 16 点），并在 17点 或以上时停牌。如果庄家未爆牌，将与未爆牌的玩家比点数大小并结算（参考赔付比）。";
+"Special Rules" = "特殊规则";
+"Insurance: When the dealer's first show card is Ace, the player can choose to spend half of the bet to buy insurance. If the dealer is Blackjack, those players who have made the insurance are paid double the amount." = "保险：当庄家一开始的亮牌是 A，玩家可选择花一半注码买保险，若庄家为 Blackjack 则赔两倍保险金，反之没收。";
+"Double down: After the player gets the first two cards, the player can choose to double the bet. Then the player is dealt one more card and cannot ask for any others." = "双倍下注：玩家在拿到前两张牌后，可以选择加倍投注，获发1张牌并不得再要牌。";
+"Surrender: The player can choose to surrender before any players hit card, to take half of the bet back." = "投降：在所有玩家未要牌之前可选择投降，并取回一半注码。";
+"Split: When the first two cards have the same values,  the player can choose to split once and add the bet. The bet amount must be the same as the original bet. If the two Aces are split, each Ace will only be dealt one card, no more cards can be asked, and even Blackjack can only count 21 points after the split." = "分牌：当首两张牌点数相同，可以选择分牌一次并须加注。下注金额须与原注相同。若是两张 A 分开，则每张 A 只获发 1 张牌，不可再要牌，且分牌后即使 Blackjack 也只能算 21 点。";
+"Push: If the player and the dealer have the same total values or both get Blackjack, it is a tie (“push”). The original bet is returned." = "平手：若庄家和众玩家以点数决胜，若该玩家和庄家手上所拥有的牌的总点数一样或一样 Blackjack 的话，算平手，玩家可拿回原赌注。";
+"Single Card Values" = "单张牌点数";
+"%1$s or %2$s" = "%1$s 或 %2$s";
+"Face value" = "牌面点数";
+"Hand total is 21 on the first two cards, including but not limit to:" = "两张牌加总为 21 点，包含但不限于：";
+"%d Points" = "%d点";
+"Hand total is 21 with three or more cards." = "三张牌以上加总为 21 点。";
+"Each player competes against the dealer. Get Blackjack or higher points to win the game!" = "每个玩家分别和庄家比较。获得 Blackjack 或较高的点数来赢得游戏！";
+
+//BetEnabled_1
+
+//BetEnabled_2
+
+//BetEnabled_3
+
+//BetEnabled_4
+
+//DoubleEnabled_1
+
+//DoubleEnabled_2
+
+//DoubleEnabled_3
+
+//DoubleEnabled_4
+
+//HintHit
+"Hit" = "加牌";
+
+//HintNoInsurance
+
+//HintStand
+
+//HitConfirm
+
+//InsuranceEnabled
+"Buy Insurance" = "购买保险";
+
+//InsuranceHoverOff
+
+//InsuranceHoverOn
+
+//NoInsuranceAutoConfirm
+
+//NoInsuranceConfirm
+
+//SplitEnabled_1
+
+//SplitEnabled_2
+
+//SplitEnabled_3
+
+//SplitEnabled_4
+
+//StandAutoConfirm
+
+//StandConfirm
+
+//TableRemindMessageEnd
+"Hand #%d" = "第 %d 手";
+"Final Hand" = "最后一手";
+"Player with the most chips will be the winner" = "筹码最多的玩家为赢家";
+
+//TableRemindMessageKick
+"Player with the least chips will be eliminated" = "将淘汰筹码最少的一名玩家";
+
+//Nameplate
+"Timeout" = "超时";
+
+//Nameplate_nameTagA
+
+//Nameplate_nameTagB
+
+//Nameplate_nameTagC
+
+//Nameplate_nameTagD
+
+//Nameplate_nameTagE
+
+//Nameplate_nameTagF
+
+//Nameplate_nameTagG
+
+//Nameplate_nameTagH
+
+//Nameplate_nameTagI
+
+//Nameplate_nameTagJ
+
+//Nameplate_nameTagK
+
+//Nameplate_nameTagL
+
+//Nameplate_nameTagM
+
+//Nameplate_nameTagN
+
+//Nameplate_nameTagO
+
+//Nameplate_nameTagP
+
+//Nameplate_nameTagQ
+
+//Nameplate_nameTagR
+
+//Nameplate_nameTagS
+
+//Nameplate_nameTagT
+
+//Nameplate_nameTagU
+
+//Nameplate_nameTagV
+
+//Nameplate_nameTagW
+
+//Nameplate_nameTagX
+
+//Nameplate_nameTagY
+
+//Nameplate_nameTagZ
+
+//GestureBet
+"Drag and place the Chip-Con to the betting area." = "拖曳Chip-Con至下注区。";
+
+//GestureBetAdjust
+
+//GestureEnd
+"Great work, you've learned all the gestures now!\nPut the skills into practice!" = "做得好，你已学会所有手势了！\n将技能实践于游戏中吧！";
+
+//GestureHit
+"Double tap on the table." = "于牌桌上点击两下。";
+
+//GestureInsurance
+"To buy insurance, drag and place the Chip-Con to the insurance betting area." = "如果要买保险，拖曳Chip-Con至保险下注区。";
+
+//GestureNoInsurance
+"If no insurance is needed, slide to the right side of the screen until the arrow is filled." = "如果不买保险，往右滑动直到箭头填满。";
+
+//GestureSplit
+"Drag and place the Chip-Con to the “Split” betting area." = "拖曳Chip-Con至“分牌“下注区。";
+
+//GestureStand
+"Slide to the right of the screen to fill up the arrow." = "往右滑动直到箭头填满。";
+
+//MiniGestureLayer
+"Place Chips" = "放置筹码";
+"The same hand gesture applies to “Stand” and not buying insurance." = "不买保险的手势与停牌手势相同。";
+
+//BigChipControlLayer
+
+//BigChipControlLayer_chipA
+
+//BigChipControlLayer_chipB
+
+//BigChipControlLayer_chipC
+
+//BigChipControlLayer_chipD
+
+//BigChipControlLayer_chipE
+
+//BigChipControlLayer_chipF
+
+//BigChipControlLayer_chipG
+
+//BigChipControlLayer_chipH
+
+//BigChipControlLayer_chipI
+
+//ChatViewLayer
+
+//GameCodeTutorialLayer
+"1. Copy the live clock url.\n2. Open the link on the big-screen device. The professional tournament clock is right on your big screen!" = "1. 复制锦标赛URL。\n2. 在你的大萤幕装置上开启连结。 专业的锦标赛时钟就在你的大萤幕上！";
+
+//ChallengeLevelCircle
+
+//ChallengeProfilePage
+"PAR Tiptop" = "PAR 无双";
+"RPH (Royalty per Hand)" = "RPH (每手加权分)";
+"Fantasyland Rate" = "Fantasyland 率";
+"Foul Rate" = "失败率";
+
+//ChallengeRecordList
+
+//ChallengeScoreExplainDialog
+"_PRRScoreExplain" = "PRR 积分是一个先进的评分系统，积分主要由下列因子所计算：\n- 牌局胜负/比赛结束排名\n- 注码/买入等级\n- 对手积分强弱\n- 时间衰减因素\n\n每个世界挑战赛季为期%d天，赛季结束后积分超过%s的玩家积分将依照前一季绩分与时间衰减因素被调整。\n\n*Pokerrrr 将随时优化最佳的积分排名系统。";
+
+//ChallengeTypeList
+
+//HandicapNoteDialog
+"The system will automatically seat you, regardless of whether any player is in Fantasyland or not. You may be at a disadvantage when sitting in while your opponent(s) enter Fantasyland, so a handicap will be allowed for you." = "无论对手是否进入 Fantasyland，系统将会帮你自动入座。当你的对手进入 Fantasyland 时，你可能会处于不利的状态，因此入座时对手会让分给你。";
+"Based on the number of hand cards the opponent has in Fantasyland, the Handicap System is as follows:" = "依据对手在 Fantasyland 的手牌张数，让分如下：";
+"Hand Cards" = "手牌";
+
+//LeaderboardLayer
+
+//LeaderboardListDaily
+
+//LeaderboardListSeason
+
+//LeaderboardPageDaily
+
+//LeaderboardPageSeason
+
+//OFCControlLayer
+
+//OFCHostingResultViewLayer
+
+//OFCQueueMenuInfo
+
+//OFCQueueMenuPlay
+
+//OFCReplayLayer
+
+//OFCRoyaltiesHintPopup
+"Royalties" = "牌力说明";
+"Top Row" = "头道";
+"Middle Row" = "中道";
+"Bottom Row" = "尾道";
+
+//OFCRoyaltiesLayer
+"Scoring" = "得分";
+
+//OFCTableLayer
+
+//OfcPlayerCards1Node
+"You can only place two cards this turn." = "此轮你只能放两张牌。";
+"READY!" = "准备完成!";
+
+//OfcPlayerCards2Node
+
+//OfcPlayerCards3Node
+
+//PublicGameResultLayer
+"If you leave while your opponent(s) is in Fantasyland, your final score might differ from what's showing upon leaving and facing chances of losing chips without playing. Sure to leave?" = "如您离开时，有任一对手进入Fantasyland，您的分数将受影响且亦可能因离席而输掉筹码。确定要离开吗？";
+
+//PublicGameSeasonResultLayer
+
+//OfcPlayerNamePlateNode
+
+//PlayerNamePlateResult
+
+//PlayerNamePlateResult_0
+
+//PlayerNamePlate_nameTagA
+
+//PlayerNamePlate_nameTagB
+
+//PlayerNamePlate_nameTagC
+
+//PlayerNamePlate_nameTagD
+
+//PlayerNamePlate_nameTagE
+
+//PlayerNamePlate_nameTagF
+
+//PlayerNamePlate_nameTagG
+
+//PlayerNamePlate_nameTagH
+
+//PlayerNamePlate_nameTagI
+
+//PlayerNamePlate_nameTagJ
+
+//PlayerNamePlate_nameTagK
+
+//PlayerNamePlate_nameTagL
+
+//PlayerNamePlate_nameTagM
+
+//PlayerNamePlate_nameTagN
+
+//PlayerNamePlate_nameTagO
+
+//PlayerNamePlate_nameTagP
+
+//PlayerNamePlate_nameTagQ
+
+//PlayerNamePlate_nameTagR
+
+//PlayerNamePlate_nameTagS
+
+//PlayerNamePlate_nameTagT
+
+//PlayerNamePlate_nameTagU
+
+//PlayerNamePlate_nameTagV
+
+//PlayerNamePlate_nameTagW
+
+//PlayerNamePlate_nameTagX
+
+//PlayerNamePlate_nameTagY
+
+//PlayerNamePlate_nameTagZ
+
+//ChallengeLevelCircle
+
+//ChallengeProfilePageGSOP
+"Champion" = "冠军";
+"Best Season Rank" = "最佳季排名";
+"In the money" = "钱圈";
+"1st-3rd Rate" = "入前三名比率";
+"Final Table Rate" = "入决赛桌比率";
+
+//ChallengeProfilePagePRR
+"PRR Summit" = "PRR 天梯";
+"Win Rate (BB/100)" = "胜率 (BB/100)";
+"Largest Pot" = "最大底池";
+
+//ChallengeProfilePagePSR
+
+//ChallengeRecordListGSOP
+
+//ChallengeRecordListPRR
+
+//ChallengeRecordListPSR
+
+//ChallengeScoreExplainDialogGSOP
+"_GSOPPrizeExplain" = "Global Series of Pokerrrr的排名和奖金会在每个赛季重新计算。\n\n冬季：1 月 1 日 - 3 月 31 日\n春季：4 月 1 日 - 6 月 30 日\n夏季：7 月 1 日 -  9 月 30 日\n秋季：10 月 1 日 - 12 月 31 日";
+
+//ChallengeScoreExplainDialogPRR
+
+//ChallengeScoreExplainDialogPSR
+"_PSRScoreExplain" = "PSR 积分是一个锦标赛积分系统，经由先进的评分系统计算，主要根据下列因子：\n- 比赛结束排名\n- 注码/买入等级\n- 对手积分强弱\n- 时间衰减因素\n\n每个世界挑战赛季为期%d天，新赛季开始之际，玩家的积分将依照前一季积分与时间衰减因素进行调整。\n\n*Pokerrrr 将随时优化最佳的积分演算法以及游戏规则。";
+
+//ChallengeTypeList
+
+//LeaderboardLayerGSOP
+
+//LeaderboardLayerPoker
+
+//LeaderboardListPokerDaily
+
+//LeaderboardListPokerSeason
+
+//LeaderboardPageGSOP
+
+//LeaderboardPagePokerDaily
+
+//LeaderboardPagePokerSeason
+
+//PublicGameGSOPResultLayer
+
+//PublicGamePRRResultLayer
+
+//PublicGamePRRSeasonResultLayer
+
+//PublicGamePSRResultLayer
+
+//PublicGamePSRSeasonResultLayer
+
+//TutorialGesturePage
+
+//GamePlayerAllinPrivate
+
+//GamePlayerAllinPublic1
+
+//GamePlayerLayer
+"RAISE" = "加注";
+"BET" = "下注";
+"CHECK" = "过牌";
+"CALL" = "跟注";
+"Twice" = "两次";
+
+//GamePlayerLayer_nameTagA
+
+//GamePlayerLayer_nameTagB
+
+//GamePlayerLayer_nameTagC
+
+//GamePlayerLayer_nameTagD
+
+//GamePlayerLayer_nameTagE
+
+//GamePlayerLayer_nameTagF
+
+//GamePlayerLayer_nameTagG
+
+//GamePlayerLayer_nameTagH
+
+//GamePlayerLayer_nameTagI
+
+//GamePlayerLayer_nameTagJ
+
+//GamePlayerLayer_nameTagK
+
+//GamePlayerLayer_nameTagL
+
+//GamePlayerLayer_nameTagM
+
+//GamePlayerLayer_nameTagN
+
+//GamePlayerLayer_nameTagO
+
+//GamePlayerLayer_nameTagP
+
+//GamePlayerLayer_nameTagQ
+
+//GamePlayerLayer_nameTagR
+
+//GamePlayerLayer_nameTagS
+
+//GamePlayerLayer_nameTagT
+
+//GamePlayerLayer_nameTagU
+
+//GamePlayerLayer_nameTagV
+
+//GamePlayerLayer_nameTagW
+
+//GamePlayerLayer_nameTagX
+
+//GamePlayerLayer_nameTagY
+
+//GamePlayerLayer_nameTagZ
+
+//PublicGamePlayerLayer
+
+//AchievementLayer
+"You won the 1st place! " = "你赢得第一名！ ";
+"You won the 2nd place!" = "你赢得第二名！";
+"You won the 3rd place!" = "你赢得第三名！";
+
+//ChallengeLevelCircle
+
+//ChallengeProfilePage
+"RMR Elite" = "RMR 菁英";
+"Best Scores" = "最佳分数";
+
+//ChallengeRecordList
+
+//ChallengeScoreExplainDialog
+"_RMRScoreExplain" = "RMR 积分是一个先进的评分系统，积分主要由下列因子所计算：\n- 牌局胜负/比赛结束排名\n- 入场等级\n- 对手积分强弱\n- 时间衰减因素\n\n每个世界挑战赛季为期%d天，赛季结束后积分超过%s的玩家积分将依照前一季绩分与时间衰减因素被调整。\n\n*Pokerrrr 将随时优化最佳的积分排名系统。";
+
+//ChallengeTypeList
+
+//GameControlLayer
+"Undo" = "复原";
+"Sort" = "排序";
+"Draw" = "抽牌";
+
+//GameResultLayer
+
+//GameTableLayer
+
+//HostingResultViewLayer
+"Time Bank (30 secs/time)" = "Time Bank (30 秒/次)";
+
+//LeaderboardLayer
+
+//LeaderboardListDaily
+
+//LeaderboardListSeason
+
+//LeaderboardPageDaily
+
+//LeaderboardPageSeason
+
+//PlayerTurnHintLayer
+
+//PublicGameResultLayer
+
+//PublicGameSeasonResultLayer
+
+//RankingListLayer
+
+//RecordHistoryLayer
+"Final Hand Cards" = "最终手牌";
+
+//ReplayLayer
+
+//RummyClubGameHistoryLayer
+
+//RummyGamePanelLayer
+
+//TutorialLayer
+"1. All players will be given 18 hand cards at the start of the game. The rest of the cards will go to the Stock Pile." = "1. 游戏开始时，每位玩家会拿到18张手牌，剩余的牌进入抽牌堆。";
+"2. Each player will take turns to draw or meld the cards on the board." = "2. 每位玩家依序抽牌或将手上的牌与牌桌上的牌合并。";
+"3. For the player’s initial turn, they must play a set (or more) with the total value of at least 30 points. After the initial turn, the players can use their hand cards to meld with the cards already on the table. (Note: Players cannot put community cards back on their individual racks)" = "3. 玩家首次出牌时需利用手牌进行 “破冰”；其破冰方式为出一组（或多组）牌，其牌面点数总和至少为 30 点。首次出牌破冰后，玩家可使用手上的牌与牌桌上的牌合并。（注：玩家不能将桌面上的牌放回自己的手牌堆中）";
+"4. The first player who played all the hand cards on the rack wins!" = "4. 最先出完手牌的玩家获胜！";
+"Cards" = "牌";
+"The game consists of 104 number cards and 2 joker cards. The number cards consist of 4 suits with A-K order. Joker cards are wild cards. They can be used as any number and any suit." = "游戏包含 104 张数字牌和 2 张鬼牌。数字牌包括 4 种花色，按照 A-K 的顺序排列。鬼牌是万用牌，可以弹性代替任意数字及花色使用。";
+"Set" = "牌组";
+"The 2 valid set types are called runs and groups and the set is composed of at least 3 cards." = "牌组类别分为群组及顺组，每组牌至少三张。";
+"Groups:" = "群组：";
+"Same numbers, Different suits" = "数字相同、花色不同";
+"Runs:" = "顺组：";
+"Same suit, Consecutive numbers" = "连续数字、花色相同";
+"(A and K are not consecutive numbers)" = "（A和K不为连续数字）";
+"Feature instructions" = "操作说明";
+"Press and hold to drag a set of cards." = "长按牌面可拉起连续牌张。";
+"If the player gets a timeout during the action time, the system will restore the card sets to the last valid arrangement of the cards on the table." = "若玩家于动作时间超时，牌桌会复原到最后一次皆为合法牌组的状态。";
+"Button features" = "按钮功能";
+"Click once for an extra 30 secs of action time; once per game." = "点击一次可增加 30 秒的行动时间；每场游戏限用一次。";
+"Return to the previous state." = "回到上一步。";
+"Restores the card arrangement to the start of the round." = "将牌局还原至此回合初始状态。";
+"Sort the cards by numbers or suits." = "照数字大小或花色排序。";
+"Add a card into a formed set." = "增加一张牌到现有牌组。";
+"Add a card into a formed set, and utilize the card for a new set." = "增加一张牌到现有牌组，再从该牌组中取一张牌做利用。";
+"Add a card to the Joker spot and utilize the Joker to form a new set." = "增加一张牌取代鬼牌后，即可使用鬼牌组成新的牌组。";
+"Reformed the current sets and take out the Joker, use the Joker to form a new set." = "重组现有牌组并取出鬼牌后，即可使用鬼牌组成新的牌组。";
+"Points" = "点数";
+"There are two different ways to end a game:" = "有两种不同的方式结束游戏：";
+"Once a player successfully plays all of their hand cards, the winning points are calculated by adding the total value of all remaining hand cards from the rest of the players. The remaining players will instead receive negative points based on the total value of their individual remaining hand cards." = "当玩家成功出完所有手牌时，其获胜分数计算为剩余玩家持有之手牌牌面点数总和。而其余玩家将根据其个人剩余手中牌的总点数获得负分。";
+"Once all the cards are drawn from the pile, the game will enter the “Final Round” phase and ends once all players play a hand. The winner will be the one who has the lowest points from the total value of their individual remaining hand cards." = "当所有牌从牌堆中抽取完毕后，游戏将进入 ”最后一轮“ 阶段，至所有玩家出完手中的牌，游戏即结束；手牌牌面点数总和最低的玩家获胜。";
+"Rearranging Sets" = "重组牌组";
+
+//Nameplate
+
+//Nameplate_nameTagA
+
+//Nameplate_nameTagB
+
+//Nameplate_nameTagC
+
+//Nameplate_nameTagD
+
+//Nameplate_nameTagE
+
+//Nameplate_nameTagF
+
+//Nameplate_nameTagG
+
+//Nameplate_nameTagH
+
+//Nameplate_nameTagI
+
+//Nameplate_nameTagJ
+
+//Nameplate_nameTagK
+
+//Nameplate_nameTagL
+
+//Nameplate_nameTagM
+
+//Nameplate_nameTagN
+
+//Nameplate_nameTagO
+
+//Nameplate_nameTagP
+
+//Nameplate_nameTagQ
+
+//Nameplate_nameTagR
+
+//Nameplate_nameTagS
+
+//Nameplate_nameTagT
+
+//Nameplate_nameTagU
+
+//Nameplate_nameTagV
+
+//Nameplate_nameTagW
+
+//Nameplate_nameTagX
+
+//Nameplate_nameTagY
+
+//Nameplate_nameTagZ
+
+//ChallengeLevelCircle
+
+//ChallengeProfilePage
+"SDR Caput" = "SDR 壮士";
+
+//ChallengeRecordList
+
+//ChallengeScoreExplainDialog
+
+//ChallengeTypeList
+
+//ClubShareHandReplayLayer
+
+//GameControlLayer
+
+//GameTableLayer
+
+//LeaderboardLayer
+
+//LeaderboardListDaily
+
+//LeaderboardListSeason
+
+//LeaderboardPageDaily
+
+//LeaderboardPageSeason
+
+//PublicGameResultLayer
+
+//PublicGameSeasonResultLayer
+
+//ReplayLayer
+
+//TutorialLayer
+"_stud_tutorial_desc_intro_new" = "七张梭哈是一个经典的扑克游戏。每位玩家在每手牌局过程会发到七张牌。在获得的 7 张手牌中打出最佳的 5 张牌牌组玩家，即为该手赢家。";
+"_stud_tutorial_desc_3rd_street" = "游戏开始时，每个人都收到两张牌面朝下的牌（底牌）和一张牌面朝上的牌（明牌）。 每个人都投入相同的底注，接著从拥有最低门牌的人开始动作，围绕桌子顺时针进行。 在平局的情况下按花色排序：梅花最低，然后是菱形、红心，最后是黑桃。 无论是谁开始，都必须进行一个称为「前注」的赌注才能开始游戏，可以是预设的前注值或到整个小注。 这被称为「第三街」，而不是「翻牌前」。";
+"_stud_tutorial_desc_4th_street" = "下注完成后，玩家将在「第四街」获得第二张明牌。 另一轮下注接著开始。";
+"_stud_tutorial_desc_5th_street" = "一轮下注完成后，「第五街」会再发另一张明牌。";
+"_stud_tutorial_desc_6th_street" = "再一轮下注完成后，「第六街」会再发另一张明牌。";
+"_stud_tutorial_desc_7th_street" = "最后，河牌会是盖牌，接著是最后一轮赌注。";
+"_stud_tutorial_desc_result" = "拥有最佳五张手牌的玩家获得胜利。";
+"_stud_tutorial_desc_end_new" = "请记住，整手牌位置会在牌局中不断变化。除了第三街，谁展示的牌力最强就可以先动作。相比德州扑克，另一个重要的不同之处是七张梭哈有下注限制。每场游戏都有「小注」和「大注」。小注用于第三和第四街，而大注用于第五、六和七街。所有下注或加注的数量都必须是小注或大注的倍数。例如，如果游戏的起始注额是 10/20 开始，那么在第三和四街时，我们可以下注 10 筹码并加注 10 筹码。一旦进入第五街，这些数字就会增加到 20。和德州扑克一样，在每轮下注中，每位玩家都可以选择过牌、跟注、下注、加注或弃牌。";
+
+//GamePlayerAllinPublic1
+
+//GamePlayerLayer_nameTagA
+"BRING IN" = "前注";
+
+//GamePlayerLayer_nameTagB
+
+//GamePlayerLayer_nameTagC
+
+//GamePlayerLayer_nameTagD
+
+//GamePlayerLayer_nameTagE
+
+//GamePlayerLayer_nameTagF
+
+//GamePlayerLayer_nameTagG
+
+//GamePlayerLayer_nameTagH
+
+//GamePlayerLayer_nameTagI
+
+//GamePlayerLayer_nameTagJ
+
+//GamePlayerLayer_nameTagK
+
+//GamePlayerLayer_nameTagL
+
+//GamePlayerLayer_nameTagM
+
+//GamePlayerLayer_nameTagN
+
+//GamePlayerLayer_nameTagO
+
+//GamePlayerLayer_nameTagP
+
+//GamePlayerLayer_nameTagQ
+
+//GamePlayerLayer_nameTagR
+
+//GamePlayerLayer_nameTagS
+
+//GamePlayerLayer_nameTagT
+
+//GamePlayerLayer_nameTagU
+
+//GamePlayerLayer_nameTagV
+
+//GamePlayerLayer_nameTagW
+
+//GamePlayerLayer_nameTagX
+
+//GamePlayerLayer_nameTagY
+
+//GamePlayerLayer_nameTagZ
+
+//PublicGamePlayerLayer
+
+//TableTopInfoBoardNode
+
+
+//--------------------
+
+"!" = "！";
+"$1s Gifting" = "$1s礼物";
+"%1$s Gold + %2$s chips\n+ %3$s random nameplate" = "%1$s 金币 + %2$s 筹码\n+ %3$s 随机名牌";
+"%1$s hosted %2$s." = "%1$s开了一局%2$s.";
+"%1$s in the tables with the %2$s icon" = "于有 %2$s 标志的桌子%1$s";
+"%1$s\n(for %2$s)" = "%1$s\n(为期 %2$s)";
+"%d winners" = "%d名得奖者";
+"%s AVAILABLE IN MORE COUNTRIES" = "%s 多国贩售中";
+"%s Chips." = "%s筹码。";
+"%s Gold and %s Chips." = "%s金币和%s筹码。";
+"%s Gold." = "%s金币。";
+"%s hands" = "%s 手";
+"%s to next level" = "距离下一级还需 %s";
+"(%d days)" = "(%d 天)";
+"(Not including MTT)" = "(不包含多桌锦标赛)";
+"*%s chips will be reloaded automatically." = "*将会自动补充%s 筹码。";
+"*No show player will be removed after Level 2." = "*未出席锦标赛的玩家会在阶段2后被移除。";
+"*You'll get reward after your friend connects through Facebook" = "*朋友透过Facebook登入后，您将获得奖赏";
+"*You'll get reward after your friends sign in." = "*朋友登入后，您将获得奖赏。";
+"0% entrance fee, check out and play!" = "免费入场，快加入看看！";
+"1 DAY PASS" = "日票";
+"1 MONTH PASS" = "月票";
+"1. All players will be given 14 hand cards at the start of the game, the rest of the cards will go to the Stock Pile." = "1. 游戏开始时，每位玩家会拿到14张手牌，剩余的牌进入抽牌堆。";
+"1. All players will be given 14 hand cards at the start of the game. The rest of the cards will go to the Stock Pile." = "1. 游戏开始时，所有玩家将获得 14 张手牌；其余的牌将进入抽牌堆。";
+"1. Host a game by the other device.\n2. Enter the generated game code here." = "1. 使用其他装置开局。\n2. 在本装置输入其牌局代码。";
+"1st Prize" = "第一名奖金";
+"1st-3rd rate" = "入前三名比率";
+"1st\nTIME" = "首购\n优惠";
+"2. Each players will take turns to draw or meld the cards on the board." = "2. 玩家依序轮流进行动作，在自己的回合中可选择出牌或抽牌。";
+"20 Gold + 10,000 chips\n+ 1 random nameplate" = "20 金币 + 10,000 筹码\n+ 1 随机名牌";
+"2nd Prize" = "第二名奖金";
+"3 HOUR PASS" = "3小时票";
+"3. Flip chip up to bet." = "3. 向上滑出筹码下注。";
+"3. For the player’s initial meld they must play a set (or more) with the value of at least 30 points. After the initial meld, the players can use the hand cards to meld with the cards on the table. (Note: Cannot put community cards back on the rack)" = "3. 玩家首次出牌需利用手牌进行”破冰“，破冰的牌组牌面点数总和至少30；首次出牌破冰后，玩家于次回合可利用桌面上的牌与手牌进行组合出牌。(注意：桌面上的牌不能放回牌架)";
+"4 Color Deck" = "四色牌";
+"4-Color Deck Off" = "四色牌关闭";
+"4-Color Deck On" = "四色牌开启";
+"4. Flip chip up to bet." = "4. 向上滑出筹码下注。";
+"5-Card PLO" = "5张牌 PLO";
+"6-Card PLO" = "6张牌 PLO";
+"A 9-Max 5-Card game does not support run it twice; the switch will remain off." = "九人桌5张牌的限注奥马哈不支援双重公用牌。双重公用牌的开关将会被关上。";
+"A little of everything?" = "什么都来一点吗？";
+"ALL ITEMS 15% OFF" = "所有商品85折优惠";
+"Accomplish Agent %s" = "完成特务 %s";
+"Account" = "帐号";
+"Add" = "增加";
+"All decks, nameplates, chip-cons" = "特价商品包含所有扑克牌、名牌、以及Chip-Con";
+"All game type ratings (SDR, PAR, PRR, BJR, RMR, and PSR) can and will be counted for the progress bar of spin chances, except for MTT rankings. The progress bar will reset daily." = "所有经验值 (SDR, PAR, PRR, BJR, RMR, and PSR) 皆可累积至轮盘旋转进度条，MTT排名除外。旋转进度条将每日重置。";
+"All players choose whether to hit or stand cards in order. If the players are busted, they will immediately pay for the bet. If the cards are not busted, wait for the dealer to act and compare the values in the end." = "所有玩家依序选择是否要牌，若爆牌则立即赔所下注码，若未爆牌则等待庄家加完牌后比点数大小。";
+"Allow" = "开启";
+"Allow Notifications to Earn %d% More!" = "开启推播以获得额外 %d% 奖励！";
+"Allow any player to buy-in up to 2 times at once" = "允许玩家一次最多买入2次。";
+"Allow players to rabbit hunt. Player will see the remaining sequence of cards after the hand is over." = "允许玩家选择完整开牌，玩家将能在一手牌结束后看到该手剩余的公牌。";
+"Allowed" = "已开启";
+"Anyone who wants to join should be confirmed by owner." = "想加入俱乐部的玩家皆须由板主确定。";
+"Apple Login" = "Apple 登入";
+"Apple Logout" = "Apple 登出";
+"Are you sure about buying this item to increase the game records shown? Only apply to records generated within %d days." = "你确定要购买此商品以增加牌局纪录数量？所有牌局纪录仅保存于系统内%d天。";
+"Are you sure you want to kick %s out?" = "你确定要将%s踢出吗？";
+"At the end of this season players with Rating > %s will be reset by PRR system." = "在赛季末，分数大于 %s 的玩家将被系统重置分数。";
+"Based on custom structure" = "基于自订的结构";
+"Based on how many cards the opponent has in Fantasyland, Handicap System as shown below:" = "依据对手Fantasyland 张数，让分如下：";
+"Be the top %d players in the Daily Battle" = "成为 Daily Battle 前 %d 名玩家";
+"Before the game starts, each player place a bet. After the bet is completed, each player receive two show cards, and the dealer gets a hole card and a show card." = "游戏开始前，每个玩家先决定要下的注码，下注完成后，每个玩家会收到两张亮牌，庄家会有一张盖牌跟一张亮牌。";
+"Best Daily Total Win" = "最佳单日胜场数";
+"Best for new players" = "最适合新玩家";
+"Black Jack" = "21 点";
+"Bonus Ready!" = "领取红利！";
+"Boo-yah! Save “%s” for the sale!" = "太棒了！您这笔消费省了 “%s”！";
+"Bounty and the Double Buy-in are not allowed at the same time.\n*Double Buy-in will be turned off." = "赏金和双重买入不允许同时开启。\n*双重买入将被关闭。";
+"Brand new Emerald VIP with unlimited gifting and bonuses! Don’t miss out!" = "全新的绿宝石 VIP，无限礼物和奖金！ 不要错过！";
+"Bronze" = "青铜";
+"Buy Chips" = "购买筹码";
+"Buy Gold" = "购买金币";
+"Buy Now" = "立即购买";
+"Buy insurance?" = "购买保险？";
+"Buy more and save up to %d% off!" = "买越多省越多，最高[!%d]折！";
+"Buy one deck and get %d% off another" = "扑克牌商品第二件[!%d]折";
+"Buy one get one 50% off\nFree shipping for order over $49" = "第二件商品五折\n满49元美金即可免运";
+"Buy selected items and get a FREE Deck*!" = "买指定商品免费赠送万圣节扑克牌！";
+"Buy-In Ticket:" = "门票:";
+"Buy-in Range:" = "买入范围:";
+"Buy-in range must be %s ~ %s ." = "买入范围必须是 %s ~ %s。";
+"By signing up, you agree to the" = "登入即代表您同意本服务之";
+"By ticking the box, you agree to our" = "勾选这个选项将代表你同意我们的";
+"CHALLENGE NOW!" = "参加挑战！";
+"CHALLENGE TODAY!" = "参加挑战！";
+"CLEAR\nBET" = "清除";
+"CONFIRM" = "确认";
+"Can only be used for Cash Game" = "仅适用现金赛";
+"Card Values" = "点数";
+"Cash Game (NL Hold'em, PLO)" = "现金赛 (无限注德扑, 限注奥马哈)";
+"Cash Game (OFC)" = "现金赛 (OFC)";
+"Challenge Record" = "挑战赛纪录";
+"Check Now!" = "立即查看!";
+"Check it out!" = "去看看!";
+"Choose Game" = "选择游戏";
+"Claim %d daily bonus" = "领取%d次每日奖励";
+"Claim 7 daily bonus mission (%lld / %lld), bonuses are the best!" = "领取7次每日奖励（%lld / %lld），更多免费奖励等著你！";
+"Click above to accept %s missions now!" = "现在就点选上方以接受%s任务！";
+"Click once for an extra 30 secs action time." = "点按一次可增加30秒动作时间。";
+"Click the banner above to discover special missions now!" = "现在就点选上方横幅探索特殊任务！";
+"Click to accept %s missions now!" = "现在就点选以接受%s任务！";
+"Club Code" = "俱乐部代码";
+"Code: %s" = "代码: %s";
+"Collect $1s to charge and activate the golden eggs!" = "收集$1s以获取金蛋！";
+"Collect Mottled Nickels to win the ultimate reward!" = "收集斑驳铜币赢得最终大奖！";
+"Collect nameplate pieces to win" = "收集名牌碎片以获得";
+"Comparing the card values with the dealer, the player who has not busted and has a higher point wins. The player with more than 21 points is called busted." = "与庄家比点数，未爆牌且点数大的人获胜。超过21点的玩家称为爆牌。";
+"Complete 1, 3, 5 or 8 lines to collect seed bags and track down the deer prizes!" = "完成1, 3, 5或8条线来搜集种子袋以追踪麋鹿并取得奖赏！";
+"Concurrent Hosting" = "同时开局";
+"Concurrent games hosting : 1 → %d" = "增加同时开局数： 1 → %d";
+"Congratulation!\nYou got %s" = "恭喜！\n您获得了 %s";
+"Congratulation!\nYou got %s chips" = "恭喜！\n您获得了 %s 筹码";
+"Conquer the challenge now" = "现在就去挑战任务";
+"Create a private club to play poker with friends anytime.\nGet %d bonus gold after creating your first poker club. :)" = "创建一个私人俱乐部随时与朋友来场牌局吧。\n在你创建你的第一个俱乐部后，你将获得 %d 金币奖励。:)";
+"Custom Plan" = "自订比例";
+"Custom Structure" = "自订结构";
+"DOUBLE" = "加倍";
+"Daily" = "日排";
+"Daily Bonus" = "每日奖励";
+"Daily Profit" = "每日积分";
+"Daily login mission (%lld / %lld), keep it up!" = "连续7日登入（%lld / %lld），继续保持！";
+"Default Plan" = "预设比例";
+"Default Structure" = "预设结构";
+"Disagree" = "不同意";
+"Double Buy-in" = "双重买入";
+"Drag and drop the chip-con to the betting area." = "拖曳Chip-Con至下注区。";
+"Drag and drop the chip-con to the “Split” area." = "拖曳Chip-Con至“分牌“下注区。";
+"Each player has %1$d secs in their time bank at start of the game. An extra %2$d secs will be awarded to players' time bank every %3$d blind levels into a game.\nTime bank can only hold max %4$d secs." = "每位玩家一开始会有%1$d秒的额外动作时间，并且每%3$d次升盲后会获得%2$d秒。\n拥有的时间上限为%4$d秒。";
+"Each player has %1$d secs in their time bank at start of the game. An extra %2$d secs will be awarded to players' time bank every %3$d minutes into a game.\nTime bank can only hold max %4$d secs." = "每位玩家一开始会有%1$d秒的额外动作时间，并且每%3$d分钟会获得%2$d秒。\n拥有的时间上限为%4$d秒。";
+"Earn Free Rewards!" = "赚取免费奖励！";
+"Earn free chips" = "获得免费筹码";
+"Earn more gold\nby inviting friends" = "邀请朋友\n来获得更多金币";
+"Earned you season reward" = "赢得赛季奖励";
+"Egg Bomb" = "炸蛋";
+"Enjoy %d% OFF on all T-shirt items" = "T-shirt 商品单件[!%d]折";
+"Enter Redeem Code" = "请输入兑换码";
+"Enter keyword or club code" = "输入关键字或俱乐部代码。";
+"Enter referral code" = "输入邀请码";
+"Enter referral code here" = "在这里输入邀请码";
+"Every Time Bank will give an extra %1$s secs to the hand when applying. Each player has %2$s Time Banks at the start of the game and the system will add 1 Time Bank in every %3$s blind levels. The maximum number of Time Banks in stock will be %4$s for every player." = "于牌局中任一手使用乙次 Time Bank，可增加%1$s秒动作时间。每位玩家于游戏开始时，会得到%2$s次 Time Banks。系统将于每%3$s次升盲，补给乙次 Time Bank 给玩家，拥有的次数上限为%4$s次。";
+"Every Time Bank will give an extra %1$s secs to the hand when applying. Each player has %2$s Time Banks at the start of the game and the system will add 1 Time Bank in every %3$s minutes. The maximum number of Time Banks in stock will be %4$s for every player." = "于牌局中任一手使用乙次 Time Bank，可增加%1$s秒动作时间。每位玩家于游戏开始时，会得到%2$s次 Time Banks。系统将于每%3$s分钟，补给乙次 Time Bank 给玩家，拥有的次数上限为%4$s次。";
+"Every winning blinds and PRR in %1$s will form half Frost Shard %2$s." = "%1$s中的每个获胜的盲注和 PRR 都将形成半个 %2$s。";
+"Experiencing real-life BJ gestures in the app!" = "在游戏中体验真实21点手势！";
+"Expire in %s" = "%s 后失效";
+"Expires in" = "兑换倒数";
+"Extra %s chips &\n %d% off coupon in Pokerrrr Store" = "额外奖励 %s 筹码 & \n [!%d]折折价券可用于Pokerrrr Store";
+"Extra spin! Own %s and log in to earn one extra spin per day!" = "额外红利！拥有 %s，每日登入即获得1次抽奖机会！";
+"FRIEND" = "朋友";
+"FRIEND GAME" = "朋友局";
+"Facebook Login" = "Facebook登入";
+"Facebook Logout" = "Facebook登出";
+"Fantasy Land Rate" = "Fantasy Land 率";
+"Fill out the questionnaire for a free coupon" = "填写问卷即可获得优惠卷";
+"Final table rate" = "入决赛桌比率";
+"Finish the Daily Battle at 1st place" = "赢得每日挑战第一名";
+"First Chip Purchase Buy 1 get 1 Free" = "第一次购买筹码买一送一优惠";
+"First Chip Purchase Extra %d% Bonus" = "第一次购买筹码 +%d% 优惠";
+"Flipping sensitivity" = "滑动灵敏度";
+"Follow Pokerrrr store on IG get $%d coupon" = "追踪Pokerrrr store IG 即可获得%d美元购物金";
+"For each friend referral (Up to 30 bonus)\n%s" = "推荐朋友（最多30次红利）\n%s";
+"For every friend who signs up,\nboth of you will get 10 extra gold." = "邀请朋友并注册后\n你与你的朋友皆会获得10枚金币。";
+"For every new player who signs up with referral code, the inviter will receive 10 gold bonus." = "你使用邀请码注册后，邀请者将获得10个金币奖励。";
+"For every new player who signs up with referral code, the inviter will receive:" = "你使用邀请码注册后，邀请者将获得：";
+"For every new player who signs up with referral code, you and inviter will both receive 10 gold bonus." = "你使用邀请码注册后，你和邀请者皆会获得10个金币奖励。";
+"For every new player who signs up with your referral code, both of you will receive 10 gold bonus." = "有新玩家使用你的邀请码注册后，你们皆会获得10个金币奖励。";
+"For every new player who signs up with your referral code, you will receive 10 gold bonus." = "有新玩家使用你的邀请码注册后，你将获得10个金币奖励。";
+"Free shipping campaign is on the way!" = "免运活动开跑！";
+"Friend Game" = "朋友局";
+"Frost Shards %2$s : %1$s" = "冰霜碎片 %2$s : %1$s";
+"Frost Shards %s +%d" = "冰霜碎片 %s +%d";
+"GET $%d OFF ON ALL ORDERS NOW!" = "下单立即折扣$%d!";
+"Game Play" = "游戏流程";
+"Game Record" = "牌局纪录";
+"Game Records" = "牌局记录";
+"Game will be terminated right away." = "游戏将会被直接关闭。";
+"Gameplay" = "游戏";
+"Get $1d $2s for every gold spent in the Store!" = "在商店中每花费一金币即可获得 $1d 个 $2s！";
+"Get %d" = "得到 %d";
+"Get %s Gold and %s Chips!" = "获得 %s 个金币和 %s 筹码奖励！";
+"Get %s free gold" = "获得%s免费金币";
+"Get 10 FREE Gold" = "获得10免费金币";
+"Get 10 Free Gold!" = "获得10个金币奖励!";
+"Get 5 Gold and 5,000 chips for each friend referred and signed up!" = "每位推荐的朋友注册后，可获得 5 金币和 5,000 筹码！";
+"Get 50% off on all in-game gifting for 30mins" = "所有游戏中送礼可享半价优惠30分钟 ";
+"Get FREE %s" = "获得免费%s";
+"Get back to receive your bonus chips!" = "快回来领取你的筹码红利！";
+"Get back to receive your bonus gold!" = "快回来领取你的金币红利！";
+"Get extra 10 gold\nwhen logging in with facebook" = "Facebook登入\n获得免费金币10枚。";
+"Get extra gold\nby inviting your friends" = "邀请朋友\n来获得更多金币";
+"Get it now!" = "立即获得!";
+"Get some spirit for the new beginning! Send your wishes by tapping other's nameplate, wish you a happy new year!" = "新年快乐探员们，有朝气的迎接新的开始吧！透过点击其他玩家的名牌来传送你的祝福！";
+"Gift" = "礼物";
+"Golden Eggs" = "金蛋";
+"Google Login" = "Google 登入";
+"Google Logout" = "Google 登出";
+"Grab the gift %s and choose your tourney!" = "带上礼物%s并选择你的锦标赛吧！";
+"Green Beer Gifting" = "绿啤酒礼物";
+"HIT" = "加牌";
+"HOODIE 30% OFF" = "连帽衫七折";
+"Halloween Bundle" = "万圣节礼包";
+"Hand total is 21 with three or more cards, including but not limit to:" = "三张牌以上加总为 21 点，包含但不限于：";
+"Hey old friend! Enjoy %d% more chips of your return chip purchase!" = "嗨，老朋友！回归首次购买筹码即多赠送%d%筹码给您！";
+"Hey there! In the global challenge, You can compete with real players from the world best poker clubs anytime anywhere." = "Hey there! 在世界挑战赛，你将可以随时与来自全球顶尖俱乐部的玩家同桌竞技。";
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join my club! My club code : #%s. Download here : " = "Hello, 我都用 Pokerrrr2 app 和朋友们一起玩德州扑克，快来加入我的俱乐部！ 我的俱乐部代码： #%s。 用下面的连结下载App：";
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join us! Download here : " = "Hello, 我都用 Pokerrrr2 app 和朋友们一起玩德州扑克，快来加入我们！ 用下面的连结下载App：";
+"Hey, I play poker with friends @ Pokerrrr2 app. Come and join us! Receive extra 10 free gold coins by downloading here : " = "Hello, 我都用 Pokerrrr2 app 和朋友们一起玩德州扑克，快来加入我们！ 用下面的连结下载App来获得10个免费金币奖励：";
+"Hey, I play poker with friends @ pokerrrr 2 app. Come and join us! Remember to enter my referral code( %s ) to receive extra 10 free gold coins. -  " = "Hello, 我都用 Pokerrrr2 app 和朋友们一起玩德州扑克，快来加入我们！ 记得输入我的邀请码( %s )来获得10个免费金币奖励。 - ";
+"Hi-Lo PLO" = "高低 PLO";
+"Host %1$s friend game (4 people+, %2$s mins+)" = "开%1$s场朋友局（4 人以上，%2$s分钟以上）";
+"Host %1$s friend games (%2$s mins+)" = "开%1$s场朋友私局 (%2$s 分钟+)";
+"Host %1$s friend games (4 people+, %2$s mins+)" = "开%1$s场朋友局（4 人以上，%2$s分钟以上）";
+"Host %1$s friendly game (4 people+, %2$s mins+)" = "开%1$s场朋友局（4 人以上，%2$s分钟以上）";
+"Host %1$s friendly games (4 people+, %2$s mins+)" = "开%1$s场朋友局（4 人以上，%2$s分钟以上）";
+"Host & Join Games" = "可开启和加入牌局";
+"Host (You)\n@ home" = "开局者 (你)\n@ home";
+"Host a friend game (%d mins+) " = "开启一场朋友局(%d 分钟+) ";
+"Host game capacity : %d → %d" = "开局数上限 : %d → %d";
+"Host:" = "开局者:";
+"Host\nGame" = "开启\n新局";
+"How to play" = "怎么玩";
+"If already purchased other items, you will receive a proportional gold refund based on the days remaining." = "如果您有购买重复功能的方案，原方案金币将依比例退还给您。";
+"If your component(s) enter the Fantasyland, you will remain seated and the hand cards will be auto-arranged by the system. Leave anyway?" = "若您的对手进入Fantasyland，您的位子将持续保留于此桌并由系统任意排列手牌。确定要离开吗？";
+"If your opponent(s) enter the Fantasyland, you will remain seated and the hand cards will be auto-played by the system. Leave anyway?" = "若您的对手进入Fantasyland，您的位子将持续保留于此桌并由系统任意排列手牌。确定要离开吗？";
+"Increase game records for %1$s days : %2$s → %3$s" = "增加牌局纪录 %1$s 天 : %2$s → %3$s";
+"Invite friends" = "邀请朋友";
+"Invite friends to\njoin your game" = "邀请朋友\n加入你的牌局";
+"Iron Barrel" = "钢铁砲管";
+"Iron Rabbit Awakening" = "钢兔觉醒";
+"Itm" = "钱圈";
+"It’s highly recommended to bind your account in Pokerrrr 2. It not only ensures your data safety, but also keeps your Pokerrrr 2 account synchronised across multiple devices." = "建议您在 Pokerrrr 2 中绑定帐号。不仅可以确保您的资料安全，还能让 Pokerrrr 2 帐号在多个设备之间保持同步。";
+"JOIN NOW" = "马上参加";
+"Join as a table" = "加入牌局";
+"Join cash game challenge" = "加入现金挑战桌";
+"Join the tables with %1$s icon to accumulate exp. ratings for %2$s!" = "加入%1$s标示桌累积经验值以收集%2$s！";
+"Join\nGame" = "加入\n牌局";
+"Keep" = "持续牌局";
+"Know more" = "了解更多";
+"Last Chance" = "最后机会";
+"Last month" = "上个月";
+"Last season: %s" = "上一季分数: %s";
+"Leaderboard" = "排行榜";
+"Lines" = "连线";
+"Locked Mission" = "任务尚未解锁";
+"Log in" = "登入";
+"Log in %d days in a row" = "连续登入游戏%d天";
+"Logging in through Facebook is required before entering referral code.\n\n*First time login through Facebook will give you 10 bonus gold!" = "输入邀请码之前您必须先登入Facebook。\n\n*首次登入Facebook您将获得10金币红利！";
+"Looks like you’ve help your friends claiming the rewards! Why now host a game and play together?" = "看来你已帮助你的朋友领取奖励了！ 何不开场比赛一起游玩？";
+"Lunar New Year Bundle" = "农历新年礼包";
+"MTT Result" = "MTT 结果";
+"Max capacity of creating clubs : 3 → %d" = "增加可建立俱乐部数量：3 → %d";
+"Max capacity of game records : 20 → %d" = "增加牌局记录上限：20 → %d";
+"Max number of club managers: 2 → %d" = "增加俱乐部中管理员的人数: 2 → %d";
+"Medal Levels" = "勋章等级";
+"Member List :" = "成员列表 :";
+"Merry Christmas!" = "圣诞快乐！";
+"Message Notifications" = "讯息通知";
+"Mission Complete. Click above to claim the reward now!" = "任务完成。点选上方来领取奖励！";
+"Mission Complete. Click to claim the reward now!" = "任务完成。点选来领取奖励！";
+"Mission Complete.\nNew Mission unlocked." = "任务完成\n新任务已解锁。";
+"Monthly" = "月排";
+"Monthly rating reset" = "每月积分重置";
+"More friends, more fun! 🎉🎉🎉\nInvite new friends to join Pokerrrr2 and earn bonus gold!" = "大家一起玩更好玩！🎉🎉🎉\n邀请朋友加入Pokerrrr2，获得免费金币吧！";
+"Mottled Nickels" = "斑驳铜币";
+"NEW ARRIVALS\nGet %d% off on new products!" = "新品上市，\n新品[!%d]折优惠";
+"NOW AVAILABLE IN\nFRANCE, TURKEY, ISRAEL, AND HONGKONG" = "法国、土耳其以色列及香港开始同步贩售";
+"Nameplate pieces" = "名牌碎片";
+"Nameplate, Deck, Chip-Con, or some Chips!" = "名牌, 扑克牌, Chip-Con, 或是一些筹码！";
+"New Game Notifications" = "开局通知";
+"New Gifting Feature" = "送礼功能上线";
+"New game discount!" = "新游戏优惠中！";
+"New tech has arrived!" = "新科技登场！";
+"Next : %s/%s" = "下一级 : %s/%s";
+"No more waiting!" = "不必等待！";
+"No seats for current betting level.\nMove to another level?" = "此级别目前没有空位，\n移动至其他级别？";
+"No worry! Going to the new table now!" = "别担心！ 即将换到新的一桌！";
+"No worry! You are fine to change it again." = "别担心！你可以再次更改名字。";
+"Normal" = "普通";
+"Not enough chips." = "你的筹码不够喔！";
+"Not enough players!" = "玩家不足!";
+"Not enough players! \nGame will end in %s." = "玩家不足\n牌局将会在%s后结束。";
+"Notifications" = "通知";
+"Now" = "目前";
+"Now Available in India, Singapore and Vietnam" = "印度、新加坡和越南开始同步贩售";
+"Offline" = "断线";
+"Once a player wins the game (played all hand cards), the winning points would be the total of all the remaining hand cards from the rest of the players.   The rest of the players would be deducting points based on the total of the remaining hand cards." = "当有玩家获胜(出完所有手牌)，其得分为剩余玩家持有之手牌牌面点数总合。未出完牌的玩家将依照手牌牌面点数加总做扣分。";
+"Once all the cards are about to be drawn from the pile, the game will enter the “Final Round” phase and ends once all players play a hand. The winner will be the one who has the lowest points from the total of remaining hand cards." = "若牌堆卡牌快抽完时，游戏会进入“最后一轮”所有玩家进行一回合后结束，此时手牌牌面点数总合最低者为此局赢家。";
+"Only need 2+ players to start the game!" = "仅需2+玩家即可开始游戏！";
+"Only the hands you played are shown here." = "仅显示您参与的牌局。";
+"Oops! Insufficient gold" = "金币不足";
+"Operation %s" = "作战 %s";
+"PLO SNG" = "限注奥马哈锦标";
+"PRIZES" = "奖励";
+"PRR Shield" = "PRR 盾牌";
+"PRR Shield - %d hours" = "PRR 盾牌 - %d小时";
+"PRR Shield - %d hrs" = "PRR 盾牌 - %d小时";
+"PRR, SDR, and PAR will be %1$s to the number of your %3$s, and BJR will be %2$s times the number of your %3$s." = "PRR / SDR / PAR 将%1$s而BJR将以%2$s倍的数量转换为%3$s。";
+"Pizza Fragments" = "披萨片";
+"Plan" = "方案";
+"Play %d Friend/Club games" = "游玩 %d 场私局";
+"Play %s %d hands" = "玩 %d 手 %s";
+"Play %s for %d games" = "玩 %d 场 %s";
+"Play %s for %d hands" = "玩 %d 手 (%s)";
+"Play and accumulate exp. ratings to earn spin chances!" = "游玩并累积经验值赚取旋转机会！";
+"Play any %1$s games in %2$s to get reward." = "在 %2$s 玩任何 %1$s 游戏以获得奖励。";
+"Play any %d %s hands" = "玩%d手%s";
+"Play any %d NL Hold'em hands" = "玩%d手无限注德扑";
+"Play any %d OFC hands" = "玩%d手OFC 进阶";
+"Play any %d PLO hands" = "玩%d手限注奥马哈";
+"Play as a guest" = "直接开始";
+"Player #" = "玩家人数";
+"Player Mode" = "玩家模式";
+"Players can only choose between “All-in” or “Fold” their hand cards when the feature is turned on." = "当此功能开启时，玩家仅能选择 “全押” 或是 ”弃牌“。";
+"Players will allow to muck their losing hand after turning on the option." = "开启选项后，玩家将可以在输掉的牌局中盖牌。";
+"Please be reminded, as you have a pending account deletion request, you will not be able to enter any game types in the app. Thank you." = "提醒您，由于您已提出帐号删除的申请，您将无法在 App 中游玩任何游戏类别，谢谢！";
+"Please try again later." = "请稍后再试。";
+"Poker-hand rankings :  from strongest to weakest" = "扑克牌牌力: 从强到弱";
+"Pokerrrr with friends!" = "与朋友一起Pokerrrr!";
+"Price" = "价格";
+"Private" = "私局";
+"Prizes" = "奖励";
+"Proportion" = "比例";
+"Protect PRR exp from dropping" = "防止 PRR 纪录下滑";
+"Protect all Exp. ratings from dropping, except PSR" = "将防止任一经验积分下滑，PSR除外";
+"RULES" = "规则";
+"Range" = "范围";
+"Rating Monthly Reset" = "每月积分重置";
+"Reach Level %s" = "达到等级%s";
+"Reach Level %s or above (Lv.%d+)" = "达到%s等级或以上 (等级%d+)";
+"Recent" = "最新";
+"Record" = "纪录";
+"Redeem Code" = "兑换码";
+"Remind" = "提醒";
+"Removes hosting fee (24hr)" = "免开局费（24小时）";
+"Removes hosting fee (3hr)" = "免开局费（3小时）";
+"Reset" = "重置";
+"Reset : %s" = "重置： %s";
+"Restore all hand cards arrangement state of the start of the round." = "回到此轮一开始的状态。";
+"Results" = "结果";
+"Ruby VIP Package" = "红宝石VIP方案";
+"SGB Rush" = "SGB 任务";
+"SNG" = "坐满就玩";
+"SNG Result" = "SNG 结果";
+"SNG Rush" = "SNG 任务";
+"SPIN" = "旋转";
+"SPIN X%d" = "旋转 X%d";
+"SPLIT" = "分牌";
+"STAND" = "停牌";
+"Score" = "分数";
+"Seat" = "座位";
+"Serve as a poker table only" = "只能做为牌桌显示";
+"Share Hand To..." = "分享这一手到...";
+"Share your Pokerrrr wardrobe on FB or IG and get a $%d coupon!" = "分享贴文包含pokerrrrstore的商品可以得到$%d礼物卷!";
+"Shine elegantly like an Emerald" = "像绿宝石般优雅闪耀";
+"Shop" = "商店";
+"Side Pot" = "边池";
+"Silver" = "银";
+"Sit Out & Watch" = "离座观战";
+"Sit back" = "回座";
+"Sit in with player(s) in Fantasyland" = "对手进入 Fantasyland 时依然入座";
+"Sound On" = "音效开启";
+"Special nameplate, Chip-Con\nand 50,000 chips" = "特殊的名牌, Chip-Con 以及50,000 筹码";
+"Special nameplate, deck\nand chip-con" = "特殊名牌, 扑克牌\n以及 chip-con";
+"Spend %d Gold" = "花%d个金币";
+"Spin Now" = "立即抽奖";
+"Spin and collect the Pizza Fragments to get the brand new Pizza Chip-con! Play a total of %d hands in Global Pokerrrr Challenge (Poker, Stud, and OFC game types) to earn 1 spin!" = "旋转轮盘并收集披萨碎片可换取全新Pizza Chip-con！在Poker, Stud, 和 OFC 类型的公开赛中游玩累积%d手即可获得1次抽奖机会。";
+"Stay" = "继续等待";
+"Stick around and prepare for upcoming missions!" = "别走远，并为即将到来的任务做好准备！";
+"Store" = "商店";
+"Straddle (UTG only) : Player can make a straddle bet only at the UTG position.\n\n3rd blind (Mandatory) : Player at UTG position have to make a mandatory straddle bet (2BB) every hand." = "Straddle (仅限 UTG ) : 位于 UTG 位置的玩家才能下注 Straddle 注码。\n\n3rd Blind (强制) : 位于 UTG 位置的玩家必须下注 Straddle 注码。";
+"Streak" = "连胜";
+"Sure to pause?" = "确定要暂停吗？";
+"Sure to sit back?" = "确定要回到座位上吗？";
+"Sure you want to join the cash game with %s chips?" = "您确定要使用 %s 筹码加入现金挑战桌吗？";
+"Swipe faster this time!" = "滑快一点!";
+"Swipe the chip-con again!" = "再次滑动 Chip-Con!";
+"Swipe the chip-con repeatedly to determine which sensitivity level works best for you." = "重复滑动 Chip-Con 来测试最适合你的灵敏度等级。";
+"Switch betting level? " = "换到其他级别？";
+"System will calculate a designated % of pot to tips box." = "每个底池将会计算指定比例至小费箱。";
+"Table Select" = "选择桌子";
+"Tap to create / search a club now." = "快点击来创建 / 搜寻俱乐部。";
+"The add-on period will become active when the rebuy period ends. The add-on period will last for %d minutes." = "最后加买期间将开始于加买期间结束后，并持续 %d 分钟。";
+"The blind will increase at the set up time." = "盲注将会在指定时间后增加。";
+"The game will end after this hand." = "游戏将在这一手结束后终止。";
+"The game will start automatically when the players reach the set number." = "当玩家达到设定人数时，游戏将自动开始。";
+"The host can choose if the game will “run it twice” - when no more betting can occur in a hand, the remaining community cards will be dealt twice, and the pot is split evenly into two boards - by selecting “Always” on the setting. When it's “Optional”, all participants must agree to proceed." = "局主开启双重公用牌并选择“总是”时，所有仍在牌局中的玩家都全下，未发出的公牌将会发出两次，产生两组公牌，底池也将平均一分为二，产生两组胜负结果，各组奖金独立分配。若选择“每手可选择”，双重公用牌则必须经由所有玩家都同意方能进行。";
+"The mission has ended and you’ve earned %1$s.\nAs a hardworking agent, we will exchange your hard work for %2$s as your reward!" = "任务已结束，你还拥有 %1$s。\n由于你出色的表现，你将获得 %2$s。";
+"The mission has ended but you're short on %1$s. As a hardworking agent, we decided to let you use %2$s gold coins in exchange for the new pizza chip-con!" = "任务已结束，你还缺少 %1$s。由于你出色的表现，只需要花 %2$s 即可获得Pizza Chip-con。";
+"The rebuy period has not ended so the result may be different." = "由于重买阶段尚未结束，结果将可能变动。";
+"The system will auto reload your chips to starting chips when your chip amount is zero." = "在你的筹码归零时，系统将自动帮你加买到起始筹起。";
+"The system will auto-sit you whether any player is in Fantasyland or not. When sit-in, while your opponent is in Fantasyland, may bring you a disadvantage in scoring, hence a handicap will be allowed for you." = "无论对手是否进入Fantasyland，系统将会自动帮你入座。当你的对手在Fantasyland时，你可能会处于不利的状态，因此入座时对手会让分给你。";
+"There’s more to come and more great prizes await!" = "还有更多精彩奖品等著您！";
+"This game is terminated." = "此牌局已被终止。";
+"This is your daily profit in “Challenge”; your ranking is based on this." = "这是您于「扑客挑战」的每日输赢记录，此记录将列入每日排名。";
+"Time to level up!" = "是时候升级了!";
+"Time to unwrap your present." = "是时候打开你的礼物了。";
+"To buy insurance, drag and drop the chip-con to the dealer." = "如果要买保险，拖曳Chip-con至保险下注区。";
+"To unlock Agent %s missions, you will need the following:" = "欲解锁特务%s任务，你必须完成下列：";
+"Total Prize" = "累积总奖金";
+"Tournament Results" = "锦标赛结果";
+"Try to bet with 556" = "请试著下注 - 556";
+"UTG player can make a straddle bet after turning on the option." = "开启此选项后，UTG 玩家将可以盲下注 (straddle)。";
+"Unequip" = "卸除";
+"Unlimited Gift\n(for $1d days)" = "礼物无限送\n(为期 $1d 天) ";
+"Unlimited hosting" = "无限开局";
+"Unlock at Lv.%d" = "在等级%d解锁";
+"Unlock the victory gifts by winning 2, 4, 6, and 8 lines." = "赢得 2、4、6、8 条线，解锁胜利礼物。";
+"Unlocks at level %d" = "在等级%d解锁";
+"Unwrap mystery present by collecting Frost Shards !" = "收集冰霜碎片以解开神秘礼物！";
+"Unwrap mystery presents \nby completing 3 mission lines" = "拆开神秘礼物盒 \n透过完成任务并连成三条线";
+"Unwrap the festive $1s rewards by sending table gifts." = "在牌桌送礼物来拆开庆典 $1s 奖励！";
+"Unwrap the special gifts by winning 1, 3, 5, and 8 lines!" = "赢得1，3，5，和8条线来拆开特别礼物！";
+"Upcomings" = "即将到来";
+"Update to our Terms & Privacy" = "使用条款与隐私权政策更新";
+"Upgrade to %s?" = "升级到%s？";
+"Valid for NLH, PLO, and Stud games" = "适用于NLH、PLO 以及 Stud 游戏";
+"Vibration Off" = "震动提示关闭";
+"Vibration On" = "震动提示开启";
+"View All Scheduled Tournaments" = "查看所有预定锦标赛";
+"View collection" = "查看收藏";
+"View completed tournaments" = "查看已结束锦标赛";
+"View my collection" = "查看我的收藏";
+"View my referral code" = "看我的邀请码";
+"View scheduled tournaments" = "查看预定锦标赛";
+"Viewer Mute" = "观战者禁言";
+"Watch Now" = "马上看";
+"Watch a short video and earn %d chips!" = "看短片来获取%d筹码。";
+"Watch a short video and earn 200 chips!" = "看短片来获取200筹码。";
+"We have recently updated our Terms & Privacy. Please read and accept these new terms to continue using Pokerrrr 2." = "我们最近更新了使用条款与隐私权政策，在继续使用Pokerrrr2前，请阅读并同意新的条款与政策。";
+"Weekly" = "周排";
+"Welcome Bundle" = "欢迎礼包";
+"Well done! You’ve elegantly accomplished the mission." = "做得好！你精湛地完成任务。";
+"We’ve got you covered with the “Handicap System”. You will be given a set score while sitting with the player(s) in Fantasyland." = "透过OFC游戏中的“让分机制”给你更多保障！当对手在Fantasyland时，你入座当下即可获得既定分数。";
+"When all players have completed their round and at least one player has not busted, the dealer shows the hole card. The dealer must draw on 16 and stand on 17 or over, then compare card values with the players who have not busted and settle the bet." = "当所有玩家完成要牌且至少一位玩家未爆牌，则庄家摊开暗牌。低于17点须加至至少17点并停止加牌，与未爆牌玩家比点数大小并结算。";
+"When hosting 2 or more concurrent games, free pass will only be applied to the first game." = "当同时开两局或两局以上时，同时只有一局会是免费的。";
+"When no more betting can occur in a hand, the remaining community cards will be dealt twice, creating two separate boards. The pot is split evenly between both boards, awarding the two halves of the pot according to the final results of each board." = "若所有仍在牌局中的玩家都全下，且局主启用双重公用牌功能时，未发出的公牌将会发出 2 次，产生 2 组公牌，底池也将平均一分为二，产生 2 组胜负结果，各组奖金独立分配。";
+"Win %s for %d hands" = "赢 %d 手 (%s)";
+"Win a %s million+ pot" = "赢得%s百万的底池";
+"Win any %d NL Hold'em hands" = "赢%d手无限注德扑";
+"Win any %d PLO hands" = "赢%d手限注奥马哈";
+"Win any %d Ultrasonic SNG" = "赢%d场 Ultrasonic SNG";
+"Win any 20 SNG games (%lld / %lld), power through for the reward!" = "在SNG游戏内获取第一名20次（%lld / %lld），一鼓作气赢得奖励吧！";
+"Win any 200 NL Hold’em hands (%lld / %lld) mission, almost there!" = "于NL Hold'em游戏内赢200手（%lld / %lld），就快完成了！";
+"Win any 200 PLO hands (%lld / %lld) mission, play more for the reward!" = "在PLO游戏内赢200手（%lld / %lld），再多玩几手吧！";
+"Winter Pokerrrrfest" = "冬令狂欢扑克节";
+"Wishing you luck for the new Tiger year" = "祝你新虎年好运";
+"You are banned from using chat function. Please contact us for more information at “contact@pokerrrrapp.com”." = "你已被禁止使用聊天功能。请联络我们以获得更多资讯： “contact@pokerrrrapp.com”.";
+"You are leaving the game you hosted.\nDo you want to terminate this game?" = "你将离开你所创建的牌局。\n你要终止这局吗？";
+"You can also get 1 bonus spin/day by equipping %s during the event time!" = "于活动期间，若您装备%s并游玩，即可获得额外旋转轮盘机会1次/日！";
+"You can now use our new Gifting Feature to send a gift to your opponent on the table!" = "现在你可以使用送礼新功能，在牌桌上送礼给对手！";
+"You didn't join the global challenge yesterday." = "你昨天并未参加全球挑战赛。";
+"You finished the tournament in %s place" = "你以%s名次完成了锦标赛";
+"You got %s" = "您获得了 %s";
+"You got %s chips" = "您获得了 %s 筹码";
+"You have achieved the level of %s(Lv.%d) and earned you PRR Season Reward." = "您达成了勋章等级 %s(Lv.%d) 并赢得PRR赛季奖励。";
+"You have to agree to our “Terms and Privacy” first." = "你必须先同意我们的「使用条款与隐私权政策」。";
+"You have unclaimed rewards. Click above to check now!" = "你有未领取的奖励。现在就点选上方查看！";
+"You haven't joined the global challenge today." = "你尚未参加全球挑战赛。";
+"You just sat out few mins ago." = "你刚离开座位不久。";
+"You will remain seated at the table should any player enters Fantasyland and your hand cards will be auto-arranged by the system. Switch anyway?" = "若您的对手进入Fantasyland，您的位子将保留于此桌并由系统任意排列您的手牌，确定要换桌吗？";
+"You will remain seated at the table should any player enters Fantasyland and your hand cards will be auto-played by the system. Switch anyway?" = "若您的对手进入Fantasyland，您的位子将保留于此桌并由系统任意排列您的手牌，确定要换桌吗？";
+"You will sit out after leaving." = "你将会在离开游戏后离座。";
+"You will sit out on the next non-fantasyland hand. Sure to sit out?" = "你将会在没有任何 Fantasyland 的牌局后离座。 确定要离座吗？";
+"You will stand up on the next non-fantasyland hand. Sure to stand up?" = "你将会在没有任何 Fantasyland 的牌局后离桌观战。 确定要离桌观战吗？";
+"You won the %s." = "您赢得%s。";
+"You won the tournament" = "你赢得了锦标赛";
+"You'll get the reward for each friend referral after your friend signs in." = "您的朋友登录后，您将获得朋友推荐的奖励。";
+"You've got $1s $2s" = "您获得了$1s $2s";
+"Your changes will be discarded.\n Exit without saving?" = "您的变更将会遗失。\n 您确定要不储存离开吗？";
+"Your chips will be reloaded on the next non-fantasyland hand." = "您的加买筹码将会在没有任何 Fantasyland 的牌局中被加入。";
+"Your friends can join game by inputing the game code here." = "你的朋友可以输入游戏代码来加入牌局。";
+"Your gold : " = "你的金币 : ";
+"Your hand will be auto-played after switching table. Are you sure to switch to another table?" = "您的手牌将会在换桌后自动进行。您确定要换桌吗？";
+"Your rank is at %s." = "你的排名是 %s.";
+"Your rank is now at %s." = "你目前的排名是 %s.";
+"Your rank was at %s." = "你的排名是 %s。";
+"Your winnings is %s." = "你的输赢是%s。";
+"Your winnings was %s." = "你的输赢是%s。";
+"You’ve elegantly accomplished the mission. Proudly equip the %s!" = "你精湛地完成任务。光荣地配戴上%s吧！";
+"You’ve got %d pizza fragments. You earned %s." = "你已收集到 %d片披萨，你获得了%s。";
+"You’ve got %d pizza fragments. You earned a %s." = "你已收集到 %d片披萨，你获得了%s。";
+"You’ve got all the nameplate pieces and won a brand-new nameplate! Keep on spinning to win more prizes!" = "您已收集所有的名牌碎片并获得一个崭新的名牌！继续旋转并获得更多奖励！";
+"You’ve placed the maximum bet. " = "您已下注最大金额";
+"You’ve won $d chips!" = "你赢得了$d筹码！";
+"You’ve won $d gifting!" = "你赢得了$d个礼物！";
+"You’ve won a Bronze Ticket!" = "你赢得了一张MTT铜级参赛券！";
+"You’ve won a Nameplate Piece!" = "你赢得了一个名牌碎片！";
+"You’ve won an Apprentice Shield!" = "你赢得了一个见习生盾牌！";
+"_facebook_account_link_explain" = "脸书帐号登入能让帐号资讯同步在不同设备上，强烈建议以脸书登入来确保帐号安全。\n\n首次登入能获得免费金币红利！";
+"_ofc_how_to_play_text_3" = "此游戏从按钮玩家的下(左)家开始顺时针轮流动作。一旦玩家完成排序，其他玩家可以看到已行动玩家的牌再开始动作。";
+"_ofc_how_to_play_text_4" = "在鬼牌的OFC游戏中，游戏规则基本和进阶OFC相同，但牌局将加入2张鬼牌，鬼牌可被视为任意牌与其他牌组成最大手牌。";
+"_poker_rule_PLO_compare" = "两个限注奥玛哈跟德州扑克的差别\n1. 每位玩家一定要用到两张底牌跟三张公用牌\n2. 下注的筹码不能超过总底池";
+"_poker_rule_PLO_end_game" = "假设你有 7s-7d-9h-Kd，公用牌是 7h-9c-As-Ad-2c，那么你的最强组合是 7 葫芦 (7s-7d-7h-As-Ad)。假设公用牌是 9s-Qd-Qc-Qh-Qs，那你的最强组合是 Q 葫芦 (7s-7d-Qd-Qc-Qh) 而不是铁支。\n\n此游戏有两个胜利的方式，一是玩家将底牌翻开，然后跟公用牌组合出比其他玩家还要强的牌。此开牌动作称为“摊牌“。二是当玩家下注，而其他人都选择盖牌的情况，该下注的玩家也能获得胜利。这是德州扑克有趣的地方 - 你不见得需要好牌才能赢";
+"_stud_tutorial_desc_end" = "请记住，整手牌的位置都会发生变化。 除了第三街，谁的牌力最强，谁就先动作。与无限注德扑的另一个主要区别是 7 张梭哈有下注限制。 每个游戏都有「小注」和「大注」。 小注用于第三和第四街，而大注用于第五、六、七街。 所有下注或加注都是以小注或大注增量进行的。 因此，如果游戏以 10/20 开始，举例我们可以在第三街和第四街下注 10 个筹码并加注 10 个筹码。 一旦我们打到第五街，赌注数字就会上升到 20。与德州扑克类似，每个玩家都可以选择在每一轮下注中过牌、下注、跟注/加注或弃牌。";
+"_stud_tutorial_desc_intro" = "7 Card Stud 是一款经典的扑克游戏。 在这个游戏中，每个玩家在整个过程中都会得到 7 张牌。在获得的 7 张牌中能打出最好的 5 张牌的玩家，就是这手牌的赢家。";
+"code copied" = "已复制代码";
+"equivalent" = "等量";
+"first place" = "第一名";
+"hosted a game." = "开了一个新局。";
+"month" = "月";
+"quadruple" = "四倍";
+"second place" = "第二名";
+"third place" = "第三名";
