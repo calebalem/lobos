@@ -530,3 +530,189 @@
 [Mon Oct 23 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
 [Mon Oct 23 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
 [Mon Oct 23 2023] TypeError: data is not iterable 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: data is not iterable 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: data is not iterable 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: data is not iterable 
+[Wed Nov 01 2023] TypeError: data is not iterable 
+[Wed Nov 01 2023] TypeError: data is not iterable 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] TypeError: data is not iterable 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Wed Nov 01 2023] null 
+[Wed Nov 01 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] 1 
+[Wed Nov 01 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Wed Nov 01 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] SyntaxError: Unexpected end of JSON input 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Wed Nov 01 2023] realtime error: Error: WebSocket was closed before the connection was established 

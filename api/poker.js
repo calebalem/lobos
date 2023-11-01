@@ -159,6 +159,7 @@ export async function getGames(clubId) {
             })
             setTimeout(() => { res(null) }, 10000)
         })
+        console.log(resp)
         return resp.result.scriptData.rooms
     } catch (e) {
         logError(e,false)

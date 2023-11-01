@@ -88,8 +88,8 @@ app.get("/games", async (req, res) => {
 
 app.get("/exit", async (req, res) => {
     try {
+        res.status(200).send()     
         process.exit()
-        res.status(200).send("ok")
     } catch (e) {
         logError(e)
     }

@@ -1,13 +1,13 @@
 import player from "play-sound"
 import { logError, timeout } from "../util/util.js"
 import { Socket } from "socket.io"
-import { ServerWs } from "../ws/server.ws.js"
+import { ServerWs, emitServer } from "../ws/server.ws.js"
 
 let audio
 export async function play(message = "alert") {
     try {
         
-        await ServerWs.emit({type:"alert",text:message},"showAlertDialog")
+        await emitServer({type:"alert",text:message},"showAlertDialog")
         if (audio == null) {
             audio = player().play("asset/audio/alert.mp3",{mplayer:['-loop',10]},(err)=>{
                 logError(`${err}`)

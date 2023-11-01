@@ -3,7 +3,7 @@ import { addOngoingGame, createDiff, getChat, getDiff, getMemeber, getOngoingGam
 import { gameEvent } from "../events/event.js";
 import { play } from "../player/player.js";
 import { logError, timeout } from "../util/util.js";
-import { ServerWs } from "../ws/server.ws.js";
+import { ServerWs, emitRaw, emitServer } from "../ws/server.ws.js";
 import fs from "fs";
 
 gameEvent.on("newGameRequest", async (request) => {
@@ -31,7 +31,6 @@ gameEvent.on("gameEnded", async ({ data, roomId }) => {
     try {
         console.log(data, roomId)
         let game = await getOngoingGame(roomId)
-        let socket = ServerWs.socket
         console.log(game)
         for (let rank of data) {
             let diff = await getDiff(roomId, rank.playerId)
@@ -45,8 +44,8 @@ gameEvent.on("gameEnded", async ({ data, roomId }) => {
                 player.point += rank.diff - Math.abs(diff)
                 await updateMember(player)
                 await updateDiff(roomId, rank.playerId, rank.diff)
-                socket.emit("pointUpdated", player)
-                ServerWs.emit({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
+                emitRaw(player,"pointUpdated")
+                emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
             }
         }
     } catch (e) {
@@ -75,7 +74,7 @@ gameEvent.on("chatMessage", async (data) => {
         if (config.chatFilters.includes(data.text)) {
             await saveChat(data.senderId, data.roomId, data.text, data.sentTs)
             let member = await getMemeber(data.senderId)
-            ServerWs.emit({ "type": "info", "text": `${member.displayName} | ${member.playerCode} notifyed ${data.text}.` })
+            emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} notifyed ${data.text}.` })
         }
 
     } catch (e) {
@@ -109,6 +108,33 @@ gameEvent.on("playerLeft", async ({ data, roomId }) => {
     }
 })
 
+gameEvent.on("move", async ({ data, roomId }) => {
+    try {
+        console.log(data, roomId)
+        let game = await getOngoingGame(roomId)
+        console.log(game)
+        for (let plyr of data) {
+            let diff = await getDiff(roomId, plyr.playerId)
+            console.log(`diff is: ${diff}`)
+            if (diff == null) {
+                await createDiff(roomId, plyr.playerId)
+                diff = 0
+            }
+            if (game.players.includes(plyr.playerId)) {
+                let player = await getMemeber(plyr.playerId, plyr.playerCode)
+                let inComingDiff = plyr.stack - plyr.chips 
+                player.point += inComingDiff - Math.abs(diff)
+                await updateMember(player)
+                await updateDiff(roomId, plyr.playerId, inComingDiff)
+                emitRaw(player,"pointUpdated")
+                emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
+            }
+        }
+    } catch (e) {
+        logError(e)
+    }
+})
+
 async function checkPlayerLeave(player, roomId) {
     let chat = await getChat(player.playerId, roomId)
     if (chat == null) {
@@ -127,8 +153,7 @@ async function checkPlayerLeave(player, roomId) {
 async function notify(content) {
     console.log(content)
 
-    setTimeout(() => { ServerWs.emit({ "type": "alert", "text": content }) }, 4000)
-
+    emitServer({ "type": "alert", "text": content }) 
     //implement telegram notification
     return null
 }
@@ -152,11 +177,11 @@ async function acceptDeclineMember(player) {
             let req
             if (member.point < buyInChips) {
                 req = { ...player, accepted: 0 }
-                 ServerWs.emit({ "type": "declined", "text": `Declined game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
+                emitServer({ "type": "declined", "text": `Declined game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
             } else if (member.point >= buyInChips) {
                 req = { ...player, accepted: 1 }
                 //await recordPlayerTime(player.playerId, player.roomId)
-                 ServerWs.emit({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
+                emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
                 member.total_games++
                 updateMember(member)
             }

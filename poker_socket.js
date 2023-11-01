@@ -46,6 +46,9 @@ function startRealtime(creds) {
                     gameEvent.emit("playerLeft", { "data": data.roomUpdate.players, "roomId": data.roomId })
                 } else if (message.name == "chatMsg") {
                     gameEvent.emit("chatMessage", data)
+                } else if (message.name == "moveMsg") {
+                    if (data.roomUpdate.players != null)
+                        gameEvent.emit("move", { "data": data.roomUpdate.players, "roomId": data.roomId })
                 }
             }
 
