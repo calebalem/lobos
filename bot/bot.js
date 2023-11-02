@@ -44,7 +44,7 @@ gameEvent.on("gameEnded", async ({ data, roomId }) => {
                 player.point += rank.diff - Math.abs(diff)
                 await updateMember(player)
                 await updateDiff(roomId, rank.playerId, rank.diff)
-                emitRaw(player,"pointUpdated")
+                emitRaw(player, "pointUpdated")
                 emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
             }
         }
@@ -122,11 +122,11 @@ gameEvent.on("move", async ({ data, roomId }) => {
             }
             if (game.players.includes(plyr.playerId)) {
                 let player = await getMemeber(plyr.playerId, plyr.playerCode)
-                let inComingDiff = plyr.stack - plyr.chips 
+                let inComingDiff = plyr.stack - plyr.chips
                 player.point += inComingDiff - Math.abs(diff)
                 await updateMember(player)
                 await updateDiff(roomId, plyr.playerId, inComingDiff)
-                emitRaw(player,"pointUpdated")
+                emitRaw(player, "pointUpdated")
                 emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
             }
         }
@@ -153,7 +153,7 @@ async function checkPlayerLeave(player, roomId) {
 async function notify(content) {
     console.log(content)
 
-    emitServer({ "type": "alert", "text": content }) 
+    emitServer({ "type": "alert", "text": content })
     //implement telegram notification
     return null
 }
@@ -177,16 +177,18 @@ async function acceptDeclineMember(player) {
             let req
             if (member.point < buyInChips) {
                 req = { ...player, accepted: 0 }
-                emitServer({ "type": "declined", "text": `Declined game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
+                emitServer({ "type": "declined", "text": `Ignored game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
             } else if (member.point >= buyInChips) {
                 req = { ...player, accepted: 1 }
                 //await recordPlayerTime(player.playerId, player.roomId)
                 emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
                 member.total_games++
                 updateMember(member)
+                await timeout(3)
+                return await confirmRequest(req)
             }
-            await timeout(3)
-            return await confirmRequest(req)
+            return null
+
         }
 
         return null
