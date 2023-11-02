@@ -37,7 +37,7 @@ function startRealtime(creds) {
                 if (message.name == "newRequestMsg") {
                     gameEvent.emit("newGameRequest", { "roomId": data.roomId })
                 } else if (message.name == "pauseMsg") {
-                    gameEvent.emit("gameEnded", { "data": data.roomUpdate.ranking, "roomId": data.roomId })
+                    //gameEvent.emit("gameEnded", { "data": data.roomUpdate.ranking, "roomId": data.roomId })
                     //gameEvent.emit("playerLeft", { "data": gameData.roomUpdate.players, "roomId": gameData.roomId })
                 } else if (message.name == "dealMsg") {
                     //console.log("started: ",JSON.stringify(message))
