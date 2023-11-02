@@ -91,14 +91,16 @@ gameEvent.on("playerLeft", async ({ data, roomId }) => {
                 await recordPlayerTime(player.playerId, roomId, true)
                 let recTime = await getRecordTime(player.playerId, roomId)
                 let member = await getMemeber(player.playerId)
-                checkPlayerLeave(member, roomId)
+                let diff = player.stack - player.chips
+                //checkPlayerLeave(member, roomId,diff)
                 console.log(recTime)
                 if (recTime) {
                     let timeDiffInMin = parseFloat((Math.abs(recTime.endTime - recTime.startTime) / 60000).toFixed(1));
                     console.log(`Player Stayed for ${timeDiffInMin}`)
-                    if (timeDiffInMin < 60 && player.stack > player.chips) {
-                        notify(`${member.displayName} | ${member.playerCode} left while profited. Stay time: ${timeDiffInMin} mins.`)
-                        play(`${member.displayName} | ${member.playerCode} left while profited. Stay time: ${timeDiffInMin} mins.`)
+                    let notified = checkNotify(member,roomId)
+                    if (timeDiffInMin < 60 && diff > 100 && !notified) {
+                        notify(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
+                        play(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
                     }
                 }
             }
@@ -135,19 +137,18 @@ gameEvent.on("move", async ({ data, roomId }) => {
     }
 })
 
-async function checkPlayerLeave(player, roomId) {
+async function checkNotify(player, roomId) {
     let chat = await getChat(player.playerId, roomId)
-    if (chat == null) {
-        notify(`${player.displayName} | ${player.playerCode} left game without notifying`)
-        play(`${player.displayName} | ${player.playerCode} left game without notifying`)
-        return
+    if (chat == null ) {
+       return false
     }
-    let now = Date.now()
-    let timeDiffInMin = parseFloat((Math.abs(now - chat.time) / 60000).toFixed(1));
-    if (timeDiffInMin < 15) {
-        notify(`${player.displayName} | ${player.playerCode} left game without waiting 15 min.`)
-        play(`${player.displayName} | ${player.playerCode} left game without waiting 15 min.`)
-    }
+    return true
+    // let now = Date.now()
+    // let timeDiffInMin = parseFloat((Math.abs(now - chat.time) / 60000).toFixed(1));
+    // if (timeDiffInMin < 15 && diff > 100 ) {
+    //     notify(`${player.displayName} | ${player.playerCode} left game without waiting 15 min.`)
+    //     play(`${player.displayName} | ${player.playerCode} left game without waiting 15 min.`)
+    // }
 }
 
 async function notify(content) {
