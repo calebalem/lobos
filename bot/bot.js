@@ -97,7 +97,7 @@ gameEvent.on("playerLeft", async ({ data, roomId }) => {
                 if (recTime) {
                     let timeDiffInMin = parseFloat((Math.abs(recTime.endTime - recTime.startTime) / 60000).toFixed(1));
                     console.log(`Player Stayed for ${timeDiffInMin}`)
-                    let notified = checkNotify(member,roomId)
+                    let notified = await checkNotify(member,roomId)
                     if (timeDiffInMin < 60 && diff > 100 && !notified) {
                         notify(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
                         play(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
