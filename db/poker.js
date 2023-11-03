@@ -141,6 +141,14 @@ export async function createDiff(roomId, playerId) {
     console.log("created diff", JSON.stringify(created))
 }
 
+export async function deleteDiff(roomId, playerId) {
+    try {
+        await db.diff.remove({ "type": "diff", roomId, playerId })
+    } catch (e) {
+        logError(e)
+    }
+}
+
 export async function updateDiff(roomId, playerId, diff) {
     await db.diff.update({ type: "diff", roomId, playerId }, { $set: { diff } })
 }

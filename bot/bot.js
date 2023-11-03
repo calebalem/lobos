@@ -1,5 +1,5 @@
 import { confirmRequest, getGameRequests } from "../api/poker.js";
-import { addOngoingGame, createDiff, getChat, getDiff, getMemeber, getOngoingGame, getRecordTime, recordPlayerTime, saveChat, updateDiff, updateMember } from "../db/poker.js";
+import { addOngoingGame, createDiff, deleteDiff, getChat, getDiff, getMemeber, getOngoingGame, getRecordTime, recordPlayerTime, saveChat, updateDiff, updateMember } from "../db/poker.js";
 import { gameEvent } from "../events/event.js";
 import { play } from "../player/player.js";
 import { logError, timeout } from "../util/util.js";
@@ -28,29 +28,19 @@ gameEvent.on("newGameRequest", async (request) => {
 })
 
 gameEvent.on("gameEnded", async ({ data, roomId }) => {
-    try {
-        console.log(data, roomId)
-        let game = await getOngoingGame(roomId)
-        console.log(game)
-        for (let rank of data) {
-            let diff = await getDiff(roomId, rank.playerId)
-            console.log(`diff is: ${diff}`)
-            if (diff == null) {
-                await createDiff(roomId, rank.playerId)
-                diff = 0
-            }
-            if (game.players.includes(rank.playerId)) {
-                let player = await getMemeber(rank.playerId, rank.playerCode)
-                player.point += rank.diff - Math.abs(diff)
-                await updateMember(player)
-                await updateDiff(roomId, rank.playerId, rank.diff)
-                emitRaw(player, "pointUpdated")
-                emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
-            }
-        }
-    } catch (e) {
-        logError(e)
-    }
+    // try {
+    //     console.log(data, roomId)
+    //     let game = await getOngoingGame(roomId)
+    //     console.log(game)
+    //     for (let rank of data) {
+    //         let prevDiff = await getDiff(roomId,rank.playerId)
+    //         if(prevDiff != null && prevDiff < 0){
+    //         await deleteDiff(roomId, rank.playerId)
+    //         }
+    //     }
+    // } catch (e) {
+    //     logError(e)
+    // }
 })
 
 gameEvent.on("gameStarted", async ({ data, roomId }) => {
@@ -124,8 +114,11 @@ gameEvent.on("move", async ({ data, roomId }) => {
             }
             if (game.players.includes(plyr.playerId)) {
                 let player = await getMemeber(plyr.playerId, plyr.playerCode)
-                let inComingDiff = plyr.stack - plyr.chips
+                let inComingDiff  = plyr.stack - plyr.chips
                 player.point += inComingDiff - Math.abs(diff)
+                if(player.point < 0){
+                    player.point = 0
+                }
                 await updateMember(player)
                 await updateDiff(roomId, plyr.playerId, inComingDiff)
                 emitRaw(player, "pointUpdated")
@@ -184,6 +177,7 @@ async function acceptDeclineMember(player) {
                 //await recordPlayerTime(player.playerId, player.roomId)
                 emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
                 member.total_games++
+               
                 updateMember(member)
                 await timeout(3)
                 return await confirmRequest(req)
