@@ -6,7 +6,7 @@ import { update_member, fetch_members, get_members } from "./controller/member.c
 import { get_games } from "./controller/game.controller.js"
 import { io } from "./socket_server/socket.js"
 import http from "http"
-import { gateway_ready } from "./globals/poker.js"
+import { clientConnected, gateway_ready } from "./globals/poker.js"
 import "./bot/bot.js"
 import { logError } from "./util/util.js"
 import { stop, play } from "./player/player.js"
@@ -94,9 +94,15 @@ app.get("/exit", async (req, res) => {
         logError(e)
     }
 })
+setTimeout(()=>{
+    if(!clientConnected.connected){
+        process.exit(1)
+    }
+},120000)
 
 // process.on("SIG")
 
 server.listen(8090, () => {
     console.log("express...")
 })
+
