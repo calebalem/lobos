@@ -10,7 +10,8 @@ let db = {
     "recordTime": new Nedb({ filename: "PokerDB/recordTime", autoload: true }),
     "onGoingGame": new Nedb({ filename: "PokerDB/onGoingGame", autoload: true }),
     "diff": new Nedb({ filename: "PokerDB/diff", autoload: true }),
-    "chat": new Nedb({ filename: "PokerDB/chat", autoload: true })
+    "chat": new Nedb({ filename: "PokerDB/chat", autoload: true }),
+    "onHold":new Nedb({ filename: "PokerDB/onHold", autoload: true }),
 }
 for (let key in db) {
     db[key].loadDatabase((err) => {
@@ -19,7 +20,7 @@ for (let key in db) {
             return
         }
         console.log(`Database ${key} loaded.`)
-        if (key == "chat") {
+        if (key == "onHold") {
             database.loaded = true
         }
     })
@@ -115,6 +116,43 @@ export async function createMember(data) {
 
 export async function updateMember(data) {
     await db.member.update({ type: "member", playerId: data.playerId }, { $set: { "point": data.point, "total_games": data.total_games } })
+}
+export async function createOnHold(playerId,roomId,point) {
+    let created = await db.onHold.insert({ "type": "onHold", playerId, "point": point, "roomId":roomId })
+    console.log("created onHold", JSON.stringify(created))
+}
+export async function updateOnHold(playerId,roomId,point){
+    await db.onHold.update({ type: "onHold", playerId: playerId,"roomId":roomId }, { $set: { "point": point} })
+
+}
+export async function getOnHold(playerId,roomId) {
+   
+    let onHold = await new Promise((res, rej) => {
+        db.onHold.findOne({ type: "onHold",playerId,roomId }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
+    console.log("onHold data", JSON.stringify(onHold))
+    if (onHold) {
+        return onHold.point
+    }
+    return null
+}
+
+export async function getOnHolds(playerId) {
+   
+    let onHold = await new Promise((res, rej) => {
+        db.onHold.find({ type: "onHold",playerId }, (err, docs) => {
+            if (err) return err
+            else res(docs)
+        })
+    })
+    console.log("onHold data", JSON.stringify(onHold))
+    if (onHold) {
+        return onHold
+    }
+    return null
 }
 
 export async function addOngoingGame(roomId, playerId) {

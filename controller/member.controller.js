@@ -4,6 +4,9 @@ import * as DB from "../db/poker.js";
 
 export async function get_members() {
     let members = await DB.getMemebers()
+    for(let member of members){
+        member.onHolds = await DB.getOnHolds(member.playerId)
+    }
     return { members }
 }
 

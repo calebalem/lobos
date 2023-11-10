@@ -1,5 +1,5 @@
 import { confirmRequest, getGameRequests } from "../api/poker.js";
-import { addOngoingGame, createDiff, deleteDiff, getChat, getDiff, getMemeber, getOngoingGame, getRecordTime, recordPlayerTime, saveChat, updateDiff, updateMember } from "../db/poker.js";
+import { addOngoingGame, createDiff, createOnHold, deleteDiff, getChat, getDiff, getMemeber, getOnHold, getOnHolds, getOngoingGame, getRecordTime, recordPlayerTime, saveChat, updateDiff, updateMember, updateOnHold } from "../db/poker.js";
 import { gameEvent } from "../events/event.js";
 import { play } from "../player/player.js";
 import { logError, timeout } from "../util/util.js";
@@ -82,12 +82,19 @@ gameEvent.on("playerLeft", async ({ data, roomId }) => {
                 let recTime = await getRecordTime(player.playerId, roomId)
                 let member = await getMemeber(player.playerId)
                 let diff = player.stack - player.chips
+                let onHold = await getOnHold(player.playerId, roomId)
+                member.point += onHold
+                await updateMember(member)
+                await updateOnHold(player.playerId, roomId, 0)
+                member.onHolds = await getOnHolds(plyr.playerId)
+                emitRaw(member, "pointUpdated")
+                emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
                 //checkPlayerLeave(member, roomId,diff)
                 console.log(recTime)
                 if (recTime) {
                     let timeDiffInMin = parseFloat((Math.abs(recTime.endTime - recTime.startTime) / 60000).toFixed(1));
                     console.log(`Player Stayed for ${timeDiffInMin}`)
-                    let notified = await checkNotify(member,roomId)
+                    let notified = await checkNotify(member, roomId)
                     if (timeDiffInMin < 60 && diff > 100 && !notified) {
                         notify(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
                         play(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
@@ -106,23 +113,25 @@ gameEvent.on("move", async ({ data, roomId }) => {
         let game = await getOngoingGame(roomId)
         console.log(game)
         for (let plyr of data) {
-            let diff = await getDiff(roomId, plyr.playerId)
-            console.log(`diff is: ${diff}`)
-            if (diff == null) {
-                await createDiff(roomId, plyr.playerId)
-                diff = 0
-            }
+            // let diff = await getDiff(roomId, plyr.playerId)
+            // console.log(`diff is: ${diff}`)
+            // if (diff == null) {
+            //     await createDiff(roomId, plyr.playerId)
+            //     diff = 0
+            // }
             if (game.players.includes(plyr.playerId)) {
                 let player = await getMemeber(plyr.playerId, plyr.playerCode)
-                let inComingDiff  = plyr.stack - plyr.chips
-                player.point += inComingDiff - Math.abs(diff)
-                if(player.point < 0){
-                    player.point = 0
-                }
-                await updateMember(player)
-                await updateDiff(roomId, plyr.playerId, inComingDiff)
+                console.log(`stack ${plyr.stack} chips ${plyr.chips}`)
+                let inComingDiff = plyr.stack- plyr.chips 
+                let onHold = inComingDiff
+                // if (player.point < 0) {
+                //     player.point = 0
+                // }
+                await updateOnHold(plyr.playerId, roomId, onHold)
+                player.onHolds = await getOnHolds(plyr.playerId)
+                //await updateDiff(roomId, plyr.playerId, inComingDiff)
                 emitRaw(player, "pointUpdated")
-                emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} point updated ${player.point}` })
+                emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} on hold chips updated ${player.point}` })
             }
         }
     } catch (e) {
@@ -132,8 +141,8 @@ gameEvent.on("move", async ({ data, roomId }) => {
 
 async function checkNotify(player, roomId) {
     let chat = await getChat(player.playerId, roomId)
-    if (chat == null ) {
-       return false
+    if (chat == null) {
+        return false
     }
     return true
     // let now = Date.now()
@@ -172,13 +181,22 @@ async function acceptDeclineMember(player) {
             if (member.point < buyInChips) {
                 req = { ...player, accepted: 0 }
                 emitServer({ "type": "declined", "text": `Ignored game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
+                await timeout(3)
             } else if (member.point >= buyInChips) {
                 req = { ...player, accepted: 1 }
                 //await recordPlayerTime(player.playerId, player.roomId)
-                emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
                 member.total_games++
-               
-                updateMember(member)
+                member.point -= buyInChips
+                let onHold = await getOnHold(player.playerId, player.roomId)
+                if (onHold == null) {
+                    await createOnHold(player.playerId, player.roomId, buyInChips)
+                } else {
+                    await updateOnHold(player.playerId, player.roomId, buyInChips)
+                }
+                await updateMember(member)
+                member.onHolds = await getOnHolds(player.playerId)
+                emitRaw(member, "pointUpdated")
+                emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}, onHold: ${buyInChips}` })
                 await timeout(3)
                 return await confirmRequest(req)
             }

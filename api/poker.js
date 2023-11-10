@@ -24,7 +24,7 @@ export async function getClubs() {
                 res(data)
             })
 
-            setTimeout(() => { res([]) }, 10000)
+            setTimeout(() => { res([]) }, 20000)
         })
         let clubs = []
         for (let club of resp.result.scriptData.clubs.__a) {
@@ -58,7 +58,7 @@ export async function getMembers(clubId) {
                 res(data)
             })
 
-            setTimeout(() => { res([]) }, 10000)
+            setTimeout(() => { res([]) }, 20000)
         })
 
         return resp.result.scriptData.club.members
@@ -88,7 +88,7 @@ export async function getGameRequests(roomId) {
                 res(data)
             })
 
-            setTimeout(() => { res([]) }, 10000)
+            setTimeout(() => { res([]) }, 20000)
         })
         console.log(resp.result.scriptData.roomRequestDetail.players)
 
@@ -124,7 +124,7 @@ export async function confirmRequest(data) {
             gameEvent.once("confirmGameRequest", (data) => {
                 res(data)
             })
-            setTimeout(() => { res(null) }, 10000)
+            setTimeout(() => { res(null) }, 20000)
         })
         console.log(resp)
         return resp.result.scriptData.roomRequestChange.isAccepted
@@ -157,7 +157,7 @@ export async function getGames(clubId) {
             gameEvent.once("gameListRequest", (data) => {
                 res(data)
             })
-            setTimeout(() => { res(null) }, 10000)
+            setTimeout(() => { res(null) }, 20000)
         })
         console.log(resp)
         return resp.result.scriptData.rooms
