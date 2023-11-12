@@ -86,7 +86,7 @@ gameEvent.on("playerLeft", async ({ data, roomId }) => {
                 member.point += onHold
                 await updateMember(member)
                 await updateOnHold(player.playerId, roomId, 0)
-                member.onHolds = await getOnHolds(plyr.playerId)
+                member.onHolds = await getOnHolds(player.playerId)
                 emitRaw(member, "pointUpdated")
                 emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
                 //checkPlayerLeave(member, roomId,diff)
@@ -122,16 +122,19 @@ gameEvent.on("move", async ({ data, roomId }) => {
             if (game.players.includes(plyr.playerId)) {
                 let player = await getMemeber(plyr.playerId, plyr.playerCode)
                 console.log(`stack ${plyr.stack} chips ${plyr.chips}`)
-                let inComingDiff = plyr.stack- plyr.chips 
-                let onHold = inComingDiff
-                // if (player.point < 0) {
-                //     player.point = 0
-                // }
-                await updateOnHold(plyr.playerId, roomId, onHold)
+                let inComingDiff = plyr.stack - plyr.chips
+                if (inComingDiff < 0) {
+                    inComingDiff = 0
+                }
+                let onHold = await getOnHold(plyr.playerId,roomId)
+                if(onHold && onHold.first_move){
+                    inComingDiff += onHold["point"]
+                }
+                await updateOnHold(plyr.playerId, roomId, inComingDiff)
                 player.onHolds = await getOnHolds(plyr.playerId)
                 //await updateDiff(roomId, plyr.playerId, inComingDiff)
                 emitRaw(player, "pointUpdated")
-                emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} on hold chips updated ${player.point}` })
+                emitServer({ "type": "info", "text": `${player.displayName} | ${player.playerCode} on hold chips updated ${inComingDiff}` })
             }
         }
     } catch (e) {
@@ -185,20 +188,23 @@ async function acceptDeclineMember(player) {
             } else if (member.point >= buyInChips) {
                 req = { ...player, accepted: 1 }
                 //await recordPlayerTime(player.playerId, player.roomId)
-                member.total_games++
-                member.point -= buyInChips
-                let onHold = await getOnHold(player.playerId, player.roomId)
-                if (onHold == null) {
-                    await createOnHold(player.playerId, player.roomId, buyInChips)
-                } else {
-                    await updateOnHold(player.playerId, player.roomId, buyInChips)
+                let resp = await confirmRequest(req)
+                if (resp) {
+                    member.total_games++
+                    member.point -= buyInChips
+                    let onHold = await getOnHold(player.playerId, player.roomId)
+                    if (onHold == null) {
+                        await createOnHold(player.playerId, player.roomId, buyInChips)
+                    } else {
+                        await updateOnHold(player.playerId, player.roomId, buyInChips,true)
+                    }
+                    await updateMember(member)
+                    member.onHolds = await getOnHolds(player.playerId)
+                    emitRaw(member, "pointUpdated")
+                    emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}, onHold: ${buyInChips}` })
+                    await timeout(3)
+                    return true
                 }
-                await updateMember(member)
-                member.onHolds = await getOnHolds(player.playerId)
-                emitRaw(member, "pointUpdated")
-                emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}, onHold: ${buyInChips}` })
-                await timeout(3)
-                return await confirmRequest(req)
             }
             return null
 

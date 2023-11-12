@@ -127,7 +127,10 @@ export async function confirmRequest(data) {
             setTimeout(() => { res(null) }, 20000)
         })
         console.log(resp)
-        return resp.result.scriptData.roomRequestChange.isAccepted
+        if(resp?.result?.error?.message == "Request may not be valid anymore."){
+            return null
+        }
+        return true
     } catch (e) {
         logError(e)
         return null

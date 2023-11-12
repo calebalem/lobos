@@ -139,5 +139,21 @@
         "name": "moveMsg"
       }
     ]
+  },
+  {
+    "action": 15,
+    "id": "d9Z0UHfBvj:5321428",
+    "connectionId": "d9Z0UHfBvj",
+    "connectionSerial": 1,
+    "channel": "player:654e2b7b023c2f5b79b279f0",
+    "channelSerial": "e915_OvPQBVCzU83376252@1699803308209-0",
+    "timestamp": 1699803308133,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": "{\"roomId\":\"6550d9d70110b969fc6f6e17\"}",
+        "name": "newRequestMsg"
+      }
+    ]
   }
 ]

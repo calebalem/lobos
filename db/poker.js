@@ -11,7 +11,7 @@ let db = {
     "onGoingGame": new Nedb({ filename: "PokerDB/onGoingGame", autoload: true }),
     "diff": new Nedb({ filename: "PokerDB/diff", autoload: true }),
     "chat": new Nedb({ filename: "PokerDB/chat", autoload: true }),
-    "onHold":new Nedb({ filename: "PokerDB/onHold", autoload: true }),
+    "onHold": new Nedb({ filename: "PokerDB/onHold", autoload: true }),
 }
 for (let key in db) {
     db[key].loadDatabase((err) => {
@@ -85,16 +85,19 @@ export async function getClubs() {
 }
 
 export async function createClubs(data) {
-    for (let club of data) {
-        club["type"] = "club"
-        let exsists = await new Promise((res, rej) => {
-            db.club.findOne({ type: "club", clubId: data.clubId }, (err, docs) => {
-                if (err) rej(err)
-                else res(docs)
+    if (data.clubId !== null) {
+        for (let club of data) {
+            club["type"] = "club"
+            let exsists = await new Promise((res, rej) => {
+                db.club.findOne({ type: "club", clubId: club.clubId }, (err, docs) => {
+                    if (err) rej(err)
+                    else res(docs)
+                })
             })
-        })
-        if (!exsists) {
-            await db.club.insert(club)
+            console.log(`club exsists : ${exsists}`)
+            if (exsists === null) {
+                await db.club.insert(club)
+            }
         }
     }
 }
@@ -117,18 +120,18 @@ export async function createMember(data) {
 export async function updateMember(data) {
     await db.member.update({ type: "member", playerId: data.playerId }, { $set: { "point": data.point, "total_games": data.total_games } })
 }
-export async function createOnHold(playerId,roomId,point) {
-    let created = await db.onHold.insert({ "type": "onHold", playerId, "point": point, "roomId":roomId })
+export async function createOnHold(playerId, roomId, point) {
+    let created = await db.onHold.insert({ "type": "onHold", playerId, "point": point, "roomId": roomId, "first_move":true })
     console.log("created onHold", JSON.stringify(created))
 }
-export async function updateOnHold(playerId,roomId,point){
-    await db.onHold.update({ type: "onHold", playerId: playerId,"roomId":roomId }, { $set: { "point": point} })
+export async function updateOnHold(playerId, roomId, point, first_move = false) {
+    await db.onHold.update({ type: "onHold", playerId: playerId, "roomId": roomId }, { $set: { "point": point,"first_move":first_move } })
 
 }
-export async function getOnHold(playerId,roomId) {
-   
+export async function getOnHold(playerId, roomId) {
+
     let onHold = await new Promise((res, rej) => {
-        db.onHold.findOne({ type: "onHold",playerId,roomId }, (err, docs) => {
+        db.onHold.findOne({ type: "onHold", playerId, roomId }, (err, docs) => {
             if (err) return err
             else res(docs)
         })
@@ -141,9 +144,9 @@ export async function getOnHold(playerId,roomId) {
 }
 
 export async function getOnHolds(playerId) {
-   
+
     let onHold = await new Promise((res, rej) => {
-        db.onHold.find({ type: "onHold",playerId }, (err, docs) => {
+        db.onHold.find({ type: "onHold", playerId }, (err, docs) => {
             if (err) return err
             else res(docs)
         })
