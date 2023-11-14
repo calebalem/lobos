@@ -1,5 +1,5 @@
 import { confirmRequest, getGameRequests } from "../api/poker.js";
-import { addOngoingGame, createDiff, createOnHold, deleteDiff, getChat, getDiff, getMemeber, getOnHold, getOnHolds, getOngoingGame, getRecordTime, recordPlayerTime, saveChat, updateDiff, updateMember, updateOnHold } from "../db/poker.js";
+import { addOngoingGame, createDiff, createGameInfo, createOnHold, deleteDiff, getChat, getDiff, getGamePlayers, getMemeber, getOnHold, getOnHolds, getOngoingGame, getRecordTime, recordPlayerTime, removeGamePlayer, saveChat, updateDiff, updateMember, updateOnHold } from "../db/poker.js";
 import { gameEvent } from "../events/event.js";
 import { play } from "../player/player.js";
 import { logError, timeout } from "../util/util.js";
@@ -28,19 +28,35 @@ gameEvent.on("newGameRequest", async (request) => {
 })
 
 gameEvent.on("gameEnded", async ({ data, roomId }) => {
-    // try {
-    //     console.log(data, roomId)
-    //     let game = await getOngoingGame(roomId)
-    //     console.log(game)
-    //     for (let rank of data) {
-    //         let prevDiff = await getDiff(roomId,rank.playerId)
-    //         if(prevDiff != null && prevDiff < 0){
-    //         await deleteDiff(roomId, rank.playerId)
-    //         }
-    //     }
-    // } catch (e) {
-    //     logError(e)
-    // }
+    try {
+        console.log(data, roomId)
+        let game = await getOngoingGame(roomId)
+        console.log(game)
+        let prevPlayers = await getGamePlayers(roomId)
+        let leftPlayers = []
+        let currentPlayers = []
+        for (let currentPlayer of data) {
+            if (currentPlayer?.playerId !== null) {
+                currentPlayers.push(currentPlayer.playerId)
+            }
+        }
+        for (let prevPlayer of prevPlayers) {
+            if (!currentPlayers.includes(prevPlayer)) {
+                let onHold = await getOnHold(player.playerId, roomId)
+                let member = await getMemeber(player.playerId)
+                member.point += onHold
+                await updateMember(member)
+                await updateOnHold(player.playerId, roomId, 0)
+                member.onHolds = await getOnHolds(player.playerId)
+                emitRaw(member, "pointUpdated")
+                emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
+                await removeGamePlayer(prevPlayer,roomId)
+            }
+        }
+
+    } catch (e) {
+        logError(e)
+    }
 })
 
 gameEvent.on("gameStarted", async ({ data, roomId }) => {
@@ -51,6 +67,7 @@ gameEvent.on("gameStarted", async ({ data, roomId }) => {
             if (roomId != null) {
                 await recordPlayerTime(player.playerId, roomId)
             }
+            await createGameInfo(player.playerId, roomId)
         }
     } catch (e) {
         logError(e)
@@ -126,8 +143,8 @@ gameEvent.on("move", async ({ data, roomId }) => {
                 if (inComingDiff < 0) {
                     inComingDiff = 0
                 }
-                let onHold = await getOnHold(plyr.playerId,roomId)
-                if(onHold && onHold.first_move){
+                let onHold = await getOnHold(plyr.playerId, roomId)
+                if (onHold !== null && onHold.first_move) {
                     inComingDiff += onHold["point"]
                 }
                 await updateOnHold(plyr.playerId, roomId, inComingDiff)
@@ -196,7 +213,7 @@ async function acceptDeclineMember(player) {
                     if (onHold == null) {
                         await createOnHold(player.playerId, player.roomId, buyInChips)
                     } else {
-                        await updateOnHold(player.playerId, player.roomId, buyInChips,true)
+                        await updateOnHold(player.playerId, player.roomId, buyInChips, true)
                     }
                     await updateMember(member)
                     member.onHolds = await getOnHolds(player.playerId)

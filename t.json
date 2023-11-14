@@ -151,8 +151,24 @@
     "messages": [
       {
         "encoding": "json",
-        "data": "{\"roomId\":\"6550d9d70110b969fc6f6e17\"}",
+        "data": {"roomId":"6550d9d70110b969fc6f6e17"},
         "name": "newRequestMsg"
+      }
+    ]
+  },
+  {
+    "action": 15,
+    "id": "1eA7xV6vQl:5422791",
+    "connectionId": "1eA7xV6vQl",
+    "connectionSerial": 27,
+    "channel": "room:655232090110b969fc539dcc:public",
+    "channelSerial": "e91vOPAogBVFOy80219945@1699886761046-0",
+    "timestamp": 1699886760971,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {"roomId":"655232090110b969fc539dcc","roomUpdate":{"status":"WAITING","updatedAt":1699886760951,"countTimeOffset":61831,"players":[{"empty":true,"seat":0},{"empty":false,"seat":1,"playerId":"654e2b7b023c2f5b79b279f0","playerCode":"12AV9","displayName":"boss","chips":100,"stack":0,"inRoom":true,"left":false,"kick":false,"isOnline":true,"disconTBQuota":20,"disconTBTs":1699886561518,"deadHandSN":2,"deadTs":1699886677559,"handCount":2,"timeoutCount":0,"noStackExpire":1699886865602}],"reloads":{}},"sentTs":1699886760957},
+        "name": "pauseMsg"
       }
     ]
   }

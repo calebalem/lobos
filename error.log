@@ -2015,3 +2015,332 @@
 [Sun Nov 12 2023] realtime error: Error: WebSocket was closed before the connection was established 
 [Sun Nov 12 2023] SyntaxError: Unexpected end of JSON input 
 [Sun Nov 12 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] null 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'kill') 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 13 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] WebSocket error: Error: getaddrinfo EAI_AGAIN gateway-n304059d9xl3.pt-prod.pokerrrrapp.com 
+[Tue Nov 14 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] TypeError: Cannot read properties of undefined (reading 'scriptData') 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] TypeError: Cannot read properties of undefined (reading 'scriptData') 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] TypeError: prevPlayers is not iterable 
+[Tue Nov 14 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] TypeError: prevPlayers is not iterable 
+[Tue Nov 14 2023] WebSocket error: Error: getaddrinfo EAI_AGAIN gateway-n304059d9xl3.pt-prod.pokerrrrapp.com 
+[Tue Nov 14 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] WebSocket error: Error: getaddrinfo EAI_AGAIN gateway-n304059d9xl3.pt-prod.pokerrrrapp.com 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 14 2023] TypeError: prevPlayers is not iterable 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Tue Nov 14 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] WebSocket error: Error: getaddrinfo EAI_AGAIN gateway-n304059d9xl3.pt-prod.pokerrrrapp.com 
+[Tue Nov 14 2023] realtime error: Error: getaddrinfo EAI_AGAIN ptfarm-realtime.ably.io 
+[Tue Nov 14 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Tue Nov 14 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 14 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 14 2023] TypeError: prevPlayers is not iterable 

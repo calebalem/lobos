@@ -11,6 +11,7 @@ let db = {
     "onGoingGame": new Nedb({ filename: "PokerDB/onGoingGame", autoload: true }),
     "diff": new Nedb({ filename: "PokerDB/diff", autoload: true }),
     "chat": new Nedb({ filename: "PokerDB/chat", autoload: true }),
+    "game": new Nedb({ filename: "PokerDB/game", autoload: true }),
     "onHold": new Nedb({ filename: "PokerDB/onHold", autoload: true }),
 }
 for (let key in db) {
@@ -121,11 +122,11 @@ export async function updateMember(data) {
     await db.member.update({ type: "member", playerId: data.playerId }, { $set: { "point": data.point, "total_games": data.total_games } })
 }
 export async function createOnHold(playerId, roomId, point) {
-    let created = await db.onHold.insert({ "type": "onHold", playerId, "point": point, "roomId": roomId, "first_move":true })
+    let created = await db.onHold.insert({ "type": "onHold", playerId, "point": point, "roomId": roomId, "first_move": true })
     console.log("created onHold", JSON.stringify(created))
 }
 export async function updateOnHold(playerId, roomId, point, first_move = false) {
-    await db.onHold.update({ type: "onHold", playerId: playerId, "roomId": roomId }, { $set: { "point": point,"first_move":first_move } })
+    await db.onHold.update({ type: "onHold", playerId: playerId, "roomId": roomId }, { $set: { "point": point, "first_move": first_move } })
 
 }
 export async function getOnHold(playerId, roomId) {
@@ -286,5 +287,66 @@ function clearData() {
     for (let type of types) {
         db[type].remove({ type })
     }
+}
+
+export async function createGameInfo(playerId, roomId) {
+
+    let resp = await new Promise((res, rej) => {
+        db.game.findOne({ type: "gameInfo", "roomId": roomId }, (err, docs) => {
+            console.log(docs)
+            if (err) rej(null)
+            else if (docs != null) {
+                if (!docs.players.includes(playerId)) {
+                    docs.players.push(playerId)
+                    res(true)
+                }
+            } else if (docs == null) {
+                db.recordTime.insert({ type: "gameInfo", roomId, players: [playerId] })
+                res(true)
+            }
+            res(false)
+        })
+    })
+    console.log("create game resp:",resp)
+    return resp
+}
+
+export async function getGamePlayers(roomId) {
+    let resp = await new Promise((res, rej) => {
+        db.game.findOne({ type: "gameInfo", "roomId": roomId }, (err, docs) => {
+            console.log(docs)
+            if (err) rej(null)
+            else if (docs != null) {
+                res(docs.players)
+            }else{
+                res(null)
+            }
+            
+        })
+    })
+    console.log("game players: ",resp)
+    return resp
+}
+
+export async function removeGamePlayer(playerId, roomId) {
+    let resp = await new Promise((res, rej) => {
+        db.game.findOne({ type: "gameInfo", "roomId": roomId }, (err, docs) => {
+            if (err) rej(null)
+            else if (docs != null) {
+                res(docs)
+            }
+            res(null)
+        })
+    })
+    let modifyed = []
+    if (resp !== null) {
+        for (let player of resp.players) {
+            if (player != playerId) {
+                modifyed.push(player)
+                console.log("Removed player",player)
+            }
+        }
+    }
+    db.game.update({ "type": resp.type, "roomId": resp.roomId }, { $set: { "players": modifyed } })
 }
 
