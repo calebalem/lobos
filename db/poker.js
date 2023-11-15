@@ -107,11 +107,14 @@ export async function createMember(data) {
     let member = { ...data, "type": "member", "last_game": null, "point": 0, "total_games": 0 }
     let exsists = await new Promise((res, rej) => {
         db.member.findOne({ "playerId": member.playerId, "type": "member" }, (err, docs) => {
-            if (err) return err
+            if (err){
+                console.error(err)
+                rej(false)
+            }
             else res(docs)
         })
     })
-    if (!exsists) {
+    if (exsists === null) {
         await db.member.insert(member)
     }
 }
@@ -139,7 +142,7 @@ export async function getOnHold(playerId, roomId) {
     })
     console.log("onHold data", JSON.stringify(onHold))
     if (onHold) {
-        return onHold.point
+        return onHold
     }
     return null
 }
@@ -293,15 +296,15 @@ export async function createGameInfo(playerId, roomId) {
 
     let resp = await new Promise((res, rej) => {
         db.game.findOne({ type: "gameInfo", "roomId": roomId }, (err, docs) => {
-            console.log(docs)
+            console.log("game Info",docs,err)
             if (err) rej(null)
-            else if (docs != null) {
+            else if (docs !== null) {
                 if (!docs.players.includes(playerId)) {
                     docs.players.push(playerId)
                     res(true)
                 }
             } else if (docs == null) {
-                db.recordTime.insert({ type: "gameInfo", roomId, players: [playerId] })
+                db.game.insert({ type: "gameInfo", roomId, players: [playerId] })
                 res(true)
             }
             res(false)

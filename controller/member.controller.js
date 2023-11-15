@@ -7,6 +7,8 @@ export async function get_members() {
     for(let member of members){
         member.onHolds = await DB.getOnHolds(member.playerId)
     }
+  
+   
     return { members }
 }
 

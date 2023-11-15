@@ -151,7 +151,7 @@
     "messages": [
       {
         "encoding": "json",
-        "data": {"roomId":"6550d9d70110b969fc6f6e17"},
+        "data": { "roomId": "6550d9d70110b969fc6f6e17" },
         "name": "newRequestMsg"
       }
     ]
@@ -167,8 +167,157 @@
     "messages": [
       {
         "encoding": "json",
-        "data": {"roomId":"655232090110b969fc539dcc","roomUpdate":{"status":"WAITING","updatedAt":1699886760951,"countTimeOffset":61831,"players":[{"empty":true,"seat":0},{"empty":false,"seat":1,"playerId":"654e2b7b023c2f5b79b279f0","playerCode":"12AV9","displayName":"boss","chips":100,"stack":0,"inRoom":true,"left":false,"kick":false,"isOnline":true,"disconTBQuota":20,"disconTBTs":1699886561518,"deadHandSN":2,"deadTs":1699886677559,"handCount":2,"timeoutCount":0,"noStackExpire":1699886865602}],"reloads":{}},"sentTs":1699886760957},
+        "data": {
+          "roomId": "655232090110b969fc539dcc",
+          "roomUpdate": {
+            "status": "WAITING",
+            "updatedAt": 1699886760951,
+            "countTimeOffset": 61831,
+            "players": [
+              { "empty": true, "seat": 0 },
+              {
+                "empty": false,
+                "seat": 1,
+                "playerId": "654e2b7b023c2f5b79b279f0",
+                "playerCode": "12AV9",
+                "displayName": "boss",
+                "chips": 100,
+                "stack": 0,
+                "inRoom": true,
+                "left": false,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1699886561518,
+                "deadHandSN": 2,
+                "deadTs": 1699886677559,
+                "handCount": 2,
+                "timeoutCount": 0,
+                "noStackExpire": 1699886865602
+              }
+            ],
+            "reloads": {}
+          },
+          "sentTs": 1699886760957
+        },
         "name": "pauseMsg"
+      }
+    ]
+  },
+  {
+    "action": 15,
+    "id": "PgPk0ryyiu:104768",
+    "connectionId": "PgPk0ryyiu",
+    "connectionSerial": 3,
+    "channel": "room:6554aca50110b969fca716db:public",
+    "channelSerial": "e91hb8uVwBVHry90806872@1700048727140-0",
+    "timestamp": 1700048727065,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {
+          "roomId": "6554aca50110b969fca716db",
+          "roomUpdate": {
+            "updatedAt": 1700048727043,
+            "status": "PLAYING",
+            "handSN": 1,
+            "moveSN": 2,
+            "moves": [
+              {
+                "_new": 1,
+                "sn": 0,
+                "events": [
+                  {
+                    "eventName": "tableDidPerformMove",
+                    "move": { "sn": 0, "seat": 0, "type": "bet", "chips": 1 },
+                    "seatState": { "stackChips": 49, "bettingChips": 1 },
+                    "activeSeat": -1,
+                    "potLimitMaxBettableChips": 1
+                  }
+                ],
+                "handSN": 1
+              },
+              {
+                "_new": 1,
+                "sn": 1,
+                "events": [
+                  {
+                    "eventName": "tableDidPerformMove",
+                    "move": { "sn": 1, "seat": 1, "type": "bet", "chips": 2 },
+                    "seatState": { "stackChips": 48, "bettingChips": 2 },
+                    "activeSeat": 0,
+                    "potLimitMaxBettableChips": 5
+                  }
+                ],
+                "handSN": 1
+              }
+            ],
+            "tableInit": {
+              "handSN": 1,
+              "bigBlind": 2,
+              "SBSeat": 1,
+              "selDealerCards": ["8d", "6d"],
+              "events": [
+                {
+                  "eventName": "tableDidInit",
+                  "seatStates": [
+                    {
+                      "seat": 0,
+                      "seated": true,
+                      "id": "652818b5c0013e4dcc0a6370",
+                      "name": "truth",
+                      "stackChips": 49,
+                      "initStackChips": 50
+                    },
+                    {
+                      "seat": 1,
+                      "seated": true,
+                      "id": "654e2b7b023c2f5b79b279f0",
+                      "name": "boss",
+                      "stackChips": 48,
+                      "initStackChips": 50
+                    }
+                  ],
+                  "activeSeat": -1,
+                  "dealerSeat": 0,
+                  "SBSeat": 0,
+                  "BBSeat": 1
+                }
+              ],
+              "blindCount": 2
+            },
+            "players": [
+              {
+                "empty": false,
+                "seat": 0,
+                "playerId": "652818b5c0013e4dcc0a6370",
+                "playerCode": "PCNWG",
+                "displayName": "truth",
+                "chips": 50,
+                "stack": 50,
+                "inRoom": true
+              },
+              {
+                "empty": false,
+                "seat": 1,
+                "playerId": "654e2b7b023c2f5b79b279f0",
+                "playerCode": "12AV9",
+                "displayName": "boss",
+                "chips": 50,
+                "stack": 50,
+                "inRoom": true
+              }
+            ],
+            "startCountingAt": 1700048727026,
+            "timeout": 1700048759843,
+            "reloads": {},
+            "disconTBSecs": 0,
+            "actionTime": 30,
+            "v": 6
+          },
+          "sentTs": 1700048727050
+        },
+        "name": "dealMsg"
       }
     ]
   }
