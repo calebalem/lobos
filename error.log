@@ -2912,3 +2912,399 @@
 [Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
 [Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
 [Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 27 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Nov 27 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Nov 27 2023] TypeError: prevPlayers is not iterable 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Nov 27 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 28 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'members') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] ReferenceError: player is not defined 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Tue Nov 28 2023] SyntaxError: Unexpected end of JSON input 
+[Tue Nov 28 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 
+[Tue Nov 28 2023] TypeError: Cannot read properties of undefined (reading 'rooms') 

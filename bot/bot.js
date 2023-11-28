@@ -160,11 +160,11 @@ gameEvent.on("move", async ({ data, roomId }) => {
                 let inComingDiff
 
 
-                // if (onHold !== null && onHold.first_move) {
-                //     inComingDiff = (plyr.stack - plyr.chips) + plyr.chips
-                // }else{
-                inComingDiff = plyr.stack - plyr.chips
-                //}
+                if (onHold !== null && onHold.first_move) {
+                    inComingDiff = (plyr.stack - plyr.chips) + plyr.chips
+                } else {
+                    inComingDiff = plyr.stack - plyr.chips
+                }
                 if (inComingDiff < 0) {
                     inComingDiff = 0
                 }
