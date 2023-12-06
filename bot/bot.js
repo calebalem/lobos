@@ -234,7 +234,7 @@ async function acceptDeclineMember(player) {
                     if (onHold == null) {
                         await createOnHold(player.playerId, player.roomId, buyInChips)
                     } else {
-                        await updateOnHold(player.playerId, player.roomId, buyInChips)
+                        await updateOnHold(player.playerId, player.roomId, buyInChips,true)
                     }
                     await updateMember(member)
                     member.onHolds = await getOnHolds(player.playerId)
