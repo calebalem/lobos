@@ -42,12 +42,12 @@ gameEvent.on("gameEnded", async ({ data, roomId }) => {
         }
         for (let prevPlayer of prevPlayers) {
             if (!currentPlayers.includes(prevPlayer)) {
-                let onHold = await getOnHold(player.playerId, roomId)
-                let member = await getMemeber(player.playerId)
+                let onHold = await getOnHold(prevPlayer, roomId)
+                let member = await getMemeber(prevPlayer)
                 member.point += onHold.point
                 await updateMember(member)
-                await updateOnHold(player.playerId, roomId, 0)
-                member.onHolds = await getOnHolds(player.playerId)
+                await updateOnHold(prevPlayer, roomId, 0)
+                member.onHolds = await getOnHolds(prevPlayer)
                 emitRaw(member, "pointUpdated")
                 emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
                 await removeGamePlayer(prevPlayer, roomId)
