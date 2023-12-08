@@ -23,7 +23,12 @@ export async function emitServer(data, event = "status") {
 }
 
 export async function emitRaw(data, event) {
-    socket.emit(event, data)
+    try {
+        if (socket !== null)
+            socket.emit(event, data)
+    } catch (e) {
+        logError(e)
+    }
 }
 
 export class ServerWs {

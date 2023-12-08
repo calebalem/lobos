@@ -1,6 +1,89 @@
-{playerId:"654e2b7b023c2f5b79b279f0",displayName:"boss",playerCode:"12AV9",favorite:true,clubId:"654e2bfb0110b969fcc7d053",type:"member",last_game:null,point:100,total_games:0,_id:"AiI6NdqbEAOVUC3A",onHolds:[]},
-    {playerId:"652818b5c0013e4dcc0a6375",displayName:"a",playerCode:"PCNWG",joinedTs:1699622781906,clubId:"654e2bfb0110b969fcc7d053",type:"member",last_game:null,point:200,total_games:1,_id:"c3BTFBRf2dj9pcRN",onHolds:[]},
-    {playerId:"652818b5c0013e4dcc0a6374",displayName:"b",playerCode:"PCNWG",joinedTs:1699622781906,clubId:"654e2bfb0110b969fcc7d053",type:"member",last_game:null,point:0,total_games:0,_id:"F60OioBfoKeojrUw",onHolds:[]},
-    ,{playerId:"654e2b7b023c2f5b79b279f3",displayName:"c",playerCode:"12AV9",favorite:true,clubId:"654e2bfb0110b969fcc7d053",type:"member",last_game:null,point:100,total_games:0,_id:"AiI6NdqbEAOVUC3A",onHolds:[]},
-    {playerId:"652818b5c0013e4dcc0a6372",displayName:"d",playerCode:"PCNWG",joinedTs:1699622781906,clubId:"654e2bfb0110b969fcc7d053",type:"member",last_game:null,point:200,total_games:1,_id:"c3BTFBRf2dj9pcRN",onHolds:[]},
-    {playerId:"652818b5c0013e4dcc0a6371",displayName:"e",playerCode:"PCNWG",joinedTs:1699622781906,clubId:"654e2bfb0110b969fcc7d053",type:"member",last_game:null,point:0,total_games:0,_id:"F60OioBfoKeojrUw",onHolds:[]},
+[
+  {
+    "action": 15,
+    "id": "Xqya2vr98r:362454",
+    "connectionId": "Xqya2vr98r",
+    "connectionSerial": 3,
+    "channel": "room:6572f10ce26e6c97859eefa4:public",
+    "channelSerial": "e91zZz7ywBW8Wy08340534@1702031847690-0",
+    "timestamp": 1702031847612,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {
+          "roomId": "6572f10ce26e6c97859eefa4",
+          "senderId": "656f177d260a477fef1c1700",
+          "roomUpdate": {
+            "players": [
+              { "empty": true, "seat": 0 },
+              { "empty": true, "seat": 1 }
+            ],
+            "updatedAt": 1702031847582,
+            "status": "PREPARE"
+          },
+          "sentTs": 1702031847598
+        },
+        "name": "leaveMsg"
+      }
+    ]
+  },
+  {
+    "action": 15,
+    "id": "-zpGuBCmRS:366252",
+    "connectionId": "-zpGuBCmRS",
+    "connectionSerial": 8,
+    "channel": "player:65366f58c0013e4dcc0be63f",
+    "channelSerial": "e91ZWMIKwBW8Wu88403200@1702032130756-0",
+    "timestamp": 1702032130199,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": { "roomId": "6572f10ce26e6c97859eefa4" },
+        "name": "newRequestMsg"
+      }
+    ]
+  },
+  {
+    "action": 15,
+    "id": "MSLNja5mCS:366181",
+    "connectionId": "MSLNja5mCS",
+    "connectionSerial": 0,
+    "channel": "player:65366f58c0013e4dcc0be63f",
+    "channelSerial": "e91ZWMIKwBW8Wu88403200@1702031812282-0",
+    "timestamp": 1702031811728,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": { "roomId": "6572ebd6e26e6c97855022d8" },
+        "name": "newRequestMsg"
+      }
+    ]
+  },
+  {
+    "action": 15,
+    "id": "p8SHzAybE4:368941",
+    "connectionId": "p8SHzAybE4",
+    "connectionSerial": 2,
+    "channel": "room:657303c7e26e6c9785bfa719:public",
+    "channelSerial": "e91gJHIMwBW9MO13985559@1702036616327-0",
+    "timestamp": 1702036616247,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": {
+          "roomId": "657303c7e26e6c9785bfa719",
+          "senderId": "656f08982c7184169b40e60f",
+          "roomUpdate": {
+            "players": [
+              { "empty": true, "seat": 0 },
+              { "empty": true, "seat": 1 }
+            ],
+            "updatedAt": 1702036616228
+          },
+          "sentTs": 1702036616234
+        },
+        "name": "sitOutMsg"
+      }
+    ]
+  }
+]

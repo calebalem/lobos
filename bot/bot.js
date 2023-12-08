@@ -1,5 +1,5 @@
 import { confirmRequest, getGameRequests } from "../api/poker.js";
-import { addOngoingGame, createDiff, createGameInfo, createOnHold, deleteDiff, getChat, getDiff, getGamePlayers, getMemeber, getOnHold, getOnHolds, getOngoingGame, getRecordTime, recordPlayerTime, removeGamePlayer, saveChat, updateDiff, updateMember, updateOnHold } from "../db/poker.js";
+import { addOngoingGame, createDiff, createGameInfo, createOnHold, deleteDiff, getChat, getDiff, getGamePlayers, getMemeber, getOnHold, getOnHolds, getOngoingGame, getRecordTime, recordPlayerTime, removeGamePlayer, removePlayerTime, saveChat, updateDiff, updateMember, updateOnHold } from "../db/poker.js";
 import { gameEvent } from "../events/event.js";
 import { play } from "../player/player.js";
 import { logError, timeout } from "../util/util.js";
@@ -90,33 +90,48 @@ gameEvent.on("chatMessage", async (data) => {
     }
 })
 
-gameEvent.on("playerLeft", async ({ data, roomId }) => {
+gameEvent.on("playerLeft", async ({ data, roomId, beforeStart }) => {
     try {
-        console.log("player left event")
-        console.log(JSON.stringify(data), roomId)
-        for (let player of data) {
-            if (player.left) {
-                await recordPlayerTime(player.playerId, roomId, true)
-                let recTime = await getRecordTime(player.playerId, roomId)
-                let member = await getMemeber(player.playerId)
-                let diff = player.stack - player.chips
-                let onHold = await getOnHold(player.playerId, roomId)
-                member.point += onHold.point
-                await updateMember(member)
-                await updateOnHold(player.playerId, roomId, 0)
-                member.onHolds = await getOnHolds(player.playerId)
-                emitRaw(member, "pointUpdated")
-                emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
-                //checkPlayerLeave(member, roomId,diff)
-                console.log(recTime)
-                if (recTime) {
-                    let timeDiffInMin = parseFloat((Math.abs(recTime.endTime - recTime.startTime) / 60000).toFixed(1));
-                    console.log(`Player Stayed for ${timeDiffInMin}`)
-                    let notified = await checkNotify(member, roomId)
-                    if (timeDiffInMin < 60 && diff > 100 && !notified) {
-                        notify(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
-                        play(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
+        console.log("playerleftn\n\n\n")
+        if (beforeStart) {
+            console.log("beforeStart\n\n\n")
+            let member = await getMemeber(data)
+            let onHold = await getOnHold(data, roomId)
+            member.point += onHold.point
+            await updateMember(member)
+            await updateOnHold(data, roomId, 0)
+            member.onHolds = await getOnHolds(data)
+            emitRaw(member, "pointUpdated")
+            emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
+            await removePlayerTime(data,roomId)
+        } else {
+            console.log("player left event")
+            console.log(JSON.stringify(data), roomId)
+            for (let player of data) {
+                if (player.left) {
+                    await recordPlayerTime(player.playerId, roomId, true)
+                    let recTime = await getRecordTime(player.playerId, roomId)
+                    let member = await getMemeber(player.playerId)
+                    let diff = player.stack - player.chips
+                    let onHold = await getOnHold(player.playerId, roomId)
+                    member.point += onHold.point
+                    await updateMember(member)
+                    await updateOnHold(player.playerId, roomId, 0)
+                    member.onHolds = await getOnHolds(player.playerId)
+                    emitRaw(member, "pointUpdated")
+                    emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
+                    //checkPlayerLeave(member, roomId,diff)
+                    console.log(recTime)
+                    if (recTime) {
+                        let timeDiffInMin = parseFloat((Math.abs(recTime.endTime - recTime.startTime) / 60000).toFixed(1));
+                        console.log(`Player Stayed for ${timeDiffInMin}`)
+                        let notified = await checkNotify(member, roomId)
+                        if (timeDiffInMin < 60 && diff > 100 && !notified) {
+                            notify(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
+                            play(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
+                        }
                     }
+                    await removePlayerTime(player.playerId,roomId)
                 }
             }
         }
@@ -157,17 +172,17 @@ gameEvent.on("move", async ({ data, roomId }) => {
                 console.log(`stack ${plyr.stack} chips ${plyr.chips}`)
                 let onHold = await getOnHold(plyr.playerId, roomId)
                 console.log("log_move: ", onHold)
-                let inComingDiff
+                let inComingDiff = (plyr.stack - plyr.chips) + plyr.chips
 
 
-                if (onHold !== null && onHold.first_move) {
-                    inComingDiff = (plyr.stack - plyr.chips) + plyr.chips
-                } else {
-                    inComingDiff = plyr.stack - plyr.chips
-                }
-                if (inComingDiff < 0) {
-                    inComingDiff = 0
-                }
+                // if (onHold !== null && onHold.first_move) {
+                //     inComingDiff 
+                // } else {
+                //     inComingDiff = plyr.stack - plyr.chips
+                // }
+                // if (inComingDiff < 0) {
+                //     inComingDiff = 0
+                // }
                 await updateOnHold(plyr.playerId, roomId, inComingDiff)
                 player.onHolds = await getOnHolds(plyr.playerId)
                 //await updateDiff(roomId, plyr.playerId, inComingDiff)
@@ -234,7 +249,7 @@ async function acceptDeclineMember(player) {
                     if (onHold == null) {
                         await createOnHold(player.playerId, player.roomId, buyInChips)
                     } else {
-                        await updateOnHold(player.playerId, player.roomId, buyInChips,true)
+                        await updateOnHold(player.playerId, player.roomId, buyInChips, true)
                     }
                     await updateMember(member)
                     member.onHolds = await getOnHolds(player.playerId)

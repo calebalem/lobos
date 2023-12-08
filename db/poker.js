@@ -2,17 +2,32 @@ import { query } from "express";
 import { database } from "../globals/poker.js";
 import { getCurrentPlayerId, logError } from "../util/util.js";
 import Nedb from "nedb"
+import crypto from "crypto"
 
 
+var algorithm = 'aes256';
+var key = 'Zxcvbnm@167';
 let db = {
-    "member": new Nedb({ filename: "PokerDB/member", autoload: true }),
-    "club": new Nedb({ filename: "PokerDB/club", autoload: true }),
-    "recordTime": new Nedb({ filename: "PokerDB/recordTime", autoload: true }),
-    "onGoingGame": new Nedb({ filename: "PokerDB/onGoingGame", autoload: true }),
-    "diff": new Nedb({ filename: "PokerDB/diff", autoload: true }),
-    "chat": new Nedb({ filename: "PokerDB/chat", autoload: true }),
-    "game": new Nedb({ filename: "PokerDB/game", autoload: true }),
-    "onHold": new Nedb({ filename: "PokerDB/onHold", autoload: true }),
+    "member": new Nedb({ filename: "PokerDB/member", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+    "club": new Nedb({ filename: "PokerDB/club", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+    "recordTime": new Nedb({ filename: "PokerDB/recordTime", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+    "onGoingGame": new Nedb({ filename: "PokerDB/onGoingGame", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+    "diff": new Nedb({ filename: "PokerDB/diff", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+    "chat": new Nedb({ filename: "PokerDB/chat", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+    "game": new Nedb({ filename: "PokerDB/game", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+    "onHold": new Nedb({ filename: "PokerDB/onHold", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
+}
+function afterSerialization(data) {
+    var cipher  = crypto.createCipher(algorithm, key);
+    data   = cipher.update(JSON.stringify(data), 'utf8', 'hex') + cipher.final('hex');
+    
+    return data;
+}
+function beforeDeSerialization(data) {
+    var decipher = crypto.createDecipher(algorithm, key);
+    data = decipher.update(data, 'hex', 'utf8') + decipher.final('utf8');
+    
+    return JSON.parse(data);
 }
 for (let key in db) {
     db[key].loadDatabase((err) => {
@@ -107,7 +122,7 @@ export async function createMember(data) {
     let member = { ...data, "type": "member", "last_game": null, "point": 0, "total_games": 0 }
     let exsists = await new Promise((res, rej) => {
         db.member.findOne({ "playerId": member.playerId, "type": "member" }, (err, docs) => {
-            if (err){
+            if (err) {
                 console.error(err)
                 rej(false)
             }
@@ -238,7 +253,13 @@ export async function recordPlayerTime(playerId, roomId, end = false) {
     console.log(resp)
     return resp
 }
-
+export async function removePlayerTime(playerId, roomId) {
+    try {
+        await db.recordTime.remove({ "type": "recordTime", roomId, playerId })
+    } catch (e) {
+        logError(e)
+    }
+}
 export async function saveChat(playerId, roomId, content, time) {
     let resp = await new Promise((res, rej) => {
         db.chat.insert({ type: "chat", playerId, roomId, content, time }, (err, doc) => {
@@ -296,7 +317,7 @@ export async function createGameInfo(playerId, roomId) {
 
     let resp = await new Promise((res, rej) => {
         db.game.findOne({ type: "gameInfo", "roomId": roomId }, (err, docs) => {
-            console.log("game Info",docs,err)
+            console.log("game Info", docs, err)
             if (err) rej(null)
             else if (docs !== null) {
                 if (!docs.players.includes(playerId)) {
@@ -310,7 +331,7 @@ export async function createGameInfo(playerId, roomId) {
             res(false)
         })
     })
-    console.log("create game resp:",resp)
+    console.log("create game resp:", resp)
     return resp
 }
 
@@ -321,13 +342,13 @@ export async function getGamePlayers(roomId) {
             if (err) rej(null)
             else if (docs != null) {
                 res(docs.players)
-            }else{
+            } else {
                 res(null)
             }
-            
+
         })
     })
-    console.log("game players: ",resp)
+    console.log("game players: ", resp)
     return resp
 }
 
@@ -346,7 +367,7 @@ export async function removeGamePlayer(playerId, roomId) {
         for (let player of resp.players) {
             if (player != playerId) {
                 modifyed.push(player)
-                console.log("Removed player",player)
+                console.log("Removed player", player)
             }
         }
     }

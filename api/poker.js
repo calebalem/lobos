@@ -3,7 +3,7 @@ import { eventIdPairs, gameEvent } from "../events/event.js";
 import { database, gateway_ready, subscribed } from "../globals/poker.js";
 import { getCurrentPlayerId, getSocket, timeout, logError } from "../util/util.js";
 import { Ws } from "../ws/poker.ws.js";
-
+import { emitRaw } from "../ws/server.ws.js"
 
 
 export async function getClubs() {
@@ -188,6 +188,7 @@ export async function subscribe() {
                     }
                 ]
                 let games = await get_games()
+                await emitRaw(games,"UpdateGames")
                 for (let game of games) {
                     requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:public` })
                     requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:${playerId}` })
