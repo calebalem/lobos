@@ -55,7 +55,7 @@ function startRealtime(creds) {
                 } else if (message.name == "moveMsg") {
                     if (data.roomUpdate.players != null)
                         gameEvent.emit("move", { "data": data.roomUpdate.players, "roomId": data.roomId })
-                } else if (message.name = "sitOutMsg"){
+                } else if (message.name == "sitOutMsg"){
                     gameEvent.emit("playerLeft", { "data": data.senderId, "roomId": data.roomId, "beforeStart":true })
                 }
             }
