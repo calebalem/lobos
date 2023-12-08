@@ -365,12 +365,13 @@ export async function removeGamePlayer(playerId, roomId) {
     let modifyed = []
     if (resp !== null) {
         for (let player of resp.players) {
-            if (player != playerId) {
+            if (player !== playerId) {
                 modifyed.push(player)
                 console.log("Removed player", player)
             }
         }
+        db.game.update({ "type": resp.type, "roomId": resp.roomId }, { $set: { "players": modifyed } })
     }
-    db.game.update({ "type": resp.type, "roomId": resp.roomId }, { $set: { "players": modifyed } })
+    
 }
 

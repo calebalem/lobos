@@ -1,88 +1,163 @@
 [
   {
     "action": 15,
-    "id": "Xqya2vr98r:362454",
-    "connectionId": "Xqya2vr98r",
-    "connectionSerial": 3,
-    "channel": "room:6572f10ce26e6c97859eefa4:public",
-    "channelSerial": "e91zZz7ywBW8Wy08340534@1702031847690-0",
-    "timestamp": 1702031847612,
+    "id": "ejWlsDk6vJ:391759",
+    "connectionId": "ejWlsDk6vJ",
+    "connectionSerial": 10,
+    "channel": "room:6573472de26e6c97857c9dc1:public",
+    "channelSerial": "e915nfVbQBW8XL08698372@1702054108302-0",
+    "timestamp": 1702054108223,
     "messages": [
       {
         "encoding": "json",
         "data": {
-          "roomId": "6572f10ce26e6c97859eefa4",
-          "senderId": "656f177d260a477fef1c1700",
+          "roomId": "6573472de26e6c97857c9dc1",
           "roomUpdate": {
-            "players": [
-              { "empty": true, "seat": 0 },
-              { "empty": true, "seat": 1 }
+            "updatedAt": 1702054108198,
+            "reloads": {},
+            "status": "WAITING",
+            "tableInit": {},
+            "moves": [],
+            "timeout": 1702097308198,
+            "startCountingAt": 1702054108198,
+            "countTimeOffset": 49833,
+            "ranking": [
+              {
+                "empty": false,
+                "seat": 1,
+                "playerId": "656f08982c7184169b40e60f",
+                "playerCode": "FM3F2",
+                "displayName": "prt",
+                "chips": 200,
+                "stack": 300,
+                "inRoom": true,
+                "left": false,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1702054058376,
+                "actionTimeout": 0,
+                "disconnectedTs": 0,
+                "fullActionTimeUsed": false,
+                "timeoutCount": 0,
+                "handCount": 1,
+                "diff": 100,
+                "ts": 1702054100149
+              },
+              {
+                "empty": false,
+                "seat": 0,
+                "playerId": "656f177d260a477fef1c1700",
+                "playerCode": "ZKVZQ",
+                "displayName": "uio",
+                "chips": 100,
+                "stack": 0,
+                "inRoom": true,
+                "left": false,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1702054058376,
+                "timeoutCount": 0,
+                "handCount": 1,
+                "diff": -100,
+                "ts": 1702054100149
+              }
             ],
-            "updatedAt": 1702031847582,
-            "status": "PREPARE"
+            "players": [
+              {
+                "empty": false,
+                "seat": 0,
+                "playerId": "656f177d260a477fef1c1700",
+                "playerCode": "ZKVZQ",
+                "displayName": "uio",
+                "chips": 100,
+                "stack": 0,
+                "inRoom": true,
+                "left": false,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1702054058376,
+                "deadHandSN": 1,
+                "deadTs": 1702054100149,
+                "handCount": 1,
+                "timeoutCount": 0,
+                "noStackExpire": 1702054288198
+              },
+              {
+                "empty": false,
+                "seat": 1,
+                "playerId": "656f08982c7184169b40e60f",
+                "playerCode": "FM3F2",
+                "displayName": "prt",
+                "chips": 200,
+                "stack": 300,
+                "inRoom": true,
+                "left": false,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1702054058376,
+                "actionTimeout": 0,
+                "disconnectedTs": 0,
+                "fullActionTimeUsed": false,
+                "handCount": 1,
+                "timeoutCount": 0
+              }
+            ]
           },
-          "sentTs": 1702031847598
+          "sentTs": 1702054108209
         },
-        "name": "leaveMsg"
+        "name": "pauseMsg"
       }
     ]
   },
   {
     "action": 15,
-    "id": "-zpGuBCmRS:366252",
-    "connectionId": "-zpGuBCmRS",
-    "connectionSerial": 8,
-    "channel": "player:65366f58c0013e4dcc0be63f",
-    "channelSerial": "e91ZWMIKwBW8Wu88403200@1702032130756-0",
-    "timestamp": 1702032130199,
-    "messages": [
-      {
-        "encoding": "json",
-        "data": { "roomId": "6572f10ce26e6c97859eefa4" },
-        "name": "newRequestMsg"
-      }
-    ]
-  },
-  {
-    "action": 15,
-    "id": "MSLNja5mCS:366181",
-    "connectionId": "MSLNja5mCS",
-    "connectionSerial": 0,
-    "channel": "player:65366f58c0013e4dcc0be63f",
-    "channelSerial": "e91ZWMIKwBW8Wu88403200@1702031812282-0",
-    "timestamp": 1702031811728,
-    "messages": [
-      {
-        "encoding": "json",
-        "data": { "roomId": "6572ebd6e26e6c97855022d8" },
-        "name": "newRequestMsg"
-      }
-    ]
-  },
-  {
-    "action": 15,
-    "id": "p8SHzAybE4:368941",
-    "connectionId": "p8SHzAybE4",
-    "connectionSerial": 2,
-    "channel": "room:657303c7e26e6c9785bfa719:public",
-    "channelSerial": "e91gJHIMwBW9MO13985559@1702036616327-0",
-    "timestamp": 1702036616247,
+    "id": "4vNZMld6XU:396215",
+    "connectionId": "4vNZMld6XU",
+    "connectionSerial": 11,
+    "channel": "room:6573472de26e6c97857c9dc1:public",
+    "channelSerial": "e915nfVbQBW8XL08698372@1702054149392-0",
+    "timestamp": 1702054149312,
     "messages": [
       {
         "encoding": "json",
         "data": {
-          "roomId": "657303c7e26e6c9785bfa719",
-          "senderId": "656f08982c7184169b40e60f",
+          "roomId": "6573472de26e6c97857c9dc1",
           "roomUpdate": {
+            "status": "WAITING",
+            "updatedAt": 1702054149294,
+            "countTimeOffset": 49833,
             "players": [
-              { "empty": true, "seat": 0 },
+              {
+                "empty": false,
+                "seat": 0,
+                "playerId": "656f177d260a477fef1c1700",
+                "playerCode": "ZKVZQ",
+                "displayName": "uio",
+                "chips": 100,
+                "stack": 0,
+                "inRoom": true,
+                "left": false,
+                "kick": false,
+                "isOnline": true,
+                "disconTBQuota": 20,
+                "disconTBTs": 1702054058376,
+                "deadHandSN": 1,
+                "deadTs": 1702054100149,
+                "handCount": 1,
+                "timeoutCount": 0,
+                "noStackExpire": 1702054288198
+              },
               { "empty": true, "seat": 1 }
             ],
-            "updatedAt": 1702036616228
+            "reloads": {}
           },
-          "sentTs": 1702036616234
+          "sentTs": 1702054149301
         },
-        "name": "sitOutMsg"
+        "name": "pauseMsg"
       }
     ]
   }

@@ -406,3 +406,78 @@
 [2023-12-8 15:0] prt | FM3F2 on point updated 50
 [2023-12-8 15:1] Accepted game request from prt | FM3F2. Points: 50 Games: 1, onHold: 50
 [2023-12-8 15:1] prt | FM3F2 on point updated 100
+[2023-12-8 19:7] Accepted game request from prt | FM3F2. Points: 100 Games: 1, onHold: 200
+[2023-12-8 19:7] Accepted game request from uio | ZKVZQ. Points: 100 Games: 1, onHold: 200
+[2023-12-8 19:7] Ignored game request from uio | ZKVZQ. Points: 100 Games: 1
+[2023-12-8 19:7] Ignored game request from prt | FM3F2. Points: 100 Games: 1
+[2023-12-8 19:7] Ignored game request from uio | ZKVZQ. Points: 100 Games: 1
+[2023-12-8 19:7] Ignored game request from prt | FM3F2. Points: 100 Games: 1
+[2023-12-8 19:8] prt | FM3F2 on hold chips updated 200
+[2023-12-8 19:8] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:8] prt | FM3F2 on hold chips updated 200
+[2023-12-8 19:8] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:9] prt | FM3F2 on hold chips updated 400
+[2023-12-8 19:9] uio | ZKVZQ on hold chips updated 0
+[2023-12-8 19:10] prt | FM3F2 on point updated 500
+[2023-12-8 19:10] Accepted game request from prt | FM3F2. Points: 100 Games: 2, onHold: 400
+[2023-12-8 19:10] Ignored game request from uio | ZKVZQ. Points: 100 Games: 1
+[2023-12-8 19:11] Accepted game request from uio | ZKVZQ. Points: 0 Games: 2, onHold: 100
+[2023-12-8 19:11] Ignored game request from prt | FM3F2. Points: 100 Games: 2
+[2023-12-8 19:11] prt | FM3F2 on hold chips updated 400
+[2023-12-8 19:11] uio | ZKVZQ on hold chips updated 100
+[2023-12-8 19:11] prt | FM3F2 on hold chips updated 400
+[2023-12-8 19:11] uio | ZKVZQ on hold chips updated 100
+[2023-12-8 19:11] prt | FM3F2 on hold chips updated 400
+[2023-12-8 19:11] uio | ZKVZQ on hold chips updated 100
+[2023-12-8 19:12] prt | FM3F2 on hold chips updated 300
+[2023-12-8 19:12] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:12] prt | FM3F2 on hold chips updated 300
+[2023-12-8 19:12] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:12] prt | FM3F2 on hold chips updated 300
+[2023-12-8 19:12] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:12] prt | FM3F2 on hold chips updated 300
+[2023-12-8 19:12] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:12] prt | FM3F2 on hold chips updated 100
+[2023-12-8 19:12] uio | ZKVZQ on hold chips updated 400
+[2023-12-8 19:29] Accepted game request from prt | FM3F2. Points: 0 Games: 1, onHold: 100
+[2023-12-8 19:30] Accepted game request from uio | ZKVZQ. Points: 100 Games: 1, onHold: 200
+[2023-12-8 19:30] Ignored game request from prt | FM3F2. Points: 0 Games: 1
+[2023-12-8 19:30] prt | FM3F2 on hold chips updated 100
+[2023-12-8 19:30] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:30] prt | FM3F2 on hold chips updated 100
+[2023-12-8 19:30] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 19:31] prt | FM3F2 on hold chips updated 0
+[2023-12-8 19:31] uio | ZKVZQ on hold chips updated 300
+[2023-12-8 19:32] Ignored game request from uio | ZKVZQ. Points: 100 Games: 1
+[2023-12-8 19:32] Ignored game request from prt | FM3F2. Points: 0 Games: 1
+[2023-12-8 19:46] Accepted game request from uio | ZKVZQ. Points: 0 Games: 2, onHold: 100
+[2023-12-8 19:46] Accepted game request from prt | FM3F2. Points: 100 Games: 2, onHold: 200
+[2023-12-8 19:46] Ignored game request from uio | ZKVZQ. Points: 0 Games: 2
+[2023-12-8 19:47] Ignored game request from prt | FM3F2. Points: 100 Games: 2
+[2023-12-8 19:47] Ignored game request from uio | ZKVZQ. Points: 0 Games: 2
+[2023-12-8 19:47] uio | ZKVZQ on hold chips updated 100
+[2023-12-8 19:47] prt | FM3F2 on hold chips updated 200
+[2023-12-8 19:47] uio | ZKVZQ on hold chips updated 100
+[2023-12-8 19:47] prt | FM3F2 on hold chips updated 200
+[2023-12-8 19:48] uio | ZKVZQ on hold chips updated 0
+[2023-12-8 19:48] prt | FM3F2 on hold chips updated 300
+[2023-12-8 20:0] Accepted game request from prt | FM3F2. Points: 100 Games: 1, onHold: 200
+[2023-12-8 20:0] Accepted game request from uio | ZKVZQ. Points: 100 Games: 1, onHold: 200
+[2023-12-8 20:1] Ignored game request from prt | FM3F2. Points: 100 Games: 1
+[2023-12-8 20:1] prt | FM3F2 on hold chips updated 200
+[2023-12-8 20:1] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 20:1] prt | FM3F2 on hold chips updated 200
+[2023-12-8 20:1] uio | ZKVZQ on hold chips updated 200
+[2023-12-8 20:1] prt | FM3F2 on hold chips updated 0
+[2023-12-8 20:1] uio | ZKVZQ on hold chips updated 400
+[2023-12-8 20:5] Accepted game request from prt | FM3F2. Points: 100 Games: 1, onHold: 200
+[2023-12-8 20:6] Accepted game request from uio | ZKVZQ. Points: 100 Games: 1, onHold: 200
+[2023-12-8 20:6] Ignored game request from prt | FM3F2. Points: 100 Games: 1
+[2023-12-8 20:6] prt | FM3F2 on hold chips updated 0
+[2023-12-8 20:6] uio | ZKVZQ on hold chips updated 400
+[2023-12-8 20:10] Accepted game request from uio | ZKVZQ. Points: 100 Games: 1, onHold: 200
+[2023-12-8 20:10] Accepted game request from prt | FM3F2. Points: 100 Games: 1, onHold: 200
+[2023-12-8 20:10] Ignored game request from uio | ZKVZQ. Points: 100 Games: 1
+[2023-12-8 20:11] uio | ZKVZQ on hold chips updated 400
+[2023-12-8 20:11] prt | FM3F2 on hold chips updated 0
+[2023-12-8 20:12] uio | ZKVZQ on point updated 500

@@ -42,7 +42,7 @@ function startRealtime(creds) {
                 } else if (message.name == "dealMsg") {
                     //console.log("started: ",JSON.stringify(message))
                     gameEvent.emit("gameStarted", { "data": data.roomUpdate.players, "roomId": data.roomId })
-                } else if (message.name == "leaveMsg") {
+                } else if (message.name == "leaveMsg" || message.name == "sitOutMsg") {
                     console.log(`\n\n\nplayerleft${data}`)
                     console.log(`\n\n\nplayerleft${data.roomUpdate.status}`)
                     if (data.roomUpdate.status === "PREPARE") {
@@ -55,9 +55,7 @@ function startRealtime(creds) {
                 } else if (message.name == "moveMsg") {
                     if (data.roomUpdate.players != null)
                         gameEvent.emit("move", { "data": data.roomUpdate.players, "roomId": data.roomId })
-                } else if (message.name == "sitOutMsg"){
-                    gameEvent.emit("playerLeft", { "data": data.senderId, "roomId": data.roomId, "beforeStart":true })
-                }
+                } 
             }
 
 
