@@ -251,6 +251,7 @@ async function acceptDeclineMember(player) {
                     } else {
                         await updateOnHold(player.playerId, player.roomId, buyInChips, true)
                     }
+                    // /await createGameInfo(player.playerId,player.roomId)
                     await updateMember(member)
                     member.onHolds = await getOnHolds(player.playerId)
                     emitRaw(member, "pointUpdated")

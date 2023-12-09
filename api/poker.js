@@ -28,7 +28,7 @@ export async function getClubs() {
         })
         let clubs = []
         for (let club of resp.result.scriptData.clubs.__a) {
-            clubs.push({ "clubId": club[0]["$oid"], "name": club[7], "code":club[1] })
+            clubs.push({ "clubId": club[0]["$oid"], "name": club[7], "code": club[1] })
         }
         console.log(clubs)
         return clubs
@@ -127,7 +127,7 @@ export async function confirmRequest(data) {
             setTimeout(() => { res(null) }, 20000)
         })
         console.log(resp)
-        if(resp?.result?.error?.message == "Request may not be valid anymore."){
+        if (resp?.result?.error?.message == "Request may not be valid anymore.") {
             return null
         }
         return true
@@ -165,7 +165,7 @@ export async function getGames(clubId) {
         console.log(resp)
         return resp.result.scriptData.rooms
     } catch (e) {
-        logError(e,false)
+        logError(e, false)
         return null
     }
 }
@@ -188,7 +188,8 @@ export async function subscribe() {
                     }
                 ]
                 let games = await get_games()
-                await emitRaw(games,"UpdateGames")
+                if (games.length !== 0)
+                    await emitRaw(games, "UpdateGames")
                 for (let game of games) {
                     requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:public` })
                     requests.push({ "action": 10, "channel": `room:${game["_id"]["$oid"]}:${playerId}` })

@@ -160,5 +160,21 @@
         "name": "pauseMsg"
       }
     ]
+  },
+  {
+    "action": 15,
+    "id": "mziBusvdKA:463059",
+    "connectionId": "mziBusvdKA",
+    "connectionSerial": 2,
+    "channel": "room:65747ddfe26e6c9785f3b5db:public",
+    "channelSerial": "e91jafzgwBWCAj40456015@1702133297375-0",
+    "timestamp": 1702133297295,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": "{\"roomId\":\"65747ddfe26e6c9785f3b5db\",\"senderId\":\"656f08982c7184169b40e60f\",\"roomUpdate\":{\"players\":[{\"empty\":true,\"seat\":0},{\"empty\":true,\"seat\":1}],\"updatedAt\":1702133297275},\"sentTs\":1702133297282}",
+        "name": "sitOutMsg"
+      }
+    ]
   }
 ]

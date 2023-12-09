@@ -322,6 +322,7 @@ export async function createGameInfo(playerId, roomId) {
             else if (docs !== null) {
                 if (!docs.players.includes(playerId)) {
                     docs.players.push(playerId)
+                    db.game.update({type:"gameInfo","roomId":roomId},{$set:{"players":docs.players}})
                     res(true)
                 }
             } else if (docs == null) {
