@@ -195,6 +195,10 @@ gameEvent.on("move", async ({ data, roomId }) => {
     }
 })
 
+
+gameEvent.on("kick",async({data,roomId})=>{
+    
+})
 async function checkNotify(player, roomId) {
     let chat = await getChat(player.playerId, roomId)
     if (chat == null) {

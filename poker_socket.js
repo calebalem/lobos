@@ -92,7 +92,7 @@ function startGateway(creds) {
         var event = JSON.parse(message)
         for (let eName in eventIdPairs) {
             if (eName == event.id) {
-                gameEvent.emit(eventIdPairs[eName], event)
+                gameEvent.emit(eventIdPairs[eName]["name"], event)
                 break
             }
         }
@@ -112,7 +112,7 @@ function startGateway(creds) {
 
 function removeListeners() {
     for (let key in eventIdPairs) {
-        gameEvent.removeListener(eventIdPairs[key])
+        gameEvent.removeListener(eventIdPairs[key]["name"],eventIdPairs[key]["listener"])
     }
 }
 let cred = JSON.parse(fs.readFileSync("token.json"))
@@ -124,8 +124,9 @@ chokidar.watch('token.json').on('change', (path) => {
         try {
             const creds = JSON.parse(fs.readFileSync("token.json"))
             let newGatewayUrl = `wss://gateway-n304059d9xl3.pt-prod.pokerrrrapp.com/bridge/?token=${creds.token}`;
-            //removeListeners()
+            
             if (newGatewayUrl != prevgateWayUrl) {
+                removeListeners()
                 gateWayWs.terminate()
                 startGateway(creds)
             }

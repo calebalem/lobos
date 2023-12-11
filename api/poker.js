@@ -16,13 +16,15 @@ export async function getClubs() {
             "method": "clubMy",
             "params": {}
         }
-        eventIdPairs[date] = "clubListResponse"
-        socket.send(JSON.stringify(clubReq))
-        Ws.incReq()
+
         let resp = await new Promise(async (res) => {
-            gameEvent.once("clubListResponse", (data) => {
+            let myListener = (data) => {
                 res(data)
-            })
+            }
+            eventIdPairs[date] = { name: "clubListResponse", "listener": myListener }
+            socket.send(JSON.stringify(clubReq))
+            Ws.incReq()
+            gameEvent.once("clubListResponse", myListener)
 
             setTimeout(() => { res([]) }, 20000)
         })
@@ -50,13 +52,15 @@ export async function getMembers(clubId) {
                 "clubId": clubId
             }
         }
-        eventIdPairs[date] = "memberListResponse"
-        socket.send(JSON.stringify(clubReq))
-        Ws.incReq()
+      
         let resp = await new Promise(async (res) => {
-            gameEvent.once("memberListResponse", (data) => {
+            let myListener = (data) => {
                 res(data)
-            })
+            }
+            eventIdPairs[date] = { name: "memberListResponse", "listener": myListener }
+            socket.send(JSON.stringify(clubReq))
+            Ws.incReq()
+            gameEvent.once("memberListResponse", myListener)
 
             setTimeout(() => { res([]) }, 20000)
         })
@@ -80,13 +84,15 @@ export async function getGameRequests(roomId) {
                 "roomId": roomId
             }
         }
-        eventIdPairs[date] = "GameReqResponse"
-        socket.send(JSON.stringify(roomReq))
-        Ws.incReq()
+       
         let resp = await new Promise(async (res) => {
-            gameEvent.once("GameReqResponse", (data) => {
+            let myListener = (data) => {
                 res(data)
-            })
+            }
+            eventIdPairs[date] = { name: "GameReqResponse", "listener": myListener }
+            socket.send(JSON.stringify(roomReq))
+            Ws.incReq()
+            gameEvent.once("GameReqResponse", myListener)
 
             setTimeout(() => { res([]) }, 20000)
         })
@@ -117,13 +123,15 @@ export async function confirmRequest(data) {
                 "onlyReturnChange": 1
             }
         }
-        eventIdPairs[date] = "confirmGameRequest"
-        socket.send(JSON.stringify(request))
-        Ws.incReq()
+        
         let resp = await new Promise(async (res) => {
-            gameEvent.once("confirmGameRequest", (data) => {
+            let myListener = (data) => {
                 res(data)
-            })
+            }
+            eventIdPairs[date] = { name: "confirmGameRequest", "listener": myListener }
+            socket.send(JSON.stringify(request))
+            Ws.incReq()
+            gameEvent.once("confirmGameRequest", myListener)
             setTimeout(() => { res(null) }, 20000)
         })
         console.log(resp)
@@ -153,13 +161,15 @@ export async function getGames(clubId) {
                 "noRanking": 0
             }
         }
-        eventIdPairs[date] = "gameListRequest"
-        socket.send(JSON.stringify(request))
-        Ws.incReq()
+       
         let resp = await new Promise(async (res) => {
-            gameEvent.once("gameListRequest", (data) => {
+            let myListener = (data) => {
                 res(data)
-            })
+            }
+            eventIdPairs[date] = { name: "gameListRequest", "listener": myListener }
+            socket.send(JSON.stringify(request))
+            Ws.incReq()
+            gameEvent.once("gameListRequest", myListener)
             setTimeout(() => { res(null) }, 20000)
         })
         console.log(resp)

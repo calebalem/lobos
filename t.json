@@ -172,9 +172,51 @@
     "messages": [
       {
         "encoding": "json",
-        "data": "{\"roomId\":\"65747ddfe26e6c9785f3b5db\",\"senderId\":\"656f08982c7184169b40e60f\",\"roomUpdate\":{\"players\":[{\"empty\":true,\"seat\":0},{\"empty\":true,\"seat\":1}],\"updatedAt\":1702133297275},\"sentTs\":1702133297282}",
+        "data": {
+          "roomId": "65747ddfe26e6c9785f3b5db",
+          "senderId": "656f08982c7184169b40e60f",
+          "roomUpdate": {
+            "players": [
+              { "empty": true, "seat": 0 },
+              { "empty": true, "seat": 1 }
+            ],
+            "updatedAt": 1702133297275
+          },
+          "sentTs": 1702133297282
+        },
         "name": "sitOutMsg"
       }
     ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": "1702297400861_121",
+    "result": {
+      "requestId": "1702297400861_121",
+      "@class": ".LogEventResponse",
+      "scriptData": {
+        "roomUpdate": {
+          "players": [
+            {
+              "empty": false,
+              "seat": 0,
+              "playerId": "656f177d260a477fef1c1700",
+              "playerCode": "ZKVZQ",
+              "displayName": "uio",
+              "chips": 100,
+              "stack": 200,
+              "inRoom": true,
+              "left": false,
+              "kick": true,
+              "isOnline": true,
+              "handCount": 1,
+              "disconTBQuota": 20
+            },
+            { "empty": true, "seat": 1 }
+          ],
+          "updatedAt": 1702297401194
+        }
+      }
+    }
   }
 ]
