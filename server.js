@@ -2,7 +2,7 @@ import "./poker_socket.js"
 import "./api/poker.js"
 import express from "express"
 import { fetch_clubs, get_clubs, } from "./controller/club.controller.js"
-import { update_member, fetch_members, get_members } from "./controller/member.controller.js"
+import { update_member, fetch_members, get_members, update_OnHold } from "./controller/member.controller.js"
 import { get_games } from "./controller/game.controller.js"
 import { io } from "./socket_server/socket.js"
 import http from "http"
@@ -10,6 +10,7 @@ import { clientConnected, gateway_ready } from "./globals/poker.js"
 import "./bot/bot.js"
 import { logError } from "./util/util.js"
 import { stop, play } from "./player/player.js"
+import { updateOnHold } from "./db/poker.js"
 const app = express()
 app.use(express.json())
 let server = http.createServer(app)
@@ -69,6 +70,17 @@ app.get("/fetchMembers", async (req, res) => {
 app.post("/updateMember", async (req, res) => {
     try {
         await update_member(req.body)
+        res.status(200).send("Ok")
+    } catch (e) {
+        res.status(500).send("Error.")
+        logError(e)
+    }
+})
+
+app.post("/updateOnHold",async(req,res)=>{
+    try {
+        console.log("\nonHold route:\n",req.body)
+        await update_OnHold(req.body)
         res.status(200).send("Ok")
     } catch (e) {
         res.status(500).send("Error.")

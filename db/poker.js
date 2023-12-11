@@ -18,15 +18,15 @@ let db = {
     "onHold": new Nedb({ filename: "PokerDB/onHold", autoload: true, afterSerialization: afterSerialization, beforeDeserialization: beforeDeSerialization }),
 }
 function afterSerialization(data) {
-    var cipher  = crypto.createCipher(algorithm, key);
-    data   = cipher.update(JSON.stringify(data), 'utf8', 'hex') + cipher.final('hex');
-    
+    var cipher = crypto.createCipher(algorithm, key);
+    data = cipher.update(JSON.stringify(data), 'utf8', 'hex') + cipher.final('hex');
+
     return data;
 }
 function beforeDeSerialization(data) {
     var decipher = crypto.createDecipher(algorithm, key);
     data = decipher.update(data, 'hex', 'utf8') + decipher.final('utf8');
-    
+
     return JSON.parse(data);
 }
 for (let key in db) {
@@ -147,6 +147,11 @@ export async function updateOnHold(playerId, roomId, point, first_move = false) 
     await db.onHold.update({ type: "onHold", playerId: playerId, "roomId": roomId }, { $set: { "point": point, "first_move": first_move } })
 
 }
+
+export async function deleteOnHold(playerId, roomId) {
+    await db.onHold.remove({ type: "onHold", playerId: playerId, "roomId": roomId })
+
+}
 export async function getOnHold(playerId, roomId) {
 
     let onHold = await new Promise((res, rej) => {
@@ -162,19 +167,32 @@ export async function getOnHold(playerId, roomId) {
     return null
 }
 
-export async function getOnHolds(playerId) {
-
-    let onHold = await new Promise((res, rej) => {
-        db.onHold.find({ type: "onHold", playerId }, (err, docs) => {
-            if (err) return err
-            else res(docs)
+export async function getOnHolds(playerId, roomId = null) {
+    if (roomId === null) {
+        let onHold = await new Promise((res, rej) => {
+            db.onHold.find({ type: "onHold", playerId }, (err, docs) => {
+                if (err) return err
+                else res(docs)
+            })
         })
-    })
-    console.log("onHold data", JSON.stringify(onHold))
-    if (onHold) {
-        return onHold
+        console.log("onHold data", JSON.stringify(onHold))
+        if (onHold) {
+            return onHold
+        }
+        return null
+    } else {
+        let onHolds = await new Promise((res, rej) => {
+            db.onHold.find({ type: "onHold", roomId }, (err, docs) => {
+                if (err) return err
+                else res(docs)
+            })
+        })
+        console.log("onHold data", JSON.stringify(onHolds))
+        if (onHolds) {
+            return onHolds
+        }
+        return null
     }
-    return null
 }
 
 export async function addOngoingGame(roomId, playerId) {
@@ -322,7 +340,7 @@ export async function createGameInfo(playerId, roomId) {
             else if (docs !== null) {
                 if (!docs.players.includes(playerId)) {
                     docs.players.push(playerId)
-                    db.game.update({type:"gameInfo","roomId":roomId},{$set:{"players":docs.players}})
+                    db.game.update({ type: "gameInfo", "roomId": roomId }, { $set: { "players": docs.players } })
                     res(true)
                 }
             } else if (docs == null) {
@@ -373,6 +391,6 @@ export async function removeGamePlayer(playerId, roomId) {
         }
         db.game.update({ "type": resp.type, "roomId": resp.roomId }, { $set: { "players": modifyed } })
     }
-    
+
 }
 

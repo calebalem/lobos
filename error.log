@@ -3776,3 +3776,60 @@
 [Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
 [Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
 [Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] TypeError: prevPlayers is not iterable 
+[Mon Dec 11 2023] TypeError: prevPlayers is not iterable 
+[Mon Dec 11 2023] ReferenceError: onHold is not defined 
+[Mon Dec 11 2023] ReferenceError: onHold is not defined 
+[Mon Dec 11 2023] ReferenceError: onHold is not defined 
+[Mon Dec 11 2023] WebSocket error: Error: WebSocket was closed before the connection was established 
+[Mon Dec 11 2023] realtime error: Error: WebSocket was closed before the connection was established 
+[Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'point') 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'scriptData') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'scriptData') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'scriptData') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] TypeError: Cannot read properties of null (reading 'result') 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Mon Dec 11 2023] TypeError: gamePlayers.contains is not a function 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] TypeError: gamePlayers.contains is not a function 
+[Mon Dec 11 2023] TypeError: gamePlayers.contains is not a function 
+[Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 

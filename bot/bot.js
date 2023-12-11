@@ -70,6 +70,20 @@ gameEvent.on("gameStarted", async ({ data, roomId }) => {
             }
             await createGameInfo(player.playerId, roomId)
         }
+
+        let gamePlayers = await getGamePlayers(roomId)
+        let onHolds = await getOnHolds(null,roomId)
+        for(let onHold of onHolds){
+            if(!gamePlayers.includes(onHold["playerId"])){
+                console.log("Player not in game restoring onHolds")
+                let member = await getMemeber(onHold["playerId"])
+                member.point += onHold.point
+                await updateMember(member)
+                await updateOnHold(onHold["playerId"], roomId, 0)
+                member.onHolds = await getOnHolds(onHold["playerId"])
+                emitRaw(member, "pointUpdated")
+            }
+        }
     } catch (e) {
         logError(e)
     }
