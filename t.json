@@ -218,5 +218,21 @@
         }
       }
     }
+  },
+  {
+    "action": 15,
+    "id": "5IP9TquYiH:627778",
+    "connectionId": "5IP9TquYiH",
+    "connectionSerial": 5,
+    "channel": "player:65366f58c0013e4dcc0be63f",
+    "channelSerial": "e91-zHG7gBWEx868980368@1702305997317-0",
+    "timestamp": 1702305996759,
+    "messages": [
+      {
+        "encoding": "json",
+        "data": "{\"roomId\":\"6576fc49e26e6c9785ac4e0e\"}",
+        "name": "newRequestMsg"
+      }
+    ]
   }
 ]

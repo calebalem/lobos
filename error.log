@@ -3833,3 +3833,12 @@
 [Mon Dec 11 2023] TypeError: gamePlayers.contains is not a function 
 [Mon Dec 11 2023] TypeError: gamePlayers.contains is not a function 
 [Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'roomRequestDetail') 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] SyntaxError: Unexpected end of JSON input 
+[Mon Dec 11 2023] TypeError: Cannot read properties of undefined (reading 'emit') 

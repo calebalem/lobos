@@ -21,6 +21,7 @@ export async function fetch_members() {
             await DB.createMember({ ...member, "clubId": club.clubId })
         }
     }
+    
     return await DB.getMemebers()
 }
 
