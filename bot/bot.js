@@ -72,9 +72,9 @@ gameEvent.on("gameStarted", async ({ data, roomId }) => {
         }
 
         let gamePlayers = await getGamePlayers(roomId)
-        let onHolds = await getOnHolds(null,roomId)
-        for(let onHold of onHolds){
-            if(!gamePlayers.includes(onHold["playerId"])){
+        let onHolds = await getOnHolds(null, roomId)
+        for (let onHold of onHolds) {
+            if (!gamePlayers.includes(onHold["playerId"])) {
                 console.log("Player not in game restoring onHolds")
                 let member = await getMemeber(onHold["playerId"])
                 member.point += onHold.point
@@ -117,7 +117,7 @@ gameEvent.on("playerLeft", async ({ data, roomId, beforeStart }) => {
             member.onHolds = await getOnHolds(data)
             emitRaw(member, "pointUpdated")
             emitServer({ "type": "info", "text": `${member.displayName} | ${member.playerCode} on point updated ${member.point}` })
-            await removePlayerTime(data,roomId)
+            await removePlayerTime(data, roomId)
         } else {
             console.log("player left event")
             console.log(JSON.stringify(data), roomId)
@@ -145,7 +145,7 @@ gameEvent.on("playerLeft", async ({ data, roomId, beforeStart }) => {
                             play(`${member.displayName} | ${member.playerCode} left while profited without notifying. Stay time: ${timeDiffInMin} mins.`)
                         }
                     }
-                    await removePlayerTime(player.playerId,roomId)
+                    await removePlayerTime(player.playerId, roomId)
                 }
             }
         }
@@ -210,8 +210,8 @@ gameEvent.on("move", async ({ data, roomId }) => {
 })
 
 
-gameEvent.on("kick",async({data,roomId})=>{
-    
+gameEvent.on("kick", async ({ data, roomId }) => {
+
 })
 async function checkNotify(player, roomId) {
     let chat = await getChat(player.playerId, roomId)
@@ -243,39 +243,41 @@ async function acceptDeclineMember(player) {
             let buyInChips
             console.log(`player data:`, JSON.stringify(player))
             console.log(`member data:`, JSON.stringify(member))
-            if (player.buyInChips == null) {
-                buyInChips = player.reloadChips
-            } else {
-                buyInChips = player.buyInChips
-            }
+            if (!player.isDecided) {
+                if (player.buyInChips == null) {
+                    buyInChips = player.reloadChips
+                } else {
+                    buyInChips = player.buyInChips
+                }
 
-            console.log(`buyin ${buyInChips}`)
+                console.log(`buyin ${buyInChips}`)
 
-            let req
-            if (member.point < buyInChips) {
-                req = { ...player, accepted: 0 }
-                emitServer({ "type": "declined", "text": `Ignored game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
-                await timeout(3)
-            } else if (member.point >= buyInChips) {
-                req = { ...player, accepted: 1 }
-                //await recordPlayerTime(player.playerId, player.roomId)
-                let resp = await confirmRequest(req)
-                if (resp) {
-                    member.total_games++
-                    member.point -= buyInChips
-                    let onHold = await getOnHold(player.playerId, player.roomId)
-                    if (onHold == null) {
-                        await createOnHold(player.playerId, player.roomId, buyInChips)
-                    } else {
-                        await updateOnHold(player.playerId, player.roomId, buyInChips, true)
-                    }
-                    // /await createGameInfo(player.playerId,player.roomId)
-                    await updateMember(member)
-                    member.onHolds = await getOnHolds(player.playerId)
-                    emitRaw(member, "pointUpdated")
-                    emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}, onHold: ${buyInChips}` })
+                let req
+                if (member.point < buyInChips) {
+                    req = { ...player, accepted: 0 }
+                    emitServer({ "type": "declined", "text": `Ignored game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}` })
                     await timeout(3)
-                    return true
+                } else if (member.point >= buyInChips) {
+                    req = { ...player, accepted: 1 }
+                    //await recordPlayerTime(player.playerId, player.roomId)
+                    let resp = await confirmRequest(req)
+                    if (resp) {
+                        member.total_games++
+                        member.point -= buyInChips
+                        let onHold = await getOnHold(player.playerId, player.roomId)
+                        if (onHold == null) {
+                            await createOnHold(player.playerId, player.roomId, buyInChips)
+                        } else {
+                            await updateOnHold(player.playerId, player.roomId, buyInChips, true)
+                        }
+                        // /await createGameInfo(player.playerId,player.roomId)
+                        await updateMember(member)
+                        member.onHolds = await getOnHolds(player.playerId)
+                        emitRaw(member, "pointUpdated")
+                        emitServer({ "type": "accepted", "text": `Accepted game request from ${member.displayName} | ${player.playerCode}. Points: ${member.point} Games: ${member.total_games}, onHold: ${buyInChips}` })
+                        await timeout(3)
+                        return true
+                    }
                 }
             }
             return null
