@@ -92,6 +92,9 @@ function startGateway(creds) {
         var event = JSON.parse(message)
         for (let eName in eventIdPairs) {
             if (eName == event.id) {
+                console.log("###############################################3")
+                console.log(`Got new message`,eventIdPairs[eName]["name"],event.result)
+                console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
                 gameEvent.emit(eventIdPairs[eName]["name"], event)
                 break
             }

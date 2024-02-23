@@ -183,9 +183,10 @@ gameEvent.on("move", async ({ data, roomId }) => {
             // }
             if (game.players.includes(plyr.playerId)) {
                 let player = await getMemeber(plyr.playerId, plyr.playerCode)
-                console.log(`stack ${plyr.stack} chips ${plyr.chips}`)
+                
                 let onHold = await getOnHold(plyr.playerId, roomId)
-                console.log("log_move: ", onHold)
+                console.log(`stack ${plyr.stack} chips ${plyr.chips} onHold ${onHold}`)
+                //console.log("log_move: ", onHold)
                 let inComingDiff = (plyr.stack - plyr.chips) + plyr.chips
 
 

@@ -26,7 +26,7 @@ export async function getClubs() {
             Ws.incReq()
             gameEvent.once("clubListResponse", myListener)
 
-            setTimeout(() => { res([]) }, 20000)
+            //setTimeout(() => { res([]) }, 20000)
         })
         let clubs = []
         for (let club of resp.result.scriptData.clubs.__a) {
@@ -62,7 +62,7 @@ export async function getMembers(clubId) {
             Ws.incReq()
             gameEvent.once("memberListResponse", myListener)
 
-            setTimeout(() => { res([]) }, 20000)
+            //setTimeout(() => { res([]) }, 20000)
         })
 
         return resp.result.scriptData.club.members
@@ -94,7 +94,7 @@ export async function getGameRequests(roomId) {
             Ws.incReq()
             gameEvent.once("GameReqResponse", myListener)
 
-            setTimeout(() => { res([]) }, 20000)
+            //setTimeout(() => { res([]) }, 20000)
         })
         console.log(resp.result.scriptData.roomRequestDetail.players)
 
@@ -132,7 +132,7 @@ export async function confirmRequest(data) {
             socket.send(JSON.stringify(request))
             Ws.incReq()
             gameEvent.once("confirmGameRequest", myListener)
-            setTimeout(() => { res(null) }, 20000)
+            //setTimeout(() => { res(null) }, 20000)
         })
         console.log(resp)
         if (resp?.result?.error?.message == "Request may not be valid anymore.") {
@@ -170,7 +170,7 @@ export async function getGames(clubId) {
             socket.send(JSON.stringify(request))
             Ws.incReq()
             gameEvent.once("gameListRequest", myListener)
-            setTimeout(() => { res(null) }, 20000)
+            //setTimeout(() => { res(null) }, 40000)
         })
         console.log(resp)
         return resp.result.scriptData.rooms
